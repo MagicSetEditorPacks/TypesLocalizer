@@ -1,0 +1,4448 @@
+{
+ "languages": {
+  "en": {
+   "name": "English"
+  },
+  "de": {
+   "name": "Deutsch"
+  },
+  "ru": {
+   "name": "Русский"
+  },
+  "pt": {
+   "name": "Português"
+  },
+  "ko": {
+   "name": "Korean"
+  },
+  "zhs": {
+   "name": "Simplified Chinese"
+  },
+  "zht": {
+   "name": "Traditional Chinese"
+  },
+  "it": {
+   "name": "Italiano"
+  },
+  "fr": {
+   "name": "Français"
+  },
+  "es": {
+   "name": "Español"
+  },
+  "ja": {
+   "name": "Japanese"
+  }
+ },
+ "types": {
+  "artifact": {
+   "Attraction": {
+    "en": "Attraction"
+   },
+   "Blood": {
+    "en": "Blood"
+   },
+   "Clue": {
+    "de": "Hinweis",
+    "ru": "Улика",
+    "pt": "Pista",
+    "ko": "단서",
+    "zhs": "线索",
+    "zht": "線索",
+    "en": "Clue",
+    "it": "Indizio",
+    "fr": "Indice",
+    "es": "Pista",
+    "ja": "手掛かり"
+   },
+   "Contraption": {
+    "en": "Contraption"
+   },
+   "Equipment": {
+    "de": "Ausrüstung",
+    "ru": "Снаряжение",
+    "pt": "Equipamento",
+    "ko": "장비",
+    "zhs": "武具",
+    "zht": "武具",
+    "en": "Equipment",
+    "it": "Equipaggiamento",
+    "fr": "Équipement",
+    "es": "Equipo",
+    "ja": "装備品"
+   },
+   "Food": {
+    "de": "Speise",
+    "ru": "Еда",
+    "pt": "Comida",
+    "ko": "음식",
+    "zhs": "食品",
+    "zht": "食品",
+    "en": "Food",
+    "it": "Cibo",
+    "fr": "Nourriture",
+    "es": "Comida",
+    "ja": "食物"
+   },
+   "Fortification": {
+    "en": "Fortification"
+   },
+   "Gold": {
+    "en": "Gold"
+   },
+   "Powerstone": {
+    "en": "Powerstone"
+   },
+   "Treasure": {
+    "de": "Schatz",
+    "ru": "Клад",
+    "pt": "Tesouro",
+    "ko": "보물",
+    "zhs": "珍宝",
+    "zht": "珍寶",
+    "en": "Treasure",
+    "it": "Tesoro",
+    "fr": "Trésor",
+    "es": "Tesoro",
+    "ja": "宝物"
+   },
+   "Vehicle": {
+    "de": "Fahrzeug",
+    "ru": "Машина",
+    "pt": "Veículo",
+    "ko": "탑승물",
+    "zhs": "载具",
+    "zht": "載具",
+    "en": "Vehicle",
+    "it": "Veicolo",
+    "fr": "Véhicule",
+    "es": "Vehículo",
+    "ja": "機体"
+   }
+  },
+  "enchantment": {
+   "Adventure": {
+    "de": "Abenteuer",
+    "ru": "Приключение",
+    "pt": "Aventura",
+    "ko": "모험",
+    "zhs": "历险",
+    "zht": "歷險",
+    "en": "Adventure",
+    "it": "Avventura",
+    "fr": "Aventure",
+    "es": "Aventura",
+    "ja": "出来事"
+   },
+   "Arcane": {
+    "de": "Arkan",
+    "ru": "Тайные_знания",
+    "pt": "Arcana",
+    "zhs": "古咒",
+    "zht": "古咒",
+    "en": "Arcane",
+    "it": "Arcano",
+    "fr": "Arcane",
+    "es": "Arcano",
+    "ja": "秘儀"
+   },
+   "Lesson": {
+    "de": "Lektion",
+    "ru": "Урок",
+    "pt": "Lição",
+    "ko": "수업",
+    "zhs": "课程",
+    "zht": "課程",
+    "en": "Lesson",
+    "it": "Lezione",
+    "fr": "Leçon",
+    "es": "Lección",
+    "ja": "講義"
+   },
+   "Trap": {
+    "de": "Falle",
+    "ru": "Ловушка",
+    "pt": "Armadilha",
+    "zhs": "陷阱",
+    "en": "Trap",
+    "it": "Trappola",
+    "fr": "Piège",
+    "es": "Trampa",
+    "ja": "罠"
+   }
+  },
+  "land": {
+   "Desert": {
+    "de": "Wüste",
+    "ru": "Пустыня",
+    "pt": "Deserto",
+    "ko": "사막",
+    "zhs": "沙漠",
+    "zht": "沙漠",
+    "en": "Desert",
+    "it": "Deserto",
+    "fr": "Désert",
+    "es": "Desierto",
+    "ja": "砂漠"
+   },
+   "Forest": {
+    "de": "Wald",
+    "ru": "Лес",
+    "pt": "Floresta",
+    "ko": "숲",
+    "zhs": "树林",
+    "zht": "樹林",
+    "en": "Forest",
+    "it": "Foresta",
+    "fr": "Forêt",
+    "es": "Bosque",
+    "ja": "森"
+   },
+   "Gate": {
+    "de": "Tor",
+    "ru": "Врата",
+    "pt": "Portão",
+    "ko": "관문",
+    "zhs": "门",
+    "zht": "門",
+    "en": "Gate",
+    "it": "Cancello",
+    "fr": "Porte",
+    "es": "Portal",
+    "ja": "門"
+   },
+   "Island": {
+    "de": "Insel",
+    "ru": "Остров",
+    "pt": "Ilha",
+    "ko": "섬",
+    "zhs": "海岛",
+    "zht": "海島",
+    "en": "Island",
+    "it": "Isola",
+    "fr": "Île",
+    "es": "Isla",
+    "ja": "島"
+   },
+   "Lair": {
+    "en": "Lair"
+   },
+   "Locus": {
+    "de": "Ort",
+    "ru": "Место",
+    "pt": "Local",
+    "zhs": "处所",
+    "zht": "處所",
+    "en": "Locus",
+    "it": "Luogo",
+    "fr": "Site",
+    "es": "Sitio",
+    "ja": "神座"
+   },
+   "Mine": {
+    "de": "Bergwerk",
+    "ru": "Шахта",
+    "pt": "Mina",
+    "zhs": "矿脉",
+    "en": "Mine",
+    "it": "Miniera",
+    "fr": "Mine",
+    "es": "Mina",
+    "ja": "鉱山"
+   },
+   "Mountain": {
+    "de": "Gebirge",
+    "ru": "Гора",
+    "pt": "Montanha",
+    "ko": "산",
+    "zhs": "山脉",
+    "zht": "山脈",
+    "en": "Mountain",
+    "it": "Montagna",
+    "fr": "Montagne",
+    "es": "Montaña",
+    "ja": "山"
+   },
+   "Plains": {
+    "de": "Ebene",
+    "ru": "Равнина",
+    "pt": "Planície",
+    "ko": "들",
+    "zhs": "平原",
+    "zht": "平原",
+    "en": "Plains",
+    "it": "Pianura",
+    "fr": "Plaine",
+    "es": "Llanura",
+    "ja": "平地"
+   },
+   "Power-Plant": {
+    "de": "Kraftwerk",
+    "ru": "Электростанция",
+    "pt": "Usina",
+    "zhs": "动力炉",
+    "en": "Power-Plant",
+    "it": "Centrale Energetica",
+    "fr": "Centrale énergétique",
+    "es": "Central de energía",
+    "ja": "魔力炉"
+   },
+   "Sphere": {
+    "en": "Sphere"
+   },
+   "Swamp": {
+    "de": "Sumpf",
+    "ru": "Болото",
+    "pt": "Pântano",
+    "ko": "늪",
+    "zhs": "沼泽",
+    "zht": "沼澤",
+    "en": "Swamp",
+    "it": "Palude",
+    "fr": "Marais",
+    "es": "Pantano",
+    "ja": "沼"
+   },
+   "Tower": {
+    "de": "Turm",
+    "ru": "Башня",
+    "pt": "Torre",
+    "zhs": "塔",
+    "en": "Tower",
+    "it": "Torre",
+    "fr": "Tour",
+    "es": "Torre",
+    "ja": "塔"
+   },
+   "Urza’s. Of that list": {
+    "en": "Urza’s. Of that list"
+   },
+   "and Swamp are the basic land types. See rule 305.6": {
+    "en": "and Swamp are the basic land types. See rule 305.6"
+   }
+  },
+  "planeswalker": {
+   "Ajani": {
+    "de": "Ajani",
+    "ru": "Аджани",
+    "pt": "Ajani",
+    "ko": "아자니",
+    "zhs": "阿耶尼",
+    "zht": "阿耶尼",
+    "en": "Ajani",
+    "it": "Ajani",
+    "fr": "Ajani",
+    "es": "Ajani",
+    "ja": "アジャニ"
+   },
+   "Aminatou": {
+    "de": "Aminatou",
+    "pt": "Aminatou",
+    "zhs": "阿米娜图",
+    "en": "Aminatou",
+    "it": "Aminatou",
+    "fr": "Aminatou",
+    "es": "Aminatou",
+    "ja": "アミナトゥ"
+   },
+   "Angrath": {
+    "de": "Angrath",
+    "ru": "Анграт",
+    "pt": "Angrath",
+    "ko": "앙그라스",
+    "zhs": "安戈斯",
+    "zht": "安戈斯",
+    "en": "Angrath",
+    "it": "Angrath",
+    "fr": "Angrath",
+    "es": "Angrath",
+    "ja": "アングラス"
+   },
+   "Arlinn": {
+    "de": "Arlinn",
+    "ru": "Арлинн",
+    "pt": "Arlinn",
+    "ko": "아를린",
+    "zhs": "雅琳",
+    "zht": "雅琳",
+    "en": "Arlinn",
+    "it": "Arlinn",
+    "fr": "Arlinn",
+    "es": "Arlinn",
+    "ja": "アーリン"
+   },
+   "Ashiok": {
+    "de": "Ashiok",
+    "ru": "Ашиок",
+    "pt": "Ashiok",
+    "ko": "아시오크",
+    "zhs": "安梭苛",
+    "zht": "安梭苛",
+    "en": "Ashiok",
+    "it": "Ashiok",
+    "fr": "Ashiok",
+    "es": "Ashiok",
+    "ja": "アショク"
+   },
+   "Bahamut": {
+    "de": "Bahamut",
+    "ru": "Бахамут",
+    "pt": "Bahamut",
+    "ko": "바하무트",
+    "zhs": "巴哈姆特",
+    "zht": "巴哈姆特",
+    "en": "Bahamut",
+    "it": "Bahamut",
+    "fr": "Bahamut",
+    "es": "Bahamut",
+    "ja": "バハムート"
+   },
+   "Basri": {
+    "de": "Basri",
+    "ru": "Базри",
+    "pt": "Basri",
+    "ko": "바스리",
+    "zhs": "巴席利",
+    "zht": "巴席利",
+    "en": "Basri",
+    "it": "Basri",
+    "fr": "Basri",
+    "es": "Basri",
+    "ja": "バスリ"
+   },
+   "Bolas": {
+    "de": "Bolas",
+    "ru": "Болас",
+    "pt": "Nicol",
+    "ko": "볼라스",
+    "zhs": "波拉斯",
+    "zht": "波拉斯",
+    "en": "Bolas",
+    "it": "Bolas",
+    "fr": "Bolas",
+    "es": "Bolas",
+    "ja": "ボーラス"
+   },
+   "Calix": {
+    "de": "Calix",
+    "ru": "Каликс",
+    "pt": "Calix",
+    "ko": "칼릭스",
+    "zhs": "凯利斯",
+    "zht": "凱利斯",
+    "en": "Calix",
+    "it": "Calix",
+    "fr": "Calix",
+    "es": "Cálix",
+    "ja": "ケイリクス"
+   },
+   "Chandra": {
+    "de": "Chandra",
+    "ru": "Чандра",
+    "pt": "Chandra",
+    "ko": "찬드라",
+    "zhs": "茜卓",
+    "zht": "茜卓",
+    "en": "Chandra",
+    "it": "Chandra",
+    "fr": "Chandra",
+    "es": "Chandra",
+    "ja": "チャンドラ"
+   },
+   "Comet": {
+    "en": "Comet"
+   },
+   "Dack": {
+    "zhs": "戴克",
+    "en": "Dack",
+    "ja": "ダク"
+   },
+   "Dakkon": {
+    "de": "Dakkon",
+    "ru": "Даккон",
+    "pt": "Dakkon",
+    "ko": "다콘",
+    "zhs": "达肯",
+    "zht": "達肯",
+    "en": "Dakkon",
+    "it": "Dakkon",
+    "fr": "Dakkon",
+    "es": "Dakkon",
+    "ja": "ダッコン"
+   },
+   "Daretti": {
+    "de": "Daretti",
+    "ru": "Даретти",
+    "pt": "Daretti",
+    "zhs": "达雷迪",
+    "zht": "達雷迪",
+    "en": "Daretti",
+    "it": "Daretti",
+    "fr": "Daretti",
+    "es": "Daretti",
+    "ja": "ダレッティ"
+   },
+   "Davriel": {
+    "de": "Davriel",
+    "ru": "Давриэль",
+    "pt": "Davriel",
+    "ko": "다브리엘",
+    "zhs": "达夫黎",
+    "zht": "達夫黎",
+    "en": "Davriel",
+    "it": "Davriel",
+    "fr": "Davriel",
+    "es": "Davriel",
+    "ja": "ダブリエル"
+   },
+   "Dihada": {
+    "de": "Dihada",
+    "ru": "Дихада",
+    "pt": "Dihada",
+    "ko": "디하다",
+    "zhs": "迪哈达",
+    "zht": "迪哈達",
+    "en": "Dihada",
+    "it": "Dihada",
+    "fr": "Dihada",
+    "es": "Dihada",
+    "ja": "ディハーダ"
+   },
+   "Domri": {
+    "de": "Domri",
+    "ru": "Домри",
+    "pt": "Domri",
+    "ko": "돔리",
+    "zhs": "多密",
+    "zht": "多密",
+    "en": "Domri",
+    "it": "Domri",
+    "fr": "Domri",
+    "es": "Domri",
+    "ja": "ドムリ"
+   },
+   "Dovin": {
+    "de": "Dovin",
+    "ru": "Довин",
+    "pt": "Dovin",
+    "ko": "도빈",
+    "zhs": "多温",
+    "zht": "多溫",
+    "en": "Dovin",
+    "it": "Dovin",
+    "fr": "Dovin",
+    "es": "Dovin",
+    "ja": "ドビン"
+   },
+   "Ellywick": {
+    "de": "Ellywick",
+    "ru": "Элливик",
+    "pt": "Ellywick",
+    "ko": "엘리윅",
+    "zhs": "艾利薇",
+    "zht": "艾利薇",
+    "en": "Ellywick",
+    "it": "Ellywick",
+    "fr": "Ellywick",
+    "es": "Ellywick",
+    "ja": "エリーウィック"
+   },
+   "Elminster": {
+    "de": "Elminster",
+    "ru": "Эльминстер",
+    "pt": "Elminster",
+    "ko": "엘민스터",
+    "zhs": "伊尔明斯特",
+    "zht": "伊爾明斯特",
+    "en": "Elminster",
+    "it": "Elminster",
+    "fr": "Elminster",
+    "es": "Elminster",
+    "ja": "エルミンスター"
+   },
+   "Elspeth": {
+    "de": "Elspeth",
+    "ru": "Элспет",
+    "pt": "Elspeth",
+    "ko": "엘스페스",
+    "zhs": "艾紫培",
+    "zht": "艾紫培",
+    "en": "Elspeth",
+    "it": "Elspeth",
+    "fr": "Elspeth",
+    "es": "Elspeth",
+    "ja": "エルズペス"
+   },
+   "Estrid": {
+    "de": "Estrid",
+    "pt": "Estrid",
+    "en": "Estrid",
+    "it": "Estrid",
+    "fr": "Estrid",
+    "es": "Estrid",
+    "ja": "エストリッド"
+   },
+   "Freyalise": {
+    "de": "Freyalise",
+    "zhs": "妃雅丽兹",
+    "en": "Freyalise",
+    "it": "Freyalise",
+    "fr": "Freyalise",
+    "es": "Freyalise",
+    "ja": "フレイアリーズ"
+   },
+   "Garruk": {
+    "de": "Garruk",
+    "ru": "Гаррук",
+    "pt": "Garruk",
+    "ko": "개럭",
+    "zhs": "贾路",
+    "zht": "賈路",
+    "en": "Garruk",
+    "it": "Garruk",
+    "fr": "Garruk",
+    "es": "Garruk",
+    "ja": "ガラク"
+   },
+   "Gideon": {
+    "de": "Gideon",
+    "ru": "Гидеон",
+    "pt": "Gideon",
+    "ko": "기디온",
+    "zhs": "基定",
+    "zht": "基定",
+    "en": "Gideon",
+    "it": "Gideon",
+    "fr": "Gideon",
+    "es": "Gideon",
+    "ja": "ギデオン"
+   },
+   "Grist": {
+    "de": "Grist",
+    "ru": "Грист",
+    "pt": "Grist",
+    "ko": "그리스트",
+    "zhs": "格蕊斯",
+    "zht": "格蕊斯",
+    "en": "Grist",
+    "it": "Grist",
+    "fr": "Grist",
+    "es": "Grist",
+    "ja": "グリスト"
+   },
+   "Huatli": {
+    "de": "Huatli",
+    "ru": "Уатли",
+    "pt": "Huatli",
+    "ko": "화틀리",
+    "zhs": "华特莉",
+    "zht": "華特莉",
+    "en": "Huatli",
+    "it": "Huatli",
+    "fr": "Huatli",
+    "es": "Huatli",
+    "ja": "ファートリ"
+   },
+   "Jace": {
+    "de": "Jace",
+    "ru": "Джейс",
+    "pt": "Jace",
+    "ko": "제이스",
+    "zhs": "杰斯",
+    "zht": "傑斯",
+    "en": "Jace",
+    "it": "Jace",
+    "fr": "Jace",
+    "es": "Jace",
+    "ja": "ジェイス"
+   },
+   "Jared": {
+    "de": "Jared",
+    "pt": "Jared",
+    "zhs": "贾瑞",
+    "en": "Jared",
+    "it": "Jared",
+    "fr": "Jared",
+    "es": "Jared",
+    "ja": "ジャレッド"
+   },
+   "Jaya": {
+    "de": "Jaya",
+    "ru": "Джайя",
+    "pt": "Jaya",
+    "ko": "자야",
+    "zhs": "雅亚",
+    "zht": "雅亞",
+    "en": "Jaya",
+    "it": "Jaya",
+    "fr": "Jaya",
+    "es": "Jaya",
+    "ja": "ヤヤ"
+   },
+   "Jeska": {
+    "de": "Jeska",
+    "pt": "Jeska",
+    "zhs": "洁丝卡",
+    "zht": "潔絲卡",
+    "en": "Jeska",
+    "it": "Jeska",
+    "fr": "Jeska",
+    "es": "Jeska",
+    "ja": "ジェスカ"
+   },
+   "Kaito": {
+    "de": "Kaito",
+    "ru": "Кайто",
+    "pt": "Kaito",
+    "ko": "카이토",
+    "zhs": "魁渡",
+    "zht": "魁渡",
+    "en": "Kaito",
+    "it": "Kaito",
+    "fr": "Kaito",
+    "es": "Kaito",
+    "ja": "魁渡"
+   },
+   "Karn": {
+    "de": "Karn",
+    "ru": "Карн",
+    "pt": "Karn",
+    "ko": "카른",
+    "zhs": "卡恩",
+    "zht": "卡恩",
+    "en": "Karn",
+    "it": "Karn",
+    "fr": "Karn",
+    "es": "Karn",
+    "ja": "カーン"
+   },
+   "Kasmina": {
+    "de": "Kasmina",
+    "ru": "Касмина",
+    "pt": "Kasmina",
+    "ko": "카스미나",
+    "zhs": "克蜜娜",
+    "zht": "克蜜娜",
+    "en": "Kasmina",
+    "it": "Kasmina",
+    "fr": "Kasmina",
+    "es": "Kasmina",
+    "ja": "カズミナ"
+   },
+   "Kaya": {
+    "de": "Kaya",
+    "ru": "Кайя",
+    "pt": "Kaya",
+    "ko": "카야",
+    "zhs": "卡娅",
+    "zht": "卡婭",
+    "en": "Kaya",
+    "it": "Kaya",
+    "fr": "Kaya",
+    "es": "Kaya",
+    "ja": "ケイヤ"
+   },
+   "Kiora": {
+    "de": "Kiora",
+    "ru": "Киора",
+    "pt": "Kiora",
+    "ko": "키오라",
+    "zhs": "奇奥拉",
+    "zht": "奇奧拉",
+    "en": "Kiora",
+    "it": "Kiora",
+    "fr": "Kiora",
+    "es": "Kiora",
+    "ja": "キオーラ"
+   },
+   "Koth": {
+    "de": "Koth",
+    "ru": "Кос",
+    "pt": "Koth",
+    "zhs": "寇斯",
+    "zht": "寇斯",
+    "en": "Koth",
+    "it": "Koth",
+    "fr": "Koth",
+    "es": "Koth",
+    "ja": "コス"
+   },
+   "Liliana": {
+    "de": "Liliana",
+    "ru": "Лилиана",
+    "pt": "Liliana",
+    "ko": "릴리아나",
+    "zhs": "莉莲娜",
+    "zht": "莉蓮娜",
+    "en": "Liliana",
+    "it": "Liliana",
+    "fr": "Liliana",
+    "es": "Liliana",
+    "ja": "リリアナ"
+   },
+   "Lolth": {
+    "de": "Lolth",
+    "ru": "Лолт",
+    "pt": "Lolth",
+    "ko": "롤스",
+    "zhs": "罗丝",
+    "zht": "羅絲",
+    "en": "Lolth",
+    "it": "Lolth",
+    "fr": "Lolth",
+    "es": "Lolth",
+    "ja": "ロルス"
+   },
+   "Lukka": {
+    "de": "Lukka",
+    "ru": "Лукка",
+    "pt": "Lukka",
+    "ko": "루카",
+    "zhs": "卢卡",
+    "zht": "盧卡",
+    "en": "Lukka",
+    "it": "Lukka",
+    "fr": "Lukka",
+    "es": "Lukka",
+    "ja": "ルーカ"
+   },
+   "Minsc": {
+    "de": "Minsc",
+    "ru": "Минск",
+    "pt": "Minsc",
+    "ko": "민스크",
+    "zhs": "明斯克",
+    "zht": "明斯克",
+    "en": "Minsc",
+    "it": "Minsc",
+    "fr": "Minsc",
+    "es": "Minsc",
+    "ja": "ミンスク"
+   },
+   "Mordenkainen": {
+    "de": "Mordenkainen",
+    "ru": "Морденкайнен",
+    "pt": "Mordenkainen",
+    "ko": "모덴카이넨",
+    "zhs": "魔邓肯",
+    "zht": "魔鄧肯",
+    "en": "Mordenkainen",
+    "it": "Mordenkainen",
+    "fr": "Mordenkainen",
+    "es": "Mordenkainen",
+    "ja": "モルデンカイネン"
+   },
+   "Nahiri": {
+    "de": "Nahiri",
+    "ru": "Нахири",
+    "pt": "Nahiri",
+    "ko": "나히리",
+    "zhs": "娜希丽",
+    "zht": "娜希麗",
+    "en": "Nahiri",
+    "it": "Nahiri",
+    "fr": "Nahiri",
+    "es": "Nahiri",
+    "ja": "ナヒリ"
+   },
+   "Narset": {
+    "de": "Narset",
+    "ru": "Нарсет",
+    "pt": "Narset",
+    "ko": "나르셋",
+    "zhs": "娜尔施",
+    "zht": "娜爾施",
+    "en": "Narset",
+    "it": "Narset",
+    "fr": "Narset",
+    "es": "Narset",
+    "ja": "ナーセット"
+   },
+   "Niko": {
+    "de": "Niko",
+    "ru": "Нико",
+    "pt": "Niko",
+    "ko": "니코",
+    "zhs": "尼科",
+    "zht": "尼科",
+    "en": "Niko",
+    "it": "Niko",
+    "fr": "Niko",
+    "es": "Niko",
+    "ja": "ニコ"
+   },
+   "Nissa": {
+    "de": "Nissa",
+    "ru": "Нисса",
+    "pt": "Nissa",
+    "ko": "니사",
+    "zhs": "妮莎",
+    "zht": "妮莎",
+    "en": "Nissa",
+    "it": "Nissa",
+    "fr": "Nissa",
+    "es": "Nissa",
+    "ja": "ニッサ"
+   },
+   "Nixilis": {
+    "de": "Nixilis",
+    "ru": "Никсилис",
+    "pt": "Nixilis",
+    "ko": "닉실리스",
+    "zhs": "尼希兹",
+    "zht": "尼希茲",
+    "en": "Nixilis",
+    "it": "Nixilis",
+    "fr": "Nixilis",
+    "es": "Nixilis",
+    "ja": "ニクシリス"
+   },
+   "Oko": {
+    "de": "Oko",
+    "ru": "Око",
+    "pt": "Oko",
+    "ko": "오코",
+    "zhs": "瓯柯",
+    "zht": "甌柯",
+    "en": "Oko",
+    "it": "Oko",
+    "fr": "Oko",
+    "es": "Oko",
+    "ja": "オーコ"
+   },
+   "Ral": {
+    "de": "Ral",
+    "ru": "Рал",
+    "pt": "Ral",
+    "ko": "랄",
+    "zhs": "拉尔",
+    "zht": "拉爾",
+    "en": "Ral",
+    "it": "Ral",
+    "fr": "Ral",
+    "es": "Ral",
+    "ja": "ラル"
+   },
+   "Rowan": {
+    "de": "Rowan",
+    "ru": "Рован",
+    "pt": "Rowan",
+    "ko": "로완",
+    "zhs": "萝婉",
+    "zht": "蘿婉",
+    "en": "Rowan",
+    "it": "Rowan",
+    "fr": "Rowan",
+    "es": "Rowan",
+    "ja": "ローアン"
+   },
+   "Saheeli": {
+    "de": "Saheeli",
+    "ru": "Сахили",
+    "pt": "Saheeli",
+    "ko": "사힐리",
+    "zhs": "莎希莉",
+    "zht": "莎希莉",
+    "en": "Saheeli",
+    "it": "Saheeli",
+    "fr": "Saheeli",
+    "es": "Saheeli",
+    "ja": "サヒーリ"
+   },
+   "Samut": {
+    "de": "Samut",
+    "ru": "Самут",
+    "pt": "Samut",
+    "ko": "사무트",
+    "zhs": "撒姆特",
+    "zht": "撒姆特",
+    "en": "Samut",
+    "it": "Samut",
+    "fr": "Samut",
+    "es": "Samut",
+    "ja": "サムト"
+   },
+   "Sarkhan": {
+    "de": "Sarkhan",
+    "ru": "Сархан",
+    "pt": "Sarkhan",
+    "ko": "사르칸",
+    "zhs": "萨坎",
+    "zht": "薩坎",
+    "en": "Sarkhan",
+    "it": "Sarkhan",
+    "fr": "Sarkhan",
+    "es": "Sarkhan",
+    "ja": "サルカン"
+   },
+   "Serra": {
+    "de": "Serra",
+    "ru": "Серра",
+    "pt": "Serra",
+    "ko": "세라",
+    "zhs": "撒拉",
+    "zht": "撒拉",
+    "en": "Serra",
+    "it": "Serra",
+    "fr": "Serra",
+    "es": "Serra",
+    "ja": "セラ"
+   },
+   "Sivitri": {
+    "de": "Sivitri",
+    "pt": "Sivitri",
+    "zhs": "希维缇",
+    "en": "Sivitri",
+    "it": "Sivitri",
+    "fr": "Sivitri",
+    "es": "Sivitri",
+    "ja": "シヴィトリ"
+   },
+   "Sorin": {
+    "de": "Sorin",
+    "ru": "Сорин",
+    "pt": "Sorin",
+    "ko": "소린",
+    "zhs": "索霖",
+    "zht": "索霖",
+    "en": "Sorin",
+    "it": "Sorin",
+    "fr": "Sorin",
+    "es": "Sorin",
+    "ja": "ソリン"
+   },
+   "Szat": {
+    "de": "Szat",
+    "pt": "Szat",
+    "zhs": "刹特",
+    "zht": "剎特",
+    "en": "Szat",
+    "it": "Szat",
+    "fr": "Szat",
+    "es": "Szat",
+    "ja": "ザット"
+   },
+   "Tamiyo": {
+    "de": "Tamiyo",
+    "ru": "Тамиё",
+    "pt": "Tamiyo",
+    "ko": "타미요",
+    "zhs": "多美代",
+    "zht": "多美代",
+    "en": "Tamiyo",
+    "it": "Tamiyo",
+    "fr": "Tamiyo",
+    "es": "Tamiyo",
+    "ja": "タミヨウ"
+   },
+   "Tasha": {
+    "de": "Tasha",
+    "ru": "Таша",
+    "pt": "Tasha",
+    "ko": "타샤",
+    "zhs": "塔莎",
+    "zht": "塔莎",
+    "en": "Tasha",
+    "it": "Tasha",
+    "fr": "Tasha",
+    "es": "Tasha",
+    "ja": "ターシャ"
+   },
+   "Teferi": {
+    "de": "Teferi",
+    "ru": "Тефери",
+    "pt": "Teferi",
+    "ko": "테페리",
+    "zhs": "泰菲力",
+    "zht": "泰菲力",
+    "en": "Teferi",
+    "it": "Teferi",
+    "fr": "Téfeiri",
+    "es": "Teferi",
+    "ja": "テフェリー"
+   },
+   "Teyo": {
+    "de": "Teyo",
+    "ru": "Тейо",
+    "pt": "Teyo",
+    "ko": "테요",
+    "zhs": "泰佑",
+    "zht": "泰佑",
+    "en": "Teyo",
+    "it": "Teyo",
+    "fr": "Teyo",
+    "es": "Teyo",
+    "ja": "テヨ"
+   },
+   "Tezzeret": {
+    "de": "Tezzeret",
+    "ru": "Теззерет",
+    "pt": "Tezzeret",
+    "ko": "테제렛",
+    "zhs": "泰兹瑞",
+    "zht": "泰茲瑞",
+    "en": "Tezzeret",
+    "it": "Tezzeret",
+    "fr": "Tezzeret",
+    "es": "Tezzeret",
+    "ja": "テゼレット"
+   },
+   "Tibalt": {
+    "de": "Thibalt",
+    "ru": "Тибальт",
+    "pt": "Tibalt",
+    "ko": "티볼트",
+    "zhs": "提勃",
+    "zht": "提勃",
+    "en": "Tibalt",
+    "it": "Tibalt",
+    "fr": "Tibalt",
+    "es": "Tibalt",
+    "ja": "ティボルト"
+   },
+   "Tyvar": {
+    "de": "Tyvar",
+    "ru": "Тивар",
+    "pt": "Tyvar",
+    "ko": "타이바르",
+    "zhs": "泰瓦",
+    "zht": "泰瓦",
+    "en": "Tyvar",
+    "it": "Tyvar",
+    "fr": "Tyvar",
+    "es": "Tyvar",
+    "ja": "タイヴァー"
+   },
+   "Ugin": {
+    "de": "Ugin",
+    "ru": "Уджин",
+    "pt": "Ugin",
+    "ko": "우진",
+    "zhs": "乌金",
+    "zht": "烏金",
+    "en": "Ugin",
+    "it": "Ugin",
+    "fr": "Ugin",
+    "es": "Ugin",
+    "ja": "ウギン"
+   },
+   "Urza": {
+    "en": "Urza"
+   },
+   "Venser": {
+    "de": "Venser",
+    "ru": "Венсер",
+    "pt": "Venser",
+    "zhs": "凡瑟",
+    "zht": "凡瑟",
+    "en": "Venser",
+    "it": "Venser",
+    "fr": "Venser",
+    "es": "Venser",
+    "ja": "ヴェンセール"
+   },
+   "Vivien": {
+    "de": "Vivien",
+    "ru": "Вивьен",
+    "pt": "Vivien",
+    "ko": "비비안",
+    "zhs": "薇薇安",
+    "zht": "薇薇安",
+    "en": "Vivien",
+    "it": "Vivien",
+    "fr": "Vivien",
+    "es": "Vivien",
+    "ja": "ビビアン"
+   },
+   "Vraska": {
+    "de": "Vraska",
+    "ru": "Враска",
+    "pt": "Vraska",
+    "ko": "브라스카",
+    "zhs": "瓦丝卡",
+    "zht": "瓦絲卡",
+    "en": "Vraska",
+    "it": "Vraska",
+    "fr": "Vraska",
+    "es": "Vraska",
+    "ja": "ヴラスカ"
+   },
+   "Will": {
+    "de": "Will",
+    "ru": "Уилл",
+    "pt": "Will",
+    "ko": "윌",
+    "zhs": "威尔",
+    "zht": "威爾",
+    "en": "Will",
+    "it": "Will",
+    "fr": "Will",
+    "es": "Will",
+    "ja": "ウィル"
+   },
+   "Windgrace": {
+    "de": "Windgrace",
+    "pt": "Windgrace",
+    "en": "Windgrace",
+    "it": "Windgrace",
+    "fr": "Vent des vertus",
+    "es": "Windgrace",
+    "ja": "ウィンドグレイス"
+   },
+   "Wrenn": {
+    "de": "Wrenn",
+    "ru": "Ренн",
+    "pt": "Wrenn",
+    "ko": "렌",
+    "zhs": "芮恩",
+    "zht": "芮恩",
+    "en": "Wrenn",
+    "it": "Wrenn",
+    "fr": "Wrenn",
+    "es": "Wrenn",
+    "ja": "レン"
+   },
+   "Xenagos": {
+    "de": "Xenagos",
+    "ru": "Ксенаг",
+    "pt": "Xenagos",
+    "ko": "제나고스",
+    "zhs": "谢纳戈斯",
+    "zht": "謝納戈斯",
+    "en": "Xenagos",
+    "it": "Xenagos",
+    "fr": "Xénagos",
+    "es": "Xenagos",
+    "ja": "ゼナゴス"
+   },
+   "Yanggu": {
+    "de": "Yanggu",
+    "ru": "Янгу",
+    "pt": "Yanggu",
+    "ko": "양구",
+    "zhs": "旸谷",
+    "zht": "暘谷",
+    "en": "Yanggu",
+    "it": "Yanggu",
+    "fr": "Yanggu",
+    "es": "Yanggu",
+    "ja": "ヤングー"
+   },
+   "Yanling": {
+    "de": "Yanling",
+    "ru": "Янлин",
+    "pt": "Yanling",
+    "ko": "얀링",
+    "zhs": "燕灵",
+    "zht": "燕靈",
+    "en": "Yanling",
+    "it": "Yanling",
+    "fr": "Yanling",
+    "es": "Yanling",
+    "ja": "ヤンリン"
+   },
+   "Zariel": {
+    "de": "Zariel",
+    "ru": "Зариэль",
+    "pt": "Zariel",
+    "ko": "자리엘",
+    "zhs": "扎瑞尔",
+    "zht": "扎瑞爾",
+    "en": "Zariel",
+    "it": "Zariel",
+    "fr": "Zariel",
+    "es": "Zariel",
+    "ja": "ザリエル"
+   }
+  },
+  "spell": {
+   "Advisor": {
+    "de": "Berater",
+    "ru": "Советник",
+    "pt": "Conselheiro",
+    "ko": "조언자",
+    "zhs": "参谋",
+    "zht": "參謀",
+    "en": "Advisor",
+    "it": "Consigliere",
+    "fr": "Conseiller",
+    "es": "Consejero",
+    "ja": "アドバイザー"
+   },
+   "Aetherborn": {
+    "de": "Äthergeborener",
+    "ru": "Эфирид",
+    "pt": "Etergênito",
+    "ko": "에테르붙이",
+    "zhs": "乙太种",
+    "zht": "乙太種",
+    "en": "Aetherborn",
+    "it": "Eteride",
+    "fr": "Éthérien",
+    "es": "Etergénito",
+    "ja": "霊基体"
+   },
+   "Alien": {
+    "en": "Alien"
+   },
+   "Ally": {
+    "de": "Verbündeter",
+    "ru": "Союзник",
+    "ko": "동맹",
+    "zhs": "伙伴",
+    "en": "Ally",
+    "it": "Alleato",
+    "fr": "Allié",
+    "es": "Aliado",
+    "ja": "同盟者"
+   },
+   "Angel": {
+    "de": "Engel",
+    "ru": "Ангел",
+    "pt": "Anjo",
+    "ko": "천사",
+    "zhs": "天使",
+    "zht": "天使",
+    "en": "Angel",
+    "it": "Angelo",
+    "fr": "Ange",
+    "es": "Ángel",
+    "ja": "天使"
+   },
+   "Antelope": {
+    "de": "Antilope",
+    "ru": "Антилопа",
+    "pt": "Antílope",
+    "ko": "영양",
+    "zhs": "羚羊",
+    "zht": "羚羊",
+    "en": "Antelope",
+    "it": "Antilope",
+    "fr": "Antilope",
+    "es": "Antílope",
+    "ja": "アンテロープ"
+   },
+   "Ape": {
+    "de": "Menschenaffe",
+    "ru": "Обезьяна",
+    "pt": "Símio",
+    "ko": "유인원",
+    "zhs": "猿猴",
+    "zht": "猿猴",
+    "en": "Ape",
+    "it": "Scimpanzé",
+    "fr": "Grand singe",
+    "es": "Simio",
+    "ja": "類人猿"
+   },
+   "Archer": {
+    "de": "Bogenschütze",
+    "ru": "Лучник",
+    "pt": "Arqueiro",
+    "ko": "궁수",
+    "zht": "弓箭手",
+    "en": "Archer",
+    "it": "Arciere",
+    "es": "Arquero",
+    "ja": "射手"
+   },
+   "Archon": {
+    "de": "Archon",
+    "ru": "Архонт",
+    "pt": "Arconte",
+    "ko": "집정관",
+    "zhs": "统领",
+    "zht": "統領",
+    "en": "Archon",
+    "it": "Arconte",
+    "fr": "Archonte",
+    "es": "Arconte",
+    "ja": "執政官"
+   },
+   "Army": {
+    "en": "Army"
+   },
+   "Artificer": {
+    "de": "Handwerker",
+    "ru": "Механик",
+    "pt": "Artesão",
+    "ko": "기능공",
+    "zhs": "神器师",
+    "zht": "神器師",
+    "en": "Artificer",
+    "it": "Artefice",
+    "fr": "Artificier",
+    "es": "Artífice",
+    "ja": "工匠"
+   },
+   "Assassin": {
+    "de": "Assassine",
+    "ru": "Убийца",
+    "pt": "Assassino",
+    "ko": "암살자",
+    "zhs": "杀手",
+    "zht": "殺手",
+    "en": "Assassin",
+    "es": "Asesino",
+    "ja": "暗殺者"
+   },
+   "Assembly-Worker": {
+    "en": "Assembly-Worker"
+   },
+   "Astartes": {
+    "en": "Astartes"
+   },
+   "Atog": {
+    "en": "Atog"
+   },
+   "Aurochs": {
+    "en": "Aurochs"
+   },
+   "Avatar": {
+    "de": "Avatar",
+    "ru": "Аватара",
+    "pt": "Avatar",
+    "ko": "아바타",
+    "zhs": "圣者",
+    "zht": "聖者",
+    "en": "Avatar",
+    "it": "Avatar",
+    "fr": "Avatar",
+    "es": "Avatar",
+    "ja": "アバター"
+   },
+   "Azra": {
+    "ru": "Азра",
+    "ko": "아즈라",
+    "zhs": "亚札人",
+    "zht": "亞札人",
+    "en": "Azra",
+    "ja": "アズラ"
+   },
+   "Badger": {
+    "de": "Dachs",
+    "ru": "Барсук",
+    "pt": "Texugo",
+    "ko": "오소리",
+    "zhs": "獾",
+    "zht": "獾",
+    "en": "Badger",
+    "it": "Tasso",
+    "fr": "Blaireau",
+    "es": "Tejón",
+    "ja": "アナグマ"
+   },
+   "Balloon": {
+    "en": "Balloon"
+   },
+   "Barbarian": {
+    "de": "Barbar",
+    "ru": "Варвар",
+    "ko": "야만인",
+    "zhs": "野蛮人",
+    "zht": "野蠻人",
+    "en": "Barbarian",
+    "it": "Barbaro",
+    "fr": "Barbare",
+    "es": "Bárbaro",
+    "ja": "バーバリアン"
+   },
+   "Bard": {
+    "ru": "Бард",
+    "ko": "음유시인",
+    "zhs": "诗人",
+    "zht": "詩人",
+    "en": "Bard",
+    "fr": "Barde",
+    "es": "Bardo",
+    "ja": "バード"
+   },
+   "Basilisk": {
+    "de": "Basilisk",
+    "ru": "Василиск",
+    "pt": "Basilisco",
+    "ko": "바실리스크",
+    "zhs": "蜥怪",
+    "zht": "蜥怪",
+    "en": "Basilisk",
+    "it": "Basilisco",
+    "fr": "Basilic",
+    "es": "Basilisco",
+    "ja": "バジリスク"
+   },
+   "Bat": {
+    "de": "Fledermaus",
+    "ru": "Летучая-мышь",
+    "pt": "Morcego",
+    "ko": "박쥐",
+    "zhs": "蝙蝠",
+    "zht": "蝙蝠",
+    "en": "Bat",
+    "it": "Pipistrello",
+    "fr": "Chauve-souris",
+    "es": "Murciélago",
+    "ja": "コウモリ"
+   },
+   "Bear": {
+    "de": "Bär",
+    "ru": "Медведь",
+    "pt": "Urso",
+    "ko": "곰",
+    "zhs": "熊",
+    "zht": "熊",
+    "en": "Bear",
+    "it": "Orso",
+    "fr": "Ours",
+    "es": "Oso",
+    "ja": "熊"
+   },
+   "Beast": {
+    "de": "Bestie",
+    "ru": "Зверь",
+    "pt": "Besta",
+    "ko": "야수",
+    "zhs": "野兽",
+    "zht": "野獸",
+    "en": "Beast",
+    "it": "Bestia",
+    "fr": "Bête",
+    "es": "Bestia",
+    "ja": "ビースト"
+   },
+   "Beeble": {
+    "en": "Beeble"
+   },
+   "Beholder": {
+    "de": "Betrachter",
+    "ru": "Злобоглаз",
+    "pt": "Observador",
+    "ko": "비홀더",
+    "zhs": "眼魔",
+    "zht": "眼魔",
+    "en": "Beholder",
+    "it": "Beholder",
+    "fr": "Tyrannœil",
+    "es": "Contemplador",
+    "ja": "ビホルダー"
+   },
+   "Berserker": {
+    "de": "Berserker",
+    "ru": "Берсерк",
+    "pt": "Amoque",
+    "ko": "광전사",
+    "zhs": "狂战士",
+    "zht": "狂戰士",
+    "en": "Berserker",
+    "it": "Berserker",
+    "fr": "Berserker",
+    "es": "Berserker",
+    "ja": "狂戦士"
+   },
+   "Bird": {
+    "de": "Vogel",
+    "ru": "Птица",
+    "pt": "Ave",
+    "ko": "조류",
+    "zhs": "鸟",
+    "zht": "鳥",
+    "en": "Bird",
+    "it": "Uccello",
+    "fr": "Oiseau",
+    "es": "Ave",
+    "ja": "鳥（とり）"
+   },
+   "Blinkmoth": {
+    "en": "Blinkmoth"
+   },
+   "Boar": {
+    "de": "Wildschwein",
+    "ru": "Вепрь",
+    "pt": "Javali",
+    "ko": "멧돼지",
+    "zhs": "野猪",
+    "zht": "野豬",
+    "en": "Boar",
+    "it": "Cinghiale",
+    "fr": "Sanglier",
+    "es": "Jabalí",
+    "ja": "猪"
+   },
+   "Bringer": {
+    "en": "Bringer"
+   },
+   "Brushwagg": {
+    "de": "Buschköter",
+    "ru": "Брушвагг",
+    "pt": "Tojo",
+    "ko": "브러시와그",
+    "zhs": "丛枝兽",
+    "zht": "叢枝獸",
+    "en": "Brushwagg",
+    "it": "Burlarbusto",
+    "fr": "Bosquérisson",
+    "es": "Yerbamala",
+    "ja": "ブラッシュワグ"
+   },
+   "Camarid": {
+    "en": "Camarid"
+   },
+   "Camel": {
+    "de": "Kamel",
+    "ru": "Верблюд",
+    "pt": "Camelo",
+    "ko": "낙타",
+    "zhs": "骆驼",
+    "zht": "駱駝",
+    "en": "Camel",
+    "it": "Cammello",
+    "fr": "Chameau",
+    "es": "Camello",
+    "ja": "ラクダ"
+   },
+   "Caribou": {
+    "en": "Caribou"
+   },
+   "Carrier": {
+    "en": "Carrier"
+   },
+   "Cat": {
+    "de": "Katze",
+    "ru": "Кошка",
+    "pt": "Felino",
+    "ko": "고양이",
+    "zhs": "猫",
+    "zht": "貓",
+    "en": "Cat",
+    "it": "Felino",
+    "fr": "Chat",
+    "es": "Felino",
+    "ja": "猫"
+   },
+   "Centaur": {
+    "de": "Zentaur",
+    "ru": "Кентавр",
+    "pt": "Centauro",
+    "ko": "켄타우로스",
+    "zhs": "半人马",
+    "zht": "半人馬",
+    "en": "Centaur",
+    "it": "Centauro",
+    "fr": "Centaure",
+    "es": "Centauro",
+    "ja": "ケンタクルス"
+   },
+   "Cephalid": {
+    "de": "Zephalid",
+    "ru": "Цефалид",
+    "pt": "Cefálida",
+    "ko": "세팔리드",
+    "zhs": "章人",
+    "zht": "鱆人",
+    "en": "Cephalid",
+    "it": "Cefalide",
+    "fr": "Céphalide",
+    "es": "Cefálido",
+    "ja": "セファリッド"
+   },
+   "Child": {
+    "en": "Child"
+   },
+   "Chimera": {
+    "de": "Chimäre",
+    "ru": "Химера",
+    "pt": "Quimera",
+    "ko": "키메라",
+    "zhs": "盖美拉",
+    "zht": "蓋美拉",
+    "en": "Chimera",
+    "it": "Chimera",
+    "fr": "Chimère",
+    "es": "Quimera",
+    "ja": "キマイラ"
+   },
+   "Citizen": {
+    "de": "Bürger",
+    "ru": "Гражданин",
+    "pt": "Cidadão",
+    "ko": "시민",
+    "zht": "市民",
+    "en": "Citizen",
+    "it": "Cittadino",
+    "fr": "Citoyen",
+    "es": "Ciudadano"
+   },
+   "Cleric": {
+    "de": "Kleriker",
+    "ru": "Священник",
+    "pt": "Clérigo",
+    "ko": "성직자",
+    "zhs": "僧侣",
+    "zht": "僧侶",
+    "en": "Cleric",
+    "it": "Chierico",
+    "fr": "Clerc",
+    "es": "Clérigo",
+    "ja": "クレリック"
+   },
+   "Clown": {
+    "en": "Clown"
+   },
+   "Cockatrice": {
+    "de": "Cocatrisk",
+    "ru": "Куролиск",
+    "pt": "Cocatriz",
+    "ko": "코카트리스",
+    "zhs": "石化鸡蛇",
+    "zht": "石化雞蛇",
+    "en": "Cockatrice",
+    "it": "Coccatrice",
+    "fr": "Cocatrix",
+    "es": "Cocatriz",
+    "ja": "コカトリス"
+   },
+   "Construct": {
+    "de": "Konstrukt",
+    "ru": "Конструкция",
+    "pt": "Constructo",
+    "ko": "기계",
+    "zhs": "组构体",
+    "zht": "組構體",
+    "en": "Construct",
+    "it": "Costrutto",
+    "fr": "Construction",
+    "es": "Constructo",
+    "ja": "構築物"
+   },
+   "Coward": {
+    "de": "Feigling",
+    "ru": "Трус",
+    "pt": "Covarde",
+    "ko": "겁쟁이",
+    "zht": "懦夫",
+    "en": "Coward",
+    "it": "Vigliacco",
+    "fr": "Couard",
+    "es": "Cobarde",
+    "ja": "臆病者"
+   },
+   "Crab": {
+    "de": "Krabbe",
+    "ru": "Краб",
+    "pt": "Caranguejo",
+    "ko": "게",
+    "zhs": "蟹",
+    "zht": "蟹",
+    "en": "Crab",
+    "it": "Granchio",
+    "fr": "Crabe",
+    "es": "Cangrejo",
+    "ja": "カニ"
+   },
+   "Crocodile": {
+    "de": "Krokodil",
+    "ru": "Крокодил",
+    "pt": "Crocodilo",
+    "ko": "악어",
+    "zhs": "鳄鱼",
+    "zht": "鱷魚",
+    "en": "Crocodile",
+    "it": "Coccodrillo",
+    "fr": "Crocodile",
+    "es": "Cocodrilo",
+    "ja": "クロコダイル"
+   },
+   "C’tan": {
+    "en": "C’tan"
+   },
+   "Custodes": {
+    "en": "Custodes"
+   },
+   "Cyclops": {
+    "de": "Zyklop",
+    "ru": "Циклоп",
+    "pt": "Ciclope",
+    "ko": "키클롭스",
+    "zhs": "独眼巨人",
+    "zht": "獨眼巨人",
+    "en": "Cyclops",
+    "it": "Ciclope",
+    "fr": "Cyclope",
+    "es": "Cíclope",
+    "ja": "サイクロプス"
+   },
+   "Dauthi": {
+    "ru": "Доути",
+    "ko": "다우티",
+    "zht": "道西",
+    "en": "Dauthi",
+    "es": "Dauti",
+    "ja": "ダウスィー"
+   },
+   "Demigod": {
+    "de": "Halbgott",
+    "ru": "Полубог",
+    "pt": "Semideus",
+    "ko": "반신",
+    "zhs": "半神",
+    "zht": "半神",
+    "en": "Demigod",
+    "it": "Semidio",
+    "fr": "Demi-dieu",
+    "es": "Semidiós",
+    "ja": "亜神"
+   },
+   "Demon": {
+    "de": "Dämon",
+    "ru": "Демон",
+    "pt": "Demônio",
+    "ko": "악마",
+    "zhs": "恶魔",
+    "zht": "惡魔",
+    "en": "Demon",
+    "it": "Demone",
+    "fr": "Démon",
+    "es": "Demonio",
+    "ja": "デーモン"
+   },
+   "Deserter": {
+    "en": "Deserter"
+   },
+   "Devil": {
+    "de": "Teufel",
+    "ru": "Дьявол",
+    "pt": "Diabo",
+    "ko": "악령",
+    "zhs": "魔鬼",
+    "zht": "魔鬼",
+    "en": "Devil",
+    "it": "Diavolo",
+    "fr": "Diable",
+    "es": "Diablo",
+    "ja": "悪魔"
+   },
+   "Dinosaur": {
+    "de": "Dinosaurier",
+    "ru": "Динозавр",
+    "pt": "Dinossauro",
+    "ko": "공룡",
+    "zhs": "恐龙",
+    "zht": "恐龍",
+    "en": "Dinosaur",
+    "it": "Dinosauro",
+    "fr": "Dinosaure",
+    "es": "Dinosaurio",
+    "ja": "恐竜"
+   },
+   "Djinn": {
+    "de": "Dschinn",
+    "ru": "Джинн",
+    "pt": "Gênio",
+    "ko": "지니",
+    "zhs": "巨灵",
+    "zht": "巨靈",
+    "en": "Djinn",
+    "it": "Genio",
+    "fr": "Djinn",
+    "es": "Djinn",
+    "ja": "ジン"
+   },
+   "Dog": {
+    "de": "Hund",
+    "ru": "Собака",
+    "pt": "Sabujo",
+    "ko": "사냥개",
+    "zhs": "猎犬",
+    "zht": "獵犬",
+    "en": "Dog",
+    "it": "Canide",
+    "fr": "Chien",
+    "es": "Perro",
+    "ja": "犬"
+   },
+   "Dragon": {
+    "de": "Drache",
+    "ru": "Дракон",
+    "pt": "Dragão",
+    "ko": "용의",
+    "zhs": "龙",
+    "zht": "龍",
+    "en": "Dragon",
+    "it": "Drago",
+    "fr": "Dragon",
+    "es": "Dragón",
+    "ja": "ドラゴン"
+   },
+   "Drake": {
+    "de": "Sceada",
+    "ru": "Дрейк",
+    "pt": "Dragonete",
+    "ko": "새끼용",
+    "zhs": "龙兽",
+    "zht": "龍獸",
+    "en": "Drake",
+    "it": "Draghetto",
+    "fr": "Drakôn",
+    "es": "Draco",
+    "ja": "ドレイク"
+   },
+   "Dreadnought": {
+    "de": "Schlachtschiff",
+    "pt": "Couraçado",
+    "zhs": "无畏舰",
+    "en": "Dreadnought",
+    "it": "Sterminatore",
+    "fr": "Cuirassé",
+    "es": "Acorazado",
+    "ja": "ドレッドノート"
+   },
+   "Drone": {
+    "de": "Drohne",
+    "ru": "Дрон",
+    "pt": "Zangão",
+    "ko": "드론",
+    "zhs": "奴兽",
+    "zht": "奴獸",
+    "en": "Drone",
+    "it": "Parassita",
+    "fr": "Drone",
+    "es": "Zángano",
+    "ja": "ドローン"
+   },
+   "Druid": {
+    "ru": "Друид",
+    "pt": "Druida",
+    "ko": "드루이드",
+    "zhs": "德鲁伊",
+    "zht": "德魯伊",
+    "en": "Druid",
+    "it": "Druido",
+    "fr": "Druide",
+    "ja": "ドルイド"
+   },
+   "Dryad": {
+    "de": "Dryade",
+    "ru": "Дриада",
+    "pt": "Dríade",
+    "ko": "드라이어드",
+    "zhs": "树灵",
+    "zht": "樹靈",
+    "en": "Dryad",
+    "it": "Driade",
+    "fr": "Dryade",
+    "es": "Dríada",
+    "ja": "ドライアド"
+   },
+   "Dwarf": {
+    "de": "Zwerg",
+    "ru": "Гном",
+    "pt": "Anão",
+    "ko": "드워프",
+    "zhs": "矮人",
+    "zht": "矮人",
+    "en": "Dwarf",
+    "it": "Nano",
+    "fr": "Nain",
+    "es": "Enano",
+    "ja": "ドワーフ"
+   },
+   "Efreet": {
+    "de": "Ifrit",
+    "ru": "Ифрит",
+    "pt": "Efrite",
+    "ko": "이프리트",
+    "zhs": "魔神",
+    "zht": "魔神",
+    "en": "Efreet",
+    "it": "Efreet",
+    "fr": "Éfrit",
+    "es": "Efrit",
+    "ja": "イフリート"
+   },
+   "Egg": {
+    "de": "Ei",
+    "ru": "Яйцо",
+    "pt": "Ovo",
+    "ko": "알",
+    "zhs": "蛋",
+    "zht": "蛋",
+    "en": "Egg",
+    "it": "Uovo",
+    "fr": "Œuf",
+    "es": "Huevo",
+    "ja": "卵"
+   },
+   "Elder": {
+    "de": "Ältester",
+    "ru": "Старейшина",
+    "pt": "Ancião",
+    "ko": "장로",
+    "zhs": "长老",
+    "zht": "長老",
+    "en": "Elder",
+    "it": "Antico",
+    "fr": "Ancêtre",
+    "es": "Anciano",
+    "ja": "エルダー"
+   },
+   "Eldrazi": {
+    "de": "Eldrazi",
+    "ru": "Эльдрази",
+    "pt": "Eldrazi",
+    "ko": "엘드라지",
+    "zhs": "奥札奇",
+    "zht": "奧札奇",
+    "en": "Eldrazi",
+    "it": "Eldrazi",
+    "fr": "Eldrazi",
+    "es": "Eldrazi",
+    "ja": "エルドラージ"
+   },
+   "Elemental": {
+    "de": "Elementarwesen",
+    "ru": "Элементаль",
+    "pt": "Elemental",
+    "ko": "정령",
+    "zhs": "元素",
+    "zht": "元素",
+    "en": "Elemental",
+    "it": "Elementale",
+    "fr": "Élémental",
+    "es": "Elemental",
+    "ja": "エレメンタル"
+   },
+   "Elephant": {
+    "de": "Elefant",
+    "ru": "Слон",
+    "pt": "Elefante",
+    "ko": "코끼리",
+    "zhs": "象",
+    "zht": "象",
+    "en": "Elephant",
+    "it": "Elefante",
+    "fr": "Éléphant",
+    "es": "Elefante",
+    "ja": "象"
+   },
+   "Elf": {
+    "de": "Elf",
+    "ru": "Эльф",
+    "pt": "Elfo",
+    "ko": "엘프",
+    "zhs": "地精",
+    "zht": "妖精",
+    "en": "Elf",
+    "it": "Elfo",
+    "fr": "Elfe",
+    "es": "Elfo",
+    "ja": "エルフ"
+   },
+   "Elk": {
+    "de": "Hirsch",
+    "ru": "Вапити",
+    "pt": "Alce",
+    "ko": "엘크",
+    "zhs": "麋鹿",
+    "zht": "麋鹿",
+    "en": "Elk",
+    "it": "Alce",
+    "fr": "Élan",
+    "es": "Alce",
+    "ja": "大鹿"
+   },
+   "Employee": {
+    "en": "Employee"
+   },
+   "Eye": {
+    "de": "Auge",
+    "ru": "Глаз",
+    "pt": "Olho",
+    "ko": "눈알",
+    "en": "Eye",
+    "it": "Occhio",
+    "fr": "Œil",
+    "es": "Ojo",
+    "ja": "眼"
+   },
+   "Faerie": {
+    "de": "Feenwesen",
+    "ru": "Фея",
+    "pt": "Fada",
+    "ko": "페어리",
+    "zhs": "仙灵",
+    "zht": "仙靈",
+    "en": "Faerie",
+    "it": "Spiritello",
+    "fr": "Peuple fée",
+    "es": "Hada",
+    "ja": "フェアリー"
+   },
+   "Ferret": {
+    "en": "Ferret"
+   },
+   "Fish": {
+    "de": "Fisch",
+    "ru": "Рыба",
+    "pt": "Peixe",
+    "ko": "어류",
+    "zhs": "鱼",
+    "zht": "魚",
+    "en": "Fish",
+    "it": "Pesce",
+    "fr": "Poisson",
+    "es": "Pez",
+    "ja": "魚"
+   },
+   "Flagbearer": {
+    "zhs": "旗手",
+    "en": "Flagbearer"
+   },
+   "Fox": {
+    "de": "Fuchs",
+    "ru": "Лиса",
+    "pt": "Raposa",
+    "ko": "여우",
+    "zhs": "狐",
+    "zht": "狐",
+    "en": "Fox",
+    "it": "Volpe",
+    "fr": "Renard",
+    "es": "Zorro",
+    "ja": "狐"
+   },
+   "Fractal": {
+    "de": "Fraktalwesen",
+    "ru": "Фрактал",
+    "pt": "Fractal",
+    "zhs": "分灵",
+    "zht": "分靈",
+    "en": "Fractal",
+    "it": "Frattale",
+    "fr": "Fractale",
+    "es": "Fractal",
+    "ja": "フラクタル"
+   },
+   "Frog": {
+    "de": "Frosch",
+    "ru": "Лягушка",
+    "pt": "Sapo",
+    "ko": "개구리",
+    "zhs": "蛙",
+    "zht": "蛙",
+    "en": "Frog",
+    "it": "Rana",
+    "fr": "Grenouille",
+    "es": "Rana",
+    "ja": "カエル"
+   },
+   "Fungus": {
+    "de": "Pilzwesen",
+    "ru": "Плесень",
+    "pt": "Fungo",
+    "ko": "진균",
+    "zhs": "真菌",
+    "zht": "真菌",
+    "en": "Fungus",
+    "it": "Fungus",
+    "fr": "Fongus",
+    "es": "Hongo",
+    "ja": "ファンガス"
+   },
+   "Gamer": {
+    "en": "Gamer"
+   },
+   "Gargoyle": {
+    "de": "Gargoyle",
+    "ru": "Горгулья",
+    "pt": "Gárgula",
+    "ko": "가고일",
+    "zhs": "石像鬼",
+    "zht": "石像鬼",
+    "en": "Gargoyle",
+    "it": "Gargoyle",
+    "fr": "Gargouille",
+    "es": "Gárgola",
+    "ja": "ガーゴイル"
+   },
+   "Germ": {
+    "en": "Germ"
+   },
+   "Giant": {
+    "de": "Riese",
+    "ru": "Гигант",
+    "pt": "Gigante",
+    "ko": "거인",
+    "zhs": "巨人",
+    "zht": "巨人",
+    "en": "Giant",
+    "it": "Gigante",
+    "fr": "Géant",
+    "es": "Gigante",
+    "ja": "巨人"
+   },
+   "Gith": {
+    "ru": "Гит",
+    "ko": "기스",
+    "zhs": "吉斯人",
+    "en": "Gith",
+    "ja": "ギス"
+   },
+   "Gnoll": {
+    "de": "Gnoll",
+    "ru": "Гнолл",
+    "pt": "Gnoll",
+    "ko": "놀",
+    "zhs": "豺狼人",
+    "zht": "豺狼人",
+    "en": "Gnoll",
+    "it": "Gnoll",
+    "fr": "Gnoll",
+    "es": "Gnoll",
+    "ja": "ノール"
+   },
+   "Gnome": {
+    "de": "Gnom",
+    "ru": "Карлик",
+    "pt": "Gnomo",
+    "ko": "놈",
+    "zhs": "地侏",
+    "zht": "地侏",
+    "en": "Gnome",
+    "it": "Gnomo",
+    "fr": "Gnome",
+    "es": "Gnomo",
+    "ja": "ノーム"
+   },
+   "Goat": {
+    "de": "Ziege",
+    "ru": "Коза",
+    "pt": "Bode",
+    "ko": "염소",
+    "zhs": "山羊",
+    "zht": "山羊",
+    "en": "Goat",
+    "it": "Capra",
+    "fr": "Chèvre",
+    "es": "Cabra",
+    "ja": "ヤギ"
+   },
+   "Goblin": {
+    "de": "Goblin",
+    "ru": "Гоблин",
+    "pt": "Goblin",
+    "ko": "고블린",
+    "zhs": "精灵",
+    "zht": "鬼怪",
+    "en": "Goblin",
+    "it": "Goblin",
+    "fr": "Gobelin",
+    "es": "Trasgo",
+    "ja": "ゴブリン"
+   },
+   "God": {
+    "de": "Gott",
+    "ru": "Бог",
+    "pt": "Deus",
+    "ko": "신",
+    "zhs": "神",
+    "zht": "神",
+    "en": "God",
+    "it": "Dio",
+    "fr": "Dieu",
+    "es": "Deidad",
+    "ja": "神"
+   },
+   "Golem": {
+    "de": "Golem",
+    "ru": "Голем",
+    "pt": "Golem",
+    "ko": "골렘",
+    "zhs": "魔像",
+    "zht": "魔像",
+    "en": "Golem",
+    "it": "Golem",
+    "fr": "Golem",
+    "es": "Gólem",
+    "ja": "ゴーレム"
+   },
+   "Gorgon": {
+    "de": "Gorgo",
+    "ru": "Горгона",
+    "pt": "Górgona",
+    "ko": "고르곤",
+    "zhs": "蛇发妖",
+    "zht": "蛇髮妖",
+    "en": "Gorgon",
+    "it": "Gorgone",
+    "fr": "Gorgonoïde",
+    "es": "Gorgona",
+    "ja": "ゴルゴン"
+   },
+   "Graveborn": {
+    "en": "Graveborn"
+   },
+   "Gremlin": {
+    "de": "Gremlin",
+    "ru": "Гремлин",
+    "pt": "Gremlin",
+    "ko": "그렘린",
+    "zhs": "怪灵",
+    "zht": "怪靈",
+    "en": "Gremlin",
+    "it": "Gremlin",
+    "fr": "Gremlin",
+    "es": "Gremlin",
+    "ja": "グレムリン"
+   },
+   "Griffin": {
+    "de": "Greif",
+    "ru": "Грифон",
+    "pt": "Grifo",
+    "ko": "그리핀",
+    "zhs": "狮鹫",
+    "zht": "獅鷲",
+    "en": "Griffin",
+    "it": "Grifone",
+    "fr": "Griffon",
+    "es": "Grifo",
+    "ja": "グリフィン"
+   },
+   "Guest": {
+    "en": "Guest"
+   },
+   "Hag": {
+    "de": "Vettel",
+    "ru": "Карга",
+    "pt": "Bruxa",
+    "ko": "노파",
+    "zhs": "巫婆",
+    "zht": "巫婆",
+    "en": "Hag",
+    "it": "Strega",
+    "fr": "Mégère",
+    "es": "Saga",
+    "ja": "ハッグ"
+   },
+   "Halfling": {
+    "de": "Halbling",
+    "ru": "Полурослик",
+    "pt": "Pequenino",
+    "ko": "하플링",
+    "zhs": "半身人",
+    "en": "Halfling",
+    "fr": "Halfelin",
+    "es": "Mediano",
+    "ja": "ハーフリング"
+   },
+   "Hamster": {
+    "en": "Hamster"
+   },
+   "Harpy": {
+    "de": "Harpyie",
+    "ru": "Гарпия",
+    "pt": "Harpia",
+    "ko": "하피",
+    "zhs": "哈痞",
+    "zht": "哈痞",
+    "en": "Harpy",
+    "it": "Arpia",
+    "fr": "Harpie",
+    "es": "Arpía",
+    "ja": "ハーピー"
+   },
+   "Hellion": {
+    "de": "Teufelsbraten",
+    "ru": "Геллион",
+    "pt": "Avernal",
+    "ko": "헬리온",
+    "zhs": "地狱兽",
+    "zht": "地獄獸",
+    "en": "Hellion",
+    "it": "Infernale",
+    "fr": "Monstruosité",
+    "es": "Infernal",
+    "ja": "ヘリオン"
+   },
+   "Hippo": {
+    "de": "Flusspferd",
+    "ru": "Бегемот",
+    "pt": "Hipopótamo",
+    "ko": "하마",
+    "zhs": "河马",
+    "zht": "河馬",
+    "en": "Hippo",
+    "it": "Ippopotamo",
+    "fr": "Hippopotame",
+    "es": "Hipopótamo",
+    "ja": "カバ"
+   },
+   "Hippogriff": {
+    "de": "Hippogryph",
+    "ru": "Гиппогриф",
+    "pt": "Hipogrifo",
+    "ko": "히포그리프",
+    "zhs": "骏鹰",
+    "zht": "駿鷹",
+    "en": "Hippogriff",
+    "it": "Ippogrifo",
+    "fr": "Hippogriffe",
+    "es": "Hipogrifo",
+    "ja": "ヒポグリフ"
+   },
+   "Homarid": {
+    "ru": "Хомарид",
+    "pt": "Homárida",
+    "ko": "호마리드",
+    "zhs": "荷马利",
+    "zht": "荷馬利",
+    "en": "Homarid",
+    "fr": "Homaride",
+    "es": "Homárido",
+    "ja": "ホマリッド"
+   },
+   "Homunculus": {
+    "de": "Homunkulus",
+    "ru": "Гомункул",
+    "pt": "Homúnculo",
+    "ko": "호문쿨루스",
+    "zhs": "造妖",
+    "zht": "造妖",
+    "en": "Homunculus",
+    "it": "Omuncolo",
+    "fr": "Homoncule",
+    "es": "Homúnculo",
+    "ja": "ホムンクルス"
+   },
+   "Horror": {
+    "de": "Schrecken",
+    "ru": "Ужас",
+    "pt": "Horror",
+    "ko": "호러",
+    "zhs": "惊惧兽",
+    "zht": "驚懼獸",
+    "en": "Horror",
+    "it": "Orrore",
+    "fr": "Horreur",
+    "es": "Horror",
+    "ja": "ホラー"
+   },
+   "Horse": {
+    "de": "Pferd",
+    "ru": "Лошадь",
+    "pt": "Cavalo",
+    "ko": "말",
+    "zhs": "马",
+    "zht": "馬",
+    "en": "Horse",
+    "it": "Cavallo",
+    "fr": "Cheval",
+    "es": "Caballo",
+    "ja": "馬"
+   },
+   "Human": {
+    "de": "Mensch",
+    "ru": "Человек",
+    "pt": "Humano",
+    "ko": "인간",
+    "zhs": "人类",
+    "zht": "人類",
+    "en": "Human",
+    "it": "Umano",
+    "fr": "Humain",
+    "es": "Humano",
+    "ja": "人間"
+   },
+   "Hydra": {
+    "de": "Hydra",
+    "ru": "Гидра",
+    "pt": "Hidra",
+    "ko": "히드라",
+    "zhs": "多头龙",
+    "zht": "多頭龍",
+    "en": "Hydra",
+    "it": "Idra",
+    "fr": "Hydre",
+    "es": "Hidra",
+    "ja": "ハイドラ"
+   },
+   "Hyena": {
+    "de": "Hyäne",
+    "ru": "Гиена",
+    "ko": "하이에나",
+    "zhs": "鬣狗",
+    "en": "Hyena",
+    "it": "Iena",
+    "fr": "Hyène",
+    "es": "Hiena",
+    "ja": "ハイエナ"
+   },
+   "Illusion": {
+    "de": "Illusion",
+    "ru": "Иллюзия",
+    "pt": "Ilusão",
+    "ko": "환영",
+    "zhs": "虚影",
+    "zht": "虛影",
+    "en": "Illusion",
+    "it": "Illusione",
+    "fr": "Illusion",
+    "es": "Ilusión",
+    "ja": "イリュージョン"
+   },
+   "Imp": {
+    "de": "Bold",
+    "ru": "Бес",
+    "pt": "Diabrete",
+    "ko": "임프",
+    "zhs": "小恶魔",
+    "zht": "小惡魔",
+    "en": "Imp",
+    "it": "Imp",
+    "fr": "Diablotin",
+    "es": "Diablillo",
+    "ja": "インプ"
+   },
+   "Incarnation": {
+    "de": "Inkarnation",
+    "ru": "Инкарнация",
+    "pt": "Encarnação",
+    "ko": "현신",
+    "zhs": "化身",
+    "zht": "化身",
+    "en": "Incarnation",
+    "it": "Incarnazione",
+    "fr": "Incarnation",
+    "es": "Encarnación",
+    "ja": "インカーネーション"
+   },
+   "Inkling": {
+    "en": "Inkling"
+   },
+   "Inquisitor": {
+    "en": "Inquisitor"
+   },
+   "Insect": {
+    "de": "Insekt",
+    "ru": "Насекомое",
+    "pt": "Inseto",
+    "ko": "곤충",
+    "zhs": "昆虫",
+    "zht": "昆蟲",
+    "en": "Insect",
+    "it": "Insetto",
+    "fr": "Insecte",
+    "es": "Insecto",
+    "ja": "昆虫"
+   },
+   "Jackal": {
+    "de": "Schakal",
+    "ru": "Шакал",
+    "ko": "자칼",
+    "zht": "豺狼",
+    "en": "Jackal",
+    "it": "Sciacallo",
+    "fr": "Chacal",
+    "ja": "ジャッカル"
+   },
+   "Jellyfish": {
+    "de": "Qualle",
+    "ru": "Медуза",
+    "pt": "Água-viva",
+    "ko": "해파리",
+    "zhs": "水母",
+    "zht": "水母",
+    "en": "Jellyfish",
+    "fr": "Méduse",
+    "es": "Medusa",
+    "ja": "クラゲ"
+   },
+   "Juggernaut": {
+    "de": "Juggernaut",
+    "ru": "Джаггернаут",
+    "pt": "Juggernaut",
+    "ko": "공성차",
+    "zhs": "攻城巨车",
+    "zht": "攻城巨車",
+    "en": "Juggernaut",
+    "it": "Juggernaut",
+    "fr": "Djaggernaut",
+    "es": "Destructor",
+    "ja": "巨大戦車"
+   },
+   "Kavu": {
+    "de": "Kavu",
+    "ru": "Каву",
+    "pt": "Kavu",
+    "ko": "카부",
+    "zhs": "卡甫",
+    "zht": "卡甫",
+    "en": "Kavu",
+    "it": "Kavu",
+    "fr": "Kavru",
+    "es": "Kavu",
+    "ja": "カヴー"
+   },
+   "Kirin": {
+    "de": "Kirin",
+    "ru": "Кирин",
+    "pt": "Kirin",
+    "ko": "기린",
+    "zhs": "麒麟",
+    "zht": "麒麟",
+    "en": "Kirin",
+    "it": "Kirin",
+    "fr": "Kirin",
+    "es": "Kirin",
+    "ja": "麒麟"
+   },
+   "Kithkin": {
+    "de": "Kithkin",
+    "ru": "Кискен",
+    "ko": "키스킨",
+    "zhs": "洁英",
+    "zht": "潔英",
+    "en": "Kithkin",
+    "fr": "Sangami",
+    "ja": "キスキン"
+   },
+   "Knight": {
+    "de": "Ritter",
+    "ru": "Рыцарь",
+    "pt": "Cavaleiro",
+    "ko": "기사",
+    "zhs": "骑士",
+    "zht": "騎士",
+    "en": "Knight",
+    "it": "Cavaliere",
+    "fr": "Chevalier",
+    "es": "Caballero",
+    "ja": "騎士"
+   },
+   "Kobold": {
+    "de": "Kobold",
+    "ru": "Кобольд",
+    "pt": "Kobold",
+    "ko": "코볼드",
+    "zhs": "鬼崽",
+    "zht": "鬼崽",
+    "en": "Kobold",
+    "it": "Coboldo",
+    "fr": "Kobold",
+    "es": "Kóbold",
+    "ja": "コボルド"
+   },
+   "Kor": {
+    "ru": "Кор",
+    "ko": "코르",
+    "zht": "寇族",
+    "en": "Kor",
+    "ja": "コー"
+   },
+   "Kraken": {
+    "de": "Krake",
+    "ru": "Кракен",
+    "pt": "Kraken",
+    "ko": "크라켄",
+    "zhs": "巨海兽",
+    "zht": "巨海獸",
+    "en": "Kraken",
+    "it": "Kraken",
+    "fr": "Kraken",
+    "es": "Kraken",
+    "ja": "クラーケン"
+   },
+   "Lamia": {
+    "de": "Lamia",
+    "ru": "Ламия",
+    "pt": "Lâmia",
+    "ko": "라미아",
+    "zhs": "拉弥亚",
+    "zht": "拉彌亞",
+    "en": "Lamia",
+    "it": "Lamia",
+    "fr": "Lamie",
+    "es": "Lamia",
+    "ja": "ラミア"
+   },
+   "Lammasu": {
+    "de": "Lammasu",
+    "ru": "Ламмасу",
+    "pt": "Lammasu",
+    "ko": "라마수",
+    "zhs": "拉玛苏",
+    "zht": "拉瑪蘇",
+    "en": "Lammasu",
+    "it": "Lammasu",
+    "fr": "Lamassu",
+    "es": "Lammasu",
+    "ja": "ラマスー"
+   },
+   "Leech": {
+    "de": "Egel",
+    "ru": "Пиявка",
+    "pt": "Sanguessuga",
+    "ko": "거머리",
+    "zhs": "蛭",
+    "zht": "蛭",
+    "en": "Leech",
+    "it": "Sanguisuga",
+    "fr": "Sangsue",
+    "es": "Sanguijuela",
+    "ja": "ヒル"
+   },
+   "Leviathan": {
+    "de": "Leviathan",
+    "ru": "Левиафан",
+    "pt": "Leviatã",
+    "ko": "리바이어던",
+    "zhs": "海怪",
+    "zht": "海怪",
+    "en": "Leviathan",
+    "it": "Leviatano",
+    "fr": "Léviathan",
+    "es": "Leviatán",
+    "ja": "リバイアサン"
+   },
+   "Lhurgoyf": {
+    "de": "Lhurgoyf",
+    "ru": "Люргойф",
+    "pt": "Lhurgoyf",
+    "ko": "루고이프",
+    "zhs": "拉高耶夫",
+    "zht": "拉高耶夫",
+    "en": "Lhurgoyf",
+    "it": "Lhurgoyf",
+    "fr": "Lhurgoyf",
+    "es": "Lhurgoyf",
+    "ja": "ルアゴイフ"
+   },
+   "Licid": {
+    "en": "Licid"
+   },
+   "Lizard": {
+    "de": "Eidechse",
+    "ru": "Ящер",
+    "pt": "Lagarto",
+    "ko": "도마뱀",
+    "zhs": "蜥蜴",
+    "zht": "蜥蜴",
+    "en": "Lizard",
+    "it": "Lucertola",
+    "fr": "Lézard",
+    "es": "Lagarto",
+    "ja": "トカゲ"
+   },
+   "Manticore": {
+    "de": "Mantikor",
+    "ru": "Мантикора",
+    "pt": "Manticora",
+    "ko": "만티코어",
+    "zhs": "翼狮",
+    "zht": "翼獅",
+    "en": "Manticore",
+    "it": "Manticora",
+    "fr": "Manticore",
+    "es": "Mantícora",
+    "ja": "マンティコア"
+   },
+   "Masticore": {
+    "de": "Mastikor",
+    "ru": "Мастикора",
+    "pt": "Mastícora",
+    "ko": "마스티코어",
+    "zhs": "异狮",
+    "zht": "異獅",
+    "en": "Masticore",
+    "it": "Masticora",
+    "fr": "Masticore",
+    "es": "Masticore",
+    "ja": "マスティコア"
+   },
+   "Mercenary": {
+    "de": "Söldner",
+    "ru": "Наемник",
+    "pt": "Mercenário",
+    "zhs": "佣兵",
+    "en": "Mercenary",
+    "it": "Mercenario",
+    "fr": "Mercenaire",
+    "ja": "傭兵"
+   },
+   "Merfolk": {
+    "de": "Meervolk",
+    "ru": "Мерфолк",
+    "pt": "Tritão",
+    "ko": "인어",
+    "zhs": "人鱼",
+    "zht": "人魚",
+    "en": "Merfolk",
+    "it": "Tritone",
+    "fr": "Ondin",
+    "es": "Tritón",
+    "ja": "マーフォーク"
+   },
+   "Metathran": {
+    "en": "Metathran",
+    "fr": "Métathran",
+    "es": "Metathrán",
+    "ja": "メタスラン"
+   },
+   "Minion": {
+    "de": "Diener",
+    "ru": "Приспешник",
+    "pt": "Assecla",
+    "ko": "수하",
+    "zhs": "奴仆",
+    "zht": "奴僕",
+    "en": "Minion",
+    "it": "Servitore",
+    "fr": "Mignon",
+    "es": "Sicario",
+    "ja": "ミニオン"
+   },
+   "Minotaur": {
+    "de": "Minotaurus",
+    "ru": "Минотавр",
+    "pt": "Minotauro",
+    "ko": "미노타우로스",
+    "zhs": "牛头怪",
+    "zht": "牛頭怪",
+    "en": "Minotaur",
+    "it": "Minotauro",
+    "fr": "Minotaure",
+    "es": "Minotauro",
+    "ja": "ミノタウルス"
+   },
+   "Mite": {
+    "en": "Mite"
+   },
+   "Mole": {
+    "de": "Maulwurf",
+    "ru": "Крот",
+    "pt": "Toupeira",
+    "ko": "두더지",
+    "zhs": "鼹鼠",
+    "zht": "鼴鼠",
+    "en": "Mole",
+    "it": "Talpa",
+    "fr": "Taupe",
+    "es": "Topo",
+    "ja": "モグラ"
+   },
+   "Monger": {
+    "de": "Freihändler",
+    "en": "Monger",
+    "it": "Commerciante",
+    "fr": "Négociant",
+    "es": "Traficante",
+    "ja": "モンガー"
+   },
+   "Mongoose": {
+    "de": "Mungo",
+    "ru": "Мангуст",
+    "pt": "Mangusto",
+    "ko": "몽구스",
+    "zhs": "猫鼬",
+    "zht": "貓鼬",
+    "en": "Mongoose",
+    "it": "Mangusta",
+    "fr": "Mangouste",
+    "es": "Mangosta",
+    "ja": "マングース"
+   },
+   "Monk": {
+    "de": "Mönch",
+    "ru": "Монах",
+    "pt": "Monge",
+    "ko": "수도승",
+    "zhs": "修行僧",
+    "en": "Monk",
+    "it": "Monaco",
+    "fr": "Moine",
+    "es": "Monje",
+    "ja": "モンク"
+   },
+   "Monkey": {
+    "de": "Affe",
+    "ru": "Мартышка",
+    "pt": "Macaco",
+    "ko": "원숭이",
+    "zhs": "猴",
+    "zht": "猴",
+    "en": "Monkey",
+    "it": "Scimmia",
+    "fr": "Singe",
+    "es": "Primate",
+    "ja": "猿"
+   },
+   "Moonfolk": {
+    "de": "Mondvolk",
+    "ru": "Лунный",
+    "pt": "Cidadão-da-lua",
+    "ko": "월인",
+    "zht": "月人",
+    "en": "Moonfolk",
+    "it": "Lunantropo",
+    "fr": "Lunaréen",
+    "es": "Pueblo-lunar",
+    "ja": "ムーンフォーク"
+   },
+   "Mouse": {
+    "de": "Maus",
+    "ru": "Мышь",
+    "pt": "Camundongo",
+    "ko": "생쥐",
+    "zhs": "家鼠",
+    "zht": "家鼠",
+    "en": "Mouse",
+    "it": "Topo",
+    "fr": "Souris",
+    "es": "Ratón",
+    "ja": "ハツカネズミ"
+   },
+   "Mutant": {
+    "de": "Mutant",
+    "ru": "Мутант",
+    "pt": "Mutante",
+    "ko": "돌연변이",
+    "zhs": "突变体",
+    "zht": "突變體",
+    "en": "Mutant",
+    "it": "Mutante",
+    "fr": "Mutant",
+    "es": "Mutante",
+    "ja": "ミュータント"
+   },
+   "Myr": {
+    "de": "Myr",
+    "ru": "Миэр",
+    "pt": "Myr",
+    "ko": "미르",
+    "zhs": "秘耳",
+    "zht": "秘耳",
+    "en": "Myr",
+    "it": "Myr",
+    "fr": "Myr",
+    "es": "Myr",
+    "ja": "マイア"
+   },
+   "Mystic": {
+    "en": "Mystic"
+   },
+   "Naga": {
+    "ru": "Нага",
+    "ko": "나가",
+    "zhs": "那伽",
+    "en": "Naga",
+    "ja": "ナーガ"
+   },
+   "Nautilus": {
+    "de": "Nautilus",
+    "ru": "Наутилус",
+    "pt": "Náutilo",
+    "ko": "앵무조개",
+    "zhs": "鹦鹉螺",
+    "zht": "鸚鵡螺",
+    "en": "Nautilus",
+    "it": "Nautilo",
+    "fr": "Nautile",
+    "es": "Nautilo",
+    "ja": "オウムガイ"
+   },
+   "Necron": {
+    "en": "Necron"
+   },
+   "Nephilim": {
+    "de": "Nephilim",
+    "pt": "Nefilim",
+    "zhs": "巨神灵",
+    "en": "Nephilim",
+    "it": "Nephilim",
+    "fr": "Nephilim",
+    "es": "Nefilim",
+    "ja": "ネフィリム"
+   },
+   "Nightmare": {
+    "de": "Nachtmahr",
+    "ru": "Кошмар",
+    "pt": "Pesadelo",
+    "ko": "나이트메어",
+    "zhs": "梦魇",
+    "zht": "夢魘",
+    "en": "Nightmare",
+    "it": "Incubo",
+    "fr": "Cauchemar",
+    "es": "Pesadilla",
+    "ja": "ナイトメア"
+   },
+   "Nightstalker": {
+    "en": "Nightstalker"
+   },
+   "Ninja": {
+    "ru": "Ниндзя",
+    "ko": "닌자",
+    "zht": "忍者",
+    "en": "Ninja"
+   },
+   "Noble": {
+    "de": "Adliger",
+    "ru": "Аристократ",
+    "pt": "Nobre",
+    "ko": "귀족",
+    "zhs": "贵族",
+    "zht": "貴族",
+    "en": "Noble",
+    "it": "Nobile"
+   },
+   "Noggle": {
+    "de": "Noggele",
+    "en": "Noggle",
+    "fr": "Neugle",
+    "ja": "ノッグル"
+   },
+   "Nomad": {
+    "zhs": "游牧人",
+    "en": "Nomad",
+    "it": "Nomade",
+    "es": "Nómada",
+    "ja": "ノーマッド"
+   },
+   "Nymph": {
+    "de": "Nymphe",
+    "ru": "Нимфа",
+    "pt": "Ninfa",
+    "ko": "님프",
+    "zhs": "宁芙",
+    "zht": "寧芙",
+    "en": "Nymph",
+    "it": "Ninfa",
+    "fr": "Nymphe",
+    "es": "Ninfa",
+    "ja": "ニンフ"
+   },
+   "Octopus": {
+    "de": "Oktopus",
+    "ru": "Спрут",
+    "pt": "Polvo",
+    "ko": "문어",
+    "zhs": "章鱼",
+    "zht": "章魚",
+    "en": "Octopus",
+    "it": "Piovra",
+    "fr": "Pieuvre",
+    "es": "Pulpo",
+    "ja": "タコ"
+   },
+   "Ogre": {
+    "de": "Oger",
+    "ru": "Огр",
+    "pt": "Ogro",
+    "ko": "오우거",
+    "zhs": "食人魔",
+    "zht": "食人魔",
+    "en": "Ogre",
+    "it": "Ogre",
+    "fr": "Ogre",
+    "es": "Ogro",
+    "ja": "オーガ"
+   },
+   "Ooze": {
+    "de": "Schlammwesen",
+    "ru": "Тина",
+    "pt": "Lodo",
+    "ko": "점액괴물",
+    "zhs": "流浆",
+    "zht": "流漿",
+    "en": "Ooze",
+    "it": "Melma",
+    "fr": "Limon",
+    "es": "Cieno",
+    "ja": "ウーズ"
+   },
+   "Orb": {
+    "en": "Orb"
+   },
+   "Orc": {
+    "de": "Ork",
+    "ru": "Орк",
+    "pt": "Orc",
+    "ko": "오크",
+    "zhs": "半兽人",
+    "zht": "半獸人",
+    "en": "Orc",
+    "it": "Orco",
+    "fr": "Orque",
+    "es": "Orco",
+    "ja": "オーク"
+   },
+   "Orgg": {
+    "en": "Orgg"
+   },
+   "Otter": {
+    "de": "Otter",
+    "ru": "Выдра",
+    "pt": "Lontra",
+    "ko": "수달",
+    "zhs": "水獭",
+    "zht": "水獺",
+    "en": "Otter",
+    "it": "Lontra",
+    "fr": "Loutre",
+    "es": "Nutria",
+    "ja": "カワウソ"
+   },
+   "Ouphe": {
+    "de": "Buboh",
+    "ru": "Уф",
+    "pt": "Trasgo",
+    "ko": "아우프",
+    "zhs": "奥夫",
+    "zht": "奧夫",
+    "en": "Ouphe",
+    "it": "Ouphe",
+    "fr": "Orphe",
+    "es": "Oufé",
+    "ja": "アウフ"
+   },
+   "Ox": {
+    "de": "Ochse",
+    "ru": "Бык",
+    "pt": "Boi",
+    "ko": "황소",
+    "zhs": "牛",
+    "zht": "牛",
+    "en": "Ox",
+    "it": "Bue",
+    "fr": "Bovidé",
+    "es": "Buey",
+    "ja": "雄牛"
+   },
+   "Oyster": {
+    "en": "Oyster"
+   },
+   "Pangolin": {
+    "de": "Schuppentier",
+    "ru": "Панголин",
+    "pt": "Pangolim",
+    "ko": "천산갑",
+    "zhs": "穿山甲",
+    "en": "Pangolin",
+    "it": "Pangolino",
+    "es": "Pangolín",
+    "ja": "センザンコウ"
+   },
+   "Peasant": {
+    "de": "Gesinde",
+    "ru": "Простолюдин",
+    "pt": "Plebeu",
+    "ko": "소작농",
+    "zht": "平民",
+    "en": "Peasant",
+    "it": "Popolano",
+    "fr": "Paysan",
+    "es": "Plebeyo",
+    "ja": "農民"
+   },
+   "Pegasus": {
+    "de": "Pegasus",
+    "ru": "Пегас",
+    "pt": "Pégaso",
+    "ko": "페가수스",
+    "zhs": "飞马",
+    "zht": "飛馬",
+    "en": "Pegasus",
+    "it": "Pegaso",
+    "fr": "Pégase",
+    "es": "Pegaso",
+    "ja": "ペガサス"
+   },
+   "Pentavite": {
+    "en": "Pentavite"
+   },
+   "Performer": {
+    "en": "Performer"
+   },
+   "Pest": {
+    "de": "Schädling",
+    "ru": "Вредитель",
+    "pt": "Peste",
+    "zhs": "害虫",
+    "zht": "害蟲",
+    "en": "Pest",
+    "it": "Peste",
+    "fr": "Parasite",
+    "es": "Plaga",
+    "ja": "邪魔者"
+   },
+   "Phelddagrif": {
+    "en": "Phelddagrif"
+   },
+   "Phoenix": {
+    "de": "Phoenix",
+    "ru": "Феникс",
+    "pt": "Fênix",
+    "ko": "불사조",
+    "zhs": "凤凰",
+    "zht": "鳳凰",
+    "en": "Phoenix",
+    "it": "Fenice",
+    "fr": "Phénix",
+    "es": "Fénix",
+    "ja": "フェニックス"
+   },
+   "Phyrexian": {
+    "de": "Phyrexianer",
+    "ru": "Фирексиец",
+    "pt": "Phyrexiano",
+    "ko": "피렉시아",
+    "zhs": "非瑞人",
+    "en": "Phyrexian",
+    "it": "Phyrexiano",
+    "fr": "Phyrexian",
+    "es": "Pirexiano",
+    "ja": "ファイレクシアン"
+   },
+   "Pilot": {
+    "ru": "Пилот",
+    "ko": "조종사",
+    "zhs": "驾手",
+    "zht": "駕手",
+    "en": "Pilot",
+    "it": "Pilota",
+    "fr": "Pilote",
+    "es": "Piloto",
+    "ja": "操縦士"
+   },
+   "Pincher": {
+    "en": "Pincher"
+   },
+   "Pirate": {
+    "de": "Pirat",
+    "ru": "Пират",
+    "ko": "해적",
+    "zhs": "海盗",
+    "zht": "海盜",
+    "en": "Pirate",
+    "it": "Pirata",
+    "ja": "海賊"
+   },
+   "Plant": {
+    "de": "Pflanze",
+    "ru": "Растение",
+    "pt": "Planta",
+    "ko": "식물",
+    "zhs": "植物",
+    "zht": "植物",
+    "en": "Plant",
+    "it": "Pianta",
+    "fr": "Plante",
+    "es": "Planta",
+    "ja": "植物"
+   },
+   "Praetor": {
+    "de": "Prätor",
+    "ru": "Претор",
+    "pt": "Pretor",
+    "ko": "총독",
+    "zhs": "魔判官",
+    "en": "Praetor",
+    "it": "Pretore",
+    "es": "Magistrado",
+    "ja": "法務官"
+   },
+   "Primarch": {
+    "en": "Primarch"
+   },
+   "Prism": {
+    "en": "Prism"
+   },
+   "Processor": {
+    "de": "Verwerter",
+    "ru": "Переработчик",
+    "pt": "Processador",
+    "ko": "처리자",
+    "zhs": "噬体",
+    "zht": "噬體",
+    "en": "Processor",
+    "it": "Metabolizzatore",
+    "fr": "Convertisseur",
+    "es": "Metabolizador",
+    "ja": "昇華者"
+   },
+   "Rabbit": {
+    "de": "Kaninchen",
+    "ru": "Кролик",
+    "pt": "Coelho",
+    "ko": "토끼",
+    "zht": "兔",
+    "en": "Rabbit",
+    "it": "Coniglio",
+    "fr": "Lapin",
+    "es": "Conejo",
+    "ja": "兎"
+   },
+   "Raccoon": {
+    "de": "Waschbär",
+    "ru": "Енот",
+    "pt": "Guaxinim",
+    "ko": "너구리",
+    "zht": "浣熊",
+    "en": "Raccoon",
+    "it": "Procione",
+    "fr": "Raton-laveur",
+    "es": "Mapache",
+    "ja": "アライグマ"
+   },
+   "Ranger": {
+    "de": "Waldläufer",
+    "ru": "Лесничий",
+    "pt": "Patrulheiro",
+    "ko": "레인저",
+    "zhs": "游侠",
+    "zht": "遊俠",
+    "en": "Ranger",
+    "es": "Guardabosque",
+    "ja": "レインジャー"
+   },
+   "Rat": {
+    "de": "Ratte",
+    "ru": "Крыса",
+    "pt": "Rato",
+    "ko": "쥐",
+    "zhs": "老鼠",
+    "zht": "老鼠",
+    "en": "Rat",
+    "it": "Ratto",
+    "fr": "Rat",
+    "es": "Rata",
+    "ja": "ネズミ"
+   },
+   "Rebel": {
+    "de": "Rebell",
+    "ru": "Повстанец",
+    "pt": "Rebelde",
+    "zhs": "反抗军",
+    "zht": "反抗軍",
+    "en": "Rebel",
+    "it": "Ribelle",
+    "fr": "Rebelle",
+    "ja": "レベル"
+   },
+   "Reflection": {
+    "en": "Reflection"
+   },
+   "Rhino": {
+    "de": "Nashorn",
+    "ru": "Носорог",
+    "pt": "Rinoceronte",
+    "ko": "코뿔소",
+    "zhs": "犀牛",
+    "zht": "犀牛",
+    "en": "Rhino",
+    "it": "Rinoceronte",
+    "fr": "Rhinocéros",
+    "es": "Rinoceronte",
+    "ja": "サイ"
+   },
+   "Rigger": {
+    "en": "Rigger"
+   },
+   "Robot": {
+    "en": "Robot"
+   },
+   "Rogue": {
+    "de": "Räuber",
+    "ru": "Бродяга",
+    "pt": "Ladino",
+    "ko": "도적",
+    "zhs": "浪客",
+    "en": "Rogue",
+    "it": "Farabutto",
+    "fr": "Gredin",
+    "es": "Pícaro",
+    "ja": "ならず者"
+   },
+   "Sable": {
+    "de": "Zobel",
+    "ru": "Соболь",
+    "pt": "Zibelina",
+    "ko": "담비",
+    "zhs": "紫貂",
+    "zht": "紫貂",
+    "en": "Sable",
+    "it": "Zibellino",
+    "fr": "Zibeline",
+    "es": "Marta",
+    "ja": "黒貂"
+   },
+   "Salamander": {
+    "de": "Salamander",
+    "ru": "Саламандра",
+    "pt": "Salamandra",
+    "ko": "샐러맨더",
+    "zhs": "火蜥蜴",
+    "zht": "火蜥蜴",
+    "en": "Salamander",
+    "it": "Salamandra",
+    "fr": "Salamandre",
+    "es": "Salamandra",
+    "ja": "サラマンダー"
+   },
+   "Samurai": {
+    "ru": "Самурай",
+    "ko": "사무라이",
+    "zhs": "武士",
+    "en": "Samurai",
+    "fr": "Samouraï",
+    "es": "Samurái",
+    "ja": "侍"
+   },
+   "Sand": {
+    "en": "Sand"
+   },
+   "Saproling": {
+    "en": "Saproling"
+   },
+   "Satyr": {
+    "de": "Satyr",
+    "ru": "Сатир",
+    "pt": "Sátiro",
+    "ko": "사티로스",
+    "zhs": "羊蹄人",
+    "zht": "羊蹄人",
+    "en": "Satyr",
+    "it": "Satiro",
+    "fr": "Satyre",
+    "es": "Sátiro",
+    "ja": "サテュロス"
+   },
+   "Scarecrow": {
+    "de": "Vogelscheuche",
+    "ru": "Пугало",
+    "pt": "Espantalho",
+    "ko": "허수아비",
+    "zhs": "稻草人",
+    "zht": "稻草人",
+    "en": "Scarecrow",
+    "it": "Spaventapasseri",
+    "fr": "Épouvantail",
+    "es": "Espantapájaros",
+    "ja": "カカシ"
+   },
+   "Scion": {
+    "en": "Scion"
+   },
+   "Scorpion": {
+    "de": "Skorpion",
+    "ru": "Скорпион",
+    "pt": "Escorpião",
+    "ko": "전갈",
+    "zhs": "蝎子",
+    "zht": "蠍子",
+    "en": "Scorpion",
+    "it": "Scorpione",
+    "fr": "Scorpion",
+    "es": "Escorpión",
+    "ja": "蠍"
+   },
+   "Scout": {
+    "de": "Späher",
+    "ru": "Разведчик",
+    "pt": "Batedor",
+    "ko": "정찰병",
+    "zhs": "斥候",
+    "zht": "斥候",
+    "en": "Scout",
+    "it": "Esploratore",
+    "fr": "Éclaireur",
+    "es": "Explorador",
+    "ja": "スカウト"
+   },
+   "Sculpture": {
+    "en": "Sculpture"
+   },
+   "Serf": {
+    "en": "Serf"
+   },
+   "Serpent": {
+    "de": "Schlange",
+    "ru": "Змей",
+    "pt": "Serpente",
+    "ko": "이무기",
+    "zhs": "巨蛇",
+    "zht": "巨蛇",
+    "en": "Serpent",
+    "it": "Serpe",
+    "fr": "Grand serpent",
+    "es": "Serpiente",
+    "ja": "海蛇"
+   },
+   "Servo": {
+    "en": "Servo"
+   },
+   "Shade": {
+    "de": "Schatten",
+    "ru": "Тень",
+    "pt": "Sombra",
+    "ko": "그림자",
+    "zhs": "阴魂",
+    "zht": "陰魂",
+    "en": "Shade",
+    "it": "Ombra",
+    "fr": "Ombre",
+    "es": "Sombra",
+    "ja": "シェイド"
+   },
+   "Shaman": {
+    "de": "Schamane",
+    "ru": "Шаман",
+    "pt": "Xamã",
+    "ko": "주술사",
+    "zhs": "祭师",
+    "zht": "祭師",
+    "en": "Shaman",
+    "it": "Sciamano",
+    "fr": "Shamane",
+    "es": "Chamán",
+    "ja": "シャーマン"
+   },
+   "Shapeshifter": {
+    "de": "Gestaltwandler",
+    "ru": "Имитатор",
+    "pt": "Metamorfo",
+    "ko": "변신괴물",
+    "zhs": "变形兽",
+    "zht": "變形獸",
+    "en": "Shapeshifter",
+    "it": "Polimorfo",
+    "fr": "Changeforme",
+    "es": "Metamorfo",
+    "ja": "多相の戦士"
+   },
+   "Shark": {
+    "de": "Hai",
+    "ru": "Акула",
+    "pt": "Tubarão",
+    "ko": "상어",
+    "zhs": "鲨鱼",
+    "zht": "鯊魚",
+    "en": "Shark",
+    "it": "Squalo",
+    "fr": "Requin",
+    "es": "Tiburón",
+    "ja": "サメ"
+   },
+   "Sheep": {
+    "de": "Schaf",
+    "ru": "Овца",
+    "pt": "Ovelha",
+    "ko": "양",
+    "zhs": "绵羊",
+    "zht": "綿羊",
+    "en": "Sheep",
+    "it": "Pecora",
+    "fr": "Mouton",
+    "es": "Oveja",
+    "ja": "羊"
+   },
+   "Siren": {
+    "de": "Sirene",
+    "ru": "Сирена",
+    "pt": "Sirena",
+    "ko": "사이렌",
+    "zhs": "塞连",
+    "zht": "塞連",
+    "en": "Siren",
+    "it": "Sirena",
+    "fr": "Sirène",
+    "es": "Sirena",
+    "ja": "セイレーン"
+   },
+   "Skeleton": {
+    "de": "Skelett",
+    "ru": "Скелет",
+    "pt": "Esqueleto",
+    "ko": "해골",
+    "zhs": "骷髅妖",
+    "zht": "骷髏妖",
+    "en": "Skeleton",
+    "it": "Scheletro",
+    "fr": "Squelette",
+    "es": "Esqueleto",
+    "ja": "スケルトン"
+   },
+   "Slith": {
+    "de": "Slith",
+    "pt": "Slith",
+    "zhs": "斯立兹",
+    "zht": "斯立茲",
+    "en": "Slith",
+    "it": "Slith",
+    "fr": "Slith",
+    "es": "Slit",
+    "ja": "スリス"
+   },
+   "Sliver": {
+    "de": "Remasuri",
+    "ru": "Щепка",
+    "pt": "Fractius",
+    "ko": "슬리버",
+    "zhs": "裂片妖",
+    "zht": "裂片妖",
+    "en": "Sliver",
+    "it": "Tramutante",
+    "fr": "Slivoïde",
+    "es": "Fragmentado",
+    "ja": "スリヴァー"
+   },
+   "Slug": {
+    "de": "Schnecke",
+    "ru": "Слизень",
+    "pt": "Lesma",
+    "ko": "민달팽이",
+    "zhs": "蛞蝓",
+    "zht": "蛞蝓",
+    "en": "Slug",
+    "it": "Lumaca",
+    "fr": "Limace",
+    "es": "Babosa",
+    "ja": "ナメクジ"
+   },
+   "Snake": {
+    "de": "Ophis",
+    "ru": "Змея",
+    "pt": "Cobra",
+    "ko": "뱀",
+    "zhs": "蛇",
+    "zht": "蛇",
+    "en": "Snake",
+    "it": "Serpente",
+    "fr": "Serpent",
+    "es": "Víbora",
+    "ja": "蛇"
+   },
+   "Soldier": {
+    "de": "Soldat",
+    "ru": "Солдат",
+    "pt": "Soldado",
+    "ko": "병사",
+    "zhs": "士兵",
+    "zht": "士兵",
+    "en": "Soldier",
+    "it": "Soldato",
+    "fr": "Soldat",
+    "es": "Soldado",
+    "ja": "兵士"
+   },
+   "Soltari": {
+    "en": "Soltari"
+   },
+   "Spawn": {
+    "en": "Spawn"
+   },
+   "Specter": {
+    "de": "Specter",
+    "ru": "Призрак",
+    "pt": "Espectro",
+    "ko": "스펙터",
+    "zhs": "幽灵",
+    "zht": "幽靈",
+    "en": "Specter",
+    "it": "Spettro",
+    "fr": "Spectre",
+    "es": "Espectro",
+    "ja": "スペクター"
+   },
+   "Spellshaper": {
+    "de": "Spruchwandler",
+    "ru": "Заклинатель",
+    "pt": "Magimodelador",
+    "zhs": "塑法师",
+    "zht": "塑法師",
+    "en": "Spellshaper",
+    "it": "Mutamagia",
+    "fr": "Sortisan",
+    "es": "Cambiahechizos",
+    "ja": "スペルシェイパー"
+   },
+   "Sphinx": {
+    "de": "Sphinx",
+    "ru": "Сфинкс",
+    "pt": "Esfinge",
+    "ko": "스핑크스",
+    "zhs": "史芬斯",
+    "zht": "史芬斯",
+    "en": "Sphinx",
+    "it": "Sfinge",
+    "fr": "Sphinx",
+    "es": "Esfinge",
+    "ja": "スフィンクス"
+   },
+   "Spider": {
+    "de": "Spinne",
+    "ru": "Паук",
+    "pt": "Aranha",
+    "ko": "거미",
+    "zhs": "蜘蛛",
+    "zht": "蜘蛛",
+    "en": "Spider",
+    "it": "Ragno",
+    "fr": "Araignée",
+    "es": "Araña",
+    "ja": "蜘蛛"
+   },
+   "Spike": {
+    "de": "Stachel",
+    "en": "Spike",
+    "it": "Pungiglione",
+    "fr": "Épix",
+    "es": "Perforador",
+    "ja": "スパイク"
+   },
+   "Spirit": {
+    "de": "Geist",
+    "ru": "Дух",
+    "pt": "Espírito",
+    "ko": "신령",
+    "zhs": "精怪",
+    "zht": "精靈",
+    "en": "Spirit",
+    "it": "Spirito",
+    "fr": "Esprit",
+    "es": "Espíritu",
+    "ja": "スピリット"
+   },
+   "Splinter": {
+    "en": "Splinter"
+   },
+   "Sponge": {
+    "de": "Schwamm",
+    "ru": "Губка",
+    "pt": "Esponja",
+    "en": "Sponge",
+    "it": "Spugna",
+    "fr": "Éponge",
+    "es": "Esponja",
+    "ja": "スポンジ"
+   },
+   "Squid": {
+    "de": "Kalmar",
+    "ru": "Кальмар",
+    "pt": "Lula",
+    "ko": "오징어",
+    "zhs": "乌贼",
+    "zht": "烏賊",
+    "en": "Squid",
+    "it": "Calamaro",
+    "fr": "Calamar",
+    "es": "Calamar",
+    "ja": "イカ"
+   },
+   "Squirrel": {
+    "de": "Eichhörnchen",
+    "ru": "Белка",
+    "pt": "Esquilo",
+    "ko": "다람쥐",
+    "zhs": "松鼠",
+    "zht": "松鼠",
+    "en": "Squirrel",
+    "it": "Scoiattolo",
+    "fr": "Écureuil",
+    "es": "Ardilla",
+    "ja": "リス"
+   },
+   "Starfish": {
+    "de": "Seestern",
+    "ru": "Морская_звезда",
+    "pt": "Estrela-do-mar",
+    "ko": "불가사리",
+    "zhs": "海星",
+    "zht": "海星",
+    "en": "Starfish",
+    "fr": "Étoile de mer",
+    "es": "Estrella-de-mar",
+    "ja": "ヒトデ"
+   },
+   "Surrakar": {
+    "de": "Surrakar",
+    "ru": "Сурракар",
+    "pt": "Surrakar",
+    "zhs": "苏拉卡",
+    "en": "Surrakar",
+    "it": "Surrakar",
+    "fr": "Surrakar",
+    "es": "Surrakar",
+    "ja": "サラカー"
+   },
+   "Survivor": {
+    "en": "Survivor"
+   },
+   "Tentacle": {
+    "en": "Tentacle"
+   },
+   "Tetravite": {
+    "en": "Tetravite"
+   },
+   "Thalakos": {
+    "en": "Thalakos"
+   },
+   "Thopter": {
+    "de": "Thopter",
+    "ru": "Топтер",
+    "pt": "Tóptero",
+    "ko": "날틀",
+    "zhs": "振翼机",
+    "zht": "振翼機",
+    "en": "Thopter",
+    "it": "Tottero",
+    "fr": "Mécanoptère",
+    "es": "Tóptero",
+    "ja": "飛行機械"
+   },
+   "Thrull": {
+    "de": "Thrull",
+    "ru": "Трулл",
+    "pt": "Thrul",
+    "ko": "스럴",
+    "zhs": "索尔兽",
+    "zht": "索爾獸",
+    "en": "Thrull",
+    "it": "Thrull",
+    "fr": "Srâne",
+    "es": "Thrull",
+    "ja": "スラル"
+   },
+   "Tiefling": {
+    "ru": "Тифлинг",
+    "pt": "Tiferino",
+    "ko": "티플링",
+    "zht": "魔人",
+    "en": "Tiefling",
+    "fr": "Tieffelin",
+    "ja": "ティーフリング"
+   },
+   "Treefolk": {
+    "de": "Baumhirte",
+    "ru": "Лесовик",
+    "pt": "Ent",
+    "ko": "나무인간",
+    "zhs": "树妖",
+    "zht": "樹妖",
+    "en": "Treefolk",
+    "it": "Silvantropo",
+    "fr": "Sylvin",
+    "es": "Pueblo-arbóreo",
+    "ja": "ツリーフォーク"
+   },
+   "Trilobite": {
+    "de": "Trilobit",
+    "ru": "Трилобит",
+    "pt": "Trilobita",
+    "ko": "삼엽충",
+    "zhs": "三叶虫",
+    "zht": "三葉蟲",
+    "en": "Trilobite",
+    "it": "Trilobite",
+    "fr": "Trilobite",
+    "es": "Trilobites",
+    "ja": "三葉虫"
+   },
+   "Triskelavite": {
+    "en": "Triskelavite"
+   },
+   "Troll": {
+    "de": "Troll",
+    "ru": "Тролль",
+    "pt": "Trol",
+    "ko": "트롤",
+    "zhs": "巨魔",
+    "zht": "巨魔",
+    "en": "Troll",
+    "it": "Troll",
+    "fr": "Troll",
+    "es": "Trol",
+    "ja": "トロール"
+   },
+   "Turtle": {
+    "de": "Schildkröte",
+    "ru": "Черепаха",
+    "pt": "Tartaruga",
+    "ko": "거북이",
+    "zhs": "龟",
+    "zht": "龜",
+    "en": "Turtle",
+    "it": "Tartaruga",
+    "fr": "Tortue",
+    "es": "Tortuga",
+    "ja": "海亀"
+   },
+   "Tyranid": {
+    "en": "Tyranid"
+   },
+   "Unicorn": {
+    "de": "Einhorn",
+    "ru": "Единорог",
+    "pt": "Unicórnio",
+    "ko": "유니콘",
+    "zhs": "独角兽",
+    "zht": "獨角獸",
+    "en": "Unicorn",
+    "it": "Unicorno",
+    "fr": "Licorne",
+    "es": "Unicornio",
+    "ja": "ユニコーン"
+   },
+   "Vampire": {
+    "de": "Vampir",
+    "ru": "Вампир",
+    "pt": "Vampiro",
+    "ko": "흡혈귀",
+    "zhs": "吸血鬼",
+    "zht": "吸血鬼",
+    "en": "Vampire",
+    "it": "Vampiro",
+    "fr": "Vampire",
+    "es": "Vampiro",
+    "ja": "吸血鬼"
+   },
+   "Vedalken": {
+    "de": "Vedalken",
+    "ru": "Ведалкен",
+    "pt": "Vedalkeano",
+    "ko": "베달켄",
+    "zhs": "维多肯",
+    "zht": "維多肯",
+    "en": "Vedalken",
+    "it": "Vedalken",
+    "fr": "Vedalken",
+    "es": "Vedalken",
+    "ja": "ヴィダルケン"
+   },
+   "Viashino": {
+    "ru": "Виашино",
+    "ko": "비아시노",
+    "zhs": "凡尔西诺",
+    "zht": "凡爾西諾",
+    "en": "Viashino",
+    "ja": "ヴィーアシーノ"
+   },
+   "Volver": {
+    "en": "Volver"
+   },
+   "Wall": {
+    "de": "Mauer",
+    "ru": "Стена",
+    "pt": "Barreira",
+    "ko": "벽",
+    "zhs": "墙",
+    "zht": "牆",
+    "en": "Wall",
+    "it": "Muro",
+    "fr": "Mur",
+    "es": "Muro",
+    "ja": "壁"
+   },
+   "Walrus": {
+    "de": "Walross",
+    "ru": "Морж",
+    "pt": "Morsa",
+    "ko": "바다코끼리",
+    "zhs": "海象",
+    "zht": "海象",
+    "en": "Walrus",
+    "it": "Tricheco",
+    "fr": "Morse",
+    "es": "Morsa",
+    "ja": "セイウチ"
+   },
+   "Warlock": {
+    "de": "Hexenmeister",
+    "ru": "Колдун",
+    "pt": "Bruxo",
+    "ko": "흑마법사",
+    "zhs": "术士",
+    "zht": "術士",
+    "en": "Warlock",
+    "fr": "Psychagogue",
+    "es": "Brujo",
+    "ja": "邪術師"
+   },
+   "Warrior": {
+    "de": "Krieger",
+    "ru": "Воин",
+    "pt": "Guerreiro",
+    "ko": "전사",
+    "zhs": "战士",
+    "zht": "戰士",
+    "en": "Warrior",
+    "it": "Guerriero",
+    "fr": "Guerrier",
+    "es": "Guerrero",
+    "ja": "戦士"
+   },
+   "Weird": {
+    "de": "Seltsamkeit",
+    "ru": "Диковина",
+    "pt": "Bizarro",
+    "ko": "위어드",
+    "zhs": "怪奇",
+    "zht": "怪奇",
+    "en": "Weird",
+    "it": "Bizzarria",
+    "fr": "Anomalie",
+    "es": "Extraño",
+    "ja": "奇魔"
+   },
+   "Werewolf": {
+    "de": "Werwolf",
+    "ru": "Вервольф",
+    "pt": "Lobisomem",
+    "ko": "늑대인간",
+    "zhs": "狼人",
+    "en": "Werewolf",
+    "it": "Mannaro",
+    "fr": "Loup-garou",
+    "es": "Licántropo",
+    "ja": "狼男"
+   },
+   "Whale": {
+    "de": "Wal",
+    "ru": "Кит",
+    "pt": "Baleia",
+    "ko": "고래",
+    "zhs": "鲸鱼",
+    "zht": "鯨魚",
+    "en": "Whale",
+    "it": "Balena",
+    "fr": "Baleine",
+    "es": "Ballena",
+    "ja": "鯨"
+   },
+   "Wizard": {
+    "de": "Zauberer",
+    "ru": "Чародей",
+    "pt": "Mago",
+    "ko": "마도사",
+    "zhs": "法术师",
+    "zht": "魔法師",
+    "en": "Wizard",
+    "it": "Mago",
+    "fr": "Sorcier",
+    "es": "Hechicero",
+    "ja": "ウィザード"
+   },
+   "Wolf": {
+    "de": "Wolf",
+    "ru": "Волк",
+    "pt": "Lobo",
+    "ko": "늑대",
+    "zhs": "狼",
+    "zht": "狼",
+    "en": "Wolf",
+    "it": "Lupo",
+    "fr": "Loup",
+    "es": "Lobo",
+    "ja": "狼"
+   },
+   "Wolverine": {
+    "de": "Vielfraß",
+    "ru": "Росомаха",
+    "pt": "Carcaju",
+    "ko": "울버린",
+    "zhs": "狼獾",
+    "zht": "狼獾",
+    "en": "Wolverine",
+    "it": "Ghiottone",
+    "fr": "Glouton",
+    "es": "Glotón",
+    "ja": "クズリ"
+   },
+   "Wombat": {
+    "en": "Wombat"
+   },
+   "Worm": {
+    "de": "Würmchen",
+    "ru": "Червь",
+    "pt": "Verme",
+    "ko": "지렁이",
+    "zhs": "蠕虫",
+    "zht": "蠕蟲",
+    "en": "Worm",
+    "it": "Verme",
+    "fr": "Ver",
+    "es": "Gusano",
+    "ja": "蟲"
+   },
+   "Wraith": {
+    "de": "Wraith",
+    "ru": "Видение",
+    "pt": "Aparição",
+    "zhs": "鬼魂",
+    "zht": "鬼魂",
+    "en": "Wraith",
+    "it": "Necrospettro",
+    "fr": "Apparition",
+    "es": "Aparición",
+    "ja": "レイス"
+   },
+   "Wurm": {
+    "de": "Wurm",
+    "ru": "Вурм",
+    "pt": "Vorme",
+    "ko": "웜",
+    "zhs": "亚龙",
+    "zht": "亞龍",
+    "en": "Wurm",
+    "it": "Wurm",
+    "fr": "Guivre",
+    "es": "Sierpe",
+    "ja": "ワーム"
+   },
+   "Yeti": {
+    "de": "Yeti",
+    "ru": "Йети",
+    "pt": "Yeti",
+    "ko": "설인",
+    "zhs": "雪怪",
+    "zht": "雪怪",
+    "en": "Yeti",
+    "it": "Yeti",
+    "fr": "Yeti",
+    "es": "Yeti",
+    "ja": "イエティ"
+   },
+   "Zombie": {
+    "de": "Zombie",
+    "ru": "Зомби",
+    "pt": "Zumbi",
+    "ko": "좀비",
+    "zhs": "灵俑",
+    "zht": "殭屍",
+    "en": "Zombie",
+    "it": "Zombie",
+    "fr": "Zombie",
+    "es": "Zombie",
+    "ja": "ゾンビ"
+   },
+   "Zubera": {
+    "en": "Zubera"
+   }
+  },
+  "planar": {
+   "Alara": {
+    "de": "Alara",
+    "en": "Alara",
+    "it": "Alara",
+    "fr": "Alara",
+    "es": "Alara",
+    "ja": "アラーラ"
+   },
+   "Arkhos": {
+    "de": "Arkhos",
+    "en": "Arkhos",
+    "it": "Arkhos",
+    "fr": "Arkhos",
+    "es": "Arkhos",
+    "ja": "アーコス"
+   },
+   "Azgol": {
+    "de": "Azgol",
+    "en": "Azgol",
+    "it": "Azgol",
+    "fr": "Azgol",
+    "es": "Azgol",
+    "ja": "アズゴル"
+   },
+   "Belenon": {
+    "de": "Belenon",
+    "en": "Belenon",
+    "it": "Belenon",
+    "fr": "Belenon",
+    "es": "Bélenon",
+    "ja": "ベレノン"
+   },
+   "Bolas’s Meditation Realm": {
+    "de": "Bolas’ Meditationsreich",
+    "en": "Bolas’s Meditation Realm",
+    "it": "Reame della Meditazione di Bolas",
+    "fr": "Royaume de méditation de Bolas",
+    "es": "Reino de Meditación de Nicol Bolas",
+    "ja": "ボーラスの・瞑想・領土"
+   },
+   "Dominaria": {
+    "de": "Dominaria",
+    "en": "Dominaria",
+    "it": "Dominaria",
+    "fr": "Dominaria",
+    "es": "Dominaria",
+    "ja": "ドミナリア"
+   },
+   "Equilor": {
+    "de": "Equilor",
+    "en": "Equilor",
+    "it": "Equilor",
+    "fr": "Équilor",
+    "es": "Equilor",
+    "ja": "エクィロー"
+   },
+   "Ergamon": {
+    "de": "Ergamon",
+    "en": "Ergamon",
+    "it": "Ergamon",
+    "fr": "Ergamon",
+    "es": "Ergamon",
+    "ja": "エルガモン"
+   },
+   "Fabacin": {
+    "de": "Fabacin",
+    "en": "Fabacin",
+    "it": "Fabacin",
+    "fr": "Fabacin",
+    "es": "Fábacin",
+    "ja": "ファバシン"
+   },
+   "Innistrad": {
+    "de": "Innistrad",
+    "en": "Innistrad",
+    "it": "Innistrad",
+    "fr": "Innistrad",
+    "es": "Innistrad",
+    "ja": "イニストラード"
+   },
+   "Iquatana": {
+    "de": "Iquatana",
+    "en": "Iquatana",
+    "it": "Iquatana",
+    "fr": "Iquatana",
+    "es": "Iquatana",
+    "ja": "イクァンターナ"
+   },
+   "Ir": {
+    "de": "Ir",
+    "en": "Ir",
+    "it": "Ir",
+    "fr": "Ir",
+    "es": "Ir",
+    "ja": "アー"
+   },
+   "Kaldheim": {
+    "de": "Kaldheim",
+    "en": "Kaldheim",
+    "it": "Kaldheim",
+    "fr": "Kaldheim",
+    "es": "Kaldheim",
+    "ja": "カルドハイム"
+   },
+   "Kamigawa": {
+    "de": "Kamigawa",
+    "en": "Kamigawa",
+    "it": "Kamigawa",
+    "fr": "Kamigawa",
+    "es": "Kamigawa",
+    "ja": "神河"
+   },
+   "Karsus": {
+    "en": "Karsus"
+   },
+   "Kephalai": {
+    "de": "Kephalai",
+    "en": "Kephalai",
+    "it": "Kephalai",
+    "fr": "Kephalai",
+    "es": "Kephalai",
+    "ja": "ケファライ"
+   },
+   "Kinshala": {
+    "en": "Kinshala"
+   },
+   "Kolbahan": {
+    "de": "Kolbahan",
+    "en": "Kolbahan",
+    "it": "Kolbahan",
+    "fr": "Kolbahan",
+    "es": "Kólbahan",
+    "ja": "コルバハン"
+   },
+   "Kyneth": {
+    "de": "Kyneth",
+    "en": "Kyneth",
+    "it": "Kyneth",
+    "fr": "Kyneth",
+    "es": "Kyneth",
+    "ja": "キネス"
+   },
+   "Lorwyn": {
+    "de": "Lorwyn",
+    "en": "Lorwyn",
+    "it": "Lorwyn",
+    "fr": "Lorwyn",
+    "es": "Lorwyn",
+    "ja": "ローウィン"
+   },
+   "Luvion": {
+    "en": "Luvion"
+   },
+   "Mercadia": {
+    "de": "Merkadia",
+    "en": "Mercadia",
+    "it": "Mercadia",
+    "fr": "Mercadia",
+    "es": "Mercadia",
+    "ja": "メルカディア"
+   },
+   "Mirrodin": {
+    "de": "Mirrodin",
+    "en": "Mirrodin",
+    "it": "Mirrodin",
+    "fr": "Mirrodin",
+    "es": "Mirrodín",
+    "ja": "ミラディン"
+   },
+   "Moag": {
+    "de": "Moag",
+    "en": "Moag",
+    "it": "Moag",
+    "fr": "Moag",
+    "es": "Moag",
+    "ja": "モアグ"
+   },
+   "Mongseng": {
+    "de": "Mongseng",
+    "en": "Mongseng",
+    "it": "Mongseng",
+    "fr": "Mongseng",
+    "es": "Mongseng",
+    "ja": "モンセン"
+   },
+   "Muraganda": {
+    "de": "Muraganda",
+    "en": "Muraganda",
+    "it": "Muraganda",
+    "fr": "Muraganda",
+    "es": "Muraganda",
+    "ja": "ムラガンダ"
+   },
+   "New Phyrexia": {
+    "de": "Das neue Phyrexia",
+    "en": "New Phyrexia",
+    "it": "Nuova Phyrexia",
+    "fr": "Nouvelle Phyrexia",
+    "es": "Nueva Phyrexia",
+    "ja": "新ファイレクシア"
+   },
+   "Phyrexia": {
+    "de": "Phyrexia",
+    "en": "Phyrexia",
+    "it": "Phyrexia",
+    "fr": "Phyrexia",
+    "es": "Pirexia",
+    "ja": "ファイレクシア"
+   },
+   "Pyrulea": {
+    "en": "Pyrulea"
+   },
+   "Rabiah": {
+    "de": "Rabiah",
+    "en": "Rabiah",
+    "it": "Rabiah",
+    "fr": "Rabiah",
+    "es": "Rabiah",
+    "ja": "ラバイア"
+   },
+   "Rath": {
+    "de": "Rath",
+    "en": "Rath",
+    "it": "Rath",
+    "fr": "Rajh",
+    "es": "Rath",
+    "ja": "ラース"
+   },
+   "Ravnica": {
+    "de": "Ravnica",
+    "en": "Ravnica",
+    "it": "Ravnica",
+    "fr": "Ravnica",
+    "es": "Rávnica",
+    "ja": "ラヴニカ"
+   },
+   "Regatha": {
+    "de": "Regatha",
+    "en": "Regatha",
+    "it": "Regatha",
+    "fr": "Regatha",
+    "es": "Regatha",
+    "ja": "レガーサ"
+   },
+   "Segovia": {
+    "de": "Segovia",
+    "en": "Segovia",
+    "it": "Segovia",
+    "fr": "Ségovie",
+    "es": "Segovia",
+    "ja": "セゴビア"
+   },
+   "Serra’s Realm": {
+    "en": "Serra’s Realm"
+   },
+   "Shadowmoor": {
+    "de": "Schattenmoor",
+    "en": "Shadowmoor",
+    "fr": "Sombrelande",
+    "ja": "シャドウムーア"
+   },
+   "Shandalar": {
+    "de": "Shandalar",
+    "en": "Shandalar",
+    "it": "Shandalar",
+    "fr": "Shandalar",
+    "es": "Shandalar",
+    "ja": "シャンダラー"
+   },
+   "Ulgrotha": {
+    "de": "Ulgrotha",
+    "en": "Ulgrotha",
+    "it": "Ulgrotha",
+    "fr": "Ulgrotha",
+    "es": "Ulgrotha",
+    "ja": "ウルグローサ"
+   },
+   "Valla": {
+    "de": "Valla",
+    "en": "Valla",
+    "it": "Valla",
+    "fr": "Valla",
+    "es": "Valla",
+    "ja": "ヴァラ"
+   },
+   "Vryn": {
+    "de": "Vryn",
+    "en": "Vryn",
+    "it": "Vryn",
+    "fr": "Vryn",
+    "es": "Vryn",
+    "ja": "ヴリン"
+   },
+   "Wildfire": {
+    "de": "Wildfeuer",
+    "en": "Wildfire",
+    "fr": "Grégefeu",
+    "ja": "ワイルドファイア"
+   },
+   "Xerex": {
+    "en": "Xerex"
+   },
+   "Zendikar": {
+    "de": "Zendikar",
+    "en": "Zendikar",
+    "it": "Zendikar",
+    "fr": "Zendikar",
+    "es": "Zendikar",
+    "ja": "ゼンディカー"
+   }
+  },
+  "dungeon": {
+   "Undercity": {
+    "en": "Undercity"
+   }
+  }
+ }
+}
