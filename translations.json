@@ -348,7 +348,7 @@
 		"zhs": "雪境",
 		"zht": "雪境",
 		"en": "Snow",
-		"it": Neve
+		"it": "Neve",
 		"fr": "neigeux",
 		"es": "nevada",
 		"ja": "氷雪"
@@ -4415,7 +4415,7 @@
 	"zhs": "映影",
 	"zht": "映影",
 	"en": "Reflection",
-	"it": Riflesso"",
+	"it": "Riflesso",
 	"fr": "Reflet",
 	"es": "Reflejo",
 	"ja": "反射"
@@ -4809,7 +4809,7 @@
  	"pt": "Prole",
 	"zhs": "后裔",
 	"zht": "後裔",
-	"en": Spawn",
+	"en": "Spawn",
 	"it": "Progenie",
 	"fr": "Engeance",
 	"es": "Engendro",
