@@ -2446,7 +2446,8 @@
     "ja": "ビースト"
    },
    "Beeble": {
-    "en": "Beeble"
+    "en": "Beeble",
+	"de": "Bobbel",
    },
    "Beholder": {
     "de": "Betrachter",
@@ -2786,7 +2787,8 @@
     "ja": "デーモン"
    },
    "Deserter": {
-    "en": "Deserter"
+    "en": "Deserter",
+	"de": "Deserteur"
    },
    "Devil": {
     "de": "Teufel",

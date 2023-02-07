@@ -1,7 +1,7 @@
 # TypesLocalizer
 Script for updating the MSE types file for each supported language.
 
-- Types missing translations
+# Types missing translations
 
 Artifact: Attraction
 
@@ -17,15 +17,11 @@ Creature: Mite
 
 Silver Bordered: Alien, Child, Clown, Employee, Gamer, Guest, Performer, Robot
 
-Old: Beeble, Deserter, Licid*, Nightstalker*, Orb*, Prism*, Splinter*
+Old [have German]: Beeble, Deserter, Licid, Nightstalker, Orb, Prism, Splinter
 
-Warhammer†: Astartes, C'tan, Custodes, Inquisitor, Necron, Primarch, Tyranid
+Warhammer [have Japanese]: Astartes, C'tan, Custodes, Inquisitor, Necron, Primarch, Tyranid
 
-\* has official German translation
-
-† has official Japanese translation, may need improved though
-
-- Types with unofficial traslations
+# Types with unofficial traslations
 
 Land: Lair
 
