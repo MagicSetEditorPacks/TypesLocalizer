@@ -1,30 +1,29 @@
 de;ru;pt;ko;zhs;zht;en;it;fr;es;ja
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Serf;UNKNOWN;Serf;UNKNOWN;UNKNOWN
 Venser;Венсер;Venser;UNKNOWN;凡瑟;凡瑟;Venser;Venser;Venser;Venser;ヴェンセール
 Ratte;Крыса;Rato;쥐;老鼠;老鼠;Rat;Ratto;Rat;Rata;ネズミ
-Schlachtschiff;UNKNOWN;Couraçado;UNKNOWN;无畏舰;UNKNOWN;Dreadnought;Sterminatore;Cuirassé;Acorazado;ドレッドノート
+Schlachtschiff;Дредноут;Couraçado;UNKNOWN;无畏舰;無畏艦;Dreadnought;Sterminatore;Cuirassé;Acorazado;ドレッドノート
 Sumpf;Болото;Pântano;늪;沼泽;沼澤;Swamp;Palude;Marais;Pantano;沼
 Kasmina;Касмина;Kasmina;카스미나;克蜜娜;克蜜娜;Kasmina;Kasmina;Kasmina;Kasmina;カズミナ
 Elementarwesen;Элементаль;Elemental;정령;元素;元素;Elemental;Elementale;Élémental;Elemental;エレメンタル
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Blinkmoth;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Rabiah;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Rabiah;Rabiah;Rabiah;Rabiah;ラバイア
 Golem;Голем;Golem;골렘;魔像;魔像;Golem;Golem;Golem;Gólem;ゴーレム
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Sphere;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Sphere;UNKNOWN;Sphère;UNKNOWN;UNKNOWN
 Buschköter;Брушвагг;Tojo;브러시와그;丛枝兽;叢枝獸;Brushwagg;Burlarbusto;Bosquérisson;Yerbamala;ブラッシュワグ
 Engel;Ангел;Anjo;천사;天使;天使;Angel;Angelo;Ange;Ángel;天使
 Myr;Миэр;Myr;미르;秘耳;秘耳;Myr;Myr;Myr;Myr;マイア
-Kithkin;Кискен;UNKNOWN;키스킨;洁英;潔英;Kithkin;UNKNOWN;Sangami;UNKNOWN;キスキン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Employee;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Serf;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Kithkin;Кискен;Kithkin;키스킨;洁英;潔英;Kithkin;Kithkin;Sangami;Kithkin;キスキン
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Employee;UNKNOWN;Employé;UNKNOWN;UNKNOWN
 Teufel;Дьявол;Diabo;악령;魔鬼;魔鬼;Devil;Diavolo;Diable;Diablo;悪魔
 Lorwyn;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Lorwyn;Lorwyn;Lorwyn;Lorwyn;ローウィン
-Bolas’ Meditationsreich;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Bolas’s Meditation Realm;Reame della Meditazione di Bolas;Royaume de méditation de Bolas;Reino de Meditación de Nicol Bolas;ボーラスの・瞑想・領土
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Inquisitor;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Inquisitor;UNKNOWN;Inquisiteur;UNKNOWN;UNKNOWN
 Zephalid;Цефалид;Cefálida;세팔리드;章人;鱆人;Cephalid;Cefalide;Céphalide;Cefálido;セファリッド
 Kobold;Кобольд;Kobold;코볼드;鬼崽;鬼崽;Kobold;Coboldo;Kobold;Kóbold;コボルド
 Drache;Дракон;Dragão;용의;龙;龍;Dragon;Drago;Dragon;Dragón;ドラゴン
 Teferi;Тефери;Teferi;테페리;泰菲力;泰菲力;Teferi;Teferi;Téfeiri;Teferi;テフェリー
-UNKNOWN;Азра;UNKNOWN;아즈라;亚札人;亞札人;Azra;UNKNOWN;UNKNOWN;UNKNOWN;アズラ
-Bergwerk;Шахта;Mina;UNKNOWN;矿脉;UNKNOWN;Mine;Miniera;Mine;Mina;鉱山
+Azra;Азра;Azra;아즈라;亚札人;亞札人;Azra;Azra;Azra;Azra;アズラ
+Bergwerk;Шахта;Mina;광산;矿脉;礦脈;Mine;Miniera;Mine;Mina;鉱山
 Niko;Нико;Niko;니코;尼科;尼科;Niko;Niko;Niko;Niko;ニコ
 Gott;Бог;Deus;신;神;神;God;Dio;Dieu;Deidad;神
 Merkadia;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Mercadia;Mercadia;Mercadia;Mercadia;メルカディア
@@ -32,26 +31,26 @@ Speise;Еда;Comida;음식;食品;食品;Food;Cibo;Nourriture;Comida;食物
 Dovin;Довин;Dovin;도빈;多温;多溫;Dovin;Dovin;Dovin;Dovin;ドビン
 Pegasus;Пегас;Pégaso;페가수스;飞马;飛馬;Pegasus;Pegaso;Pégase;Pegaso;ペガサス
 Berater;Советник;Conselheiro;조언자;参谋;參謀;Advisor;Consigliere;Conseiller;Consejero;アドバイザー
-UNKNOWN;Доути;UNKNOWN;다우티;UNKNOWN;道西;Dauthi;UNKNOWN;UNKNOWN;Dauti;ダウスィー
+Dauthi;Доути;Dauthi;다우티;道西;道西;Dauthi;Dauthi;Dauthi;Dauti;ダウスィー
 Minsc;Минск;Minsc;민스크;明斯克;明斯克;Minsc;Minsc;Minsc;Minsc;ミンスク
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Phelddagrif;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Spruchwandler;Заклинатель;Magimodelador;UNKNOWN;塑法师;塑法師;Spellshaper;Mutamagia;Sortisan;Cambiahechizos;スペルシェイパー
 Lammasu;Ламмасу;Lammasu;라마수;拉玛苏;拉瑪蘇;Lammasu;Lammasu;Lamassu;Lammasu;ラマスー
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Fortification;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Befestigung;Укрепление;Fortificação;UNKNOWN;工事;UNKNOWN;Fortification;Fortificazione;Fortification;Fortificación;城砦
 Elf;Эльф;Elfo;엘프;地精;妖精;Elf;Elfo;Elfe;Elfo;エルフ
 Schatz;Клад;Tesouro;보물;珍宝;珍寶;Treasure;Tesoro;Trésor;Tesoro;宝物
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Sand;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Sand;UNKNOWN;Sable;UNKNOWN;UNKNOWN
 Hirsch;Вапити;Alce;엘크;麋鹿;麋鹿;Elk;Alce;Élan;Alce;大鹿
 Goblin;Гоблин;Goblin;고블린;精灵;鬼怪;Goblin;Goblin;Gobelin;Trasgo;ゴブリン
 Basilisk;Василиск;Basilisco;바실리스크;蜥怪;蜥怪;Basilisk;Basilisco;Basilic;Basilisco;バジリスク
 Fahrzeug;Машина;Veículo;탑승물;载具;載具;Vehicle;Veicolo;Véhicule;Vehículo;機体
 Zobel;Соболь;Zibelina;담비;紫貂;紫貂;Sable;Zibellino;Zibeline;Marta;黒貂
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Powerstone;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;Тифлинг;Tiferino;티플링;UNKNOWN;魔人;Tiefling;UNKNOWN;Tieffelin;UNKNOWN;ティーフリング
+Kraftstein;UNKNOWN;Pedra de Energia;UNKNOWN;UNKNOWN;UNKNOWN;Powerstone;Pietra del Potere;Lithoforce;Piedra de poder;UNKNOWN
+Tiefling;Тифлинг;Tiferino;티플링;魔人;魔人;Tiefling;Tiefling;Tieffelin;Tiefling;ティーフリング
 Ritter;Рыцарь;Cavaleiro;기사;骑士;騎士;Knight;Cavaliere;Chevalier;Caballero;騎士
 Ashiok;Ашиок;Ashiok;아시오크;安梭苛;安梭苛;Ashiok;Ashiok;Ashiok;Ashiok;アショク
-Mondvolk;Лунный;Cidadão-da-lua;월인;UNKNOWN;月人;Moonfolk;Lunantropo;Lunaréen;Pueblo-lunar;ムーンフォーク
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Gold;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Mondvolk;Лунный;Cidadão-da-lua;월인;月人;月人;Moonfolk;Lunantropo;Lunaréen;Pueblo-lunar;ムーンフォーク
+Gold;Золота;Ouro;UNKNOWN;UNKNOWN;UNKNOWN;Gold;Oro;Or;Oro;UNKNOWN
 Schildkröte;Черепаха;Tartaruga;거북이;龟;龜;Turtle;Tartaruga;Tortue;Tortuga;海亀
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Luvion;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Gorgo;Горгона;Górgona;고르곤;蛇发妖;蛇髮妖;Gorgon;Gorgone;Gorgonoïde;Gorgona;ゴルゴン
@@ -60,8 +59,8 @@ Teufelsbraten;Геллион;Avernal;헬리온;地狱兽;地獄獸;Hellion;Infer
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Pyrulea;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Elefant;Слон;Elefante;코끼리;象;象;Elephant;Elefante;Éléphant;Elefante;象
 Mutant;Мутант;Mutante;돌연변이;突变体;突變體;Mutant;Mutante;Mutant;Mutante;ミュータント
-Kartusche;Картуш;Cártula;카르투슈;UNKNOWN;魔符;Cartouche;Cartiglio;UNKNOWN;Cartucho;カルトーシュ
-Assassine;Убийца;Assassino;암살자;杀手;殺手;Assassin;UNKNOWN;UNKNOWN;Asesino;暗殺者
+Kartusche;Картуш;Cártula;카르투슈;魔符;魔符;Cartouche;Cartiglio;Cartouche;Cartucho;カルトーシュ
+Assassine;Убийца;Assassino;암살자;杀手;殺手;Assassin;Assassino;Assassin;Asesino;暗殺者
 Vogel;Птица;Ave;조류;鸟;鳥;Bird;Uccello;Oiseau;Ave;鳥（とり）
 Tor;Врата;Portão;관문;门;門;Gate;Cancello;Porte;Portal;門
 Lamia;Ламия;Lâmia;라미아;拉弥亚;拉彌亞;Lamia;Lamia;Lamie;Lamia;ラミア
@@ -73,7 +72,7 @@ Vraska;Враска;Vraska;브라스카;瓦丝卡;瓦絲卡;Vraska;Vraska;Vraska
 Wildfeuer;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Wildfire;UNKNOWN;Grégefeu;UNKNOWN;ワイルドファイア
 Aminatou;UNKNOWN;Aminatou;UNKNOWN;阿米娜图;UNKNOWN;Aminatou;Aminatou;Aminatou;Aminatou;アミナトゥ
 Skelett;Скелет;Esqueleto;해골;骷髅妖;骷髏妖;Skeleton;Scheletro;Squelette;Esqueleto;スケルトン
-Noggele;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Noggle;UNKNOWN;Neugle;UNKNOWN;ノッグル
+Noggele;Ноггл;Noggle;UNKNOWN;诺格;UNKNOWN;Noggle;Noggle;Neugle;Noggle;ノッグル
 Lukka;Лукка;Lukka;루카;卢卡;盧卡;Lukka;Lukka;Lukka;Lukka;ルーカ
 Szat;UNKNOWN;Szat;UNKNOWN;刹特;剎特;Szat;Szat;Szat;Szat;ザット
 Valla;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Valla;Valla;Valla;Valla;ヴァラ
@@ -84,7 +83,7 @@ Schrecken;Ужас;Horror;호러;惊惧兽;驚懼獸;Horror;Orrore;Horreur;Horro
 Yanling;Янлин;Yanling;얀링;燕灵;燕靈;Yanling;Yanling;Yanling;Yanling;ヤンリン
 Avatar;Аватара;Avatar;아바타;圣者;聖者;Avatar;Avatar;Avatar;Avatar;アバター
 Bestie;Зверь;Besta;야수;野兽;野獸;Beast;Bestia;Bête;Bestia;ビースト
-Qualle;Медуза;Água-viva;해파리;水母;水母;Jellyfish;UNKNOWN;Méduse;Medusa;クラゲ
+Qualle;Медуза;Água-viva;해파리;水母;水母;Jellyfish;Medusa;Méduse;Medusa;クラゲ
 Kiora;Киора;Kiora;키오라;奇奥拉;奇奧拉;Kiora;Kiora;Kiora;Kiora;キオーラ
 Maus;Мышь;Camundongo;생쥐;家鼠;家鼠;Mouse;Topo;Souris;Ratón;ハツカネズミ
 Vielfraß;Росомаха;Carcaju;울버린;狼獾;狼獾;Wolverine;Ghiottone;Glouton;Glotón;クズリ
@@ -92,17 +91,17 @@ Wrenn;Ренн;Wrenn;렌;芮恩;芮恩;Wrenn;Wrenn;Wrenn;Wrenn;レン
 Minotaurus;Минотавр;Minotauro;미노타우로스;牛头怪;牛頭怪;Minotaur;Minotauro;Minotaure;Minotauro;ミノタウルス
 Spinne;Паук;Aranha;거미;蜘蛛;蜘蛛;Spider;Ragno;Araignée;Araña;蜘蛛
 Hinweis;Улика;Pista;단서;线索;線索;Clue;Indizio;Indice;Pista;手掛かり
-Pirat;Пират;UNKNOWN;해적;海盗;海盜;Pirate;Pirata;UNKNOWN;UNKNOWN;海賊
+Pirat;Пират;Pirata;해적;海盗;海盜;Pirate;Pirata;Pirate;Pirata;海賊
 Wraith;Видение;Aparição;UNKNOWN;鬼魂;鬼魂;Wraith;Necrospettro;Apparition;Aparición;レイス
 Eidechse;Ящер;Lagarto;도마뱀;蜥蜴;蜥蜴;Lizard;Lucertola;Lézard;Lagarto;トカゲ
-Das neue Phyrexia;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;New Phyrexia;Nuova Phyrexia;Nouvelle Phyrexia;Nueva Phyrexia;新ファイレクシア
 Gargoyle;Горгулья;Gárgula;가고일;石像鬼;石像鬼;Gargoyle;Gargoyle;Gargouille;Gárgola;ガーゴイル
 Drohne;Дрон;Zangão;드론;奴兽;奴獸;Drone;Parassita;Drone;Zángano;ドローン
-Räuber;Бродяга;Ladino;도적;浪客;UNKNOWN;Rogue;Farabutto;Gredin;Pícaro;ならず者
+Räuber;Бродяга;Ladino;도적;浪客;浪客;Rogue;Farabutto;Gredin;Pícaro;ならず者
 Schlammwesen;Тина;Lodo;점액괴물;流浆;流漿;Ooze;Melma;Limon;Cieno;ウーズ
 Regatha;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Regatha;Regatha;Regatha;Regatha;レガーサ
 Handwerker;Механик;Artesão;기능공;神器师;神器師;Artificer;Artefice;Artificier;Artífice;工匠
 Nixilis;Никсилис;Nixilis;닉실리스;尼希兹;尼希茲;Nixilis;Nixilis;Nixilis;Nixilis;ニクシリス
+Montagearbeiter;Рабочий-сборщик;UNKNOWN;조립공;组装工人;組裝工人;Assembly-Worker;Addetto-al-montaggio;Ouvrier spécialisé;Operario;組立作業員
 Salamander;Саламандра;Salamandra;샐러맨더;火蜥蜴;火蜥蜴;Salamander;Salamandra;Salamandre;Salamandra;サラマンダー
 Hund;Собака;Sabujo;사냥개;猎犬;獵犬;Dog;Canide;Chien;Perro;犬
 Dryade;Дриада;Dríade;드라이어드;树灵;樹靈;Dryad;Driade;Dryade;Dríada;ドライアド
@@ -115,7 +114,7 @@ Dämon;Демон;Demônio;악마;恶魔;惡魔;Demon;Demone;Démon;Demonio;デ�
 Zentaur;Кентавр;Centauro;켄타우로스;半人马;半人馬;Centaur;Centauro;Centaure;Centauro;ケンタクルス
 Äthergeborener;Эфирид;Etergênito;에테르붙이;乙太种;乙太種;Aetherborn;Eteride;Éthérien;Etergénito;霊基体
 Ergamon;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Ergamon;Ergamon;Ergamon;Ergamon;エルガモン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Reflection;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Reflexion;Отражение;Reflexo;형상;映影;映影;Reflection;Riflesso;Reflection;Reflejo;反射
 Surrakar;Сурракар;Surrakar;UNKNOWN;苏拉卡;UNKNOWN;Surrakar;Surrakar;Surrakar;Surrakar;サラカー
 Domri;Домри;Domri;돔리;多密;多密;Domri;Domri;Domri;Domri;ドムリ
 Insel;Остров;Ilha;섬;海岛;海島;Island;Isola;Île;Isla;島
@@ -125,49 +124,49 @@ UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Graveborn;UNKNOWN;UNKNOWN;UNKNOW
 Gideon;Гидеон;Gideon;기디온;基定;基定;Gideon;Gideon;Gideon;Gideon;ギデオン
 Teyo;Тейо;Teyo;테요;泰佑;泰佑;Teyo;Teyo;Teyo;Teyo;テヨ
 Wildschwein;Вепрь;Javali;멧돼지;野猪;野豬;Boar;Cinghiale;Sanglier;Jabalí;猪
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Mystic;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Mystiker;UNKNOWN;Místico;UNKNOWN;秘教徒;UNKNOWN;Mystic;Mistico;Mystique;Místico;神秘家
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Wombat;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-Kaninchen;Кролик;Coelho;토끼;UNKNOWN;兔;Rabbit;Coniglio;Lapin;Conejo;兎
+Kaninchen;Кролик;Coelho;토끼;兔;兔;Rabbit;Coniglio;Lapin;Conejo;兎
 Ir;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Ir;Ir;Ir;Ir;アー
-Bürger;Гражданин;Cidadão;시민;UNKNOWN;市民;Citizen;Cittadino;Citoyen;Ciudadano;UNKNOWN
+Bürger;Гражданин;Cidadão;시민;市民;市民;Citizen;Cittadino;Citoyen;Ciudadano;市民
 Moag;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Moag;Moag;Moag;Moag;モアグ
 Elspeth;Элспет;Elspeth;엘스페스;艾紫培;艾紫培;Elspeth;Elspeth;Elspeth;Elspeth;エルズペス
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Lair;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Hort;UNKNOWN;Covil;UNKNOWN;巢穴;UNKNOWN;Lair;Tana;Repaire;Cubil;棲み家
 Freihändler;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Monger;Commerciante;Négociant;Traficante;モンガー
 Tamiyo;Тамиё;Tamiyo;타미요;多美代;多美代;Tamiyo;Tamiyo;Tamiyo;Tamiyo;タミヨウ
 Nashorn;Носорог;Rinoceronte;코뿔소;犀牛;犀牛;Rhino;Rinoceronte;Rhinocéros;Rinoceronte;サイ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Alien;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-Schuppentier;Панголин;Pangolim;천산갑;穿山甲;UNKNOWN;Pangolin;Pangolino;UNKNOWN;Pangolín;センザンコウ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Survivor;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Schuppentier;Панголин;Pangolim;천산갑;穿山甲;穿山甲;Pangolin;Pangolino;Pangolin;Pangolín;センザンコウ
+UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Survivor;UNKNOWN;Survivant;UNKNOWN;UNKNOWN
 Betrachter;Злобоглаз;Observador;비홀더;眼魔;眼魔;Beholder;Beholder;Tyrannœil;Contemplador;ビホルダー
 Walross;Морж;Morsa;바다코끼리;海象;海象;Walrus;Tricheco;Morse;Morsa;セイウチ
-Söldner;Наемник;Mercenário;UNKNOWN;佣兵;UNKNOWN;Mercenary;Mercenario;Mercenaire;UNKNOWN;傭兵
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Atog;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Söldner;Наемник;Mercenário;용병;佣兵;傭兵;Mercenary;Mercenario;Mercenaire;Mercenario;傭兵
+Atog;UNKNOWN;Atogue;UNKNOWN;阿托格;UNKNOWN;Atog;Atog;Atog;Atog;エイトグ
 Davriel;Давриэль;Davriel;다브리엘;达夫黎;達夫黎;Davriel;Davriel;Davriel;Davriel;ダブリエル
 Sphinx;Сфинкс;Esfinge;스핑크스;史芬斯;史芬斯;Sphinx;Sfinge;Sphinx;Esfinge;スフィンクス
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Ferret;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Daretti;Даретти;Daretti;UNKNOWN;达雷迪;達雷迪;Daretti;Daretti;Daretti;Daretti;ダレッティ
 Kaldheim;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kaldheim;Kaldheim;Kaldheim;Kaldheim;カルドハイム
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Rigger;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-Kraftwerk;Электростанция;Usina;UNKNOWN;动力炉;UNKNOWN;Power-Plant;Centrale Energetica;Centrale énergétique;Central de energía;魔力炉
+Kraftwerk;Электростанция;Usina;발전소;动力炉;動力爐;Power-Plant;Centrale Energetica;Centrale énergétique;Central de energía;魔力炉
 Flusspferd;Бегемот;Hipopótamo;하마;河马;河馬;Hippo;Ippopotamo;Hippopotame;Hipopótamo;カバ
 Illusion;Иллюзия;Ilusão;환영;虚影;虛影;Illusion;Illusione;Illusion;Ilusión;イリュージョン
 Jeska;UNKNOWN;Jeska;UNKNOWN;洁丝卡;潔絲卡;Jeska;Jeska;Jeska;Jeska;ジェスカ
 Mungo;Мангуст;Mangusto;몽구스;猫鼬;貓鼬;Mongoose;Mangusta;Mangouste;Mangosta;マングース
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Tyranid;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Tyranide;Тиранид;Tiranídeo;UNKNOWN;泰伦虫族;泰倫蟲族;Tyranid;Tiranide;Tyranide;Tiránido;ティラニッド
 Elminster;Эльминстер;Elminster;엘민스터;伊尔明斯特;伊爾明斯特;Elminster;Elminster;Elminster;Elminster;エルミンスター
 Wurm;Вурм;Vorme;웜;亚龙;亞龍;Wurm;Wurm;Guivre;Sierpe;ワーム
 Pilzwesen;Плесень;Fungo;진균;真菌;真菌;Fungus;Fungus;Fongus;Hongo;ファンガス
 Shandalar;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Shandalar;Shandalar;Shandalar;Shandalar;シャンダラー
 Angrath;Анграт;Angrath;앙그라스;安戈斯;安戈斯;Angrath;Angrath;Angrath;Angrath;アングラス
-Seestern;Морская_звезда;Estrela-do-mar;불가사리;海星;海星;Starfish;UNKNOWN;Étoile de mer;Estrella-de-mar;ヒトデ
+Seestern;Морская_звезда;Estrela-do-mar;불가사리;海星;海星;Starfish;Stella Marina;Étoile de mer;Estrella-de-mar;ヒトデ
 Aura;Аура;Aura;마법진;灵气;靈氣;Aura;Aura;Aura;Aura;オーラ
-Feigling;Трус;Covarde;겁쟁이;UNKNOWN;懦夫;Coward;Vigliacco;Couard;Cobarde;臆病者
+Feigling;Трус;Covarde;겁쟁이;懦夫;懦夫;Coward;Vigliacco;Couard;Cobarde;臆病者
 Nautilus;Наутилус;Náutilo;앵무조개;鹦鹉螺;鸚鵡螺;Nautilus;Nautilo;Nautile;Nautilo;オウムガイ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Army;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Armee;Армию;Exército;UNKNOWN;UNKNOWN;UNKNOWN;Army;Esercito;Armée;Ejército;UNKNOWN
 Narset;Нарсет;Narset;나르셋;娜尔施;娜爾施;Narset;Narset;Narset;Narset;ナーセット
 Zombie;Зомби;Zumbi;좀비;灵俑;殭屍;Zombie;Zombie;Zombie;Zombie;ゾンビ
-UNKNOWN;Самурай;UNKNOWN;사무라이;武士;UNKNOWN;Samurai;UNKNOWN;Samouraï;Samurái;侍
+Samurai;Самурай;Samurai;사무라이;武士;武士;Samurai;Samurai;Samouraï;Samurái;侍
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Guest;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Mordenkainen;Морденкайнен;Mordenkainen;모덴카이넨;魔邓肯;魔鄧肯;Mordenkainen;Mordenkainen;Mordenkainen;Mordenkainen;モルデンカイネン
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Nightstalker;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
@@ -181,30 +180,30 @@ Riese;Гигант;Gigante;거인;巨人;巨人;Giant;Gigante;Géant;Gigante;巨
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Clown;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Mauer;Стена;Barreira;벽;墙;牆;Wall;Muro;Mur;Muro;壁
 Bolas;Болас;Nicol;볼라스;波拉斯;波拉斯;Bolas;Bolas;Bolas;Bolas;ボーラス
-UNKNOWN;Нага;UNKNOWN;나가;那伽;UNKNOWN;Naga;UNKNOWN;UNKNOWN;UNKNOWN;ナーガ
-Phyrexianer;Фирексиец;Phyrexiano;피렉시아;非瑞人;UNKNOWN;Phyrexian;Phyrexiano;Phyrexian;Pirexiano;ファイレクシアン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Custodes;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-Hexenmeister;Колдун;Bruxo;흑마법사;术士;術士;Warlock;UNKNOWN;Psychagogue;Brujo;邪術師
-Prätor;Претор;Pretor;총독;魔判官;UNKNOWN;Praetor;Pretore;UNKNOWN;Magistrado;法務官
+Naga;Нага;Naga;나가;那伽;那伽;Naga;Naga;Naga;Naga;ナーガ
+Phyrexianer;Фирексиец;Phyrexiano;피렉시아;非瑞人;非瑞人;Phyrexian;Phyrexiano;Phyrexian;Pirexiano;ファイレクシアン
+Custodes;Кустодес;Custodes;UNKNOWN;禁军;禁軍;Custodes;Custodes;Custodes;Custodes;近衛団
+Hexenmeister;Колдун;Bruxo;흑마법사;术士;術士;Warlock;Warlock;Psychagogue;Brujo;邪術師
+Prätor;Претор;Pretor;총독;魔判官;魔判官;Praetor;Pretore;Praetor;Magistrado;法務官
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kinshala;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Fraktalwesen;Фрактал;Fractal;UNKNOWN;分灵;分靈;Fractal;Frattale;Fractale;Fractal;フラクタル
 Kalmar;Кальмар;Lula;오징어;乌贼;烏賊;Squid;Calamaro;Calamar;Calamar;イカ
 Nymphe;Нимфа;Ninfa;님프;宁芙;寧芙;Nymph;Ninfa;Nymphe;Ninfa;ニンフ
-Waschbär;Енот;Guaxinim;너구리;UNKNOWN;浣熊;Raccoon;Procione;Raton-laveur;Mapache;アライグマ
+Waschbär;Енот;Guaxinim;너구리;浣熊;浣熊;Raccoon;Procione;Raton-laveur;Mapache;アライグマ
 Ort;Место;Local;UNKNOWN;处所;處所;Locus;Luogo;Site;Sitio;神座
 Sorin;Сорин;Sorin;소린;索霖;索霖;Sorin;Sorin;Sorin;Sorin;ソリン
 Satyr;Сатир;Sátiro;사티로스;羊蹄人;羊蹄人;Satyr;Satiro;Satyre;Sátiro;サテュロス
-Sivitri;UNKNOWN;Sivitri;UNKNOWN;希维缇;UNKNOWN;Sivitri;Sivitri;Sivitri;Sivitri;シヴィトリ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;C’tan;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Sivitri;Сивитри;Sivitri;시비트리;希维缇;希維緹;Sivitri;Sivitri;Sivitri;Sivitri;シヴィトリ
+C’tan;К’тан;C’tan;UNKNOWN;星神;星神;C’tan;C’tan;C’tan;C’tan;ク＝タン
 Alara;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Alara;Alara;Alara;Alara;アラーラ
-Rebell;Повстанец;Rebelde;UNKNOWN;反抗军;反抗軍;Rebel;Ribelle;Rebelle;UNKNOWN;レベル
+Rebell;Повстанец;Rebelde;UNKNOWN;反抗军;反抗軍;Rebel;Ribelle;Rebelle;Rebelde;レベル
 Specter;Призрак;Espectro;스펙터;幽灵;幽靈;Specter;Spettro;Spectre;Espectro;スペクター
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;戴克;UNKNOWN;Dack;UNKNOWN;UNKNOWN;UNKNOWN;ダク
 Ophis;Змея;Cobra;뱀;蛇;蛇;Snake;Serpente;Serpent;Víbora;蛇
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Saproling;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Saproling;UNKNOWN;Saprófita;UNKNOWN;UNKNOWN;UNKNOWN;Saproling;Saprolingio;Saprobionte;Saprolín;苗木
 Belenon;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Belenon;Belenon;Belenon;Bélenon;ベレノン
 Nahiri;Нахири;Nahiri;나히리;娜希丽;娜希麗;Nahiri;Nahiri;Nahiri;Nahiri;ナヒリ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Aurochs;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Auerochse;Аурохи;Auroques;UNKNOWN;原牛;UNKNOWN;Aurochs;Uri;Aurochs;Uro;オーロクス
 Ifrit;Ифрит;Efrite;이프리트;魔神;魔神;Efreet;Efreet;Éfrit;Efrit;イフリート
 Oko;Око;Oko;오코;瓯柯;甌柯;Oko;Oko;Oko;Oko;オーコ
 Wal;Кит;Baleia;고래;鲸鱼;鯨魚;Whale;Balena;Baleine;Ballena;鯨
@@ -219,27 +218,27 @@ Schaf;Овца;Ovelha;양;绵羊;綿羊;Sheep;Pecora;Mouton;Oveja;羊
 Wüste;Пустыня;Deserto;사막;沙漠;沙漠;Desert;Deserto;Désert;Desierto;砂漠
 Bahamut;Бахамут;Bahamut;바하무트;巴哈姆特;巴哈姆特;Bahamut;Bahamut;Bahamut;Bahamut;バハムート
 Sceada;Дрейк;Dragonete;새끼용;龙兽;龍獸;Drake;Draghetto;Drakôn;Draco;ドレイク
-UNKNOWN;Пилот;UNKNOWN;조종사;驾手;駕手;Pilot;Pilota;Pilote;Piloto;操縦士
+Pilot;Пилот;Piloto;조종사;驾手;駕手;Pilot;Pilota;Pilote;Piloto;操縦士
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Serra’s Realm;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Troll;Тролль;Trol;트롤;巨魔;巨魔;Troll;Troll;Troll;Trol;トロール
 Freyalise;UNKNOWN;UNKNOWN;UNKNOWN;妃雅丽兹;UNKNOWN;Freyalise;Freyalise;Freyalise;Freyalise;フレイアリーズ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Orgg;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Orgg;UNKNOWN;Orgg;UNKNOWN;UNKNOWN;UNKNOWN;Orgg;Orgg;Orgg;Orgg;UNKNOWN
 Ochse;Бык;Boi;황소;牛;牛;Ox;Bue;Bovidé;Buey;雄牛
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Blood;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Blut;Крови;Sangue;UNKNOWN;UNKNOWN;UNKNOWN;Blood;Sangue;Sang;Sangre;UNKNOWN
 Oger;Огр;Ogro;오우거;食人魔;食人魔;Ogre;Ogre;Ogre;Ogro;オーガ
-Auge;Глаз;Olho;눈알;UNKNOWN;UNKNOWN;Eye;Occhio;Œil;Ojo;眼
+Auge;Глаз;Olho;눈알;眼;眼;Eye;Occhio;Œil;Ojo;眼
 Karn;Карн;Karn;카른;卡恩;卡恩;Karn;Karn;Karn;Karn;カーン
 Liliana;Лилиана;Liliana;릴리아나;莉莲娜;莉蓮娜;Liliana;Liliana;Liliana;Liliana;リリアナ
 Ältester;Старейшина;Ancião;장로;长老;長老;Elder;Antico;Ancêtre;Anciano;エルダー
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Sculpture;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Undercity;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;Ниндзя;UNKNOWN;닌자;UNKNOWN;忍者;Ninja;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Unterstadt;Подземный Город;Submundo;지하도시;地底城;地底城;Undercity;Sottocittà;Les Souterrains;Ciudad Subterránea;地（ち）下（か）街（がい）
+Ninja;Ниндзя;Ninja;닌자;忍者;忍者;Ninja;Ninja;Ninja;Ninja;忍者
 Ravnica;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Ravnica;Ravnica;Ravnica;Rávnica;ラヴニカ
 Späher;Разведчик;Batedor;정찰병;斥候;斥候;Scout;Esploratore;Éclaireur;Explorador;スカウト
 Kyneth;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kyneth;Kyneth;Kyneth;Kyneth;キネス
 Samut;Самут;Samut;사무트;撒姆特;撒姆特;Samut;Samut;Samut;Samut;サムト
 Fabacin;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Fabacin;Fabacin;Fabacin;Fábacin;ファバシン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Primarch;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Primarch;Примарх;Primarca;UNKNOWN;原体;原體;Primarch;Primarca;Primarque;Primarca;総主長
 Hintergrund;Предыстория;Antecedente;배경;身世;身世;Background;Background;Passé;Trasfondo;背景
 Hyäne;Гиена;UNKNOWN;하이에나;鬣狗;UNKNOWN;Hyena;Iena;Hyène;Hiena;ハイエナ
 Segovia;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Segovia;Segovia;Ségovie;Segovia;セゴビア
@@ -247,48 +246,48 @@ Lektion;Урок;Lição;수업;课程;課程;Lesson;Lezione;Leçon;Lección;講
 Tasha;Таша;Tasha;타샤;塔莎;塔莎;Tasha;Tasha;Tasha;Tasha;ターシャ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Comet;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Krake;Кракен;Kraken;크라켄;巨海兽;巨海獸;Kraken;Kraken;Kraken;Kraken;クラーケン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Astartes;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Servo;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Astartes;Астартес;Astartes;UNKNOWN;阿斯塔特;阿斯塔特;Astartes;Astartes;Astartes;Astartes;アスタルテス
+Servo;UNKNOWN;Servus;UNKNOWN;UNKNOWN;UNKNOWN;Servo;Servomeccanismo;Servo;Servo;UNKNOWN
 Nissa;Нисса;Nissa;니사;妮莎;妮莎;Nissa;Nissa;Nissa;Nissa;ニッサ
-Turm;Башня;Torre;UNKNOWN;塔;UNKNOWN;Tower;Torre;Tour;Torre;塔
+Turm;Башня;Torre;탑;塔;塔;Tower;Torre;Tour;Torre;塔
 Eichhörnchen;Белка;Esquilo;다람쥐;松鼠;松鼠;Squirrel;Scoiattolo;Écureuil;Ardilla;リス
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Necron;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Bringer;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Necron;Некрон;Necron;UNKNOWN;太空死灵;太空死靈;Necron;Necron;Nécron;Necrón;ネクロン
+Bringer;UNKNOWN;Portador;UNKNOWN;信使;UNKNOWN;Bringer;Portatore;Annonciateur;Adalid;運び手
 Verwerter;Переработчик;Processador;처리자;噬体;噬體;Processor;Metabolizzatore;Convertisseur;Metabolizador;昇華者
 Azgol;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Azgol;Azgol;Azgol;Azgol;アズゴル
 Affe;Мартышка;Macaco;원숭이;猴;猴;Monkey;Scimmia;Singe;Primate;猿
 Baumhirte;Лесовик;Ent;나무인간;树妖;樹妖;Treefolk;Silvantropo;Sylvin;Pueblo-arbóreo;ツリーフォーク
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Caribou;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Schattenmoor;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Shadowmoor;UNKNOWN;Sombrelande;UNKNOWN;シャドウムーア
-Barbar;Варвар;UNKNOWN;야만인;野蛮人;野蠻人;Barbarian;Barbaro;Barbare;Bárbaro;バーバリアン
+Barbar;Варвар;Bárbaro;야만인;野蛮人;野蠻人;Barbarian;Barbaro;Barbare;Bárbaro;バーバリアン
 Seltsamkeit;Диковина;Bizarro;위어드;怪奇;怪奇;Weird;Bizzarria;Anomalie;Extraño;奇魔
-Gesinde;Простолюдин;Plebeu;소작농;UNKNOWN;平民;Peasant;Popolano;Paysan;Plebeyo;農民
+Gesinde;Простолюдин;Plebeu;소작농;平民;平民;Peasant;Popolano;Paysan;Plebeyo;農民
 Fisch;Рыба;Peixe;어류;鱼;魚;Fish;Pesce;Poisson;Pez;魚
-UNKNOWN;Виашино;UNKNOWN;비아시노;凡尔西诺;凡爾西諾;Viashino;UNKNOWN;UNKNOWN;UNKNOWN;ヴィーアシーノ
+Viashino;Виашино;Viashino;비아시노;凡尔西诺;凡爾西諾;Viashino;Viashino;Viashino;Viashino;ヴィーアシーノ
 Nachtmahr;Кошмар;Pesadelo;나이트메어;梦魇;夢魘;Nightmare;Incubo;Cauchemar;Pesadilla;ナイトメア
 Wolf;Волк;Lobo;늑대;狼;狼;Wolf;Lupo;Loup;Lobo;狼
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Licid;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Tetravite;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Garruk;Гаррук;Garruk;개럭;贾路;賈路;Garruk;Garruk;Garruk;Garruk;ガラク
-Halbling;Полурослик;Pequenino;하플링;半身人;UNKNOWN;Halfling;UNKNOWN;Halfelin;Mediano;ハーフリング
+Halbling;Полурослик;Pequenino;하플링;半身人;半身人;Halfling;Halfling;Halfelin;Mediano;ハーフリング
 Einhorn;Единорог;Unicórnio;유니콘;独角兽;獨角獸;Unicorn;Unicorno;Licorne;Unicornio;ユニコーン
 Harpyie;Гарпия;Harpia;하피;哈痞;哈痞;Harpy;Arpia;Harpie;Arpía;ハーピー
-UNKNOWN;Хомарид;Homárida;호마리드;荷马利;荷馬利;Homarid;UNKNOWN;Homaride;Homárido;ホマリッド
-Nephilim;UNKNOWN;Nefilim;UNKNOWN;巨神灵;UNKNOWN;Nephilim;Nephilim;Nephilim;Nefilim;ネフィリム
+Homarid;Хомарид;Homárida;호마리드;荷马利;荷馬利;Homarid;Homarid;Homaride;Homárido;ホマリッド
+Nephilim;Нефилим;Nefilim;UNKNOWN;巨神灵;巨神靈;Nephilim;Nephilim;Nephilim;Nefilim;ネフィリム
 Vettel;Карга;Bruxa;노파;巫婆;巫婆;Hag;Strega;Mégère;Saga;ハッグ
 Hippogryph;Гиппогриф;Hipogrifo;히포그리프;骏鹰;駿鷹;Hippogriff;Ippogrifo;Hippogriffe;Hipogrifo;ヒポグリフ
 Dschinn;Джинн;Gênio;지니;巨灵;巨靈;Djinn;Genio;Djinn;Djinn;ジン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Oyster;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Auster;UNKNOWN;Ostra;UNKNOWN;牡蛎;UNKNOWN;Oyster;Ostrica;Huître;Ostra;カキ
 Calix;Каликс;Calix;칼릭스;凯利斯;凱利斯;Calix;Calix;Calix;Cálix;ケイリクス
 Skorpion;Скорпион;Escorpião;전갈;蝎子;蠍子;Scorpion;Scorpione;Scorpion;Escorpión;蠍
 Juggernaut;Джаггернаут;Juggernaut;공성차;攻城巨车;攻城巨車;Juggernaut;Juggernaut;Djaggernaut;Destructor;巨大戦車
 Yeti;Йети;Yeti;설인;雪怪;雪怪;Yeti;Yeti;Yeti;Yeti;イエティ
 Kirin;Кирин;Kirin;기린;麒麟;麒麟;Kirin;Kirin;Kirin;Kirin;麒麟
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Urza;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Urza;UNKNOWN;Urza;UNKNOWN;克撒;UNKNOWN;Urza;Urza;Urza;Urza;ウルザ
 Urzas;Урзы;de Urza;우르자의;克撒的;克撒的;Urza’s;di Urza;D’urza;De-urza;ウルザの
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Karsus;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Kavu;Каву;Kavu;카부;卡甫;卡甫;Kavu;Kavu;Kavru;Kavu;カヴー
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Carrier;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Überträger;Переносчик;Portador;매개체;病媒;病媒;Carrier;Latore;Propagateur;Portador;キャリアー
 Gremlin;Гремлин;Gremlin;그렘린;怪灵;怪靈;Gremlin;Gremlin;Gremlin;Gremlin;グレムリン
 Mirrodin;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Mirrodin;Mirrodin;Mirrodin;Mirrodín;ミラディン
 Maulwurf;Крот;Toupeira;두더지;鼹鼠;鼴鼠;Mole;Talpa;Taupe;Topo;モグラ
@@ -311,20 +310,20 @@ Innistrad;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Innistrad;Innistrad;Innistrad;
 Iquatana;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Iquatana;Iquatana;Iquatana;Iquatana;イクァンターナ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Orb;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Ork;Орк;Orc;오크;半兽人;半獸人;Orc;Orco;Orque;Orco;オーク
-Bogenschütze;Лучник;Arqueiro;궁수;UNKNOWN;弓箭手;Archer;Arciere;UNKNOWN;Arquero;射手
+Bogenschütze;Лучник;Arqueiro;궁수;弓箭手;弓箭手;Archer;Arciere;Archer;Arquero;射手
 Saheeli;Сахили;Saheeli;사힐리;莎希莉;莎希莉;Saheeli;Saheeli;Saheeli;Saheeli;サヒーリ
 Schamane;Шаман;Xamã;주술사;祭师;祭師;Shaman;Sciamano;Shamane;Chamán;シャーマン
-UNKNOWN;Бард;UNKNOWN;음유시인;诗人;詩人;Bard;UNKNOWN;Barde;Bardo;バード
+Barde;Бард;Bardo;음유시인;诗人;詩人;Bard;Bardo;Barde;Bardo;バード
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Camarid;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Schatten;Тень;Sombra;그림자;阴魂;陰魂;Shade;Ombra;Ombre;Sombra;シェイド
 Thrull;Трулл;Thrul;스럴;索尔兽;索爾獸;Thrull;Thrull;Srâne;Thrull;スラル
 Pflanze;Растение;Planta;식물;植物;植物;Plant;Pianta;Plante;Planta;植物
 Gebirge;Гора;Montanha;산;山脉;山脈;Mountain;Montagna;Montagne;Montaña;山
-UNKNOWN;Гит;UNKNOWN;기스;吉斯人;UNKNOWN;Gith;UNKNOWN;UNKNOWN;UNKNOWN;ギス
+Gith;Гит;Gith;기스;吉斯人;吉斯人;Gith;Gith;Gith;Gith;ギス
 Phoenix;Феникс;Fênix;불사조;凤凰;鳳凰;Phoenix;Fenice;Phénix;Fénix;フェニックス
 Vryn;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Vryn;Vryn;Vryn;Vryn;ヴリン
 Koth;Кос;Koth;UNKNOWN;寇斯;寇斯;Koth;Koth;Koth;Koth;コス
-Mönch;Монах;Monge;수도승;修行僧;UNKNOWN;Monk;Monaco;Moine;Monje;モンク
+Mönch;Монах;Monge;수도승;修行僧;修行僧;Monk;Monaco;Moine;Monje;モンク
 Kaya;Кайя;Kaya;카야;卡娅;卡婭;Kaya;Kaya;Kaya;Kaya;ケイヤ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Thalakos;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Muraganda;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Muraganda;Muraganda;Muraganda;Muraganda;ムラガンダ
@@ -341,29 +340,30 @@ Ausrüstung;Снаряжение;Equipamento;장비;武具;武具;Equipment;Equi
 Schwamm;Губка;Esponja;UNKNOWN;UNKNOWN;UNKNOWN;Sponge;Spugna;Éponge;Esponja;スポンジ
 Vampir;Вампир;Vampiro;흡혈귀;吸血鬼;吸血鬼;Vampire;Vampiro;Vampire;Vampiro;吸血鬼
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Robot;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Metathran;UNKNOWN;Métathran;Metathrán;メタスラン
+Metathran;Метатран;Metathran;UNKNOWN;仿索蓝人;仿索藍人;Metathran;Metathran;Métathran;Metathrán;メタスラン
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Deserter;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-Verbündeter;Союзник;UNKNOWN;동맹;伙伴;UNKNOWN;Ally;Alleato;Allié;Aliado;同盟者
+Verbündeter;Союзник;Aliado;동맹;伙伴;伙伴;Ally;Alleato;Allié;Aliado;同盟者
 Hai;Акула;Tubarão;상어;鲨鱼;鯊魚;Shark;Squalo;Requin;Tiburón;サメ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Balloon;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Egel;Пиявка;Sanguessuga;거머리;蛭;蛭;Leech;Sanguisuga;Sangsue;Sanguijuela;ヒル
-UNKNOWN;Друид;Druida;드루이드;德鲁伊;德魯伊;Druid;Druido;Druide;UNKNOWN;ドルイド
-Schädling;Вредитель;Peste;UNKNOWN;害虫;害蟲;Pest;Peste;Parasite;Plaga;邪魔者
+Druide;Друид;Druida;드루이드;德鲁伊;德魯伊;Druid;Druido;Druide;Druida;ドルイド
+Schädling;Вредитель;Peste;해충;害虫;害蟲;Pest;Peste;Parasite;Plaga;邪魔者
 Ziege;Коза;Bode;염소;山羊;山羊;Goat;Capra;Chèvre;Cabra;ヤギ
 Würmchen;Червь;Verme;지렁이;蠕虫;蠕蟲;Worm;Verme;Ver;Gusano;蟲
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Child;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Volver;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Modulon;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Volver;Volvero;Évolien;UNKNOWN;UNKNOWN
 Kaito;Кайто;Kaito;카이토;魁渡;魁渡;Kaito;Kaito;Kaito;Kaito;魁渡
 Stachel;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Spike;Pungiglione;Épix;Perforador;スパイク
 Inkarnation;Инкарнация;Encarnação;현신;化身;化身;Incarnation;Incarnazione;Incarnation;Encarnación;インカーネーション
 Kolbahan;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kolbahan;Kolbahan;Kolbahan;Kólbahan;コルバハン
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;旗手;UNKNOWN;Flagbearer;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Fahnenträger;UNKNOWN;UNKNOWN;UNKNOWN;旗手;UNKNOWN;Flagbearer;Portabandiera;Enseigne;UNKNOWN;旗手
 Ajani;Аджани;Ajani;아자니;阿耶尼;阿耶尼;Ajani;Ajani;Ajani;Ajani;アジャニ
 Zwerg;Гном;Anão;드워프;矮人;矮人;Dwarf;Nano;Nain;Enano;ドワーフ
 Arkan;Тайные_знания;Arcana;UNKNOWN;古咒;古咒;Arcane;Arcano;Arcane;Arcano;秘儀
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Hamster;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Hamster;Хомяк;Hamster;UNKNOWN;UNKNOWN;UNKNOWN;Hamster;Criceto;Hamster;Hámster;UNKNOWN
 Lolth;Лолт;Lolth;롤스;罗丝;羅絲;Lolth;Lolth;Lolth;Lolth;ロルス
 Slith;UNKNOWN;Slith;UNKNOWN;斯立兹;斯立茲;Slith;Slith;Slith;Slit;スリス
+Bolas’ Meditationsreich;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Bolas’s Meditation Realm;Reame della Meditazione di Bolas;Royaume de méditation de Bolas;Reino de Meditación de Nicol Bolas;ボーラスの・瞑想・領土
 Kamel;Верблюд;Camelo;낙타;骆驼;駱駝;Camel;Cammello;Chameau;Camello;ラクダ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Tentacle;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Thibalt;Тибальт;Tibalt;티볼트;提勃;提勃;Tibalt;Tibalt;Tibalt;Tibalt;ティボルト
@@ -371,7 +371,7 @@ Vivien;Вивьен;Vivien;비비안;薇薇安;薇薇安;Vivien;Vivien;Vivien;Vi
 Soldat;Солдат;Soldado;병사;士兵;士兵;Soldier;Soldato;Soldat;Soldado;兵士
 Kephalai;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kephalai;Kephalai;Kephalai;Kephalai;ケファライ
 Remasuri;Щепка;Fractius;슬리버;裂片妖;裂片妖;Sliver;Tramutante;Slivoïde;Fragmentado;スリヴァー
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Scion;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Brut;Отпрыск;Rebento;UNKNOWN;UNKNOWN;UNKNOWN;Scion;Discendente;Scion;Vástago;UNKNOWN
 Dihada;Дихада;Dihada;디하다;迪哈达;迪哈達;Dihada;Dihada;Dihada;Dihada;ディハーダ
 Vedalken;Ведалкен;Vedalkeano;베달켄;维多肯;維多肯;Vedalken;Vedalken;Vedalken;Vedalken;ヴィダルケン
 Krieger;Воин;Guerreiro;전사;战士;戰士;Warrior;Guerriero;Guerrier;Guerrero;戦士
@@ -380,47 +380,47 @@ Phyrexia;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Phyrexia;Phyrexia;Phyrexia;Pire
 Falle;Ловушка;Armadilha;UNKNOWN;陷阱;UNKNOWN;Trap;Trappola;Piège;Trampa;罠
 Equilor;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Equilor;Equilor;Équilor;Equilor;エクィロー
 Dominaria;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Dominaria;Dominaria;Dominaria;Dominaria;ドミナリア
-UNKNOWN;Кор;UNKNOWN;코르;UNKNOWN;寇族;Kor;UNKNOWN;UNKNOWN;UNKNOWN;コー
+Kor;Кор;Kor;코르;寇族;寇族;Kor;Kor;Kor;Kor;コー
 Otter;Выдра;Lontra;수달;水獭;水獺;Otter;Lontra;Loutre;Nutria;カワウソ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Shard;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;Руна;UNKNOWN;룬;符文;UNKNOWN;Rune;Runa;UNKNOWN;UNKNOWN;ルーン
+Splitter;Осколка;Fragmento;UNKNOWN;UNKNOWN;UNKNOWN;Shard;Frammento;Éclat;Fragmento;UNKNOWN
+Rune;Руна;Runa;룬;符文;符文;Rune;Runa;Rune;Runa;ルーン
 Ugin;Уджин;Ugin;우진;乌金;烏金;Ugin;Ugin;Ugin;Ugin;ウギン
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Xerex;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Grist;Грист;Grist;그리스트;格蕊斯;格蕊斯;Grist;Grist;Grist;Grist;グリスト
-Waldläufer;Лесничий;Patrulheiro;레인저;游侠;遊俠;Ranger;UNKNOWN;UNKNOWN;Guardabosque;レインジャー
+Waldläufer;Лесничий;Patrulheiro;레인저;游侠;遊俠;Ranger;UNKNOWN;Ranger;Guardabosque;レインジャー
 Eldrazi;Эльдрази;Eldrazi;엘드라지;奥札奇;奧札奇;Eldrazi;Eldrazi;Eldrazi;Eldrazi;エルドラージ
 Fluch;Проклятие;Maldição;저주;诅咒;詛咒;Curse;Anatema;Malédiction;Maldición;呪い
 Pferd;Лошадь;Cavalo;말;马;馬;Horse;Cavallo;Cheval;Caballo;馬
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Germ;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Keim;Микроб;Germe;UNKNOWN;UNKNOWN;UNKNOWN;Germ;Microbo;Germe;Germen;UNKNOWN
 Jared;UNKNOWN;Jared;UNKNOWN;贾瑞;UNKNOWN;Jared;Jared;Jared;Jared;ジャレッド
 Kamigawa;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Kamigawa;Kamigawa;Kamigawa;Kamigawa;神河
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Pincher;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Spawn;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Ausgeburt;Порождение;Prole;UNKNOWN;UNKNOWN;UNKNOWN;Spawn;Progenie;Engeance;Engendro;UNKNOWN
 Chandra;Чандра;Chandra;찬드라;茜卓;茜卓;Chandra;Chandra;Chandra;Chandra;チャンドラ
 Ulgrotha;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Ulgrotha;Ulgrotha;Ulgrotha;Ulgrotha;ウルグローサ
-Adliger;Аристократ;Nobre;귀족;贵族;貴族;Noble;Nobile;UNKNOWN;UNKNOWN;UNKNOWN
+Adliger;Аристократ;Nobre;귀족;贵族;貴族;Noble;Nobile;Noble;UNKNOWN;UNKNOWN
 Schakal;Шакал;UNKNOWN;자칼;UNKNOWN;豺狼;Jackal;Sciacallo;Chacal;UNKNOWN;ジャッカル
 Bold;Бес;Diabrete;임프;小恶魔;小惡魔;Imp;Imp;Diablotin;Diablillo;インプ
 Oktopus;Спрут;Polvo;문어;章鱼;章魚;Octopus;Piovra;Pieuvre;Pulpo;タコ
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;游牧人;UNKNOWN;Nomad;Nomade;UNKNOWN;Nómada;ノーマッド
+Nomade;UNKNOWN;Nômade;UNKNOWN;游牧人;UNKNOWN;Nomad;Nomade;Nomade;Nómada;ノーマッド
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Performer;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
 Homunkulus;Гомункул;Homúnculo;호문쿨루스;造妖;造妖;Homunculus;Omuncolo;Homoncule;Homúnculo;ホムンクルス
 Katze;Кошка;Felino;고양이;猫;貓;Cat;Felino;Chat;Felino;猫
 Vogelscheuche;Пугало;Espantalho;허수아비;稻草人;稻草人;Scarecrow;Spaventapasseri;Épouvantail;Espantapájaros;カカシ
 UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Prism;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Zubera;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Das neue Phyrexia;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;New Phyrexia;Nuova Phyrexia;Nouvelle Phyrexia;Nueva Phyrexia;新ファイレクシア
+Zubera;UNKNOWN;Zubera;UNKNOWN;无面鬼;UNKNOWN;Zubera;Zubera;Zubera;Zubera;ずべら
 Schlange;Змей;Serpente;이무기;巨蛇;巨蛇;Serpent;Serpe;Grand serpent;Serpiente;海蛇
 Zariel;Зариэль;Zariel;자리엘;扎瑞尔;扎瑞爾;Zariel;Zariel;Zariel;Zariel;ザリエル
-Montagearbeiter;Рабочий-сборщик;UNKNOWN;조립공;组装工人;組裝工人;Assembly-Worker;Addetto-al-montaggio;Ouvrier spécialisé;Operario;組立作業員
 Bär;Медведь;Urso;곰;熊;熊;Bear;Orso;Ours;Oso;熊
-UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN;Inkling;UNKNOWN;UNKNOWN;UNKNOWN;UNKNOWN
+Tintling;Чернильник;Nanquíneo;UNKNOWN;UNKNOWN;UNKNOWN;Inkling;Scarabocchio;Encrelin;Tintícola;UNKNOWN
 Rowan;Рован;Rowan;로완;萝婉;蘿婉;Rowan;Rowan;Rowan;Rowan;ローアン
 Cocatrisk;Куролиск;Cocatriz;코카트리스;石化鸡蛇;石化雞蛇;Cockatrice;Coccatrice;Cocatrix;Cocatriz;コカトリス
 Dinosaurier;Динозавр;Dinossauro;공룡;恐龙;恐龍;Dinosaur;Dinosauro;Dinosaure;Dinosaurio;恐竜
 Gnoll;Гнолл;Gnoll;놀;豺狼人;豺狼人;Gnoll;Gnoll;Gnoll;Gnoll;ノール
 Krokodil;Крокодил;Crocodilo;악어;鳄鱼;鱷魚;Crocodile;Coccodrillo;Crocodile;Cocodrilo;クロコダイル
 Thopter;Топтер;Tóptero;날틀;振翼机;振翼機;Thopter;Tottero;Mécanoptère;Tóptero;飛行機械
-Werwolf;Вервольф;Lobisomem;늑대인간;狼人;UNKNOWN;Werewolf;Mannaro;Loup-garou;Licántropo;狼男
+Werwolf;Вервольф;Lobisomem;늑대인간;狼人;狼人;Werewolf;Mannaro;Loup-garou;Licántropo;狼男
 Jace;Джейс;Jace;제이스;杰斯;傑斯;Jace;Jace;Jace;Jace;ジェイス
 Will;Уилл;Will;윌;威尔;威爾;Will;Will;Will;Will;ウィル
 Insekt;Насекомое;Inseto;곤충;昆虫;昆蟲;Insect;Insetto;Insecte;Insecto;昆虫

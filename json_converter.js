@@ -48,17 +48,22 @@ function genResultsToJson() {
 				enIndex = langOrder.indexOf("en");
 			}else{
 				let transl = {};
+				let refType = entries[enIndex];
+				let mainType = findMainType(refType);
 				for(let e=0; e<entries.length; e++) {
 					if(entries[e] == "UNKNOWN")
 						continue;
-					transl[langOrder[e]] = entries[e];
-				}
-				let refType = transl.en;
-				let mainType = findMainType(refType);
-				if(!mainType) {
-					console.log("UNREGISTERED SUBTYPE: " + refType)
-				}else{
-					langObj.types[mainType][refType] = transl;
+					if(langObj.types[mainType][refType][langOrder[e]]) {
+						let old = langObj.types[mainType][refType][langOrder[e]];
+						if(!old) {
+							// new translations
+							console.log(`New ${langOrder[e]}:${refType} - ${entries[e]}`)
+							langObj.types[mainType][refType][langOrder[e]] = entries[e];
+						}else if(old != entries[e]) {
+							console.log(`Overwriting ${langOrder[e]}:${refType} from ${old} to ${entries[e]}`);
+							langObj.types[mainType][refType][langOrder[e]] = entries[e];
+						}
+					}
 				}
 			}
 		}
@@ -67,7 +72,7 @@ function genResultsToJson() {
 		})
 	})
 }
-//pullTypesFromCR(genResultsToJson)
+genResultsToJson()
 function findEnglishOnly() {
 	for(let mainType in langObj.types) {
 		for(let subType in langObj.types[mainType]) {
@@ -76,4 +81,3 @@ function findEnglishOnly() {
 		}
 	}
 }
-findEnglishOnly();

@@ -6,11 +6,14 @@
    "superTypeSeperator": " ",
    "cardTypeSeperator": "",
    "subTypeSeperator": ", ",
-   "lowerSecondTypes": ["super", "card"],
+   "lowerSecondTypes": [
+    "super",
+    "card"
+   ],
    "treatTokenAsCardType": true,
    "special": {
-	   "Basic Land": "Standardland",
-	   "World Enchantment": "Weltenverzauberung"
+    "Basic Land": "Standardland",
+    "World Enchantment": "Weltenverzauberung"
    }
   },
   "ru": {
@@ -30,7 +33,7 @@
    "lowerSecondTypes": [],
    "suffixSuperTypes": true,
    "special": {
-	   "Legendary Creature": "Criatura Lendária"
+    "Legendary Creature": "Criatura Lendária"
    }
   },
   "ko": {
@@ -74,8 +77,8 @@
    "lowerSecondTypes": [],
    "suffixSuperTypes": true,
    "special": {
-	   "Legendary Creature": "Creatura leggendaria",
-	   "Legendary Land": "Terra leggendaria"
+    "Legendary Creature": "Creatura leggendaria",
+    "Legendary Land": "Terra leggendaria"
    }
   },
   "fr": {
@@ -84,10 +87,15 @@
    "superTypeSeperator": " ",
    "cardTypeSeperator": "-",
    "subTypeSeperator": " et ",
-   "lowerSecondTypes": ["super", "card", "sub", "allsub"],
+   "lowerSecondTypes": [
+    "super",
+    "card",
+    "sub",
+    "allsub"
+   ],
    "suffixSuperTypes": true,
    "special": {
-	   "Snow Creature": "Créature neigeuse"
+    "Snow Creature": "Créature neigeuse"
    }
   },
   "es": {
@@ -96,11 +104,15 @@
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
    "subTypeSeperator": " ",
-   "lowerSecondTypes": ["allsuper", "super", "card"],
+   "lowerSecondTypes": [
+    "allsuper",
+    "super",
+    "card"
+   ],
    "suffixSuperTypes": true,
    "special": {
-	   "Legendary Creature": "Criatura legendaria",
-	   "Legendary Land": "Tierra legendaria"
+    "Legendary Creature": "Criatura legendaria",
+    "Legendary Land": "Tierra legendaria"
    }
   },
   "ja": {
@@ -112,273 +124,273 @@
    "lowerSecondTypes": [],
    "treatTokenAsCardType": true,
    "special": {
-	   "World Enchantment": "ワールド・エンチャント"
+    "World Enchantment": "ワールド・エンチャント"
    }
   }
  },
  "cardTypes": {
-	 "artifact": {
-		"de": "Artefakt",
-		"ru": "Артефакт",
-		"pt": "Artefato",
-		"ko": "마법물체",
-		"zhs": "神器",
-		"zht": "神器",
-		"en": "Artifact",
-		"it": "Artefatto",
-		"fr": "Artefact",
-		"es": "Artefacto",
-		"ja": "アーティファクト"
-	 },
-	 "conspiracy": {
-		"de": "Verschwörung",
-		"ru": "Заговор",
-		"pt": "Conspiração",
-		"ko": "음모",
-		"zhs": "诡局",
-		"zht": "詭局",
-		"en": "Conspiracy",
-		"it": "Cospirazione",
-		"fr": "Conspiration",
-		"es": "Conspiración",
-		"ja": "策略"
-	 },
-	 "creature": {
-		"de": "Kreatur",
-		"ru": "Существо",
-		"pt": "Criatura",
-		"ko": "생물",
-		"zhs": "生物",
-		"zht": "生物",
-		"en": "Creature",
-		"it": "Creatura",
-		"fr": "Créature",
-		"es": "Criatura",
-		"ja": "クリーチャー"
-	 },
-	 "dungeon": {
-		"de": "Gewölbe",
-		"ru": "Подземелье",
-		"pt": "Masmorra",
-		"ko": "던전",
-		"zhs": "地城",
-		"zht": "地城",
-		"en": "Dungeon",
-		"it": "Dungeon",
-		"fr": "Donjon",
-		"es": "Mazmorra",
-		"ja": "ダンジョン"
-	 },
-	 "emblem": {
-		"de": "Emblem",
-		"ru": "эмблему",
-		"pt": "Emblema",
-		"ko": "휘장을",
-		"zhs": "徽",
-		"zht": "徽",
-		"en": "Emblem",
-		"it": "Emblema",
-		"fr": "Emblème",
-		"es": "Emblema",
-		"ja": "持つ紋章"
-	 },
-	 "enchantment": {
-		"de": "Verzauberung",
-		"ru": "Чары",
-		"pt": "Encantamento",
-		"ko": "부여마법",
-		"zhs": "结界",
-		"zht": "結界",
-		"en": "Enchantment",
-		"it": "Incantesimo",
-		"fr": "Enchantement",
-		"es": "Encantamiento",
-		"ja": "エンチャント"
-	 },
-	 "instant": {
-		"de": "Spontanzauber",
-		"ru": "Мгновенное заклинание",
-		"pt": "Mágica Instantânea",
-		"ko": "순간마법",
-		"zhs": "瞬间",
-		"zht": "瞬間",
-		"en": "Instant",
-		"it": "Istantaneo",
-		"fr": "Éphémère",
-		"es": "Instantáneo",
-		"ja": "インスタント"
-	 },
-	 "land": {
-		"de": "Land",
-		"ru": "Земля",
-		"pt": "Terreno",
-		"ko": "대지 ",
-		"zhs": "地",
-		"zht": "地",
-		"en": "Land",
-		"it": "Terra",
-		"fr": "Terrain",
-		"es": "Tierra",
-		"ja": "土地 "
-	 },
-	 "phenomenon": {
-		"de": "Phänomen",
-		"ru": "Феномен",
-		"pt": "Fenômeno",
-		"ko": "현상",
-		"zhs": "现象",
-		"zht": "現象",
-		"en": "Phenomenon",
-		"it": "Fenomeno",
-		"fr": "Phénomène",
-		"es": "Fenómeno",
-		"ja": "現象"
-	 },
-	 "plane": {
-		"de": "Welt",
-		"ru": "мир",
-		"pt": "Plano",
-		"ko": "치수",
-		"zhs": "次元",
-		"zht": "次元",
-		"en": "Plane",
-		"it": "Piano",
-		"fr": "Plan",
-		"es": "Plano",
-		"ja": "次元"
-	 },
-	 "planeswalker": {
-		"de": "Planeswalker",
-		"ru": "Planeswalker",
-		"pt": "Planeswalker",
-		"ko": "플레인즈워커",
-		"zhs": "鵬洛客",
-		"zht": "鵬洛客",
-		"en": "Planeswalker",
-		"it": "Planeswalker",
-		"fr": "Planeswalker",
-		"es": "Planeswalker",
-		"ja": "プレインズウォーカー"
-	 },
-	 "scheme": {
-		"de": "Planen",
-		"ru": "Схема",
-		"pt": "Esquema",
-		"ko": "계획",
-		"zhs": "计划",
-		"zht": "計劃",
-		"en": "Scheme",
-		"it": "Schema",
-		"fr": "Schème",
-		"es": "Esquema",
-		"ja": "図式"
-	 },
-	 "sorcery": {
-		"de": "Hexerei",
-		"ru": "Волшебство",
-		"pt": "Feitiço",
-		"ko": "집중마법",
-		"zhs": "法术",
-		"zht": "巫術 ",
-		"en": "Sorcery",
-		"it": "Stregoneria",
-		"fr": "Rituel",
-		"es": "Conjuro",
-		"ja": "ソーサリー "
-	 },
-	 "tribal": {
-		"de": "Stammes-",
-		"ru": "Племенной",
-		"pt": "Tribale",
-		"ko": "종족",
-		"zhs": "部族",
-		"zht": "部族",
-		"en": "Tribal",
-		"it": "Tribale",
-		"fr": "tribal",
-		"es": "Tribal",
-		"ja": "部族"
-	 }
+  "artifact": {
+   "de": "Artefakt",
+   "ru": "Артефакт",
+   "pt": "Artefato",
+   "ko": "마법물체",
+   "zhs": "神器",
+   "zht": "神器",
+   "en": "Artifact",
+   "it": "Artefatto",
+   "fr": "Artefact",
+   "es": "Artefacto",
+   "ja": "アーティファクト"
+  },
+  "conspiracy": {
+   "de": "Verschwörung",
+   "ru": "Заговор",
+   "pt": "Conspiração",
+   "ko": "음모",
+   "zhs": "诡局",
+   "zht": "詭局",
+   "en": "Conspiracy",
+   "it": "Cospirazione",
+   "fr": "Conspiration",
+   "es": "Conspiración",
+   "ja": "策略"
+  },
+  "creature": {
+   "de": "Kreatur",
+   "ru": "Существо",
+   "pt": "Criatura",
+   "ko": "생물",
+   "zhs": "生物",
+   "zht": "生物",
+   "en": "Creature",
+   "it": "Creatura",
+   "fr": "Créature",
+   "es": "Criatura",
+   "ja": "クリーチャー"
+  },
+  "dungeon": {
+   "de": "Gewölbe",
+   "ru": "Подземелье",
+   "pt": "Masmorra",
+   "ko": "던전",
+   "zhs": "地城",
+   "zht": "地城",
+   "en": "Dungeon",
+   "it": "Dungeon",
+   "fr": "Donjon",
+   "es": "Mazmorra",
+   "ja": "ダンジョン"
+  },
+  "emblem": {
+   "de": "Emblem",
+   "ru": "эмблему",
+   "pt": "Emblema",
+   "ko": "휘장을",
+   "zhs": "徽",
+   "zht": "徽",
+   "en": "Emblem",
+   "it": "Emblema",
+   "fr": "Emblème",
+   "es": "Emblema",
+   "ja": "持つ紋章"
+  },
+  "enchantment": {
+   "de": "Verzauberung",
+   "ru": "Чары",
+   "pt": "Encantamento",
+   "ko": "부여마법",
+   "zhs": "结界",
+   "zht": "結界",
+   "en": "Enchantment",
+   "it": "Incantesimo",
+   "fr": "Enchantement",
+   "es": "Encantamiento",
+   "ja": "エンチャント"
+  },
+  "instant": {
+   "de": "Spontanzauber",
+   "ru": "Мгновенное заклинание",
+   "pt": "Mágica Instantânea",
+   "ko": "순간마법",
+   "zhs": "瞬间",
+   "zht": "瞬間",
+   "en": "Instant",
+   "it": "Istantaneo",
+   "fr": "Éphémère",
+   "es": "Instantáneo",
+   "ja": "インスタント"
+  },
+  "land": {
+   "de": "Land",
+   "ru": "Земля",
+   "pt": "Terreno",
+   "ko": "대지 ",
+   "zhs": "地",
+   "zht": "地",
+   "en": "Land",
+   "it": "Terra",
+   "fr": "Terrain",
+   "es": "Tierra",
+   "ja": "土地 "
+  },
+  "phenomenon": {
+   "de": "Phänomen",
+   "ru": "Феномен",
+   "pt": "Fenômeno",
+   "ko": "현상",
+   "zhs": "现象",
+   "zht": "現象",
+   "en": "Phenomenon",
+   "it": "Fenomeno",
+   "fr": "Phénomène",
+   "es": "Fenómeno",
+   "ja": "現象"
+  },
+  "plane": {
+   "de": "Welt",
+   "ru": "мир",
+   "pt": "Plano",
+   "ko": "치수",
+   "zhs": "次元",
+   "zht": "次元",
+   "en": "Plane",
+   "it": "Piano",
+   "fr": "Plan",
+   "es": "Plano",
+   "ja": "次元"
+  },
+  "planeswalker": {
+   "de": "Planeswalker",
+   "ru": "Planeswalker",
+   "pt": "Planeswalker",
+   "ko": "플레인즈워커",
+   "zhs": "鵬洛客",
+   "zht": "鵬洛客",
+   "en": "Planeswalker",
+   "it": "Planeswalker",
+   "fr": "Planeswalker",
+   "es": "Planeswalker",
+   "ja": "プレインズウォーカー"
+  },
+  "scheme": {
+   "de": "Planen",
+   "ru": "Схема",
+   "pt": "Esquema",
+   "ko": "계획",
+   "zhs": "计划",
+   "zht": "計劃",
+   "en": "Scheme",
+   "it": "Schema",
+   "fr": "Schème",
+   "es": "Esquema",
+   "ja": "図式"
+  },
+  "sorcery": {
+   "de": "Hexerei",
+   "ru": "Волшебство",
+   "pt": "Feitiço",
+   "ko": "집중마법",
+   "zhs": "法术",
+   "zht": "巫術 ",
+   "en": "Sorcery",
+   "it": "Stregoneria",
+   "fr": "Rituel",
+   "es": "Conjuro",
+   "ja": "ソーサリー "
+  },
+  "tribal": {
+   "de": "Stammes-",
+   "ru": "Племенной",
+   "pt": "Tribale",
+   "ko": "종족",
+   "zhs": "部族",
+   "zht": "部族",
+   "en": "Tribal",
+   "it": "Tribale",
+   "fr": "tribal",
+   "es": "Tribal",
+   "ja": "部族"
+  }
  },
  "superTypes": {
-	 "basic": {
-		"de": "Standard",
-		"ru": "Базовая",
-		"pt": "Básico",
-		"ko": "기본",
-		"zhs": "基本",
-		"zht": "基本",
-		"en": "Basic",
-		"it": "Base",
-		"fr": "de base",
-		"es": "básica",
-		"ja": "基本"
-	 },
-	 "legendary": {
-		"de": "Legendärer",
-		"ru": "Легендарный",
-		"pt": "Lendário",
-		"ko": "전설적",
-		"zhs": "传奇",
-		"zht": "傳奇",
-		"en": "Legendary",
-		"it": "Leggendario",
-		"fr": "légendaire",
-		"es": "legendario",
-		"ja": "伝説の"
-	 },
-	 "ongoing": {
-		"de": "Laufendes",
-		"ru": "Текущая",
-		"pt": "Continuo",
-		"ko": "진행중인",
-		"zhs": "正在进行的",
-		"zht": "正在進行的",
-		"en": "Ongoing",
-		"it": "in Corso",
-		"fr": "en cours",
-		"es": "Continuo",
-		"ja": "進行中"
-	 },
-	 "snow": {
-		"de": "Verschneite",
-		"ru": "Снежное",
-		"pt": "da Neve",
-		"ko": "눈",
-		"zhs": "雪境",
-		"zht": "雪境",
-		"en": "Snow",
-		"it": "Neve",
-		"fr": "neigeux",
-		"es": "nevada",
-		"ja": "氷雪"
-	 },
-	 "token": {
-		"de": "Spielstein",
-		"ru": "Фишку",
-		"pt": "Ficha de",
-		"ko": "토큰",
-		"zhs": "衍生生物",
-		"zht": "衍生生物",
-		"en": "Token",
-		"it": "Pedina",
-		"fr": "Jeton de",
-		"es": "Ficha de",
-		"ja": "トークン"
-	 },
-	 "world": {
-		"de": "Welten",
-		"ru": "мировой",
-		"pt": "do mundo",
-		"ko": "만능인",
-		"zhs": "普世",
-		"zht": "普世",
-		"en": "World",
-		"it": "del mondo",
-		"fr": "du monde",
-		"es": "del mundo",
-		"ja": "ワールド"
-	 },
+  "basic": {
+   "de": "Standard",
+   "ru": "Базовая",
+   "pt": "Básico",
+   "ko": "기본",
+   "zhs": "基本",
+   "zht": "基本",
+   "en": "Basic",
+   "it": "Base",
+   "fr": "de base",
+   "es": "básica",
+   "ja": "基本"
+  },
+  "legendary": {
+   "de": "Legendärer",
+   "ru": "Легендарный",
+   "pt": "Lendário",
+   "ko": "전설적",
+   "zhs": "传奇",
+   "zht": "傳奇",
+   "en": "Legendary",
+   "it": "Leggendario",
+   "fr": "légendaire",
+   "es": "legendario",
+   "ja": "伝説の"
+  },
+  "ongoing": {
+   "de": "Laufendes",
+   "ru": "Текущая",
+   "pt": "Continuo",
+   "ko": "진행중인",
+   "zhs": "正在进行的",
+   "zht": "正在進行的",
+   "en": "Ongoing",
+   "it": "in Corso",
+   "fr": "en cours",
+   "es": "Continuo",
+   "ja": "進行中"
+  },
+  "snow": {
+   "de": "Verschneite",
+   "ru": "Снежное",
+   "pt": "da Neve",
+   "ko": "눈",
+   "zhs": "雪境",
+   "zht": "雪境",
+   "en": "Snow",
+   "it": "Neve",
+   "fr": "neigeux",
+   "es": "nevada",
+   "ja": "氷雪"
+  },
+  "token": {
+   "de": "Spielstein",
+   "ru": "Фишку",
+   "pt": "Ficha de",
+   "ko": "토큰",
+   "zhs": "衍生生物",
+   "zht": "衍生生物",
+   "en": "Token",
+   "it": "Pedina",
+   "fr": "Jeton de",
+   "es": "Ficha de",
+   "ja": "トークン"
+  },
+  "world": {
+   "de": "Welten",
+   "ru": "мировой",
+   "pt": "do mundo",
+   "ko": "만능인",
+   "zhs": "普世",
+   "zht": "普世",
+   "en": "World",
+   "it": "del mondo",
+   "fr": "du monde",
+   "es": "del mundo",
+   "ja": "ワールド"
+  }
  },
  "types": {
   "artifact": {
@@ -386,17 +398,17 @@
     "en": "Attraction"
    },
    "Blood": {
-	"de": "Blut",
-	"ru": "Крови",
- 	"pt": "Sangue",
-	"ko": "혈액",
-	"zhs": "血滴",
-	"zht": "血滴",
-	"en": "Blood",
-	"it": "Sangue",
-	"fr": "Sang",
-	"es": "Sangre",
-	"ja": "血"
+    "de": "Blut",
+    "ru": "Крови",
+    "pt": "Sangue",
+    "ko": "혈액",
+    "zhs": "血滴",
+    "zht": "血滴",
+    "en": "Blood",
+    "it": "Sangue",
+    "fr": "Sang",
+    "es": "Sangre",
+    "ja": "血"
    },
    "Clue": {
     "de": "Hinweis",
@@ -412,15 +424,15 @@
     "ja": "手掛かり"
    },
    "Contraption": {
-	"de": "Gerät",
-	"ru": "Устройство",
- 	"pt": "Aparelho",
-	"zhs": "装置",
-	"en": "Contraption",
-	"it": "Congegno",
-	"fr": "Appareil",
-	"es": "Aparato",
-	"ja": "道具"
+    "de": "Gerät",
+    "ru": "Устройство",
+    "pt": "Aparelho",
+    "zhs": "装置",
+    "en": "Contraption",
+    "it": "Congegno",
+    "fr": "Appareil",
+    "es": "Aparato",
+    "ja": "道具"
    },
    "Equipment": {
     "de": "Ausrüstung",
@@ -449,38 +461,38 @@
     "ja": "食物"
    },
    "Fortification": {
-	"de": "Befestigung",
-	"ru": "Укрепление",
- 	"pt": "Fortificação",
-	"zhs": "工事",
-	"en": "Fortification",
-	"it": "Fortificazione",
-	"fr": "Fortification",
-	"es": "Fortificación",
-	"ja": "城砦"
+    "de": "Befestigung",
+    "ru": "Укрепление",
+    "pt": "Fortificação",
+    "zhs": "工事",
+    "en": "Fortification",
+    "it": "Fortificazione",
+    "fr": "Fortification",
+    "es": "Fortificación",
+    "ja": "城砦"
    },
    "Gold": {
     "de": "Gold",
-	"ru": "Золота",
- 	"pt": "Ouro",
-	"ko": "금",
-	"zhs": "黄金",
-	"zht": "黃金",
-	"en": "Gold",
-	"it": "Oro",
-	"fr": "Or",
-	"es": "Oro",
-	"ja": "金"
+    "ru": "Золота",
+    "pt": "Ouro",
+    "ko": "금",
+    "zhs": "黄金",
+    "zht": "黃金",
+    "en": "Gold",
+    "it": "Oro",
+    "fr": "Or",
+    "es": "Oro",
+    "ja": "金"
    },
    "Powerstone": {
     "de": "Kraftstein",
- 	"pt": "Pedra de Energia",
-	"zhs": "置的魔力石",
-	"en": "Powerstone",
-	"it": "Pietra del Potere",
-	"fr": "Lithoforce",
-	"es": "Piedra de poder",
-	"ja": "パワーストーン"
+    "pt": "Pedra de Energia",
+    "zhs": "置的魔力石",
+    "en": "Powerstone",
+    "it": "Pietra del Potere",
+    "fr": "Lithoforce",
+    "es": "Piedra de poder",
+    "ja": "パワーストーン"
    },
    "Treasure": {
     "de": "Schatz",
@@ -596,16 +608,16 @@
    },
    "Shard": {
     "de": "Splitter",
-	"ru": "Осколка",
- 	"pt": "Fragmento",
-	"ko": "파편",
-	"zhs": "碎片",
-	"zht": "碎片",
-	"en": "Shard",
-	"it": "Frammento",
-	"fr": "Éclat",
-	"es": "Fragmento",
-	"ja": "破片"
+    "ru": "Осколка",
+    "pt": "Fragmento",
+    "ko": "파편",
+    "zhs": "碎片",
+    "zht": "碎片",
+    "en": "Shard",
+    "it": "Frammento",
+    "fr": "Éclat",
+    "es": "Fragmento",
+    "ja": "破片"
    },
    "Shrine": {
     "de": "Schrein",
@@ -675,17 +687,17 @@
     "ja": "島"
    },
    "Lair": {
-	"de": "Höhle",
-	"ru": "Логово",
- 	"pt": "Covil",
-	"ko": "굴",
-	"zhs": "巢穴",
-	"zht": "巢穴",
-	"en": "Lair",
-	"it": "Tana",
-	"fr": "Repaire",
-	"es": "Guarida",
-	"ja": "隠れ家"
+    "de": "Hort",
+    "ru": "Логово",
+    "pt": "Covil",
+    "ko": "굴",
+    "zhs": "巢穴",
+    "zht": "巢穴",
+    "en": "Lair",
+    "it": "Tana",
+    "fr": "Repaire",
+    "es": "Cubil",
+    "ja": "棲み家"
    },
    "Locus": {
     "de": "Ort",
@@ -1782,22 +1794,22 @@
     "es": "Alara",
     "ja": "アラーラ"
    },
-	"Amonkhet": {
-		"en": "Amonkhet",
-		"ja": "アモンケット",
-		"ko": "아몬케트",
-		"ru": "Амонхета",
-		"zhs": "阿芒凯"
-	},
+   "Amonkhet": {
+    "en": "Amonkhet",
+    "ja": "アモンケット",
+    "ko": "아몬케트",
+    "ru": "Амонхета",
+    "zhs": "阿芒凯"
+   },
    "Arcavios": {
-		"en":"Arcavios",
-		"ja": "アルケヴィオス",
-		"ko": "아르카비오스의",
-		"ru": "Аркавиоса",
-		"zhs": "阿凯维沃",
-		"zht": "阿凱維沃"
-	},
-	"Arkhos": {
+    "en": "Arcavios",
+    "ja": "アルケヴィオス",
+    "ko": "아르카비오스의",
+    "ru": "Аркавиоса",
+    "zhs": "阿凯维沃",
+    "zht": "阿凱維沃"
+   },
+   "Arkhos": {
     "de": "Arkhos",
     "en": "Arkhos",
     "it": "Arkhos",
@@ -1830,13 +1842,13 @@
     "ja": "ボーラスの・瞑想・領土"
    },
    "Capenna": {
-		"en":"Capenna",
-		"ja": "カペナ",
-		"ko": "카펜나",
-		"ru": "Капеннa",
-		"zhs": "卡佩纳",
-		"zht": "卡佩納"
-	},
+    "en": "Capenna",
+    "ja": "カペナ",
+    "ko": "카펜나",
+    "ru": "Капеннa",
+    "zhs": "卡佩纳",
+    "zht": "卡佩納"
+   },
    "Dominaria": {
     "de": "Dominaria",
     "en": "Dominaria",
@@ -1870,13 +1882,13 @@
     "ja": "ファバシン"
    },
    "Faerûn": {
-		"en":"Faerûn",
-		"ja": "フェイルーン",
-		"ko": "페이룬",
-		"ru": "Фаэруна",
-		"zhs": "费伦",
-		"zht": "費倫"
-	},
+    "en": "Faerûn",
+    "ja": "フェイルーン",
+    "ko": "페이룬",
+    "ru": "Фаэруна",
+    "zhs": "费伦",
+    "zht": "費倫"
+   },
    "Innistrad": {
     "de": "Innistrad",
     "en": "Innistrad",
@@ -1886,11 +1898,11 @@
     "ja": "イニストラード"
    },
    "Ikoria": {
-	   "en": "Ikoria",
-	   "ja": "イコリア",
-	   "ru": "Икории",
-	   "ko": "이코리아",
-	   "zhs": "依克黎结"
+    "en": "Ikoria",
+    "ja": "イコリア",
+    "ru": "Икории",
+    "ko": "이코리아",
+    "zhs": "依克黎结"
    },
    "Iquatana": {
     "de": "Iquatana",
@@ -1908,13 +1920,13 @@
     "es": "Ir",
     "ja": "アー"
    },
-	"Ixalan": {
-		"en": "Ixalan",
-		"ja": "イクサラン",
-		"ko": "익살란",
-		"ru": "Иксалане",
-		"zhs": "依夏兰"
-	},
+   "Ixalan": {
+    "en": "Ixalan",
+    "ja": "イクサラン",
+    "ko": "익살란",
+    "ru": "Иксалане",
+    "zhs": "依夏兰"
+   },
    "Kaldheim": {
     "de": "Kaldheim",
     "en": "Kaldheim",
@@ -2088,13 +2100,13 @@
     "es": "Shandalar",
     "ja": "シャンダラー"
    },
-	"Theros": {
-		"en": "Theros",
-		"ja": "テーロス",
-		"ko": "테로스",
-		"ru": "Тероса",
-		"zhs": "塞洛斯的"
-	},
+   "Theros": {
+    "en": "Theros",
+    "ja": "テーロス",
+    "ko": "테로스",
+    "ru": "Тероса",
+    "zhs": "塞洛斯的"
+   },
    "Ulgrotha": {
     "de": "Ulgrotha",
     "en": "Ulgrotha",
@@ -2247,17 +2259,17 @@
     "ja": "執政官"
    },
    "Army": {
-	"de": "Armee",
-	"ru": "Армия",
- 	"pt": "Exército",
-	"ko": "군대",
-	"zhs": "军队",
-	"zht": "軍隊",
-	"en": "Army",
-	"it": "Esercito",
-	"fr": "Armée",
-	"es": "Ejército",
-	"ja": "軍団"
+    "de": "Armee",
+    "ru": "Армию",
+    "pt": "Exército",
+    "ko": "군대",
+    "zhs": "军队",
+    "zht": "軍隊",
+    "en": "Army",
+    "it": "Esercito",
+    "fr": "Armée",
+    "es": "Ejército",
+    "ja": "軍団"
    },
    "Artificer": {
     "de": "Handwerker",
@@ -2297,32 +2309,32 @@
    },
    "Astartes": {
     "en": "Astartes",
-	"ja": "アスタルテス"
+    "ja": "アスタルテス"
    },
    "Atog": {
-	"de": "Atog",
-	"ru": "Атог",
-	"pt": "Atogue",
-	"ko": "아토그",
-	"zhs": "阿托格",
-	"zht": "阿托格",
+    "de": "Atog",
+    "ru": "Атог",
+    "pt": "Atogue",
+    "ko": "아토그",
+    "zhs": "阿托格",
+    "zht": "阿托格",
     "en": "Atog",
-	"it": "Atog",
-	"ft": "Atog",
-	"es": "Atog",
-	"ja": "アトグ"
+    "it": "Atog",
+    "ft": "Atog",
+    "es": "Atog",
+    "ja": "エイトグ"
    },
    "Aurochs": {
     "de": "Auerochse",
-	"ru": "Зубры",
- 	"pt": "Auroques",
-	"ko": "오록스",
-	"zhs": "原牛",
-	"en": "Aurochs",
-	"it": "Uri",
-	"fr": "Aurochs",
-	"es": "Uro",
-	"ja": "オーロクス"
+    "ru": "Аурохи",
+    "pt": "Auroques",
+    "ko": "오록스",
+    "zhs": "原牛",
+    "en": "Aurochs",
+    "it": "Uri",
+    "fr": "Aurochs",
+    "es": "Uro",
+    "ja": "オーロクス"
    },
    "Avatar": {
     "de": "Avatar",
@@ -2359,17 +2371,17 @@
     "ja": "アナグマ"
    },
    "Balloon": {
-	"de": "Ballon",
-	"ru": "Аэростат",
- 	"pt": "Balão",
-	"ko": "풍선",
-	"zhs": "气球",
-	"zht": "氣球",
-	"en": "Balloon",
-	"it": "Palloncino",
-	"fr": "Ballon",
-	"es": "Globo",
-	"ja": "気球"
+    "de": "Ballon",
+    "ru": "Аэростат",
+    "pt": "Balão",
+    "ko": "풍선",
+    "zhs": "气球",
+    "zht": "氣球",
+    "en": "Balloon",
+    "it": "Palloncino",
+    "fr": "Ballon",
+    "es": "Globo",
+    "ja": "気球"
    },
    "Barbarian": {
     "de": "Barbar",
@@ -2447,7 +2459,7 @@
    },
    "Beeble": {
     "en": "Beeble",
-	"de": "Bobbel",
+    "de": "Bobbel"
    },
    "Beholder": {
     "de": "Betrachter",
@@ -2490,15 +2502,15 @@
    },
    "Blinkmoth": {
     "de": "Blinkmotte",
-	"ru": "Мерцмоль",
- 	"pt": "Mosco-lume",
-	"zhs": "光蛾",
-	"zht": "光蛾",
-	"en": "Blinkmoth",
-	"it": "Lampidottero",
-	"fr": "Scintimite",
-	"es": "Polilla titilante",
-	"ja": "ちらつぎ蛾"
+    "ru": "Мерцмоль",
+    "pt": "Mosco-lume",
+    "zhs": "光蛾",
+    "zht": "光蛾",
+    "en": "Blinkmoth",
+    "it": "Lampidottero",
+    "fr": "Scintimite",
+    "es": "Polilla titilante",
+    "ja": "ちらつぎ蛾"
    },
    "Boar": {
     "de": "Wildschwein",
@@ -2514,14 +2526,14 @@
     "ja": "猪"
    },
    "Bringer": {
-	"de": "Bringer",
- 	"pt": "Portador",
-	"zhs": "信使",
-	"en": "Bringer",
-	"it": "Portatore",
-	"fr": "Annonciateur",
-	"es": "Adalid",
-	"ja": "運び手"
+    "de": "Bringer",
+    "pt": "Portador",
+    "zhs": "信使",
+    "en": "Bringer",
+    "it": "Portatore",
+    "fr": "Annonciateur",
+    "es": "Adalid",
+    "ja": "運び手"
    },
    "Brushwagg": {
     "de": "Buschköter",
@@ -2537,15 +2549,15 @@
     "ja": "ブラッシュワグ"
    },
    "Camarid": {
-	"de": "Camarid",
-	"ru": "Камарид",
- 	"pt": "Camárida",
-	"zhs": "卡马利",
-	"en": "Camarid",
-	"it": "Camarid",
-	"fr": "Camaride",
-	"es": "Camárido",
-	"ja": "カマリッド"
+    "de": "Camarid",
+    "ru": "Камарид",
+    "pt": "Camárida",
+    "zhs": "卡马利",
+    "en": "Camarid",
+    "it": "Camarid",
+    "fr": "Camaride",
+    "es": "Camárido",
+    "ja": "カマリッド"
    },
    "Camel": {
     "de": "Kamel",
@@ -2561,30 +2573,30 @@
     "ja": "ラクダ"
    },
    "Caribou": {
-	"de": "Karibu",
-	"ru": "Карибу",
- 	"pt": "Caribu",
-	"ko": "순록",
-	"zhs": "驯鹿",
-	"zht": "馴鹿",
-	"en": "Caribou",
-	"it": "Caribù",
-	"fr": "Caribou",
-	"es": "Caribú",
-	"ja": "カリブー"
+    "de": "Karibu",
+    "ru": "Карибу",
+    "pt": "Caribu",
+    "ko": "순록",
+    "zhs": "驯鹿",
+    "zht": "馴鹿",
+    "en": "Caribou",
+    "it": "Caribù",
+    "fr": "Caribou",
+    "es": "Caribú",
+    "ja": "カリブー"
    },
    "Carrier": {
-	"de": "Überträger",
-	"ru": "Переносчик",
- 	"pt": "Portador",
-	"ko": "매개체",
-	"zhs": "病媒",
-	"zht": "病媒",
+    "de": "Überträger",
+    "ru": "Переносчик",
+    "pt": "Portador",
+    "ko": "매개체",
+    "zhs": "病媒",
+    "zht": "病媒",
     "en": "Carrier",
-	"it": "Latore",
-	"fr": "Propagateur",
-	"es": "Portador",
-	"ja": "キャリアー"
+    "it": "Latore",
+    "fr": "Propagateur",
+    "es": "Portador",
+    "ja": "キャリアー"
    },
    "Cat": {
     "de": "Katze",
@@ -2734,7 +2746,7 @@
    },
    "C'tan": {
     "en": "C'tan",
-	"ja": "コ=タン",
+    "ja": "ク＝タン"
    },
    "Custodes": {
     "en": "Custodes"
@@ -2788,7 +2800,7 @@
    },
    "Deserter": {
     "en": "Deserter",
-	"de": "Deserteur"
+    "de": "Deserteur"
    },
    "Devil": {
     "de": "Teufel",
@@ -3061,16 +3073,16 @@
    },
    "Ferret": {
     "de": "Frettchen",
-	"ru": "Хорек",
- 	"pt": "Furão",
-	"ko": "가는 리본",
-	"zhs": "雪貂",
-	"zht": "雪貂",
-	"en": "Ferret",
-	"it": "Furetto",
-	"fr": "Furet",
-	"es": "Hurón",
-	"ja": "フェレット"
+    "ru": "Хорек",
+    "pt": "Furão",
+    "ko": "가는 리본",
+    "zhs": "雪貂",
+    "zht": "雪貂",
+    "en": "Ferret",
+    "it": "Furetto",
+    "fr": "Furet",
+    "es": "Hurón",
+    "ja": "フェレット"
    },
    "Fish": {
     "de": "Fisch",
@@ -3157,17 +3169,17 @@
     "ja": "ガーゴイル"
    },
    "Germ": {
-	"de": "Keim",
-	"ru": "зародыш",
- 	"pt": "Germe",
-	"ko": "세균",
-	"zhs": "病菌",
-	"zht": "細菌",
-	"en": "Germ",
-	"it": "Microbo",
-	"fr": "Germe",
-	"es": "Germen",
-	"ja": "細菌"
+    "de": "Keim",
+    "ru": "Микроб",
+    "pt": "Germe",
+    "ko": "세균",
+    "zhs": "病菌",
+    "zht": "細菌",
+    "en": "Germ",
+    "it": "Microbo",
+    "fr": "Germe",
+    "es": "Germen",
+    "ja": "細菌"
    },
    "Giant": {
     "de": "Riese",
@@ -3281,14 +3293,14 @@
     "ja": "ゴルゴン"
    },
    "Graveborn": {
-	"de": "Leiche",
- 	"pt": "Necronato",
-	"zhs": "墓生",
-	"en": "Graveborn",
-	"it": "Figlio della Tomba",
-	"fr": "Désencavé",
-	"es": "Cadáver",
-	"ja": "墓生まれ"
+    "de": "Leiche",
+    "pt": "Necronato",
+    "zhs": "墓生",
+    "en": "Graveborn",
+    "it": "Figlio della Tomba",
+    "fr": "Désencavé",
+    "es": "Cadáver",
+    "ja": "墓生まれ"
    },
    "Gremlin": {
     "de": "Gremlin",
@@ -3344,18 +3356,17 @@
     "ja": "ハーフリング"
    },
    "Hamster": {
-	"de": "Hamster",
-	"ru": "Хомяк",
- 	"pt": "Hamster",
-	"ko": "햄스터",
-	"zhs": "仓鼠",
-	"zht": "倉鼠",
-	"zht": "倉鼠",
-	"en": "Hamster",
-	"it": "Criceto",
-	"fr": "Hamster",
-	"es": "Hámster",
-	"ja": "ハムスター"
+    "de": "Hamster",
+    "ru": "Хомяк",
+    "pt": "Hamster",
+    "ko": "햄스터",
+    "zhs": "仓鼠",
+    "zht": "倉鼠",
+    "en": "Hamster",
+    "it": "Criceto",
+    "fr": "Hamster",
+    "es": "Hámster",
+    "ja": "ハムスター"
    },
    "Harpy": {
     "de": "Harpyie",
@@ -3536,21 +3547,21 @@
     "ja": "インカーネーション"
    },
    "Inkling": {
-	"de": "Tintling",
-	"ru": "Чернильник",
- 	"pt": "Nanquíneo",
-	"ko": "잉클링",
-	"zhs": "墨灵",
-	"zht": "墨靈",
-	"en": "Inkling",
-	"it": "Scarabocchio",
-	"fr": "Encrelin",
-	"es": "Tintícola",
-	"ja": "墨獣"
+    "de": "Tintling",
+    "ru": "Чернильник",
+    "pt": "Nanquíneo",
+    "ko": "잉클링",
+    "zhs": "墨灵",
+    "zht": "墨靈",
+    "en": "Inkling",
+    "it": "Scarabocchio",
+    "fr": "Encrelin",
+    "es": "Tintícola",
+    "ja": "墨獣"
    },
    "Inquisitor": {
     "en": "Inquisitor",
-	"ja": "異弟審問官"
+    "ja": "異弟審問官"
    },
    "Insect": {
     "de": "Insekt",
@@ -3749,7 +3760,7 @@
    },
    "Licid": {
     "en": "Licid",
-	"de": "Zecke"
+    "de": "Zecke"
    },
    "Lizard": {
     "de": "Eidechse",
@@ -3959,15 +3970,15 @@
     "ja": "マイア"
    },
    "Mystic": {
-	"de": "Mystiker",
-	"ru": "Мистик",
- 	"pt": "Místico",
-	"zhs": "秘教徒",
-	"en": "Mystic",
-	"it": "Mistico",
-	"fr": "Mystique",
-	"es": "Místico",
-	"ja": "神秘家"
+    "de": "Mystiker",
+    "ru": "Мистик",
+    "pt": "Místico",
+    "zhs": "秘教徒",
+    "en": "Mystic",
+    "it": "Mistico",
+    "fr": "Mystique",
+    "es": "Místico",
+    "ja": "神秘家"
    },
    "Naga": {
     "ru": "Нага",
@@ -3991,7 +4002,7 @@
    },
    "Necron": {
     "en": "Necron",
-	"ja": "ネクロン"
+    "ja": "ネクロン"
    },
    "Nephilim": {
     "de": "Nephilim",
@@ -4018,7 +4029,7 @@
    },
    "Nightstalker": {
     "en": "Nightstalker",
-	"de": "Nachtschrat"
+    "de": "Nachtschrat"
    },
    "Ninja": {
     "ru": "Ниндзя",
@@ -4103,7 +4114,7 @@
    },
    "Orb": {
     "en": "Orb",
-	"de": "Sphären"
+    "de": "Sphären"
    },
    "Orc": {
     "de": "Ork",
@@ -4119,15 +4130,15 @@
     "ja": "オーク"
    },
    "Orgg": {
-	"de": "Orgg",
-	"ru": "Оргг",
-	"pt": "Orgg",
-	"zhs": "欧格"
+    "de": "Orgg",
+    "ru": "Оргг",
+    "pt": "Orgg",
+    "zhs": "欧格",
     "en": "Orgg",
-	"it": "Orgg",
-	"fr": "Orgg",
-	"es": "Orgg",
-	"ja": "オーグ",
+    "it": "Orgg",
+    "fr": "Orgg",
+    "es": "Orgg",
+    "ja": "オーグ"
    },
    "Otter": {
     "de": "Otter",
@@ -4170,16 +4181,16 @@
    },
    "Oyster": {
     "de": "Auster",
-	"ru": "Устрица",
- 	"pt": "Ostra",
-	"ko": "굴",
-	"zhs": "牡蛎",
-	"zht": "牡蠣",
-	"en": "Oyster",
-	"it": "Ostrica",
-	"fr": "Huître",
-	"es": "Ostra",
-	"ja": "カキ"
+    "ru": "Устрица",
+    "pt": "Ostra",
+    "ko": "굴",
+    "zhs": "牡蛎",
+    "zht": "牡蠣",
+    "en": "Oyster",
+    "it": "Ostrica",
+    "fr": "Huître",
+    "es": "Ostra",
+    "ja": "カキ"
    },
    "Pangolin": {
     "de": "Schuppentier",
@@ -4219,16 +4230,16 @@
    },
    "Pentavite": {
     "de": "Pentavit",
-	"ru": "Пентавит",
- 	"pt": "Pentavite",
-	"ko": "펜타바이트",
-	"zhs": "分节",
-	"zht": "分節",
-	"en": "Pentavite",
-	"it": "Pentavite",
-	"fr": "Pentavite",
-	"es": "Pentavita",
-	"ja": "ペンタバイト"
+    "ru": "Пентавит",
+    "pt": "Pentavite",
+    "ko": "펜타바이트",
+    "zhs": "分节",
+    "zht": "分節",
+    "en": "Pentavite",
+    "it": "Pentavite",
+    "fr": "Pentavite",
+    "es": "Pentavita",
+    "ja": "ペンタバイト"
    },
    "Performer": {
     "en": "Performer"
@@ -4247,7 +4258,7 @@
    },
    "Phelddagrif": {
     "en": "Phelddagrif",
-	"ja": "フェルダグリフ"
+    "ja": "フェルダグリフ"
    },
    "Phoenix": {
     "de": "Phoenix",
@@ -4287,13 +4298,13 @@
    },
    "Pincher": {
     "de": "Kneifer",
- 	"pt": "Beliscador",
-	"zhs": "钳手",
-	"en": "Pincher",
-	"it": "Pungitore",
-	"fr": "Pinceur",
-	"es": "Tenaza",
-	"ja": "ピンチャー"
+    "pt": "Beliscador",
+    "zhs": "钳手",
+    "en": "Pincher",
+    "it": "Pungitore",
+    "fr": "Pinceur",
+    "es": "Tenaza",
+    "ja": "ピンチャー"
    },
    "Pirate": {
     "de": "Pirat",
@@ -4331,11 +4342,11 @@
    },
    "Primarch": {
     "en": "Primarch",
-	"ja": "主長"
+    "ja": "総主長"
    },
    "Prism": {
     "en": "Prism",
-	"de":"Plasma"
+    "de": "Plasma"
    },
    "Processor": {
     "de": "Verwerter",
@@ -4410,17 +4421,17 @@
     "ja": "レベル"
    },
    "Reflection": {
-	"de": "Reflexion",
-	"ru": "Отражение",
- 	"pt": "Reflexo",
-	"ko": "형상",
-	"zhs": "映影",
-	"zht": "映影",
-	"en": "Reflection",
-	"it": "Riflesso",
-	"fr": "Reflet",
-	"es": "Reflejo",
-	"ja": "反射"
+    "de": "Reflexion",
+    "ru": "Отражение",
+    "pt": "Reflexo",
+    "ko": "형상",
+    "zhs": "映影",
+    "zht": "映影",
+    "en": "Reflection",
+    "it": "Riflesso",
+    "fr": "Reflet",
+    "es": "Reflejo",
+    "ja": "反射"
    },
    "Rhino": {
     "de": "Nashorn",
@@ -4436,15 +4447,15 @@
     "ja": "サイ"
    },
    "Rigger": {
-	"de": "Monteur",
-	"ru": "Сборщик",
- 	"pt": "Montador",
-	"zhs": "整备师",
-	"en": "Rigger",
-	"it": "Assemblatore",
-	"fr": "Gréeur",
-	"es": "Aparejador",
-	"ja": "装具"
+    "de": "Monteur",
+    "ru": "Сборщик",
+    "pt": "Montador",
+    "zhs": "整备师",
+    "en": "Rigger",
+    "it": "Assemblatore",
+    "fr": "Gréeur",
+    "es": "Aparejador",
+    "ja": "装具"
    },
    "Robot": {
     "en": "Robot"
@@ -4498,28 +4509,28 @@
    },
    "Sand": {
     "de": "Sand",
-	"ru": "Песок",
- 	"pt": "Areia",
-	"ko": "모래",
-	"zhs": "砂",
-	"en": "Sand",
-	"it": "Sabbia",
-	"fr": "Sable",
-	"es": "Arena",
-	"ja": "砂漠の民"
+    "ru": "Песок",
+    "pt": "Areia",
+    "ko": "모래",
+    "zhs": "砂",
+    "en": "Sand",
+    "it": "Sabbia",
+    "fr": "Sable",
+    "es": "Arena",
+    "ja": "砂漠の民"
    },
    "Saproling": {
     "de": "Saproling",
-	"ru": "Сапролинг",
- 	"pt": "Saprófita",
-	"ko": "묘목",
-	"zhs": "腐生物",
-	"zht": "腐生物",
-	"en": "Saproling",
-	"it": "Saprolingio",
-	"fr": "Saprobionte",
-	"es": "Saprolin",
-	"ja": "苗木"
+    "ru": "Сапролинг",
+    "pt": "Saprófita",
+    "ko": "묘목",
+    "zhs": "腐生物",
+    "zht": "腐生物",
+    "en": "Saproling",
+    "it": "Saprolingio",
+    "fr": "Saprobionte",
+    "es": "Saprolín",
+    "ja": "苗木"
    },
    "Satyr": {
     "de": "Satyr",
@@ -4549,16 +4560,16 @@
    },
    "Scion": {
     "de": "Brut",
-	"ru": "Отпрыск",
- 	"pt": "Rebento",
-	"ko": "자손",
-	"zhs": "孽裔",
-	"zht": "孽裔",
-	"en": "Scion",
-	"it": "Discendente",
-	"fr": "Scion",
-	"es": "Vástago",
-	"ja": "末裔"
+    "ru": "Отпрыск",
+    "pt": "Rebento",
+    "ko": "자손",
+    "zhs": "孽裔",
+    "zht": "孽裔",
+    "en": "Scion",
+    "it": "Discendente",
+    "fr": "Scion",
+    "es": "Vástago",
+    "ja": "末裔"
    },
    "Scorpion": {
     "de": "Skorpion",
@@ -4588,29 +4599,29 @@
    },
    "Sculpture": {
     "de": "Skulptur",
-	"ru": "Скульптура",
- 	"pt": "Escultura",
-	"ko": "동상",
-	"zhs": "雕像",
-	"zht": "雕像",
-	"en": "Sculpture",
-	"it": "Sculture",
-	"fr": "Sculpture",
-	"es": "Escultura",
-	"ja": "彫像"
+    "ru": "Скульптура",
+    "pt": "Escultura",
+    "ko": "동상",
+    "zhs": "雕像",
+    "zht": "雕像",
+    "en": "Sculpture",
+    "it": "Sculture",
+    "fr": "Sculpture",
+    "es": "Escultura",
+    "ja": "彫像"
    },
    "Serf": {
     "de": "Leibeigene",
-	"ru": "Пеон",
- 	"pt": "Servo",
-	"ko": "",
-	"zhs": "农奴",
-	"zht": "農奴",
-	"en": "Serf",
-	"it": "Servo",
-	"fr": "Serf",
-	"es": "Siervo",
-	"ja": "農奴"
+    "ru": "Пеон",
+    "pt": "Servo",
+    "ko": "",
+    "zhs": "农奴",
+    "zht": "農奴",
+    "en": "Serf",
+    "it": "Servo",
+    "fr": "Serf",
+    "es": "Siervo",
+    "ja": "農奴"
    },
    "Serpent": {
     "de": "Schlange",
@@ -4627,16 +4638,16 @@
    },
    "Servo": {
     "de": "Servo",
-	"ru": "Сервотрон",
- 	"pt": "Servus",
-	"ko": "서보",
-	"zhs": "自动机",
-	"zht": "自動機",
-	"en": "Servo",
-	"it": "Servomeccanismo",
-	"fr": "Servo",
-	"es": "Servo",
-	"ja": "霊気装置"
+    "ru": "Сервотрон",
+    "pt": "Servus",
+    "ko": "서보",
+    "zhs": "自动机",
+    "zht": "自動機",
+    "en": "Servo",
+    "it": "Servomeccanismo",
+    "fr": "Servo",
+    "es": "Servo",
+    "ja": "霊気装置"
    },
    "Shade": {
     "de": "Schatten",
@@ -4794,28 +4805,28 @@
    },
    "Soltari": {
     "de": "Soltari",
-	"ru": "Солтари",
- 	"pt": "Soltariano",
-	"ko": "솔타리",
-	"zhs": "索泰利",
-	"zht": "",
-	"en": "Soltari",
-	"it": "Soltari",
-	"fr": "Soltari",
-	"es": "Soltari",
-	"ja": "サルタリー"
+    "ru": "Солтари",
+    "pt": "Soltariano",
+    "ko": "솔타리",
+    "zhs": "索泰利",
+    "zht": "",
+    "en": "Soltari",
+    "it": "Soltari",
+    "fr": "Soltari",
+    "es": "Soltari",
+    "ja": "サルタリー"
    },
    "Spawn": {
     "de": "Ausgeburt",
-	"ru": "Порождение",
- 	"pt": "Prole",
-	"zhs": "后裔",
-	"zht": "後裔",
-	"en": "Spawn",
-	"it": "Progenie",
-	"fr": "Engeance",
-	"es": "Engendro",
-	"ja": "落とし子"
+    "ru": "Порождение",
+    "pt": "Prole",
+    "zhs": "后裔",
+    "zht": "後裔",
+    "en": "Spawn",
+    "it": "Progenie",
+    "fr": "Engeance",
+    "es": "Engendro",
+    "ja": "落とし子"
    },
    "Specter": {
     "de": "Specter",
@@ -4891,7 +4902,7 @@
    },
    "Splinter": {
     "en": "Splinter",
-	"de": "Splitter",
+    "de": "Splitter"
    },
    "Sponge": {
     "de": "Schwamm",
@@ -4954,53 +4965,53 @@
    },
    "Survivor": {
     "de": "Uberlebender",
- 	"pt": "Sobrevivente",
-	"zhs": "生存者",
-	"zht": "倖存者",
-	"en": "Survivor",
-	"it": "Superstite",
-	"fr": "Survivant",
-	"es": "Superviviente",
-	"ja": "生存者"
+    "pt": "Sobrevivente",
+    "zhs": "生存者",
+    "zht": "倖存者",
+    "en": "Survivor",
+    "it": "Superstite",
+    "fr": "Survivant",
+    "es": "Superviviente",
+    "ja": "生存者"
    },
    "Tentacle": {
     "de": "Tentakel",
-	"ru": "Щупальце",
- 	"pt": "Tentáculo",
-	"ko": "촉수",
-	"zhs": "触手",
-	"zht": "觸手",
-	"en": "Tentacle",
-	"it": "Tentacolo",
-	"fr": "Tentacule",
-	"es": "Tentáculo",
-	"ja": "触手"
+    "ru": "Щупальце",
+    "pt": "Tentáculo",
+    "ko": "촉수",
+    "zhs": "触手",
+    "zht": "觸手",
+    "en": "Tentacle",
+    "it": "Tentacolo",
+    "fr": "Tentacule",
+    "es": "Tentáculo",
+    "ja": "触手"
    },
    "Tetravite": {
-	"de": "Tetravit",
-	"ru": "Пентавит",
- 	"pt": "Tetravite",
-	"ko": "테트라바이트",
-	"zhs": "四钙石",
-	"zht": "四鈣石",
-	"en": "Tetravite",
-	"it": "Tetravite",
-	"fr": "Tetravite",
-	"es": "Tetravita",
-	"ja": "テトラバイト"
-	},
+    "de": "Tetravit",
+    "ru": "Пентавит",
+    "pt": "Tetravite",
+    "ko": "테트라바이트",
+    "zhs": "四钙石",
+    "zht": "四鈣石",
+    "en": "Tetravite",
+    "it": "Tetravite",
+    "fr": "Tetravite",
+    "es": "Tetravita",
+    "ja": "テトラバイト"
+   },
    "Thalakos": {
-	"de": "Thalakos",
-	"ru": "Талакос",
-	"pt": "Thalakos",
-	"ko": "탈라코스",
-	"zhs": "塔拉科斯",
-	"zht": "塔拉科斯",
-	"it": "Thalakos",
+    "de": "Thalakos",
+    "ru": "Талакос",
+    "pt": "Thalakos",
+    "ko": "탈라코스",
+    "zhs": "塔拉科斯",
+    "zht": "塔拉科斯",
+    "it": "Thalakos",
     "en": "Thalakos",
-	"fr": "Thalakos",
-	"es": "Talako",
-	"ja": "サラカス"
+    "fr": "Thalakos",
+    "es": "Talako",
+    "ja": "サラカス"
    },
    "Thopter": {
     "de": "Thopter",
@@ -5065,16 +5076,16 @@
    },
    "Triskelavite": {
     "de": "Triskelavit",
-	"ru": "Трискелавит",
- 	"pt": "Triscelavite",
-	"ko": "트리스케라바이트",
-	"zhs": "三分节",
-	"zht": "三分節",
-	"en": "Triskelavite",
-	"it": "Triskelavite",
-	"fr": "Triskelavite",
-	"es": "Trisquelavita",
-	"ja": "トリスケラバイト"
+    "ru": "Трискелавит",
+    "pt": "Triscelavite",
+    "ko": "트리스케라바이트",
+    "zhs": "三分节",
+    "zht": "三分節",
+    "en": "Triskelavite",
+    "it": "Triskelavite",
+    "fr": "Triskelavite",
+    "es": "Trisquelavita",
+    "ja": "トリスケラバイト"
    },
    "Troll": {
     "de": "Troll",
@@ -5104,7 +5115,7 @@
    },
    "Tyranid": {
     "en": "Tyranid",
-	"ja": "ティラニッド"
+    "ja": "ティラニッド"
    },
    "Unicorn": {
     "de": "Einhorn",
@@ -5154,13 +5165,13 @@
     "ja": "ヴィーアシーノ"
    },
    "Volver": {
-	"de": "Modulon",
-	"pt": "Volver",
+    "de": "Modulon",
+    "pt": "Volver",
     "en": "Volver",
-	"it": "Volvero",
-	"fr": "Évolien",
-	"es": "Volver",
-	"ja": "ボルバー"
+    "it": "Volvero",
+    "fr": "Évolien",
+    "es": "Volver",
+    "ja": "ボルバー"
    },
    "Wall": {
     "de": "Mauer",
@@ -5298,10 +5309,10 @@
     "zhs": "袋熊",
     "zht": "袋熊",
     "en": "Wombat",
-	"it": "Vombato",
-	"fr": "Wombat",
-	"es": "Uómbat",
-	"ja": "ウォンバット",
+    "it": "Vombato",
+    "fr": "Wombat",
+    "es": "Uómbat",
+    "ja": "ウォンバット"
    },
    "Worm": {
     "de": "Würmchen",
@@ -5369,8 +5380,8 @@
    },
    "Zubera": {
     "en": "Zubera",
-	"zhs": "无面鬼",
-	"ja": "ずべら"
+    "zhs": "无面鬼",
+    "ja": "ずべら"
    }
   }
  }
