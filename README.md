@@ -4,27 +4,17 @@ Script for updating the MSE types file for each supported language.
 # Types missing translations
 
 ### Missing from most non-English languages
-* **Very New Types**: Awaiting official release
+* **Upcoming Types**: Awaiting official release
     * Card types
         * Kindred
     * Artifact types
         * Junk
-        * Map
-    * Creature types
-        * Cabybara
-        * Llama
-        * Snail
-    * Land types
-        * Cave
-    * Planeswalker types
-        * Quintorius
-        * Vronos
     * Planes
         * Bloomburrow
         * Duskmourn
         * Thunder Junction
  
-* **Silver Border**: Only officially in English
+* **Silver Border Types**: Only officially in English
     * Artifact types
         * Attraction
     * Creature types
@@ -39,7 +29,7 @@ Script for updating the MSE types file for each supported language.
     * Planeswalker types
         * Comet
 
-* **Creatures**: Very old creature types printed in very few languages.
+* **Old Creature Types**: Very old creature types printed in very few languages.
     * Beeble
     * Deserter
     * Flagbearer
@@ -49,13 +39,15 @@ Script for updating the MSE types file for each supported language.
     * Prism
     * Splinter
 
-* **Planeswalkers**
+* **Supplemental Set Planeswalker Types**: Planeswalkers only printed in supplemental sets with few languages.
     * Dack
         * Official: Japanese and Chinese
     * Guff
         * Official: German, French, Japanese
+    * Vronos
+        * Official: German, French, Japanese
 
-* **Planes**: Planes without Planechase cards
+* **Non-Planechase Planes**: Planes without Planechase cards often only have English names available.
     * Modern Planes
         * Alkabah
         * Aranzhur
@@ -90,7 +82,7 @@ Script for updating the MSE types file for each supported language.
         * Primarch
         * Tyranid
 
-* **Dr Who**: Officially in English, German, French, and Japanese
+* **Doctor Who**: Officially in English, German, French, and Japanese
     * Creature types
         * Cyberman
         * Dalek
@@ -167,6 +159,7 @@ Russian was officially supported between 9th Edition and Commander: Baldur's Gat
     * Freyalise
     * Jared
     * Jeska
+    * Quintorius
     * Sivitri
     * Szat
     * Windgrace
@@ -245,6 +238,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
     * Jared
     * Jeska
     * Koth
+    * Quintorius
     * Sivitri
     * Szat
     * Windgrace

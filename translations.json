@@ -510,6 +510,18 @@
 	"ru": "инкубатор",
     "zhs": "的抚育器"
    },
+   "Map": {
+    "de": "Lageplan",
+    "en": "Map",
+    "es": "Mapa",
+    "fr": "Carte",
+    "it": "Mappa",
+    "ja": "地図",
+	"ko": "지도",
+    "pt": "Mapa",
+	"ru": "карта",
+    "zhs": "地图"
+   },
    "Powerstone": {
     "de": "Kraftstein",
     "en": "Powerstone",
@@ -695,7 +707,16 @@
   },
   "land": {
    "Cave": {
-    "en": "Cave"
+	"de": "Höhle",
+    "en": "Cave",
+	"es": "Cueva",
+	"fr": "Caverne",
+	"it": "Caverna",
+	"ja": "洞窟",
+	"ko": "동굴",
+	"pt": "Caverna",
+	"ru": "Пещера",
+	"zhs": "洞窟"
    },
    "Desert": {
     "de": "Wüste",
@@ -1473,7 +1494,14 @@
     "zht": "甌柯"
    },
    "Quintorius": {
-    "en": "Quintorius"
+    "de": "Quintorius",
+    "en": "Quintorius",
+    "es": "Quintorius",
+    "fr": "Quintorius",
+    "it": "Quintorius",
+    "ja": "クイントリウス",
+    "pt": "Quintorius",
+	"zhs": "昆托力"
    },
    "Ral": {
     "de": "Ral",
@@ -3220,7 +3248,16 @@
     "zht": "駱駝"
    },
    "Capybara": {
-    "en": "Cabybara"
+    "de": "Wasserschwein",
+    "en": "Cabybara",
+	"es": "Capibara",
+	"fr": "Cabybara",
+	"it": "Capibara",
+	"ja": "カピバラ",
+	"ko": "카피바라",
+	"pt": "Capivara",
+	"ru": "Водосвинка",
+	"zhs": "水豚",
    },
    "Caribou": {
     "de": "Karibu",
@@ -5552,11 +5589,11 @@
     "zht": "蛞蝓"
    },
    "Snail": {
-    "de": "Schnecke",
+    "de": "Gehäuseschnecke",
     "en": "Snail",
     "es": "Caracol",
     "fr": "Escargot",
-    "it": "Lumaca",
+    "it": "Chiocciola",
     "ja": "カタツムリ",
     "ko": "달팽이",
     "pt": "Lesma",
