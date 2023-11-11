@@ -1,4 +1,5 @@
 var langObj = require('./translations.json');
+var fs = require('fs');
 
 function alphabetize(arr, lang) {
 	// todo, fancier alphabetizing for non-Eng characters
@@ -55,3 +56,51 @@ function build_word_lists(lang) {
 	
 	// fill each of the subtype lists
 }
+
+function cleanAndReport() {
+	let cleanedObj = {languages:{}, cardTypes:{}, superTypes:{}, subTypes:{}};
+	let lang_codes = Object.keys(langObj.languages).sort();
+	for(let l in lang_codes) {
+		cleanedObj.languages[lang_codes[l]] = langObj.languages[lang_codes[l]];
+	}
+	
+	let missing = "";
+	
+	for(let tn in langObj.cardTypes) {
+		cleanedObj.cardTypes[tn] = {};
+		missing += checkMiss(langObj.cardTypes, lang_codes, cleanedObj.cardTypes, tn)
+	}
+	
+	for(let tn in langObj.superTypes) {
+		cleanedObj.superTypes[tn] = {};
+		missing += checkMiss(langObj.superTypes, lang_codes, cleanedObj.superTypes, tn)
+	}
+	
+	for(let tn in langObj.subTypes) {
+		cleanedObj.subTypes[tn] = {};
+		for(let st in langObj.subTypes[tn]) {
+			cleanedObj.subTypes[tn][st] = {};
+			missing += checkMiss(langObj.subTypes[tn], lang_codes, cleanedObj.subTypes[tn], st)
+		}
+	}
+	
+	console.log(missing);
+	
+	fs.writeFile('./translations.json', JSON.stringify(cleanedObj, null, 1), function(){
+		console.log("done");
+	})
+}
+
+function checkMiss(translObj, lang_codes, cleanedObj, into) {
+	let missing = "";
+	for(let lc in lang_codes) {
+		let transl = translObj[into][lang_codes[lc]];
+		if(transl) {
+			cleanedObj[into][lang_codes[lc]] = transl;
+		}else if(lang_codes[lc] != "zht") {
+			missing += lang_codes[lc] + "," + into + "\n";
+		}
+	}
+	return missing;
+}
+cleanAndReport()
