@@ -142,6 +142,16 @@
    "es": "Artefacto",
    "ja": "アーティファクト"
   },
+  "battle": {
+	  "de": "Schlacht",
+	  "en": "Battle",
+	  "fr": "Bataille",
+	  "it": "Battaglia",
+	  "pt": "Batalha",
+	  "es": "Baralla",
+	  "ja": "バトル",
+	  "zhs": "战役"
+  },
   "conspiracy": {
    "de": "Verschwörung",
    "ru": "Заговор",
@@ -224,7 +234,7 @@
    "de": "Land",
    "ru": "Земля",
    "pt": "Terreno",
-   "ko": "대지 ",
+   "ko": "대지",
    "zhs": "地",
    "zht": "地",
    "en": "Land",
@@ -291,7 +301,7 @@
    "pt": "Feitiço",
    "ko": "집중마법",
    "zhs": "法术",
-   "zht": "巫術 ",
+   "zht": "巫術",
    "en": "Sorcery",
    "it": "Stregoneria",
    "fr": "Rituel",
@@ -484,6 +494,16 @@
     "es": "Oro",
     "ja": "金"
    },
+   "Incubator": {
+	"de": "Inkubator",
+	"pt": "Incubadora",
+	"zhs": "的抚育器",
+	"en": "Incubator",
+	"it": "Incubatrice",
+	"fr": "Incubateur",
+	"es": "Incubadora",
+	"ja": "培養器"
+   },
    "Powerstone": {
     "de": "Kraftstein",
     "pt": "Pedra de Energia",
@@ -520,6 +540,18 @@
     "es": "Vehículo",
     "ja": "機体"
    }
+  },
+  "battle": {
+	"Siege": {
+		"de": "Belagerung",
+		"en": "Siege",
+		"fr": "Siège",
+		"it": "Assedio",
+		"pt": "Cerco",
+		"es": "Asedio",
+		"ja": "包囲戦",
+		"zhs": "围攻"
+	}
   },
   "enchantment": {
    "Aura": {
@@ -586,12 +618,26 @@
     "ja": "呪い"
    },
    "Rune": {
+	"de": "Rune",
     "ru": "Руна",
+	"pt": "Runa",
     "ko": "룬",
     "zhs": "符文",
     "en": "Rune",
     "it": "Runa",
+	"fr": "Rune",
+	"es": "Runa",
     "ja": "ルーン"
+   },
+   "Role": {
+	   "en": "Role",
+	   "de": "Rolle",
+	   "fr": "Rôle",
+	   "it": "Ruolo",
+	   "pt": "Papel",
+	   "es": "Papel",
+	   "ja": "役割",
+	   "zhs": "角色"
    },
    "Saga": {
     "de": "Sage",
@@ -760,7 +806,16 @@
     "ja": "魔力炉"
    },
    "Sphere": {
-    "en": "Sphere"
+	"de": "Sphäre",
+	"ru": "Сфера",
+	"pt": "Esfera",
+	"ko": "구체",
+	"zhs": "域界",
+    "en": "Sphere",
+	"it": "Sfera",
+	"fr": "Sphère",
+	"es": "Esfera",
+	"ja": "球層"
    },
    "Swamp": {
     "de": "Sumpf",
@@ -1109,6 +1164,12 @@
     "es": "Grist",
     "ja": "グリスト"
    },
+   "Guff": {
+	"de": "Guff",
+	"en": "Guff",
+	"fr": "Calembredaine",
+	"ja": "ガフ"
+   },
    "Huatli": {
     "de": "Huatli",
     "ru": "Уатли",
@@ -1389,6 +1450,9 @@
     "es": "Oko",
     "ja": "オーコ"
    },
+   "Quintorius": {
+	"en": "Quintorius"
+   },
    "Ral": {
     "de": "Ral",
     "ru": "Рал",
@@ -1606,7 +1670,17 @@
     "ja": "ウギン"
    },
    "Urza": {
-    "en": "Urza"
+    "de": "Urza",
+    "ru": "Урзы",
+    "pt": "Urza",
+    "ko": "우르자의",
+    "zhs": "克撒",
+    "zht": "克撒",
+    "en": "Urza",
+    "it": "Urza",
+    "fr": "Urza",
+    "es": "Urza",
+    "ja": "ウルザ"
    },
    "Venser": {
     "de": "Venser",
@@ -1645,6 +1719,12 @@
     "fr": "Vraska",
     "es": "Vraska",
     "ja": "ヴラスカ"
+   },
+   "Vronos": {
+	"de": "Vronos",
+	"en": "Vronos",
+	"fr": "Vronos",
+	"ja": "ヴロノース"
    },
    "Will": {
     "de": "Will",
@@ -1792,20 +1872,34 @@
     "it": "Alara",
     "fr": "Alara",
     "es": "Alara",
-    "ja": "アラーラ"
+    "ja": "アラーラ",
+	"ko": "알라라",
+	"pt": "Alara",
+	"ru": "Алару",
+	"zhs": "阿拉若"
    },
    "Amonkhet": {
+    "de": "Amonkhet",
     "en": "Amonkhet",
+    "fr": "Amonkhet",
+    "it": "Amonkhet",
+    "pt": "Amonkhet",
+    "es": "Amonkhet",
     "ja": "アモンケット",
     "ko": "아몬케트",
-    "ru": "Амонхета",
+    "ru": "Амонхет",
     "zhs": "阿芒凯"
    },
    "Arcavios": {
+    "de": "Arcavios",
     "en": "Arcavios",
+    "fr": "Arcavios",
+    "it": "Arcavios",
+    "es": "Arcavios",
+    "pt": "Arcávios",
     "ja": "アルケヴィオス",
-    "ko": "아르카비오스의",
-    "ru": "Аркавиоса",
+    "ko": "아르카비오스",
+    "ru": "Аркавиос",
     "zhs": "阿凯维沃",
     "zht": "阿凱維沃"
    },
@@ -1823,15 +1917,23 @@
     "it": "Azgol",
     "fr": "Azgol",
     "es": "Azgol",
-    "ja": "アズゴル"
+    "pt": "Azgol",
+    "ja": "アズゴル",
+	"ko": "아즈골",
+	"ru": "Азгол",
+	"zhs": "阿兹戈尔"
    },
    "Belenon": {
     "de": "Belenon",
     "en": "Belenon",
     "it": "Belenon",
     "fr": "Belenon",
+    "pt": "Belenon",
     "es": "Bélenon",
-    "ja": "ベレノン"
+    "ja": "ベレノン",
+    "ko": "벨레논",
+    "ru": "Беленон",
+    "zhs": "贝列侬"
    },
    "Bolas's Meditation Realm": {
     "de": "Bolas' Meditationsreich",
@@ -1842,20 +1944,41 @@
     "ja": "ボーラスの・瞑想・領土"
    },
    "Capenna": {
+    "de": "Capenna",
     "en": "Capenna",
+    "it": "Capenna",
+    "fr": "Capenna",
+    "es": "Capenna",
+    "pt": "Capenna",
     "ja": "カペナ",
     "ko": "카펜나",
-    "ru": "Капеннa",
-    "zhs": "卡佩纳",
-    "zht": "卡佩納"
+    "ru": "Капенну",
+    "zht": "卡佩納",
+    "zhs": "卡佩纳"
    },
    "Dominaria": {
     "de": "Dominaria",
     "en": "Dominaria",
+    "pt": "Dominária",
     "it": "Dominaria",
     "fr": "Dominaria",
     "es": "Dominaria",
-    "ja": "ドミナリア"
+    "ja": "ドミナリア",
+    "ko": "도미나리아",
+    "ru": "Доминарию",
+    "zhs": "多明纳里亚"
+   },
+   "Eldraine": {
+	   "de": "Eldraine",
+	   "fr": "Eldraine",
+	   "it": "Eldraine",
+	   "pt": "Eldraine",
+	   "es": "Eldraine",
+	   "en": "Eldraine",
+	   "ja": "エルドレイン",
+	   "ko": "엘드레인",
+	   "ru": "Элдраин",
+	   "zhs": "艾卓"
    },
    "Equilor": {
     "de": "Equilor",
@@ -1863,7 +1986,9 @@
     "it": "Equilor",
     "fr": "Équilor",
     "es": "Equilor",
-    "ja": "エクィロー"
+    "pt": "Equilor",
+    "ja": "エクィロー",
+    "zhs": "埃奎罗 "
    },
    "Ergamon": {
     "de": "Ergamon",
@@ -1871,15 +1996,21 @@
     "it": "Ergamon",
     "fr": "Ergamon",
     "es": "Ergamon",
-    "ja": "エルガモン"
+    "pt": "Ergamon",
+    "ja": "エルガモン",
+    "ko": "에르가몬",
+    "ru": "Эргамон",
+    "zhs": "厄加蒙"
    },
    "Fabacin": {
     "de": "Fabacin",
     "en": "Fabacin",
     "it": "Fabacin",
     "fr": "Fabacin",
+    "pt": "Fabacin",
     "es": "Fábacin",
-    "ja": "ファバシン"
+    "ja": "ファバシン",
+    "zhs": "法巴辛 "
    },
    "Faerûn": {
     "en": "Faerûn",
@@ -1889,20 +2020,53 @@
     "zhs": "费伦",
     "zht": "費倫"
    },
+	"Fiora": {
+		"en": "Fiora",
+		"de": "Fiora",
+		"es": "Fiora",
+		"pt": "Fiora",
+		"it": "Fiora",
+		"fr": "Fiora",
+		"ja": "フィオーラ",
+		"ko": "피오라",
+		"ru": "Фиору",
+		"zhs": "翡欧拉"
+	},
+   "Gobakhan": {
+	   "en": "Gobakhan",
+	   "de": "Gobakhan",
+	   "fr": "Gobakhan",
+	   "it": "Gobakhan",
+	   "pt": "Gobakhan",
+	   "es": "Gobakhan",
+	   "ja": "ゴバカーン",
+	   "ko": "고바칸",
+	   "ru": "Гобахан",
+	   "zhs": "高巴汗"
+   },
+   "Ikoria": {
+    "en": "Ikoria",
+    "de": "Ikoria",
+    "fr": "Ikoria",
+    "es": "Ikoria",
+    "it": "Ikoria",
+    "pt": "Ikoria",
+    "ja": "イコリア",
+    "ru": "Икорию",
+    "ko": "이코리아",
+    "zhs": "依克黎"
+   },
    "Innistrad": {
     "de": "Innistrad",
     "en": "Innistrad",
     "it": "Innistrad",
+    "pt": "Innistrad",
     "fr": "Innistrad",
     "es": "Innistrad",
-    "ja": "イニストラード"
-   },
-   "Ikoria": {
-    "en": "Ikoria",
-    "ja": "イコリア",
-    "ru": "Икории",
-    "ko": "이코리아",
-    "zhs": "依克黎结"
+    "ja": "イニストラード",
+	"ko": "이니스트라드",
+	"ru": "ннистрад",
+	"zhs": "依尼翠"
    },
    "Iquatana": {
     "de": "Iquatana",
@@ -1910,7 +2074,9 @@
     "it": "Iquatana",
     "fr": "Iquatana",
     "es": "Iquatana",
-    "ja": "イクァンターナ"
+    "pt": "Iquatana",
+    "ja": "イクァンターナ",
+    "zhs": "伊夸塔纳"
    },
    "Ir": {
     "de": "Ir",
@@ -1918,14 +2084,32 @@
     "it": "Ir",
     "fr": "Ir",
     "es": "Ir",
-    "ja": "アー"
+    "ja": "アー",
+    "zhs": "伊尔"
    },
    "Ixalan": {
     "en": "Ixalan",
+    "de": "Ixalan",
+    "fr": "Ixalan",
+    "it": "Ixalan",
+    "pt": "Ixalan",
+    "es": "Ixalan",
     "ja": "イクサラン",
     "ko": "익살란",
-    "ru": "Иксалане",
+    "ru": "Иксалан",
     "zhs": "依夏兰"
+   },
+   "Kaladesh": {
+    "en": "Kaladesh",
+    "de": "Kaladesh",
+    "fr": "Kaladesh",
+    "it": "Kaladesh",
+    "pt": "Kaladesh",
+    "es": "Kaladesh",
+    "ja": "カラデシュ",
+    "ko": "칼라데시",
+    "ru": "Каладеш",
+    "zhs": "卡拉德许"
    },
    "Kaldheim": {
     "de": "Kaldheim",
@@ -1933,7 +2117,11 @@
     "it": "Kaldheim",
     "fr": "Kaldheim",
     "es": "Kaldheim",
-    "ja": "カルドハイム"
+    "pt": "Kaldheim",
+    "ja": "カルドハイム",
+	"ko": "칼드하임",
+	"ru": "Калдхайм",
+	"zhs": "凯德海姆"
    },
    "Kamigawa": {
     "de": "Kamigawa",
@@ -1941,11 +2129,24 @@
     "it": "Kamigawa",
     "fr": "Kamigawa",
     "es": "Kamigawa",
-    "ja": "神河"
+    "pt": "Kamigawa",
+    "ja": "神河",
+	"ko": "카미가와",
+	"ru": "Камигаву",
+	"zhs": "神河"
    },
    "Karsus": {
-    "en": "Karsus"
-   },
+    "en": "Karsus",
+    "de": "Karsus",
+    "it": "Karsus",
+    "fr": "Karsus",
+    "es": "Karsus",
+    "pt": "Karsus",
+    "ja": "カーサス",
+	"ko": "카르서스",
+	"ru": "Карсус",
+	"zhs": "卡瑟斯"
+  },
    "Kephalai": {
     "de": "Kephalai",
     "en": "Kephalai",
@@ -1965,6 +2166,18 @@
     "es": "Kólbahan",
     "ja": "コルバハン"
    },
+   "Kylem": {
+	   "en": "Kylem",
+	   "de": "Kylem",
+	   "fr": "Kylem",
+	   "it": "Kylem",
+	   "pt": "Kylem",
+	   "es": "Kylem",
+	   "ja": "ケイレム",
+	   "ko": "카일렘",
+	   "ru": "Килем",
+	   "zhs": "凯勒姆"
+   },
    "Kyneth": {
     "de": "Kyneth",
     "en": "Kyneth",
@@ -1979,7 +2192,11 @@
     "it": "Lorwyn",
     "fr": "Lorwyn",
     "es": "Lorwyn",
-    "ja": "ローウィン"
+    "pt": "Lorwyn",
+    "ja": "ローウィン",
+    "ko": "로윈",
+    "ru": "Лорвин",
+    "zhs": "洛温"
    },
    "Luvion": {
     "en": "Luvion"
@@ -1990,15 +2207,21 @@
     "it": "Mercadia",
     "fr": "Mercadia",
     "es": "Mercadia",
-    "ja": "メルカディア"
+    "pt": "Mercádia",
+    "ja": "メルカディア",
+    "ko": "메르카디아",
+    "ru": "Меркадию",
+    "zhs": "玛凯迪亚"
    },
    "Mirrodin": {
     "de": "Mirrodin",
     "en": "Mirrodin",
     "it": "Mirrodin",
     "fr": "Mirrodin",
+    "pt": "Mirrodin",
     "es": "Mirrodín",
-    "ja": "ミラディン"
+    "ja": "ミラディン",
+    "zhs": "秘罗地"
    },
    "Moag": {
     "de": "Moag",
@@ -2006,7 +2229,11 @@
     "it": "Moag",
     "fr": "Moag",
     "es": "Moag",
-    "ja": "モアグ"
+    "pt": "Moag",
+    "ja": "モアグ",
+    "ko": "모아그",
+    "ru": "Моаг",
+    "zhs": "墨格"
    },
    "Mongseng": {
     "de": "Mongseng",
@@ -2014,7 +2241,8 @@
     "it": "Mongseng",
     "fr": "Mongseng",
     "es": "Mongseng",
-    "ja": "モンセン"
+    "ja": "モンセン",
+    "zhs": "蒙森"
    },
    "Muraganda": {
     "de": "Muraganda",
@@ -2022,26 +2250,47 @@
     "it": "Muraganda",
     "fr": "Muraganda",
     "es": "Muraganda",
-    "ja": "ムラガンダ"
+    "pt": "Muraganda",
+    "ja": "ムラガンダ",
+    "ko": "무라간다",
+    "ru": "Мураганду",
+    "zhs": "莫甘达"
    },
    "New Phyrexia": {
-    "de": "Das neue Phyrexia",
+    "de": "Neu-Phyrexia",
     "en": "New Phyrexia",
     "it": "Nuova Phyrexia",
     "fr": "Nouvelle Phyrexia",
     "es": "Nueva Phyrexia",
-    "ja": "新ファイレクシア"
+    "pt": "Nova Phyrexia",
+    "ja": "新ファイレクシア",
+    "ko": "뉴 피렉시아",
+    "ru": "Новую Фирексию",
+    "zhs": "新非瑞克西亚"
    },
    "Phyrexia": {
     "de": "Phyrexia",
     "en": "Phyrexia",
     "it": "Phyrexia",
     "fr": "Phyrexia",
-    "es": "Pirexia",
-    "ja": "ファイレクシア"
+    "es": "Phyrexia",
+    "pt": "Phyrexia",
+    "ja": "ファイレクシア",
+    "ko": "피렉시아",
+    "ru": "Фирексию",
+    "zhs": "非瑞克西亚"
    },
    "Pyrulea": {
-    "en": "Pyrulea"
+	"de": "Pyrulea",
+    "en": "Pyrulea",
+    "es": "Pyrulea",
+    "it": "Pyrulea",
+    "pt": "Pyrulea",
+	"fr": "Pyrulée",
+	"ja": "パイルリー",
+	"ko": "파이룰리아",
+	"ru": "Пирулею",
+	"zhs": "派鲁利亚"
    },
    "Rabiah": {
     "de": "Rabiah",
@@ -2056,16 +2305,22 @@
     "en": "Rath",
     "it": "Rath",
     "fr": "Rajh",
+    "pt": "Rath",
     "es": "Rath",
-    "ja": "ラース"
+    "ja": "ラース",
+    "zhs": "瑞斯"
    },
    "Ravnica": {
     "de": "Ravnica",
     "en": "Ravnica",
     "it": "Ravnica",
     "fr": "Ravnica",
+    "pt": "Ravnica",
     "es": "Rávnica",
-    "ja": "ラヴニカ"
+    "ja": "ラヴニカ",
+	"ko": "라브니카",
+	"ru": "Равнику",
+	"zhs": "拉尼卡"
    },
    "Regatha": {
     "de": "Regatha",
@@ -2073,7 +2328,11 @@
     "it": "Regatha",
     "fr": "Regatha",
     "es": "Regatha",
-    "ja": "レガーサ"
+    "pt": "Regatha",
+    "ja": "レガーサ",
+	"ko": "레가타",
+	"ru": "Регату",
+	"zhs": "瑞格沙"
    },
    "Segovia": {
     "de": "Segovia",
@@ -2081,10 +2340,19 @@
     "it": "Segovia",
     "fr": "Ségovie",
     "es": "Segovia",
-    "ja": "セゴビア"
+    "pt": "Segóvia",
+    "ja": "セゴビア",
+	"ko": "세고비아",
+	"ru": "Сеговию",
+	"zhs": "塞哥维亚"
    },
    "Serra's Realm": {
-    "en": "Serra's Realm"
+    "en": "Serra's Realm",
+	"es": "Reino de Serra",
+	"fr": "Royaume de Serra",
+	"de": "Serras Reich",
+	"it": "Reame di Serra",
+	"ja": "セラの・領土"
    },
    "Shadowmoor": {
     "de": "Schattenmoor",
@@ -2098,14 +2366,45 @@
     "it": "Shandalar",
     "fr": "Shandalar",
     "es": "Shandalar",
-    "ja": "シャンダラー"
+    "pt": "Shandalar",
+    "ja": "シャンダラー",
+	"ko": "샨달라르",
+	"ru": "Шандалар",
+	"zhs": "山德拉"
+   },
+   "Tarkir": {
+    "de": "Tarkir",
+    "en": "Tarkir",
+    "it": "Tarkir",
+    "fr": "Tarkir",
+    "es": "Tarkir",
+    "pt": "Tarkir",
+    "ja": "タルキール",
+	"ko": "타르커",
+	"ru": "Таркир",
+	"zhs": "鞑契"
    },
    "Theros": {
     "en": "Theros",
+    "de": "Theros",
+    "fr": "Theros",
+    "pt": "Theros",
+    "es": "Theros",
     "ja": "テーロス",
     "ko": "테로스",
-    "ru": "Тероса",
-    "zhs": "塞洛斯的"
+    "ru": "Терос",
+    "zhs": "塞洛斯"
+   },
+   "Tolvada": {
+    "en": "Tolvada",
+    "de": "Tolvada",
+    "fr": "Tolvada",
+    "pt": "Tolvada",
+    "es": "Tolvada",
+    "ja": "トルヴァダ",
+    "ko": "톨바다",
+    "ru": "олваду",
+    "zhs": "托瓦达"
    },
    "Ulgrotha": {
     "de": "Ulgrotha",
@@ -2113,7 +2412,11 @@
     "it": "Ulgrotha",
     "fr": "Ulgrotha",
     "es": "Ulgrotha",
-    "ja": "ウルグローサ"
+    "pt": "Ulgrotha",
+    "ja": "ウルグローサ",
+    "ko": "울그로사",
+    "ru": "Улгроту",
+    "zhs": "厄格罗沙"
    },
    "Valla": {
     "de": "Valla",
@@ -2129,16 +2432,30 @@
     "it": "Vryn",
     "fr": "Vryn",
     "es": "Vryn",
-    "ja": "ヴリン"
+    "pt": "Vryn",
+    "ja": "ヴリン",
+    "ko": "브린",
+    "ru": "Врин",
+    "zhs": "维林"
    },
    "Wildfire": {
     "de": "Wildfeuer",
     "en": "Wildfire",
+	"es": "Dominio Ígneo",
     "fr": "Grégefeu",
     "ja": "ワイルドファイア"
    },
    "Xerex": {
-    "en": "Xerex"
+	"de": "Xerex",
+	"fr": "Xerex",
+	"it": "Xerex",
+    "en": "Xerex",
+	"ja": "キセレクス",
+	"ko": "제렉스",
+	"pt": "Xerex",
+	"ru": "Ксерекс",
+	"zhs": "兹雷兹",
+	"es": "Xerex"
    },
    "Zendikar": {
     "de": "Zendikar",
@@ -2146,7 +2463,264 @@
     "it": "Zendikar",
     "fr": "Zendikar",
     "es": "Zendikar",
-    "ja": "ゼンディカー"
+    "pt": "Zendikar",
+    "ja": "ゼンディカー",
+    "ko": "젠디카르",
+    "ru": "Зендикар",
+    "zhs": "赞迪卡"
+   },
+   "Bloomburrow": {
+	 "en": "Bloomburrow"
+   },
+   "Duskmourn": {
+	 "en": "Duskmourn"
+   },
+   "Thunder Junction": {
+	 "en": "Thunder Junction"
+   },
+   "Alkabah": {
+	 "en": "Alkabah"
+   },
+   "Aranzhur": {
+	 "en": "Aranzhur"
+   },
+   "Diraden": {
+	 "en": "Diraden"
+   },
+   "Kodisha": {
+	 "en": "Kodisha"
+   },
+   "Metal Island": {
+	 "en": "Metal Island"
+   },
+   "Skalla": {
+	 "en": "Skalla",
+	 "es": "Skalla",
+	 "de": "Skalla",
+	 "fr": "Skalla",
+	 "it": "Skalla",
+	 "pt": "Skalla",
+	 "ja": "スカラ",
+	 "ko": "스칼라",
+	 "ru": "Скаллы",
+	 "zhs": "斯凯拉"
+   },
+   "Tavelia": {
+	 "en": "Tavelia"
+   },
+   "Azoria": {
+	 "en": "Azoria"
+   },
+   "Cabralin": {
+	 "en": "Cabralin"
+   },
+   "Celesta": {
+	 "en": "Celesta"
+   },
+   "Gastal": {
+	 "en": "Gastal"
+   },
+   "Ilcae": {
+	 "en": "Ilcae"
+   },
+   "Mirrankkar": {
+	 "en": "Mirrankkar"
+   },
+   "Nether Void": {
+	 "en": "Nether Void"
+   },
+   "Obsidias": {
+	 "en": "Obsidias"
+   },
+   "Torwynn": {
+	 "en": "Torwynn"
+   },
+   "Vatraquaz": {
+	 "en": "Vatraquaz"
+   },
+   "The Abyss": {
+	 "en": "The Abyss",
+	 "de": "Der Abyssus",
+	 "fr": "L'Abysse",
+	 "it": "L'Abisso",
+	 "pt": "O Abisano",
+	 "es": "El Abismo",
+	 "ja": "深淵",
+	 "zhs": "邃狱"
+   },
+   "Antausia": {
+	 "en": "Antausia",
+	 "de": "Antausia",
+	 "fr": "Antausia",
+	 "it": "Antausia",
+	 "pt": "Antausia",
+	 "es": "Antausia",
+	 "ja": "アンタウシア",
+	 "zhs": "安陶西亚"
+   },
+   "Cridhe": {
+	 "en": "Cridhe",
+	 "de": "Cridhe",
+	 "fr": "Cridhe",
+	 "it": "Cridhe",
+	 "pt": "Cridhe",
+	 "es": "Cridhe",
+	 "ja": "クリーデ",
+	 "zhs": "克莱哲"
+   },
+   "Echoir": {
+	 "en": "Echoir",
+	 "de": "Echoir",
+	 "fr": "Echoir",
+	 "it": "Echoir",
+	 "pt": "Echoir",
+	 "es": "Echoir",
+	 "ja": "エコワール",
+	 "zhs": "埃圭尔"
+   },
+   "Gargantikar": {
+	 "en": "Gargantikar",
+	 "de": "Gargantikar",
+	 "fr": "Gargantikar",
+	 "it": "Gargantikar",
+	 "pt": "Gargantikar",
+	 "es": "Gargantikar",
+	 "ja": "ガルガンティカール",
+	 "zhs": "庞巨地"
+   },
+   "Zhalfir": {
+	 "en": "Zhalfir",
+	 "de": "Zhalfir",
+	 "fr": "Zhalfir",
+	 "it": "Zhalfir",
+	 "pt": "Zhalfir",
+	 "es": "Zhalfir",
+	 "ja": "ザルファー",
+	 "zhs": "赛费尔"
+   },
+   "Shenmeng": {
+	 "en": "Shenmeng",
+	 "de": "Shenmeng",
+	 "fr": "Shenmeng",
+	 "it": "Shenmeng",
+	 "pt": "Shenmeng",
+	 "es": "Shenmeng",
+	 "ja": "沈夢",
+	 "zhs": "蜃梦"
+   },
+   "Earth": {
+	   "en": "Earth",
+	   "fr": "Terre",
+	   "de": "Erde",
+	   "ja": "地球"
+   },
+   "Alfava Metraxis": {
+	   "en": "Alfava Metraxis",
+	   "fr": "Alfava Metraxis",
+	   "de": "Alfava Metraxis",
+	   "ja": "アルファヴァ＝メトラクシス"
+   },
+   "Androzani Minor": {
+	   "en": "Androzani Minor",
+	   "fr": "Androzani Minor",
+	   "de": "Androzani Minor",
+	   "ja": "アンドロザーニ＝マイナー"
+   },
+   "Apalapucia": {
+	   "en": "Apalapucia"
+   },
+   "The Dalek Asylum": {
+	   "en": "The Dalek Asylum",
+	   "fr": "l'Asile des Daleks",
+	   "de": "Dalek-Asylum",
+	   "ja": "ダーレク収容所"
+   },
+   "Darillium": {
+	   "en": "Darillium",
+	   "fr": "Darillium",
+	   "de": "Darillium",
+	   "ja": "ダリリアム"
+   },
+   "Gallifrey": {
+	   "en": "Gallifrey",
+	   "fr": "Gallifrey",
+	   "de": "Gallifrey",
+	   "ja": "ギャリフレイ"
+   },
+   "Horsehead Nebula": {
+	   "en": "Horsehead Nebula",
+	   "fr": "Nébuleuse de la Tête de Cheval",
+	   "de": "Pferdekopfnebel",
+	   "ja": "ド・スフィア "
+   },
+   "Kandoka": {
+	   "en": "Kandoka",
+	   "fr": "Kandoka",
+	   "de": "Kandoka",
+	   "ja": "カンドカ"
+   },
+   "The Library": {
+	   "en": "The Library",
+	   "fr": "La Bibliothèque",
+	   "de": "Die Bibliothek",
+	   "ja": "図書館 "
+   },
+   "Mars": {
+	   "en": "Mars",
+	   "fr": "Mars",
+	   "de": "Mars",
+	   "ja": "火星"
+   },
+   "Moon": {
+	   "en": "Moon",
+	   "fr": "Lune",
+	   "de": "Mond",
+	   "ja": "月"
+   },
+   "Necros": {
+	   "en": "Necros",
+	   "fr": "Necros",
+	   "de": "Necros",
+	   "ja": "ネクロス "
+   },
+   "New Earth": {
+	   "en": "New Earth",
+	   "fr": "Nouvelle Terre",
+	   "de": "Neue Erde",
+	   "ja": "新地球"
+   },
+   "Outside Mutter's Spiral": {
+	   "en": "Outside Mutter's Spiral",
+	   "fr": "hors de la Spirale du Murmure",
+	   "de": "Außerhalb der Mutter-Spiralgalaxie",
+	   "ja": "マッターズ＝スパイラル外縁 "
+   },
+   "Skaro": {
+	   "en": "Skaro",
+	   "fr": "Skaro",
+	   "de": "Skaro",
+	   "ja": "スカロ "
+   },
+   "Spacecraft": {
+	   "en": "Spacecraft",
+	   "fr": "vaisseau spatial",
+	   "de": "Raumschiff",
+	   "ja": "宇宙船"
+   },
+   "Time": {
+	   "en": "Time"
+   },
+   "Trenzalore": {
+	   "en": "Trenzalore",
+	   "fr": "Trenzalore",
+	   "de": "Trenzalore",
+	   "ja": "トレンザロア "
+   },
+   "Unknown Planet": {
+	   "en": "Unknown Planet",
+	   "fr": "Planète inconnue",
+	   "de": "Unbekannter Planet",
+	   "ja": "不詳の惑星"
    }
   },
   "dungeon": {
@@ -2572,6 +3146,9 @@
     "es": "Camello",
     "ja": "ラクダ"
    },
+   "Capybara": {
+	"en": "Cabybara"
+   },
    "Caribou": {
     "de": "Karibu",
     "ru": "Карибу",
@@ -2751,6 +3328,12 @@
    "Custodes": {
     "en": "Custodes"
    },
+   "Cyberman": {
+	"de": "Cyberman",
+    "en": "Cyberman",
+	"fr": "Cyberman",
+	"ja": "サイバーマン"
+   },
    "Cyclops": {
     "de": "Zyklop",
     "ru": "Циклоп",
@@ -2763,6 +3346,12 @@
     "fr": "Cyclope",
     "es": "Cíclope",
     "ja": "サイクロプス"
+   },
+   "Dalek": {
+	"de": "Dalek",
+    "en": "Dalek",
+	"fr": "Dalek",
+	"ja": "ダーレク"
    },
    "Dauthi": {
     "ru": "Доути",
@@ -2802,6 +3391,12 @@
     "en": "Deserter",
     "de": "Deserteur"
    },
+   "Detective": {
+	"de": "Detektiv",
+	"en": "Detective",
+	"fr": "Détective",
+	"ja": "探偵"
+   },
    "Devil": {
     "de": "Teufel",
     "ru": "Дьявол",
@@ -2840,6 +3435,12 @@
     "fr": "Djinn",
     "es": "Djinn",
     "ja": "ジン"
+   },
+   "Doctor": {
+	"de": "Doctor",
+	"en": "Doctor",
+	"fr": "Docteur",
+	"ja": "ドクター"
    },
    "Dog": {
     "de": "Hund",
@@ -3195,10 +3796,15 @@
     "ja": "巨人"
    },
    "Gith": {
+	"de": "Gith",
     "ru": "Гит",
+	"pt": "Gith",
     "ko": "기스",
     "zhs": "吉斯人",
     "en": "Gith",
+	"it": "Gith",
+	"fr": "Gith",
+	"es": "Gith",
     "ja": "ギス"
    },
    "Gnoll": {
@@ -3775,6 +4381,18 @@
     "es": "Lagarto",
     "ja": "トカゲ"
    },
+   "Llama": {
+	"de": "Lama",
+	"ru": "Лама",
+	"pt": "Lhama",
+	"ko": "야마",
+	"zhs": "骆驼",
+	"en": "Llama",
+	"it": "Lama",
+	"fr": "Lama",
+	"es": "Llama",
+	"ja": "ラマ"
+   },
    "Manticore": {
     "de": "Mantikor",
     "ru": "Мантикора",
@@ -3857,7 +4475,15 @@
     "ja": "ミノタウルス"
    },
    "Mite": {
-    "en": "Mite"
+	"de": "Milbe",
+	"ru": "клещ",
+	"pt": "Ácaro",
+	"zhs": "虫械",
+    "en": "Mite",
+	"it": "Acaro",
+	"fr": "Puce",
+	"es": "Ácaro",
+	"ja": "ダニ"
    },
    "Mole": {
     "de": "Maulwurf",
@@ -3979,13 +4605,6 @@
     "fr": "Mystique",
     "es": "Místico",
     "ja": "神秘家"
-   },
-   "Naga": {
-    "ru": "Нага",
-    "ko": "나가",
-    "zhs": "那伽",
-    "en": "Naga",
-    "ja": "ナーガ"
    },
    "Nautilus": {
     "de": "Nautilus",
@@ -4458,7 +5077,10 @@
     "ja": "装具"
    },
    "Robot": {
-    "en": "Robot"
+	"de": "Roboter",
+    "en": "Robot",
+	"fr": "Robot",
+	"ja": "ロボット"
    },
    "Rogue": {
     "de": "Räuber",
@@ -4557,6 +5179,12 @@
     "fr": "Épouvantail",
     "es": "Espantapájaros",
     "ja": "カカシ"
+   },
+   "Scientist": {
+	"de": "Forscher",
+	"en": "Scientist",
+	"fr": "Scientifique",
+	"ja": "科学者"
    },
    "Scion": {
     "de": "Brut",
@@ -4776,6 +5404,18 @@
     "fr": "Limace",
     "es": "Babosa",
     "ja": "ナメクジ"
+   },
+   "Snail": {
+    "de": "Schnecke",
+    "ru": "Улитка",
+    "pt": "Lesma",
+    "ko": "달팽이",
+    "zhs": "蜗牛",
+    "en": "Snail",
+    "it": "Lumaca",
+    "fr": "Escargot",
+    "es": "Caracol",
+    "ja": "カタツムリ"
    },
    "Snake": {
     "de": "Ophis",
@@ -5047,6 +5687,12 @@
     "en": "Tiefling",
     "fr": "Tieffelin",
     "ja": "ティーフリング"
+   },
+   "Time Lord": {
+	"de": "Time-Lord",
+	"en": "Time Lord",
+	"fr": "Time lord",
+	"ja": "タイムロード"
    },
    "Treefolk": {
     "de": "Baumhirte",
