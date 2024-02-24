@@ -3,7 +3,14 @@
   "de": {
    "name": "Deutsch",
    "spellcheckCode": "de_DE",
-   "keywordTypes": ["alt", "Kern", "Experte", "Pseudo", "Aktion", "personalisiert"],
+   "keywordTypes": [
+    "alt",
+    "Kern",
+    "Experte",
+    "Pseudo",
+    "Aktion",
+    "personalisiert"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": "",
@@ -13,7 +20,12 @@
     "card"
    ],
    "treatTokenAsCardType": true,
-   "typeOrder": ["enchantment", "artifact", "land", "creature"],
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ],
    "special": {
     "Basic Land": "Standardland",
     "World Enchantment": "Weltenverzauberung"
@@ -22,18 +34,37 @@
   "en": {
    "name": "English",
    "spellcheckCode": "en_US",
-   "keywordTypes": ["old", "core", "expert", "pseudo", "action", "custom"],
+   "keywordTypes": [
+    "old",
+    "core",
+    "expert",
+    "pseudo",
+    "action",
+    "custom"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
    "subTypeSeperator": " ",
    "lowerSecondTypes": [],
-   "typeOrder": ["enchantment", "artifact", "land", "creature"]
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ]
   },
   "es": {
    "name": "Español",
    "spellcheckCode": "es_ES",
-   "keywordTypes": ["viejo", "núcleo", "experto", "seudo", "acción", "personalizado"],
+   "keywordTypes": [
+    "viejo",
+    "núcleo",
+    "experto",
+    "seudo",
+    "acción",
+    "personalizado"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
@@ -44,7 +75,12 @@
     "card"
    ],
    "suffixSuperTypes": true,
-   "typeOrder": ["land", "creature", "artifact", "enchantment"],
+   "typeOrder": [
+    "land",
+    "creature",
+    "artifact",
+    "enchantment"
+   ],
    "special": {
     "Legendary Creature": "Criatura legendaria",
     "Legendary Land": "Tierra legendaria"
@@ -53,7 +89,14 @@
   "fr": {
    "name": "Français",
    "spellcheckCode": "fr_FR",
-   "keywordTypes": ["vieux", "noyau", "expert", "pseudo", "action", "personnalisé"],
+   "keywordTypes": [
+    "vieux",
+    "noyau",
+    "expert",
+    "pseudo",
+    "action",
+    "personnalisé"
+   ],
    "seperator": " : ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": "-",
@@ -65,7 +108,12 @@
     "allsub"
    ],
    "suffixSuperTypes": true,
-   "typeOrder": ["creature", "land", "artifact", "enchantment"],
+   "typeOrder": [
+    "creature",
+    "land",
+    "artifact",
+    "enchantment"
+   ],
    "special": {
     "Snow Creature": "Créature neigeuse"
    }
@@ -73,14 +121,26 @@
   "it": {
    "name": "Italiano",
    "spellcheckCode": "it_IT",
-   "keywordTypes": ["vecchio", "nucleo", "esperto", "pseudo", "azione", "personalizzato"],
+   "keywordTypes": [
+    "vecchio",
+    "nucleo",
+    "esperto",
+    "pseudo",
+    "azione",
+    "personalizzato"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
    "subTypeSeperator": " ",
    "lowerSecondTypes": [],
    "suffixSuperTypes": true,
-   "typeOrder": ["creature", "land", "artifact", "enchantment"],
+   "typeOrder": [
+    "creature",
+    "land",
+    "artifact",
+    "enchantment"
+   ],
    "special": {
     "Legendary Creature": "Creatura leggendaria",
     "Legendary Land": "Terra leggendaria"
@@ -89,14 +149,26 @@
   "ja": {
    "name": "日本語",
    "spellcheckCode": "ja_JP",
-   "keywordTypes": ["古い", "中核", "習熟", "疑似", "アクション", "パーソナライズされた"],
+   "keywordTypes": [
+    "古い",
+    "中核",
+    "習熟",
+    "疑似",
+    "アクション",
+    "パーソナライズされた"
+   ],
    "seperator": " — ",
    "subTypeSeperator": "・",
    "superTypeSeperator": "",
    "cardTypeSeperator": "・",
    "lowerSecondTypes": [],
    "treatTokenAsCardType": true,
-   "typeOrder": ["artifact", "enchantment", "land", "creature"],
+   "typeOrder": [
+    "artifact",
+    "enchantment",
+    "land",
+    "creature"
+   ],
    "special": {
     "World Enchantment": "ワールド・エンチャント"
    }
@@ -104,18 +176,37 @@
   "ko": {
    "name": "한국어",
    "spellcheckCode": "ko_KO",
-   "keywordTypes": ["늙은", "핵심", "숙련된", "가짜", "행동", "맞춤형"],
+   "keywordTypes": [
+    "늙은",
+    "핵심",
+    "숙련된",
+    "가짜",
+    "행동",
+    "맞춤형"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
    "subTypeSeperator": " ",
    "lowerSecondTypes": [],
-   "typeOrder": ["enchantment", "artifact", "land", "creature"]
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ]
   },
   "pt-br": {
    "name": "Português do Brasil",
    "spellcheckCode": "pt_BR",
-   "keywordTypes": ["velho", "núcleo", "perito", "pseudo", "ação", "personalizado"],
+   "keywordTypes": [
+    "velho",
+    "núcleo",
+    "perito",
+    "pseudo",
+    "ação",
+    "personalizado"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
@@ -123,7 +214,12 @@
    "lowerSecondTypes": [],
    "suffixSuperTypes": true,
    "artifactPrimary": true,
-   "typeOrder": ["creature", "land", "artifact", "enchantment"],
+   "typeOrder": [
+    "creature",
+    "land",
+    "artifact",
+    "enchantment"
+   ],
    "special": {
     "Legendary Creature": "Criatura Lendária"
    }
@@ -131,36 +227,72 @@
   "ru": {
    "name": "Русский",
    "spellcheckCode": "ru_RU",
-   "keywordTypes": ["старый", "ядро", "экспертный", "псевдо", "действие", "персонализированный"],
+   "keywordTypes": [
+    "старый",
+    "ядро",
+    "экспертный",
+    "псевдо",
+    "действие",
+    "персонализированный"
+   ],
    "seperator": " — ",
    "superTypeSeperator": " ",
    "cardTypeSeperator": " ",
    "subTypeSeperator": " ",
-   "typeOrder": ["enchantment", "artifact", "land", "creature"],
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ],
    "lowerSecondTypes": []
   },
   "zhs": {
    "name": "汉语",
    "spellcheckCode": "cn_ZHS",
    "fallback": "zht",
-   "keywordTypes": ["旧", "核心", "专", "伪", "行动", "专门"],
+   "keywordTypes": [
+    "旧",
+    "核心",
+    "专",
+    "伪",
+    "行动",
+    "专门"
+   ],
    "seperator": "～",
    "superTypeSeperator": "",
    "cardTypeSeperator": "",
    "subTypeSeperator": "／",
-   "typeOrder": ["enchantment", "artifact", "land", "creature"],
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ],
    "lowerSecondTypes": []
   },
   "zht": {
    "name": "漢語",
    "spellcheckCode": "cn_ZHT",
    "fallback": "zhs",
-   "keywordTypes": ["古老", "核心", "嫻", "偽", "行動", "專門"],
+   "keywordTypes": [
+    "古老",
+    "核心",
+    "嫻",
+    "偽",
+    "行動",
+    "專門"
+   ],
    "seperator": "～",
    "superTypeSeperator": "",
    "cardTypeSeperator": "",
    "subTypeSeperator": "／",
-   "typeOrder": ["enchantment", "artifact", "land", "creature"],
+   "typeOrder": [
+    "enchantment",
+    "artifact",
+    "land",
+    "creature"
+   ],
    "lowerSecondTypes": []
   }
  },
@@ -256,18 +388,18 @@
    "zht": "結界"
   },
   "hero": {
-	"de": "Held",
-	"en": "Hero",
-	"es": "Héroe",
-	"fr": "Héros",
-	"it": "Eroe",
-	"ja": "ヒーロー",
-	"ko": "영웅",
-	"pt-br": "Herói",
-	"ru": "Герой",
-	"zhs": "英雄",
-	"zht": "英雄"
-},
+   "de": "Held",
+   "en": "Hero",
+   "es": "Héroe",
+   "fr": "Héros",
+   "it": "Eroe",
+   "ja": "ヒーロー",
+   "ko": "영웅",
+   "pt-br": "Herói",
+   "ru": "Герой",
+   "zhs": "英雄",
+   "zht": "英雄"
+  },
   "instant": {
    "de": "Spontanzauber",
    "en": "Instant",
@@ -373,17 +505,17 @@
    "zht": "巫術"
   },
   "vanguard": {
-	"de": "Vorhut",
-	"en": "Vanguard",
-	"es": "Vanguardia",
-	"fr": "Avant-garde",
-	"it": "Avanguardia",
-	"ja": "ヴァンガード",
-	"ko": "전위",
-	"pt-br": "Vanguarda",
-	"ru": "Авангард",
-	"zhs": "先锋",
-	"zht": "先鋒"
+   "de": "Vorhut",
+   "en": "Vanguard",
+   "es": "Vanguardia",
+   "fr": "Avant-garde",
+   "it": "Avanguardia",
+   "ja": "ヴァンガード",
+   "ko": "전위",
+   "pt-br": "Vanguarda",
+   "ru": "Авангард",
+   "zhs": "先锋",
+   "zht": "先鋒"
   }
  },
  "superTypes": {
@@ -401,30 +533,30 @@
    "zht": "基本"
   },
   "elite": {
-	"de": "Elite",
-	"en": "Elite",
-	"es": "Élite",
-	"fr": "Élite",
-	"it": "Elite",
-	"ja": "エリート",
-	"ko": "엘리트",
-	"pt-br": "Elite",
-	"ru": "Элита",
-	"zhs": "精英",
-	"zht": "菁英"
+   "de": "Elite",
+   "en": "Elite",
+   "es": "Élite",
+   "fr": "Élite",
+   "it": "Elite",
+   "ja": "エリート",
+   "ko": "엘리트",
+   "pt-br": "Elite",
+   "ru": "Элита",
+   "zhs": "精英",
+   "zht": "菁英"
   },
   "host": {
-	"de": "Gastgeber",
-	"en": "Host",
-	"es": "Anfitrión",
-	"fr": "Hôte",
-	"it": "Ospite",
-	"ja": "ホスト",
-	"ko": "주인",
-	"pt-br": "Hospedar",
-	"ru": "Хозяин",
-	"zhs": "精英",
-	"zht": "主持人"
+   "de": "Gastgeber",
+   "en": "Host",
+   "es": "Anfitrión",
+   "fr": "Hôte",
+   "it": "Ospite",
+   "ja": "ホスト",
+   "ko": "주인",
+   "pt-br": "Hospedar",
+   "ru": "Хозяин",
+   "zhs": "精英",
+   "zht": "主持人"
   },
   "legendary": {
    "de": "Legendäre",
@@ -496,7 +628,7 @@
   "artifact": {
    "Attraction": {
     "en": "Attraction",
-	"ja": "アトラクション"
+    "ja": "アトラクション"
    },
    "Blood": {
     "de": "Blut",
@@ -512,8 +644,8 @@
     "zht": "血滴"
    },
    "Bobblehead": {
-	  "en": "Bobblehead"
-  },
+    "en": "Bobblehead"
+   },
    "Clue": {
     "de": "Hinweis",
     "en": "Clue",
@@ -534,7 +666,7 @@
     "fr": "Appareil",
     "it": "Congegno",
     "ja": "道具",
-	"ko": "신안",
+    "ko": "신안",
     "pt-br": "Aparelho",
     "ru": "Устройство",
     "zhs": "装置"
@@ -572,7 +704,7 @@
     "fr": "Fortification",
     "it": "Fortificazione",
     "ja": "城砦",
-	"ko": "강화",
+    "ko": "강화",
     "pt-br": "Fortificação",
     "ru": "Укрепление",
     "zhs": "工事"
@@ -597,13 +729,13 @@
     "fr": "Incubateur",
     "it": "Incubatrice",
     "ja": "培養器",
-	"ko": "부란기",
+    "ko": "부란기",
     "pt-br": "Incubadora",
-	"ru": "инкубатор",
+    "ru": "инкубатор",
     "zhs": "的抚育器"
    },
    "Junk": {
-	   "en": "Junk"
+    "en": "Junk"
    },
    "Map": {
     "de": "Lageplan",
@@ -612,9 +744,9 @@
     "fr": "Carte",
     "it": "Mappa",
     "ja": "地図",
-	"ko": "지도",
+    "ko": "지도",
     "pt-br": "Mapa",
-	"ru": "Карта",
+    "ru": "Карта",
     "zhs": "地图"
    },
    "Powerstone": {
@@ -664,9 +796,9 @@
     "fr": "Siège",
     "it": "Assedio",
     "ja": "包囲戦",
-	"ko": "포위",
+    "ko": "포위",
     "pt-br": "Cerco",
-	"ru": "Осада",
+    "ru": "Осада",
     "zhs": "围攻"
    }
   },
@@ -711,14 +843,14 @@
     "zht": "魔符"
    },
    "Case": {
-	   "de": "Fall",
-	   "en": "Case",
-	   "es": "Caso",
-	   "fr": "Affaire",
-	   "it": "Caso",
-	   "ja": "事件",
-	   "pt-br": "Caso",
-	   "zhs": "案件"
+    "de": "Fall",
+    "en": "Case",
+    "es": "Caso",
+    "fr": "Affaire",
+    "it": "Caso",
+    "ja": "事件",
+    "pt-br": "Caso",
+    "zhs": "案件"
    },
    "Class": {
     "de": "Klasse",
@@ -765,9 +897,9 @@
     "fr": "Rôle",
     "it": "Ruolo",
     "ja": "役割",
-	"ko": "역할",
+    "ko": "역할",
     "pt-br": "Papel",
-	"ru": "Роль",
+    "ru": "Роль",
     "zhs": "角色"
    },
    "Saga": {
@@ -812,16 +944,16 @@
   },
   "land": {
    "Cave": {
-	"de": "Höhle",
+    "de": "Höhle",
     "en": "Cave",
-	"es": "Cueva",
-	"fr": "Caverne",
-	"it": "Caverna",
-	"ja": "洞窟",
-	"ko": "동굴",
-	"pt-br": "Caverna",
-	"ru": "Пещера",
-	"zhs": "洞窟"
+    "es": "Cueva",
+    "fr": "Caverne",
+    "it": "Caverna",
+    "ja": "洞窟",
+    "ko": "동굴",
+    "pt-br": "Caverna",
+    "ru": "Пещера",
+    "zhs": "洞窟"
    },
    "Desert": {
     "de": "Wüste",
@@ -895,7 +1027,7 @@
     "fr": "Site",
     "it": "Luogo",
     "ja": "神座",
-	"ko": "현장",
+    "ko": "현장",
     "pt-br": "Local",
     "ru": "Место",
     "zhs": "处所",
@@ -908,7 +1040,7 @@
     "fr": "Mine",
     "it": "Miniera",
     "ja": "鉱山",
-	"ko": "광산",
+    "ko": "광산",
     "pt-br": "Mina",
     "ru": "Шахта",
     "zhs": "矿脉"
@@ -946,7 +1078,7 @@
     "fr": "Centrale énergétique",
     "it": "Centrale Energetica",
     "ja": "魔力炉",
-	"ko": "발전소",
+    "ko": "발전소",
     "pt-br": "Usina",
     "ru": "Электростанция",
     "zhs": "动力炉"
@@ -983,7 +1115,7 @@
     "fr": "Tour",
     "it": "Torre",
     "ja": "塔",
-	"ko": "탑",
+    "ko": "탑",
     "pt-br": "Torre",
     "ru": "Башня",
     "zhs": "塔"
@@ -1132,7 +1264,7 @@
    },
    "Comet": {
     "en": "Comet",
-	"ja": "コメット"
+    "ja": "コメット"
    },
    "Dack": {
     "en": "Dack",
@@ -1607,7 +1739,7 @@
     "it": "Quintorius",
     "ja": "クイントリウス",
     "pt-br": "Quintorius",
-	"zhs": "昆托力"
+    "zhs": "昆托力"
    },
    "Ral": {
     "de": "Ral",
@@ -1991,7 +2123,7 @@
     "fr": "Arcane",
     "it": "Arcano",
     "ja": "秘儀",
-	"ko": "아케인",
+    "ko": "아케인",
     "pt-br": "Arcana",
     "ru": "Тайные_знания",
     "zhs": "古咒",
@@ -2017,7 +2149,7 @@
     "fr": "Piège",
     "it": "Trappola",
     "ja": "罠",
-	"ko": "덫",
+    "ko": "덫",
     "pt-br": "Armadilha",
     "ru": "Ловушка",
     "zhs": "陷阱"
@@ -2368,7 +2500,7 @@
    },
    "Luvion": {
     "en": "Luvion",
-	"ja": "ルヴィオン"
+    "ja": "ルヴィオン"
    },
    "Mercadia": {
     "de": "Merkadia",
@@ -2656,35 +2788,35 @@
    },
    "Bloomburrow": {
     "en": "Bloomburrow",
-	"ja": "ブルームバロウ"
+    "ja": "ブルームバロウ"
    },
    "Duskmourn": {
     "en": "Duskmourn",
-	"ja": "ダスクモーン"
+    "ja": "ダスクモーン"
    },
    "Thunder Junction": {
     "en": "Thunder Junction",
-	"ja": "サンダージャンクション"
+    "ja": "サンダージャンクション"
    },
    "Alkabah": {
     "en": "Alkabah",
-	"ja": "アルカバー"
+    "ja": "アルカバー"
    },
    "Aranzhur": {
     "en": "Aranzhur",
-	"ja": "アランジュル"
+    "ja": "アランジュル"
    },
    "Diraden": {
     "en": "Diraden",
-	"ja": "ディラデン"
+    "ja": "ディラデン"
    },
    "Kodisha": {
     "en": "Kodisha",
-	"ja": "コディシャ"
+    "ja": "コディシャ"
    },
    "Metal Island": {
     "en": "Metal Island",
-	"ja": "メタルアイランド"
+    "ja": "メタルアイランド"
    },
    "Skalla": {
     "de": "Skalla",
@@ -2700,47 +2832,47 @@
    },
    "Tavelia": {
     "en": "Tavelia",
-	"ja": "タベリア"
+    "ja": "タベリア"
    },
    "Azoria": {
     "en": "Azoria",
-	"ja": "アズーリア"
+    "ja": "アズーリア"
    },
    "Cabralin": {
     "en": "Cabralin",
-	"ja": "カブラリン"
+    "ja": "カブラリン"
    },
    "Celesta": {
     "en": "Celesta",
-	"ja": "セレスタ"
+    "ja": "セレスタ"
    },
    "Gastal": {
     "en": "Gastal",
-	"ja": "ガスタル"
+    "ja": "ガスタル"
    },
    "Ilcae": {
     "en": "Ilcae",
-	"ja": "イルチェ"
+    "ja": "イルチェ"
    },
    "Mirrankkar": {
     "en": "Mirrankkar",
-	"ja": "ミランカール"
+    "ja": "ミランカール"
    },
    "Nether Void": {
     "en": "Nether Void",
-	"ja": "ネザーヴォイド"
+    "ja": "ネザーヴォイド"
    },
    "Obsidias": {
     "en": "Obsidias",
-	"ja": "オブシディアス"
+    "ja": "オブシディアス"
    },
    "Torwynn": {
     "en": "Torwynn",
-	"ja": "トーウィン"
+    "ja": "トーウィン"
    },
    "Vatraquaz": {
     "en": "Vatraquaz",
-	"ja": "バトラクアス"
+    "ja": "バトラクアス"
    },
    "The Abyss": {
     "de": "Der Abyssus",
@@ -2832,7 +2964,7 @@
    },
    "Apalapucia": {
     "en": "Apalapucia",
-	"ja": "アパラプシア"
+    "ja": "アパラプシア"
    },
    "The Dalek Asylum": {
     "de": "Dalek-Asylum",
@@ -2914,7 +3046,7 @@
    },
    "Time": {
     "en": "Time",
-	"ja": "タイム"
+    "ja": "タイム"
    },
    "Trenzalore": {
     "de": "Trenzalore",
@@ -2974,7 +3106,7 @@
     "de": "Alien",
     "en": "Alien",
     "fr": "Extraterrestre",
-	"ja": "エイリアン"
+    "ja": "エイリアン"
    },
    "Ally": {
     "de": "Verbündeter",
@@ -3266,7 +3398,7 @@
    "Beeble": {
     "de": "Bobbel",
     "en": "Beeble",
-	"ja": "ビーブル"
+    "ja": "ビーブル"
    },
    "Beholder": {
     "de": "Betrachter",
@@ -3382,14 +3514,14 @@
    "Capybara": {
     "de": "Wasserschwein",
     "en": "Cabybara",
-	"es": "Capibara",
-	"fr": "Cabybara",
-	"it": "Capibara",
-	"ja": "カピバラ",
-	"ko": "카피바라",
-	"pt-br": "Capivara",
-	"ru": "Водосвинка",
-	"zhs": "水豚"
+    "es": "Capibara",
+    "fr": "Cabybara",
+    "it": "Capibara",
+    "ja": "カピバラ",
+    "ko": "카피바라",
+    "pt-br": "Capivara",
+    "ru": "Водосвинка",
+    "zhs": "水豚"
    },
    "Caribou": {
     "de": "Karibu",
@@ -3458,7 +3590,7 @@
    },
    "Child": {
     "en": "Child",
-	"ja": "子供"
+    "ja": "子供"
    },
    "Chimera": {
     "de": "Chimäre",
@@ -3501,7 +3633,7 @@
    },
    "Clown": {
     "en": "Clown",
-	"ja": "ピエロ"
+    "ja": "ピエロ"
    },
    "Cockatrice": {
     "de": "Cocatrisk",
@@ -3574,7 +3706,7 @@
    },
    "Custodes": {
     "en": "Custodes",
-	"ja": "近衛団"
+    "ja": "近衛団"
    },
    "Cyberman": {
     "de": "Cyberman",
@@ -3643,7 +3775,7 @@
    "Deserter": {
     "de": "Deserteur",
     "en": "Deserter",
-	"ja": "脱走兵"
+    "ja": "脱走兵"
    },
    "Detective": {
     "de": "Detektiv",
@@ -3903,7 +4035,7 @@
    },
    "Employee": {
     "en": "Employee",
-	"ja": "従業員"
+    "ja": "従業員"
    },
    "Eye": {
     "de": "Auge",
@@ -4015,7 +4147,7 @@
    },
    "Gamer": {
     "en": "Gamer",
-	"ja": "ゲーマー"
+    "ja": "ゲーマー"
    },
    "Gargoyle": {
     "de": "Gargoyle",
@@ -4197,7 +4329,7 @@
    },
    "Guest": {
     "en": "Guest",
-	"ja": "ゲスト"
+    "ja": "ゲスト"
    },
    "Hag": {
     "de": "Vettel",
@@ -4645,7 +4777,7 @@
    "Licid": {
     "de": "Zecke",
     "en": "Licid",
-	"ja": "リシッド"
+    "ja": "リシッド"
    },
    "Lizard": {
     "de": "Eidechse",
@@ -4936,7 +5068,7 @@
    "Nightstalker": {
     "de": "Nachtschrat",
     "en": "Nightstalker",
-	"ja": "ナイトストーカー"
+    "ja": "ナイトストーカー"
    },
    "Ninja": {
     "de": "Ninja",
@@ -5042,7 +5174,7 @@
    "Orb": {
     "de": "Sphären",
     "en": "Orb",
-	"ja": "オーブ"
+    "ja": "オーブ"
    },
    "Orc": {
     "de": "Ork",
@@ -5173,7 +5305,7 @@
    },
    "Performer": {
     "en": "Performer",
-	"ja": "出演者"
+    "ja": "出演者"
    },
    "Pest": {
     "de": "Schädling",
@@ -5284,7 +5416,7 @@
    "Prism": {
     "de": "Plasma",
     "en": "Prism",
-	"ja": "プリズム"
+    "ja": "プリズム"
    },
    "Processor": {
     "de": "Verwerter",
@@ -5510,12 +5642,12 @@
    "Scientist": {
     "de": "Forscher",
     "en": "Scientist",
-	"es": "Científico",
+    "es": "Científico",
     "fr": "Scientifique",
-	"it": "Scienziato",
+    "it": "Scienziato",
     "ja": "科学者",
-	"pt-br": "Cientista",
-	"zhs": "科学家"
+    "pt-br": "Cientista",
+    "zhs": "科学家"
    },
    "Scion": {
     "de": "Brut",
@@ -5724,8 +5856,17 @@
     "zht": "裂片妖"
    },
    "Sloth": {
-		"en": "Sloth"
-	},
+    "en": "Sloth",
+    "es": "Perezoso",
+    "de": "Faultier",
+    "fr": "Paresseux",
+    "it": "Bradipo",
+    "ja": "ナマケモノ",
+    "ko": "나무늘보",
+    "ru": "Ленивец",
+    "zhs": "树懒",
+    "zht": "樹懶"
+   },
    "Slug": {
     "de": "Schnecke",
     "en": "Slug",
@@ -5876,7 +6017,7 @@
    "Splinter": {
     "de": "Splitter",
     "en": "Splinter",
-	"ja": "スプリンター"
+    "ja": "スプリンター"
    },
    "Sponge": {
     "de": "Schwamm",
@@ -5952,8 +6093,8 @@
     "zht": "倖存者"
    },
    "Synth": {
-		"en": "Synth"
-	},
+    "en": "Synth"
+   },
    "Tentacle": {
     "de": "Tentakel",
     "en": "Tentacle",
@@ -6386,219 +6527,219 @@
   }
  },
  "otherWords": {
-	"Standard Planes": {
-		"de": "Standardwelt",
-		"en": "Standard Planes",
-		"es": "Plano estándar",
-		"fr": "Plan standards",
-		"it": "Piano standard",
-		"ja": "標準次元",
-		"ko": "표준치수",
-		"pt-br": "Plano padrão",
-		"ru": "Стандарт мир",
-		"zhs": "标准次元",
-		"zht": "標準次元"
-	},
-	"Planechase Planes": {
-		"de": "Planechase Welt",
-		"en": "Planeschase Planes",
-		"es": "Plano Planechase",
-		"fr": "Plan Planechase",
-		"it": "Piano Planechase",
-		"ja": "Planechase 次元",
-		"ko": "Planechase 치수",
-		"pt-br": "Planechase plano",
-		"ru": "Planechase мир",
-		"zhs": "Planechase 次元",
-		"zht": "Planechase 次元"
-	},
-	"Other Modern Planes": {
-		"de": "Andere moderne Welt",
-		"en": "Other Modern Planes",
-		"es": "Otro plano moderno",
-		"fr": "Autres plans modernes",
-		"it": "Altri piano moderni",
-		"ja": "その他のモダン次元",
-		"ko": "기타 현대식 치수",
-		"pt-br": "Outros plano modernos",
-		"ru": "Другое современное мир",
-		"zhs": "其他现代次元",
-		"zht": "其他現代化次元"
-	},
-	"Very Old Planes": {
-		"de": "Sehr alte Welt",
-		"en": "Very Old Planes",
-		"es": "Plano muy antiguo",
-		"fr": "Très vieux plans",
-		"it": "Piano molto vecchi",
-		"ja": "とても古い次元",
-		"ko": "아주 오래된 치수",
-		"pt-br": "Plano muito antigos",
-		"ru": "Очень старый мир",
-		"zhs": "很旧次元",
-		"zht": "很舊次元"
-	},
-	"Dr Who Planes": {
-		"de": "Dr Who Welt",
-		"en": "Dr Who Planes",
-		"es": "Plano Dr Who",
-		"fr": "Plan Dr Who",
-		"it": "Piano Dr Who",
-		"ja": "Dr Who 次元",
-		"ko": "Dr Who 치수",
-		"pt-br": "Dr Who plano",
-		"ru": "Dr Who мир",
-		"zhs": "Dr Who 次元",
-		"zht": "Dr Who 次元"
-	},
-	"All Races": {
-		"de": "Alle Arten",
-		"en": "All Races",
-		"es": "Todas las especies",
-		"fr": "Toutes les espèces",
-		"it": "Tutte le specie",
-		"ja": "全種",
-		"ko": "모든 종",
-		"pt-br": "Todas as espécies",
-		"ru": "Все виды",
-		"zhs": "所有物种",
-		"zht": "所有物種"
-	},
-	"All Classes": {
-		"de": "Alle Klassen",
-		"en": "All Classes",
-		"es": "Todas las clases",
-		"fr": "Tous les cours",
-		"it": "Tutte le classi",
-		"ja": "すべてのクラス",
-		"ko": "모든 수업",
-		"pt-br": "Todas as aulas",
-		"ru": "Все классы",
-		"zhs": "所有职业",
-		"zht": "所有職業"
-	},
-	"legendary": {
-		"de": "Legendäre(r|s)?",
-		"es": "Legendari[ao]",
-		"it": "Leggendari[ao]",
-		"pt-br": "Lendári[ao]",
-		"ru": "Легендарн(ое|ые|ый|ая)"
-	},
-	"plane": {
-		"en": "Plane\\\\b"
-	},
-	"snow": {
-		"de": "Verschneite(r|s)?",
-		"es": "nevad[ao]",
-		"fr": "neigeux|neigeuse|enneigé|enneigée",
-		"ru": "Снежн(ое|ые|ый|ая)"
-	},
-	"token": {
-		"ru": "фишк(ой|ку|ки|ке|ка)"
-	},
-	"AddMana": {
-		"de": "(?i)\\\\bErzeuge [^(\\n|^).]*<match>",
-		"en": "(?i)\\\\bAdd [^(\\n|^).]*<match>",
-		"es": "(?i)\\\\bAgrega [^(\\n|^).]*<match>",
-		"fr": "(?i)\\\\bAjoutez [^(\\n|^).]*<match>",
-		"it": "(?i)\\\\bAggiungi [^(\\n|^).]*<match>",
-		"ja": "(?i)<match>を加える[^(\\n|^).]*",
-		"ko": "(?i)<match>를 추가한다",
-		"pt-br": "(?i)\\\\bAdicione [^(\\n|^).]*<match>",
-		"ru": "(?i)\\\\bдобавьте [^(\\n|^).]*<match>",
-		"zhs": "(?i)(?<!增)加<match>",
-		"zht": "(?i)(?<!增)加<match>"
-	},
-	"AddGold": {
-		"de": "einer beliebigen Farbe|unterschiedlichen Farben|beliebigen Kombination von Farben",
-		"en": "(any( one)?|different|combination of) color",
-		"es": "cualquier (combinación de )?color|colores distintos",
-		"fr": "couleur de votre choix|couleurs différentes|combinaison de mana coloré de votre choix",
-		"it": "qualsiasi colore|colori diversi|qualsiasi combinazione di colori",
-		"ja": "好きな色１色のマナ|異なる色のマナ|望む色の組み合わせのマナ",
-		"ko": "원하는 (한 가지 )?색의 마나 [두한] 개|서로 다른 색인 마나|원하는 색의 조합으로 마나",
-		"pt-br": "qualquer cor|cores diferentes",
-		"ru": "любого цвета?|различных цветов",
-		"zhs": "意颜色的法术力|不同颜色的法术力|其颜色组合由你选择",
-		"zht": "任意顏色的魔法力|不同顏色的魔法力|其顏色組合由你選擇"
-	},
-	"AddChosen": {
-		"de": "jener Farbe|bestimmten Farben?",
-		"en": "that color|chosen color",
-		"es": "ese color|color(es)? elegido",
-		"fr": "cette couleur|couleurs? choisie",
-		"it": "quel colore|color[ei] scelt[oi]",
-		"ja": "その色のマナ|その選ばれた色のマナ",
-		"ko": "그 색의|선택된 색의",
-		"pt-br": "daquela cor|cor(es)? escolhidas?",
-		"ru": "того цвета?|выбранн(ого|ый|ые) цвета?",
-		"zhs": "该色的法术力",
-		"zht": "色的魔法力"
-	},
-	"Devoid": {
-		"de": "Fahl",
-		"en": "Devoid",
-		"es": "Vacío",
-		"fr": "Carence",
-		"it": "Vacuità",
-		"ja": "欠色",
-		"ko": "결여",
-		"pt-br": "Desprovido",
-		"ru": "Лишение",
-		"zhs": "虚色",
-		"zht": "虛色"
-	},
-	"Miracle": {
-		"de": "Mirakulum",
-		"en": "Miracle",
-		"es": "Milagro",
-		"fr": "Miracle",
-		"it": "Miracolo",
-		"ja": "奇跡",
-		"ko": "기적",
-		"pt-br": "Milagre",
-		"ru": "Чудо",
-		"zhs": "奇迹",
-		"zht": "奇蹟"
-	},
-	"Mutate": {
-		"de": "Mutation",
-		"en": "Mutate",
-		"es": "Mutación",
-		"fr": "Mutation",
-		"it": "Mutazione",
-		"ja": "変容",
-		"ko": "돌연변이화",
-		"pt-br": "Mutação",
-		"ru": "Мутация",
-		"zhs": "合变",
-		"zht": "合變"
-	},
-	"Nyx": {
-		"de": "Verzauberungs",
-		"en": "Enchantment ",
-		"es": " encantamiento",
-		"fr": "-enchantement",
-		"it": " Incantesimo",
-		"ja": "・エンチャント",
-		"ko": "부여마법 ",
-		"pt-br": " Encantamento",
-		"ru": "Чары ",
-		"zhs": "结界(生物|神器)",
-		"zht": "結界(生物|神器)"
-	},
-	"Wastes": {
-		"de": "Ödnis",
-		"en": "Wastes",
-		"es": "Yermos",
-		"fr": "Lande",
-		"it": "Distesa",
-		"ja": "荒地",
-		"ko": "불모지",
-		"pt-br": "Ermo",
-		"ru": "Пустоши",
-		"zhs": "荒野",
-		"zht": "荒野"
-	}
+  "Standard Planes": {
+   "de": "Standardwelt",
+   "en": "Standard Planes",
+   "es": "Plano estándar",
+   "fr": "Plan standards",
+   "it": "Piano standard",
+   "ja": "標準次元",
+   "ko": "표준치수",
+   "pt-br": "Plano padrão",
+   "ru": "Стандарт мир",
+   "zhs": "标准次元",
+   "zht": "標準次元"
+  },
+  "Planechase Planes": {
+   "de": "Planechase Welt",
+   "en": "Planeschase Planes",
+   "es": "Plano Planechase",
+   "fr": "Plan Planechase",
+   "it": "Piano Planechase",
+   "ja": "Planechase 次元",
+   "ko": "Planechase 치수",
+   "pt-br": "Planechase plano",
+   "ru": "Planechase мир",
+   "zhs": "Planechase 次元",
+   "zht": "Planechase 次元"
+  },
+  "Other Modern Planes": {
+   "de": "Andere moderne Welt",
+   "en": "Other Modern Planes",
+   "es": "Otro plano moderno",
+   "fr": "Autres plans modernes",
+   "it": "Altri piano moderni",
+   "ja": "その他のモダン次元",
+   "ko": "기타 현대식 치수",
+   "pt-br": "Outros plano modernos",
+   "ru": "Другое современное мир",
+   "zhs": "其他现代次元",
+   "zht": "其他現代化次元"
+  },
+  "Very Old Planes": {
+   "de": "Sehr alte Welt",
+   "en": "Very Old Planes",
+   "es": "Plano muy antiguo",
+   "fr": "Très vieux plans",
+   "it": "Piano molto vecchi",
+   "ja": "とても古い次元",
+   "ko": "아주 오래된 치수",
+   "pt-br": "Plano muito antigos",
+   "ru": "Очень старый мир",
+   "zhs": "很旧次元",
+   "zht": "很舊次元"
+  },
+  "Dr Who Planes": {
+   "de": "Dr Who Welt",
+   "en": "Dr Who Planes",
+   "es": "Plano Dr Who",
+   "fr": "Plan Dr Who",
+   "it": "Piano Dr Who",
+   "ja": "Dr Who 次元",
+   "ko": "Dr Who 치수",
+   "pt-br": "Dr Who plano",
+   "ru": "Dr Who мир",
+   "zhs": "Dr Who 次元",
+   "zht": "Dr Who 次元"
+  },
+  "All Races": {
+   "de": "Alle Arten",
+   "en": "All Races",
+   "es": "Todas las especies",
+   "fr": "Toutes les espèces",
+   "it": "Tutte le specie",
+   "ja": "全種",
+   "ko": "모든 종",
+   "pt-br": "Todas as espécies",
+   "ru": "Все виды",
+   "zhs": "所有物种",
+   "zht": "所有物種"
+  },
+  "All Classes": {
+   "de": "Alle Klassen",
+   "en": "All Classes",
+   "es": "Todas las clases",
+   "fr": "Tous les cours",
+   "it": "Tutte le classi",
+   "ja": "すべてのクラス",
+   "ko": "모든 수업",
+   "pt-br": "Todas as aulas",
+   "ru": "Все классы",
+   "zhs": "所有职业",
+   "zht": "所有職業"
+  },
+  "legendary": {
+   "de": "Legendäre(r|s)?",
+   "es": "Legendari[ao]",
+   "it": "Leggendari[ao]",
+   "pt-br": "Lendári[ao]",
+   "ru": "Легендарн(ое|ые|ый|ая)"
+  },
+  "plane": {
+   "en": "Plane\\\\b"
+  },
+  "snow": {
+   "de": "Verschneite(r|s)?",
+   "es": "nevad[ao]",
+   "fr": "neigeux|neigeuse|enneigé|enneigée",
+   "ru": "Снежн(ое|ые|ый|ая)"
+  },
+  "token": {
+   "ru": "фишк(ой|ку|ки|ке|ка)"
+  },
+  "AddMana": {
+   "de": "(?i)\\\\bErzeuge [^(\\n|^).]*<match>",
+   "en": "(?i)\\\\bAdd [^(\\n|^).]*<match>",
+   "es": "(?i)\\\\bAgrega [^(\\n|^).]*<match>",
+   "fr": "(?i)\\\\bAjoutez [^(\\n|^).]*<match>",
+   "it": "(?i)\\\\bAggiungi [^(\\n|^).]*<match>",
+   "ja": "(?i)<match>を加える[^(\\n|^).]*",
+   "ko": "(?i)<match>를 추가한다",
+   "pt-br": "(?i)\\\\bAdicione [^(\\n|^).]*<match>",
+   "ru": "(?i)\\\\bдобавьте [^(\\n|^).]*<match>",
+   "zhs": "(?i)(?<!增)加<match>",
+   "zht": "(?i)(?<!增)加<match>"
+  },
+  "AddGold": {
+   "de": "einer beliebigen Farbe|unterschiedlichen Farben|beliebigen Kombination von Farben",
+   "en": "(any( one)?|different|combination of) color",
+   "es": "cualquier (combinación de )?color|colores distintos",
+   "fr": "couleur de votre choix|couleurs différentes|combinaison de mana coloré de votre choix",
+   "it": "qualsiasi colore|colori diversi|qualsiasi combinazione di colori",
+   "ja": "好きな色１色のマナ|異なる色のマナ|望む色の組み合わせのマナ",
+   "ko": "원하는 (한 가지 )?색의 마나 [두한] 개|서로 다른 색인 마나|원하는 색의 조합으로 마나",
+   "pt-br": "qualquer cor|cores diferentes",
+   "ru": "любого цвета?|различных цветов",
+   "zhs": "意颜色的法术力|不同颜色的法术力|其颜色组合由你选择",
+   "zht": "任意顏色的魔法力|不同顏色的魔法力|其顏色組合由你選擇"
+  },
+  "AddChosen": {
+   "de": "jener Farbe|bestimmten Farben?",
+   "en": "that color|chosen color",
+   "es": "ese color|color(es)? elegido",
+   "fr": "cette couleur|couleurs? choisie",
+   "it": "quel colore|color[ei] scelt[oi]",
+   "ja": "その色のマナ|その選ばれた色のマナ",
+   "ko": "그 색의|선택된 색의",
+   "pt-br": "daquela cor|cor(es)? escolhidas?",
+   "ru": "того цвета?|выбранн(ого|ый|ые) цвета?",
+   "zhs": "该色的法术力",
+   "zht": "色的魔法力"
+  },
+  "Devoid": {
+   "de": "Fahl",
+   "en": "Devoid",
+   "es": "Vacío",
+   "fr": "Carence",
+   "it": "Vacuità",
+   "ja": "欠色",
+   "ko": "결여",
+   "pt-br": "Desprovido",
+   "ru": "Лишение",
+   "zhs": "虚色",
+   "zht": "虛色"
+  },
+  "Miracle": {
+   "de": "Mirakulum",
+   "en": "Miracle",
+   "es": "Milagro",
+   "fr": "Miracle",
+   "it": "Miracolo",
+   "ja": "奇跡",
+   "ko": "기적",
+   "pt-br": "Milagre",
+   "ru": "Чудо",
+   "zhs": "奇迹",
+   "zht": "奇蹟"
+  },
+  "Mutate": {
+   "de": "Mutation",
+   "en": "Mutate",
+   "es": "Mutación",
+   "fr": "Mutation",
+   "it": "Mutazione",
+   "ja": "変容",
+   "ko": "돌연변이화",
+   "pt-br": "Mutação",
+   "ru": "Мутация",
+   "zhs": "合变",
+   "zht": "合變"
+  },
+  "Nyx": {
+   "de": "Verzauberungs",
+   "en": "Enchantment ",
+   "es": " encantamiento",
+   "fr": "-enchantement",
+   "it": " Incantesimo",
+   "ja": "・エンチャント",
+   "ko": "부여마법 ",
+   "pt-br": " Encantamento",
+   "ru": "Чары ",
+   "zhs": "结界(生物|神器)",
+   "zht": "結界(生物|神器)"
+  },
+  "Wastes": {
+   "de": "Ödnis",
+   "en": "Wastes",
+   "es": "Yermos",
+   "fr": "Lande",
+   "it": "Distesa",
+   "ja": "荒地",
+   "ko": "불모지",
+   "pt-br": "Ermo",
+   "ru": "Пустоши",
+   "zhs": "荒野",
+   "zht": "荒野"
+  }
  }
 }
