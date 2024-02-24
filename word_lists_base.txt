@@ -1,0 +1,766 @@
+﻿
+############################################################## Magic word lists
+
+### Basic Prefix Wordlists
+### These use Prefix properly
+word list:
+	name: type-en
+	word:
+		name: Token 
+		is prefix: true
+	word:
+		name: Legendary 
+		is prefix: true
+	word:
+		name: Basic 
+		is prefix: true
+	word:
+		name: Snow 
+		is prefix: true
+	word:
+		name: World 
+		is prefix: true
+	word:
+		name: Kindred 
+		is prefix: true
+		line below: true
+	word: Creature
+	word: Artifact
+	word: Artifact Creature
+	word: Enchantment
+	word: Enchantment Creature
+	word: Instant
+	word: Sorcery
+	word: Land
+	word: Planeswalker
+	word: Battle
+	word:
+		name: Emblem
+		line below: true
+	word: Conspiracy
+	word: Dungeon
+	word: Elite Creature
+	word: Hero
+	word: Hero Artifact
+	word: Host Creature
+	word: Plane
+	word: Phenomenon
+	word: Scheme
+	word: Ongoing Scheme
+	word: Vanguard
+
+word list:
+	name: type-de
+	word:
+		name: Spielstein
+		is prefix: true
+	word:
+		name: Legendäre 
+		is prefix: true
+	word:
+		name: Legendäres 
+		is prefix: true
+	word:
+		name: Verschneite 
+		is prefix: true
+	word:
+		name: Welten 
+		is prefix: true
+	word:
+		name: Stammes-
+		is prefix: true
+		line below: true
+	word: Kreatur
+	word: Artefakt
+	word: Artefaktkreatur
+	word: Verzauberung
+	word: Verzauberungkreatur
+	word: Verzauberungartefakt
+	word: Spontanzauber
+	word: Hexerei
+	word: Land
+	word: Standardland
+	word: Legendärer Planeswalker
+	word: Schlacht
+	word:
+		name: Emblem
+		line below: true
+	word: Verschwörung
+	word: Gewölbe
+	word: Elite Kreatur
+	word: Held
+	word: Held-Artefakt
+	word: Gastgeber Kreatur
+	word: Welt
+	word: Phänomen
+	word: Planen
+	word: Laufendes Planen
+	word: Vorhut
+
+word list:
+	name: type-ko
+	word:
+		name: 토큰 
+		is prefix: true
+	word:
+		name: 전설적 
+		is prefix: true
+	word:
+		name: 기본 
+		is prefix: true
+	word:
+		name: 눈 
+		is prefix: true
+	word:
+		name: 만능인 
+		is prefix: true
+	word:
+		name: 종족 
+		is prefix: true
+		line below: true
+	word: 생물
+	word: 마법물체
+	word: 마법물체 생물
+	word: 부여마법
+	word: 부여마법 생물
+	word: 순간마법
+	word: 집중마법
+	word: 대지
+	word: 플레인즈워커
+	word: 전투
+	word:
+		name: 휘장을
+		line below: true
+	word: 음모
+	word: 던전
+	word: 엘리트 생물
+	word: 영웅
+	word: 영웅 마법물체
+	word: 주인 생물
+	word: 치수
+	word: 현상
+	word: 계획
+	word: 진행중인 계획
+	word: 전위
+
+word list:
+	name: type-ru
+	word:
+		name: Фишку 
+		is prefix: true
+	word:
+		name: Легендарный 
+		is prefix: true
+	word:
+		name: Базовая 
+		is prefix: true
+	word:
+		name: Снежное 
+		is prefix: true
+	word:
+		name: мировой 
+		is prefix: true
+	word:
+		name: Племенной 
+		is prefix: true
+		line below: true
+	word: Существо
+	word: Артефакт
+	word: Артефакт Существо
+	word: Чары
+	word: Чары Существо
+	word: Мгновенное заклинание
+	word: Волшебство
+	word: Земля
+	word: Planeswalker
+	word: Боевой
+	word:
+		name: эмблему
+		line below: true
+	word: Заговор
+	word: Подземелье
+	word: Элита Существо
+	word: Герой
+	word: Герой Артефакт
+	word: Хозяин Существо
+	word: мир
+	word: Феномен
+	word: Схема
+	word: Текущая Схема
+	word: Авангард
+
+
+### Suffix Prefix Wordlists
+### These use prefix on later entries in the wordlist
+### which does function, but has odd behavior with stacking prefixes
+### and will forget the chosen types (but not affect the typeline)
+### choosing multiple prefixes before any normal types will work
+word list:
+	name: type-es
+	word: Criatura
+	word: Artefacto
+	word: Criatura artefacto
+	word: Encantamiento
+	word: Criatura encantamiento
+	word: Instantáneo
+	word: Conjuro
+	word: Tierra
+	word: Planeswalker
+	word: Baralla
+	word:
+		name: Emblema
+		line below: true
+	word:
+		script: " tribal"
+		is prefix: true
+	word:
+		script: " básica"
+		is prefix: true
+	word:
+		script: " nevada"
+		is prefix: true
+	word:
+		script: " legendario"
+		is prefix: true
+	word:
+		script: " legendaria"
+		is prefix: true
+	word:
+		script: " del mundo"
+		is prefix: true
+	word:
+		script: " ficha"
+		is prefix: true
+		line below: true
+	word: Conspiración
+	word: Mazmorra
+	word: Criatura élite
+	word: Héroe
+	word: Artefacto héroe
+	word: Criatura anfitrión
+	word: Plano
+	word: Fenómeno
+	word: Esquema
+	word: Esquema continuo
+	word: Vanguardia
+
+word list:
+	name: type-fr
+	word: Créature
+	word: Artefact
+	word: Créature-artefact
+	word: Enchantement
+	word: Créature-enchantement
+	word: Éphémère
+	word: Rituel
+	word: Terrain
+	word: Planeswalker
+	word: Bataille
+	word:
+		name: Emblème
+		line below: true
+	word:
+		name: -jeton
+		is prefix: true
+	word:
+		script: " tribal"
+		is prefix: true
+	word:
+		script: " neigeux"
+		is prefix: true
+	word:
+		script: " neigeuse"
+		is prefix: true
+	word:
+		script: " légendaire"
+		is prefix: true
+	word:
+		script: " de base"
+		is prefix: true
+	word:
+		script: " du monde"
+		is prefix: true
+		line below: true
+	word: Conspiration
+	word: Donjon
+	word: Créature élite
+	word: Héros
+	word: Héros-artefact
+	word: Créature hôte
+	word: Plan
+	word: Phénomène
+	word: Schème
+	word: Schème en cours
+	word: Avant-garde
+
+word list:
+	name: type-it
+	word:
+		name: Pedina 
+		is prefix: true
+		line below: true
+	word: Creatura
+	word: Artefatto
+	word: Creatura Artefatto
+	word: Incantesimo
+	word: Creatura Istantaneo
+	word: Stregoneria
+	word: Terra
+	word: Planeswalker
+	word: Battaglia
+	word:
+		name: Emblema
+		line below: true
+	word:
+		script: " Tribale"
+		is prefix: true
+	word:
+		script: " Neve"
+		is prefix: true
+	word:
+		script: " Leggendaria"
+		is prefix: true
+	word:
+		script: " Leggendario"
+		is prefix: true
+	word:
+		script: " Base"
+		is prefix: true
+	word:
+		script: " del mondo"
+		is prefix: true
+		line below: true
+	word: Cospirazione
+	word: Dungeon
+	word: Creatura Elite
+	word: Eroe
+	word: Artefatto Eroe
+	word: Creatura Ospite
+	word: Piano
+	word: Fenomeno
+	word: Schema
+	word: Schema in Corso
+	word: Avanguardia
+
+word list:
+	name: type-pt-br
+	word: Criatura
+	word: Artefato
+	word: Criatura Artefato
+	word: Encantamento
+	word: Criatura Encantamento
+	word: Istantaneo
+	word: Feitiço
+	word: Terreno
+	word: Planeswalker
+	word: Batalha
+	word: Emblema
+	word:
+		script: " Tribale"
+		is prefix: true
+		line below: true
+	word:
+		script: " da Neve"
+		is prefix: true
+	word:
+		script: " Lendário"
+		is prefix: true
+	word:
+		script: " Lendária"
+		is prefix: true
+	word:
+		script: " Básico"
+		is prefix: true
+	word:
+		script: " do Mundo"
+		is prefix: true
+	word:
+		script: " Ficha"
+		is prefix: true
+		line below: true
+	word: Conspiração
+	word: Masmorra
+	word: Criatura Elite
+	word: Herói
+	word: Artefato Herói
+	word: Criatura Hospedar
+	word: Plano
+	word: Fenômeno
+	word: Esquema
+	word: Esquema Continuo
+	word: Vanguarda
+
+### Stackable Wordlists
+### Since these don't use spaces, they can use prefixes everywhere
+word list:
+	name: type-zhs
+	word:
+		name: 衍生
+		is prefix: true
+	word:
+		name: 传奇
+		is prefix: true
+	word:
+		name: 雪境
+		is prefix: true
+	word:
+		name: 基本
+		is prefix: true
+	word:
+		name: 普世
+		is prefix: true
+		line below: true
+	word:
+		name: 部族
+		is prefix: true
+	word:
+		name: 瞬间
+		is prefix: true
+	word:
+		name: 法术
+		is prefix: true
+	word:
+		name: 结界
+		is prefix: true
+	word:
+		name: 神器
+		is prefix: true
+	word:
+		name: 地
+		is prefix: true
+	word:
+		name: 生物
+		is prefix: true
+	word:
+		name: 鵬洛客
+		is prefix: true
+	word:
+		name: 战役
+		is prefix: true
+	word:
+		name: 徽
+		is prefix: true
+	word:
+		name: 非标准
+		word: 诡局
+		word: 地城
+		word: 精英生物
+		word: 英雄
+		word: 英雄神器
+		word: 精英生物
+		word: 次元
+		word: 现象
+		word: 计划
+		word: 正在进行的计划
+		word: 先锋
+
+word list:
+	name: type-zht
+	word:
+		name: 衍生
+		is prefix: true
+	word:
+		name: 傳奇
+		is prefix: true
+	word:
+		name: 雪境
+		is prefix: true
+	word:
+		name: 基本
+		is prefix: true
+	word:
+		name: 普世
+		is prefix: true
+		line below: true
+	word:
+		name: 部族
+		is prefix: true
+	word:
+		name: 瞬間
+		is prefix: true
+	word:
+		name: 巫術
+		is prefix: true
+	word:
+		name: 結界
+		is prefix: true
+	word:
+		name: 神器
+		is prefix: true
+	word:
+		name: 地
+		is prefix: true
+	word:
+		name: 生物
+		is prefix: true
+	word:
+		name: 鵬洛客
+		is prefix: true
+	word:
+		name: 战役
+		is prefix: true
+	word:
+		name: 徽
+		is prefix: true
+	word:
+		name: 非标准
+		word: 诡局
+		word: 地城
+		word: 菁英生物
+		word: 英雄
+		word: 英雄神器
+		word: 主持人生物
+		word: 次元
+		word: 現象
+		word: 计划
+		word: 正在進行的計劃
+		word: 先锋
+
+word list:
+	name: type-ja
+	word:
+		name: トークン
+		is prefix: true
+	word:
+		name: 伝説の
+		is prefix: true
+	word:
+		name: 基本
+		is prefix: true
+	word:
+		name: 氷雪
+		is prefix: true
+	word:
+		name: ワールド・
+		is prefix: true
+		line below: true
+	word:
+		name: 部族
+		is prefix: true
+	word:
+		name: インスタント
+		is prefix: true
+	word:
+		name: ソーサリー
+		is prefix: true
+	word:
+		name: アーティファクト
+		is prefix: true
+	word:
+		name: エンチャント
+		is prefix: true
+	word:
+		name: 土地
+		is prefix: true
+	word:
+		name: クリーチャー
+		is prefix: true
+	word:
+		name: プレインズウォーカー
+		is prefix: true
+	word:
+		name: バトル
+		is prefix: true
+	word:
+		name: 持つ紋章
+		is prefix: true
+		line below: true
+	word:
+		name: ・エンチャント
+		is prefix: true
+	word:
+		name: ・土地
+		is prefix: true
+	word:
+		name: ・クリーチャー
+		is prefix: true
+		line below: true
+	word:
+		name: 非標準
+		word: 策略
+		word: ダンジョン
+		word: エリート・クリーチャー
+		word: ヒーロー
+		word: ヒーロー・アーティファクト
+		word: ホスト・クリーチャー
+		word: 次元
+		word: 現象
+		word: 図式
+		word: 進行中・図式
+		word: ヴァンガード
+
+
+word list:
+	name: artifact
+	word:
+		script: all_sub_types(setting: "is_artifact")
+		line below: true
+	word: 
+		script: lang_setting("word_list_artifact")
+
+word list:
+	name: land
+	word:
+		script: all_sub_types(setting: "is_land")
+		line below: true
+	word:
+		script: lang_setting("word_lists_basic").0
+	word:
+		script: lang_setting("word_lists_basic").1
+	word:
+		script: lang_setting("word_lists_basic").2
+	word:
+		script: lang_setting("word_lists_basic").3
+	word:
+		script: lang_setting("word_lists_basic").4
+	word: 
+		script: lang_setting("word_list_land")
+
+word list:
+	name: enchantment
+	word:
+		script: all_sub_types(setting: "is_enchantment")
+		line below: true
+	word: 
+		script: lang_setting("word_list_enchantment")
+
+word list:
+	name: spell
+	word:
+		script: all_sub_types(setting: "is_spell")
+		line below: true
+	word: 
+		script: lang_setting("word_list_spell")
+
+word list:
+	name: planeswalker
+	word:
+		script: all_sub_types(setting: "is_planeswalker")
+		line below: true
+	word: 
+		script: lang_setting("word_list_planeswalker")
+	word:
+		name: Last Seen on Ixalan
+		word: Huatli
+		word: Saheeli
+	word:
+		name: Last Seen on Eldraine
+		word: Ashiok
+		word: Garruk
+		word: Oko
+		word: Rowan
+		word: Will
+	word:
+		name: Last Seen on New Phyrexia
+		word: Chandra
+		word: Elspeth
+		word: Jace
+		word: Kaito
+		word: Kaya
+		word: Koth
+		word: Lukka
+		word: Nahiri
+		word: Nissa
+		word: Teferi
+		word: Tyvar
+		word: Venser
+		word: Vraska
+		word: Wrenn
+	word:
+		name: Last Seen in the Past
+		word: Urza
+	word:
+		name: Last Seen in Unland
+		word: Comet
+	word: 
+		name: Last Seen on Dominaria
+		word: Ajani
+		word: Dihada
+		word: Jared
+		word: Jaya
+		word: Karn
+		word: Sivitri
+	word:
+		name: Last Seen on Capenna
+		word: Vivien
+		word: Nixilis
+	word:
+		name: Last Seen on Kamigawa
+		word: Tezzeret
+		word: Tamiyo		
+	word:
+		name: Last Seen on Innistrad
+		word: Arlinn
+		word: Sorin
+	word:
+		name: Last Seen on Faerûn
+		word: Bahamut
+		word: Ellywick
+		word: Elminister
+		word: Lolth
+		word: Minsc
+		word: Mordenkainen
+		word: Tasha
+		word: Zariel
+	word:
+		name: Last Seen on Arcavios
+		word: Kasmina
+		word: Liliana
+	word:
+		name: Last Seen on Kaldheim
+		word: Niko
+		word: Tibalt
+	word:
+		name: Last Seen on Zendikar
+		word: Kiora
+	word:
+		name: Last Seen on Ikoria
+		word: Narset
+	word:
+		name: Last Seen on Theros
+		word: Ashiok
+		word: Calix
+		word: Xenagos
+	word:
+		name: Last Seen on Ravnica
+		word: Angrath
+		word: Bolas
+		word: Gideon
+		word: Davriel
+		word: Domri
+		word: Dovin
+		word: Ral
+		word: Sarkhan
+		word: Samut
+		word: Teyo
+		word: Ugin
+		word: Yanggu
+		word: Yanling
+	word:
+		name: Last Seen on Fiore
+		name: Dack
+		name: Daretti
+	word:
+		name: Last Seen on ???
+		word: Aminatou
+		word: Estrid
+		word: Grist
+	word:
+		name: Last Seen Pre-Mending
+		word: Dakkon
+		word: Freyalise
+		word: Serra
+		word: Windgrace
+
+word list:
+	name: battle
+	word:
+		script: all_sub_types(setting: "is_battle")
+	word: 
+		script: lang_setting("word_list_battle")
+		
+word list:
+	name: dungeon
+	word:
+		script: lang_setting("word_list_dungeon")
+

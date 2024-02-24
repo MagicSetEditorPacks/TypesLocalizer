@@ -8,7 +8,11 @@ Script for updating the MSE types file for each supported language.
     * Card types
         * Kindred
     * Artifact types
+		* Bobblehead
         * Junk
+	* Creature types
+		* Sloth
+		* Synth
     * Planes
         * Bloomburrow
         * Duskmourn
@@ -18,14 +22,12 @@ Script for updating the MSE types file for each supported language.
     * Artifact types
         * Attraction
     * Creature types
-        * Alien
         * Child
         * Clown
         * Employee
         * Gamer
         * Guest
         * Performer
-        * Robot
     * Planeswalker types
         * Comet
 
@@ -84,10 +86,12 @@ Script for updating the MSE types file for each supported language.
 
 * **Doctor Who**: Officially in English, German, French, and Japanese
     * Creature types
+        * Alien
         * Cyberman
         * Dalek
         * Detective
         * Doctor
+        * Robot
         * Scientist
         * Time Lord
     * Planes
@@ -117,6 +121,7 @@ Russian was officially supported between 9th Edition and Commander: Baldur's Gat
     * Battle
 * Artifact types
     * Incubator
+	* Junk
 * Battle types
     * Siege
 * Creature types
@@ -131,6 +136,7 @@ Russian was officially supported between 9th Edition and Commander: Baldur's Gat
     * Volver
     * Zubera
 * Enchantment
+	* Case
     * Role
 * Planechase Planes
     * Antausia
@@ -173,6 +179,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
     * Contraption
     * Fortification
     * Incubator
+	* Junk
 * Battle types
     * Siege
 * Creature types
@@ -201,6 +208,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
     * Wraith
     * Zubera
 * Enchantment
+	* Case
     * Role
 * Land types
     * Locus

@@ -1,0 +1,55 @@
+{
+ "artifact": {
+  "Attraction": "",
+  "Bobblehead": "",
+  "Junk": ""
+ },
+ "planeswalker": {
+  "Comet": "",
+  "Dack": ""
+ },
+ "planar": {
+  "Faerûn": "",
+  "Luvion": "",
+  "Bloomburrow": "",
+  "Duskmourn": "",
+  "Thunder Junction": "",
+  "Alkabah": "",
+  "Aranzhur": "",
+  "Diraden": "",
+  "Kodisha": "",
+  "Metal Island": "",
+  "Tavelia": "",
+  "Azoria": "",
+  "Cabralin": "",
+  "Celesta": "",
+  "Gastal": "",
+  "Ilcae": "",
+  "Mirrankkar": "",
+  "Nether Void": "",
+  "Obsidias": "",
+  "Torwynn": "",
+  "Vatraquaz": "",
+  "Apalapucia": "",
+  "Time": ""
+ },
+ "creature": {
+  "Astartes": "",
+  "Child": "",
+  "Clown": "",
+  "C'tan": "",
+  "Custodes": "",
+  "Employee": "",
+  "Flagbearer": "",
+  "Gamer": "",
+  "Guest": "",
+  "Inquisitor": "",
+  "Necron": "",
+  "Performer": "",
+  "Phelddagrif": "",
+  "Primarch": "",
+  "Sloth": "",
+  "Synth": "",
+  "Tyranid": ""
+ }
+}
