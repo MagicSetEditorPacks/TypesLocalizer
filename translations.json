@@ -644,7 +644,13 @@
     "zht": "血滴"
    },
    "Bobblehead": {
-    "en": "Bobblehead"
+    "en": "Bobblehead",
+    "de": "Wackelpuppe",
+    "es": "Cabezón",
+    "fr": "Figurine",
+    "it": "Statuetta",
+    "ja": "ボブルヘッド",
+    "pt-br": "Bonequinho"
    },
    "Clue": {
     "de": "Hinweis",
@@ -735,7 +741,12 @@
     "zhs": "的抚育器"
    },
    "Junk": {
-    "en": "Junk"
+    "en": "Junk",
+    "de": "Altmetall",
+    "es": "Residuo",
+    "fr": "Bric-à-brac",
+    "it": "Ferraglia",
+    "ja": "ジャンク"
    },
    "Map": {
     "de": "Lageplan",
@@ -6094,7 +6105,12 @@
     "zht": "倖存者"
    },
    "Synth": {
-    "en": "Synth"
+    "en": "Synth",
+    "de": "Synth",
+    "es": "Synth",
+    "fr": "Synthétique",
+    "it": "Sintetico",
+    "ja": "シンス"
    },
    "Tentacle": {
     "de": "Tentakel",

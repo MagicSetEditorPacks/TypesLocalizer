@@ -1,8 +1,6 @@
 {
  "artifact": {
-  "Attraction": "",
-  "Junk": "Altmetall",
-  "Bobblehead": "Wackelpuppe"
+  "Attraction": ""
  },
  "planeswalker": {
   "Comet": "",
@@ -48,7 +46,6 @@
   "Performer": "",
   "Phelddagrif": "",
   "Primarch": "",
-  "Synth": "Synth",
   "Tyranid": ""
  }
 }

@@ -1,9 +1,4 @@
 {
- "artifact": {
-  "Bobblehead": "ボブルヘッド",
-  "Junk": "ジャンク"
- },
- "creature": {
-	 "Synth": "シンス"
- }
+ "artifact": {},
+ "creature": {}
 }

@@ -1,8 +1,6 @@
 {
  "artifact": {
-  "Attraction": "",
-  "Junk": "Residuo",
-  "Bobblehead": "Cabezón"
+  "Attraction": ""
  },
  "planeswalker": {
   "Comet": "",
@@ -81,7 +79,6 @@
   "Prism": "",
   "Robot": "",
   "Splinter": "",
-  "Synth": "Synth",
   "Time Lord": "",
   "Tyranid": "",
   "Zubera": ""
