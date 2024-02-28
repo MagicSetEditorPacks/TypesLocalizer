@@ -1,7 +1,7 @@
 {
  "artifact": {
   "Attraction": "",
-  "Bobblehead": "",
+  "Bobblehead": "Bonequinho",
   "Junk": ""
  },
  "planeswalker": {
@@ -82,10 +82,8 @@
   "Primarch": "",
   "Prism": "",
   "Robot": "",
-  "Sloth": "",
   "Spike": "",
   "Splinter": "",
-  "Synth": "",
   "Time Lord": "",
   "Tyranid": ""
  }
