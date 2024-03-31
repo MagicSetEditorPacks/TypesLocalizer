@@ -1,6 +1,7 @@
 {
  "artifact": {
   "Attraction": "",
+  "Bobblehead": "",
   "Junk": ""
  },
  "planeswalker": {
@@ -73,14 +74,13 @@
   "Cyberman": "",
   "Dalek": "",
   "Deserter": "",
-  "Detective": "",
   "Doctor": "",
   "Employee": "",
   "Gamer": "",
   "Guest": "",
   "Inquisitor": "",
   "Licid": "",
-  "Monger": "",
+  "Mount": "",
   "Necron": "",
   "Nightstalker": "",
   "Orb": "",
@@ -91,8 +91,10 @@
   "Robot": "",
   "Spike": "",
   "Splinter": "",
+  "Synth": "",
   "Time Lord": "",
   "Tyranid": "",
+  "Varmit": "",
   "Volver": ""
  }
 }

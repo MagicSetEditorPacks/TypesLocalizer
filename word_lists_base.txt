@@ -349,14 +349,14 @@ word list:
 	word: Criatura Artefato
 	word: Encantamento
 	word: Criatura Encantamento
-	word: Istantaneo
+	word: Mágica Istantaneo
 	word: Feitiço
 	word: Terreno
 	word: Planeswalker
 	word: Batalha
 	word: Emblema
 	word:
-		script: " Tribale"
+		script: " Tribal"
 		is prefix: true
 		line below: true
 	word:

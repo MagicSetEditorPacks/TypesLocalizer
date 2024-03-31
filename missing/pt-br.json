@@ -65,7 +65,6 @@
   "Cyberman": "",
   "Dalek": "",
   "Deserter": "",
-  "Detective": "",
   "Doctor": "",
   "Employee": "",
   "Flagbearer": "",
@@ -73,17 +72,21 @@
   "Guest": "",
   "Inquisitor": "",
   "Licid": "",
+  "Mount": "",
   "Necron": "",
   "Nightstalker": "",
   "Orb": "",
   "Performer": "",
   "Phelddagrif": "",
+  "Possum": "",
   "Primarch": "",
   "Prism": "",
   "Robot": "",
   "Spike": "",
   "Splinter": "",
+  "Synth": "",
   "Time Lord": "",
-  "Tyranid": ""
+  "Tyranid": "",
+  "Varmit": ""
  }
 }

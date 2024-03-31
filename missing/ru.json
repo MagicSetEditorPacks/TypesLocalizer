@@ -1,6 +1,7 @@
 {
  "artifact": {
   "Attraction": "",
+  "Bobblehead": "",
   "Junk": ""
  },
  "enchantment": {
@@ -108,6 +109,7 @@
   "Inquisitor": "",
   "Licid": "",
   "Monger": "",
+  "Mount": "",
   "Necron": "",
   "Nephilim": "",
   "Nightstalker": "",
@@ -115,6 +117,7 @@
   "Performer": "",
   "Phelddagrif": "",
   "Pincher": "",
+  "Possum": "",
   "Primarch": "",
   "Prism": "",
   "Robot": "",
@@ -123,8 +126,10 @@
   "Spike": "",
   "Splinter": "",
   "Survivor": "",
+  "Synth": "",
   "Time Lord": "",
   "Tyranid": "",
+  "Varmit": "",
   "Volver": "",
   "Zubera": ""
  }

@@ -421,7 +421,7 @@
    "it": "Tribale",
    "ja": "部族",
    "ko": "종족",
-   "pt-br": "Tribale",
+   "pt-br": "Tribal",
    "ru": "Племенной",
    "zhs": "部族",
    "zht": "部族"
@@ -3196,6 +3196,19 @@
     "zhs": "统领",
     "zht": "統領"
    },
+   "Armadillo": {
+    "en": "Armadillo",
+    "de": "Gürteltier",
+    "es": "Armadillo",
+    "fr": "Tatou",
+    "it": "Armadillo",
+    "ja": "アルマジロ",
+    "ko": "아르마딜로",
+    "pt-br": "Tatu",
+    "ru": "Броненосец",
+    "zhs": "犰狳",
+    "zht": "犰狳"
+   },
    "Army": {
     "de": "Armee",
     "en": "Army",
@@ -3685,6 +3698,19 @@
     "zhs": "懦夫",
     "zht": "懦夫"
    },
+   "Coyote": {
+    "en": "Coyote",
+    "de": "Kojote",
+    "es": "Coyote",
+    "fr": "Coyote",
+    "it": "Coyote",
+    "ja": "コヨーテ",
+    "ko": "코요테",
+    "pt-br": "Coiote",
+    "ru": "Койот",
+    "zhs": "郊狼",
+    "zht": "郊狼"
+   },
    "Crab": {
     "de": "Krabbe",
     "en": "Crab",
@@ -3791,8 +3817,12 @@
    "Detective": {
     "de": "Detektiv",
     "en": "Detective",
+    "es": "Detective",
     "fr": "Détective",
-    "ja": "探偵"
+    "it": "Detective",
+    "ja": "探偵",
+    "pt-br": "Detetive",
+    "zhs": "侦探"
    },
    "Devil": {
     "de": "Teufel",
@@ -3836,7 +3866,9 @@
    "Doctor": {
     "de": "Doctor",
     "en": "Doctor",
+    "es": "Doctor",
     "fr": "Docteur",
+    "it": "Dottore",
     "ja": "ドクター"
    },
    "Dog": {
@@ -4933,7 +4965,8 @@
     "fr": "Négociant",
     "it": "Commerciante",
     "ja": "モンガー",
-    "pt-br": "Traficante"
+    "pt-br": "Traficante",
+    "zhs": "坐骑"
    },
    "Mongoose": {
     "de": "Mungo",
@@ -4985,6 +5018,15 @@
     "ru": "Лунный",
     "zhs": "月人",
     "zht": "月人"
+   },
+   "Mount": {
+    "en": "Mount",
+    "de": "Reittier",
+    "es": "Montura",
+    "fr": "Monture",
+    "it": "Cavalcatura",
+    "ja": "乗騎",
+    "zht": "坐騎"
    },
    "Mouse": {
     "de": "Maus",
@@ -5407,6 +5449,29 @@
     "ru": "Растение",
     "zhs": "植物",
     "zht": "植物"
+   },
+   "Porcupine": {
+    "en": "Procupine",
+    "de": "Stachelschwein",
+    "es": "Puercoespín",
+    "fr": "Porc-épic",
+    "it": "Istrice",
+    "ja": "ヤマアラシ",
+    "ko": "호저",
+    "pt-br": "Porco-espinho",
+    "ru": "Дикобраз",
+    "zhs": "豪猪",
+    "zht": "豪豬"
+   },
+   "Possum": {
+    "en": "Possum",
+    "de": "Opossum",
+    "es": "Zarigüeya",
+    "fr": "Opossum",
+    "it": "Opossum",
+    "ja": "フクロネズミ",
+    "zhs": "负鼠",
+    "zht": "負鼠"
    },
    "Praetor": {
     "de": "Prätor",
@@ -6290,6 +6355,14 @@
     "ru": "Вампир",
     "zhs": "吸血鬼",
     "zht": "吸血鬼"
+   },
+   "Varmit": {
+    "en": "Varmit",
+    "de": "Ungeziefer",
+    "es": "Alimaña",
+    "fr": "Vermine",
+    "it": "Pangoratto",
+    "ja": "匪獣"
    },
    "Vedalken": {
     "de": "Vedalken",
