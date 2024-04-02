@@ -3419,6 +3419,19 @@
     "zhs": "野兽",
     "zht": "野獸"
    },
+   "Beaver": {
+	   "de": "Biber",
+	   "en": "Beaver",
+	   "es": "Castor",
+	   "fr": "Castor",
+	   "it": "Castoro",
+	   "ja": "ビーバー",
+	   "ko": "비버",
+	   "pt-br": "Castor",
+	   "ru": "Бобр",
+	   "zhs": "河狸",
+	   "zht": "河狸",
+   },
    "Beeble": {
     "de": "Bobbel",
     "en": "Beeble",
@@ -5026,6 +5039,7 @@
     "fr": "Monture",
     "it": "Cavalcatura",
     "ja": "乗騎",
+    "zhs": "坐騎"
     "zht": "坐騎"
    },
    "Mouse": {
@@ -6356,13 +6370,15 @@
     "zhs": "吸血鬼",
     "zht": "吸血鬼"
    },
-   "Varmit": {
-    "en": "Varmit",
+   "Varmint": {
+    "en": "Varmint",
     "de": "Ungeziefer",
     "es": "Alimaña",
     "fr": "Vermine",
     "it": "Pangoratto",
-    "ja": "匪獣"
+    "ja": "匪獣",
+	"zhs": "害兽",
+	"zhs": "害獸"
    },
    "Vedalken": {
     "de": "Vedalken",
