@@ -889,6 +889,19 @@
     "zhs": "诅咒",
     "zht": "詛咒"
    },
+   "Room": {
+    "de": "Raum",
+    "en": "Room",
+    "es": "Sala",
+    "fr": "Pièce",
+    "it": "Stanza",
+    "ja": "部屋",
+    "ko": "방",
+    "pt-br": "Sala",
+    "ru": "Комната",
+    "zhs": "房间",
+    "zht": "房間"
+   },
    "Rune": {
     "de": "Rune",
     "en": "Rune",
@@ -3430,7 +3443,7 @@
 	   "pt-br": "Castor",
 	   "ru": "Бобр",
 	   "zhs": "河狸",
-	   "zht": "河狸",
+	   "zht": "河狸"
    },
    "Beeble": {
     "de": "Bobbel",
@@ -3669,8 +3682,17 @@
     "zht": "僧侶"
    },
    "Clown": {
+    "de": "Clown",
     "en": "Clown",
-    "ja": "ピエロ"
+    "es": "Payaso",
+    "fr": "Clown",
+    "it": "Clown",
+    "ja": "道化師",
+    "ko": "시골뜨기",
+    "pt-br": "Palhaço",
+    "ru": "Клоун",
+    "zhs": "小丑",
+    "zht": "小丑"
    },
    "Cockatrice": {
     "de": "Cocatrisk",
@@ -4255,6 +4277,19 @@
     "pt-br": "Gith",
     "ru": "Гит",
     "zhs": "吉斯人"
+   },
+   "Glimmer": {
+    "de": "Schimmer",
+    "en": "Glimmer",
+    "es": "Brillo",
+    "fr": "Nitescence",
+    "it": "Barlume",
+    "ja": "光霊",
+    "ko": "광령",
+    "pt-br": "Brilho",
+    "ru": "",
+    "zhs": "轻灵",
+    "zht": "輕靈"
    },
    "Gnoll": {
     "de": "Gnoll",
@@ -5039,7 +5074,7 @@
     "fr": "Monture",
     "it": "Cavalcatura",
     "ja": "乗騎",
-    "zhs": "坐騎"
+    "zhs": "坐騎",
     "zht": "坐騎"
    },
    "Mouse": {
@@ -5921,6 +5956,18 @@
     "zhs": "骷髅妖",
     "zht": "骷髏妖"
    },
+   "Skunk": {
+    "de": "Stinktier",
+    "en": "Skunk",
+    "es": "Mofeta",
+    "fr": "Moufette",
+    "it": "Puzzola",
+    "ja": "スカンク",
+	"ko": "스컹크",
+    "pt-br": "Jaritataca",
+    "zhs": "臭鼬",
+    "zht": "臭鼬"
+   },
    "Slith": {
     "de": "Slith",
     "en": "Slith",
@@ -6177,7 +6224,7 @@
     "en": "Survivor",
     "es": "Superviviente",
     "fr": "Survivant",
-    "it": "Superstite",
+    "it": "Sopravvissuto",
     "ja": "生存者",
     "pt-br": "Sobrevivente",
     "zhs": "生存者",
@@ -6274,6 +6321,19 @@
     "en": "Time Lord",
     "fr": "Time lord",
     "ja": "タイムロード"
+   },
+   "Toy": {
+    "de": "Spielzug",
+    "en": "Toy",
+    "es": "Juguete",
+    "fr": "Jouet",
+    "it": "Giocattolo",
+    "ja": "玩具",
+    "ko": "장난감",
+    "pt-br": "Brinquedo",
+    "ru": "Игрушка",
+    "zhs": "玩具",
+    "zht": "玩具"
    },
    "Treefolk": {
     "de": "Baumhirte",
@@ -6466,6 +6526,19 @@
     "ru": "Воин",
     "zhs": "战士",
     "zht": "戰士"
+   },
+   "Weasel": {
+    "de": "Wiesel",
+    "en": "Weasel",
+    "es": "Comadreja",
+    "fr": "Belette",
+    "it": "Donnola",
+    "ja": "— イタチ",
+    "ko": "족제비",
+    "pt-br": "Doninha",
+    "ru": "Ласка",
+    "zhs": "黄鼠狼",
+    "zht": "黃鼠狼"
    },
    "Weird": {
     "de": "Seltsamkeit",
@@ -6833,6 +6906,19 @@
    "ru": "Чары ",
    "zhs": "结界(生物|神器)",
    "zht": "結界(生物|神器)"
+  },
+  "spell": {
+   "de": "Zauberspruch",
+   "en": "spell",
+   "es": "hechizo",
+   "fr": "sort",
+   "it": "magia",
+   "ja": "呪文",
+   "ko": "주문을 ",
+   "pt-br": "mágica",
+   "ru": "заклинание",
+   "zhs": "咒语",
+   "zht": "咒語"
   },
   "Wastes": {
    "de": "Ödnis",

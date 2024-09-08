@@ -626,6 +626,7 @@ function isBuilder(lang) {					// builds localization closures for a language
 		is_wastes         : match@(match: "(?i)${getAltRegex(ow, "Wastes", lang)}")
 
 		is_class		  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Class", lang)}")
+		is_case			  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Case", lang)}")
 		is_nyx			  : match@(match: "(?i)${getWord(ow.Nyx, lang)}")
 		is_saga			  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Saga", lang)}")
 		is_vehicle        : match@(match: "(?i)${getAltRegex(sb.artifact, "Vehicle", lang)}")

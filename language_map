@@ -51,6 +51,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Ödnis")
 
 		is_class		  : match@(match: "(?i)Klasse")
+		is_case			  : match@(match: "(?i)Fall")
 		is_nyx			  : match@(match: "(?i)Verzauberungs")
 		is_saga			  : match@(match: "(?i)Sage")
 		is_vehicle        : match@(match: "(?i)Fahrzeug")
@@ -102,6 +103,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Spontanzauber"
 		sorcery           : "Hexerei"
+		spell             : "Zauberspruch"
 
 		conspiracy        : "Verschwörung"
 		dungeon           : "Gewölbe"
@@ -193,6 +195,7 @@ languages := [
 			+ "Hintergrund,"
 			+ "Kartusche,"
 			+ "Klasse,"
+			+ "Raum,"
 			+ "Rolle,"
 			+ "Rune,"
 			+ "Sage,"
@@ -305,6 +308,7 @@ languages := [
 			+ "Baumhirte,"
 			+ "Bestie,"
 			+ "Betrachter,"
+			+ "Biber,"
 			+ "Blinkmotte,"
 			+ "Bobbel,"
 			+ "Bold,"
@@ -463,25 +467,27 @@ languages := [
 			  "Salamander,"
 			+ "Sand,"
 			+ "Saproling,"
-			+ "Satyr,"
-			+ "Sceada,"
+			+ "Satyr",
+
+			  "Sceada,"
 			+ "Schädling,"
 			+ "Schaf,"
 			+ "Schakal,"
 			+ "Schatten,"
 			+ "Schildkröte,"
+			+ "Schimmer,"
 			+ "Schlachtschiff,"
 			+ "Schlammwesen,"
 			+ "Schlange,"
 			+ "Schnecke,"
 			+ "Schrecken,"
 			+ "Schuppentier,"
-			+ "Schwamm",
-
-			  "Seestern,"
+			+ "Schwamm,"
+			+ "Seestern,"
 			+ "Seltsamkeit,"
-			+ "Servo,"
-			+ "Sirene,"
+			+ "Servo",
+
+			  "Sirene,"
 			+ "Skelett,"
 			+ "Skorpion,"
 			+ "Skulptur,"
@@ -490,13 +496,14 @@ languages := [
 			+ "Specter,"
 			+ "Sphären,"
 			+ "Sphinx,"
+			+ "Spielzug,"
 			+ "Spinne,"
 			+ "Splitter,"
 			+ "Stachel,"
 			+ "Stachelschwein,"
-			+ "Surrakar",
-
-			  "Synth",
+			+ "Stinktier,"
+			+ "Surrakar,"
+			+ "Synth",
 
 			  "Tentakel,"
 			+ "Tetravit,"
@@ -528,6 +535,7 @@ languages := [
 			+ "Waschbär,"
 			+ "Wasserschwein,"
 			+ "Werwolf,"
+			+ "Wiesel,"
 			+ "Wildschwein,"
 			+ "Wolf,"
 			+ "Wombat,"
@@ -561,7 +569,8 @@ languages := [
 			+ "Bestie,"
 			+ "Bogenschütze,"
 			+ "Brut,"
-			+ "Bürger",
+			+ "Bürger,"
+			+ "Clown",
 
 			  "Deserteur,"
 			+ "Detektiv,"
@@ -607,12 +616,13 @@ languages := [
 			+ "Soldat,"
 			+ "Söldner,"
 			+ "Späher,"
+			+ "Spielzug,"
 			+ "Spruchwandler,"
-			+ "Thopter,"
-			+ "Uberlebender,"
-			+ "Überträger",
+			+ "Thopter",
 
-			  "Vampir,"
+			  "Uberlebender,"
+			+ "Überträger,"
+			+ "Vampir,"
 			+ "Verbündeter,"
 			+ "Verwerter,"
 			+ "Waldläufer,"
@@ -783,6 +793,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Wastes")
 
 		is_class		  : match@(match: "(?i)Class")
+		is_case			  : match@(match: "(?i)Case")
 		is_nyx			  : match@(match: "(?i)Enchantment ")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehicle")
@@ -834,6 +845,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Instant"
 		sorcery           : "Sorcery"
+		spell             : "spell"
 
 		conspiracy        : "Conspiracy"
 		dungeon           : "Dungeon"
@@ -926,6 +938,7 @@ languages := [
 			+ "Class,"
 			+ "Curse,"
 			+ "Role,"
+			+ "Room,"
 			+ "Rune,"
 			+ "Saga,"
 			+ "Shard,"
@@ -1038,6 +1051,7 @@ languages := [
 			+ "Bat,"
 			+ "Bear,"
 			+ "Beast,"
+			+ "Beaver,"
 			+ "Beeble,"
 			+ "Beholder,"
 			+ "Bird,"
@@ -1101,6 +1115,7 @@ languages := [
 			+ "Germ,"
 			+ "Giant,"
 			+ "Gith,"
+			+ "Glimmer,"
 			+ "Gnoll,"
 			+ "Gnome,"
 			+ "Goat,"
@@ -1221,7 +1236,8 @@ languages := [
 			+ "Shark,"
 			+ "Sheep,"
 			+ "Siren,"
-			+ "Skeleton",
+			+ "Skeleton,"
+			+ "Skunk",
 
 			  "Slith,"
 			+ "Sliver,"
@@ -1252,6 +1268,7 @@ languages := [
 			+ "Thrull,"
 			+ "Tiefling,"
 			+ "Time Lord,"
+			+ "Toy,"
 			+ "Treefolk,"
 			+ "Trilobite,"
 			+ "Triskelavite,"
@@ -1262,13 +1279,14 @@ languages := [
 			  "Unicorn",
 
 			  "Vampire,"
-			+ "Varmit,"
+			+ "Varmint,"
 			+ "Vedalken,"
 			+ "Viashino,"
 			+ "Volver",
 
 			  "Wall,"
 			+ "Walrus,"
+			+ "Weasel,"
 			+ "Weird,"
 			+ "Werewolf,"
 			+ "Whale,"
@@ -1359,6 +1377,7 @@ languages := [
 			+ "Spirit,"
 			+ "Survivor,"
 			+ "Thopter,"
+			+ "Toy,"
 			+ "Vampire",
 
 			  "Warlock,"
@@ -1531,6 +1550,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Yermos")
 
 		is_class		  : match@(match: "(?i)Clase")
+		is_case			  : match@(match: "(?i)Caso")
 		is_nyx			  : match@(match: "(?i) encantamiento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehículo")
@@ -1582,6 +1602,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Instantáneo"
 		sorcery           : "Conjuro"
+		spell             : "hechizo"
 
 		conspiracy        : "Conspiración"
 		dungeon           : "Mazmorra"
@@ -1677,6 +1698,7 @@ languages := [
 			+ "Papel,"
 			+ "Runa,"
 			+ "Saga,"
+			+ "Sala,"
 			+ "Trasfondo",
 		word_list_spell:
 			  "Arcano,"
@@ -1789,6 +1811,7 @@ languages := [
 			+ "Ballena,"
 			+ "Basilisco,"
 			+ "Bestia,"
+			+ "Brillo,"
 			+ "Buey",
 
 			  "Caballo,"
@@ -1801,6 +1824,7 @@ languages := [
 			+ "Capibara,"
 			+ "Caracol,"
 			+ "Caribú,"
+			+ "Castor,"
 			+ "Cefálido,"
 			+ "Centauro,"
 			+ "Chacal,"
@@ -1809,6 +1833,7 @@ languages := [
 
 			  "Cocatriz,"
 			+ "Cocodrilo,"
+			+ "Comadreja,"
 			+ "Conejo,"
 			+ "Constructo,"
 			+ "Contemplador,"
@@ -1884,7 +1909,8 @@ languages := [
 			+ "Infernal,"
 			+ "Insecto",
 
-			  "Jabalí",
+			  "Jabalí,"
+			+ "Juguete",
 
 			  "Kavu,"
 			+ "Kirin,"
@@ -1912,6 +1938,7 @@ languages := [
 			+ "Metamorfo,"
 			+ "Metathrán,"
 			+ "Minotauro,"
+			+ "Mofeta,"
 			+ "Morsa,"
 			+ "Murciélago,"
 			+ "Muro,"
@@ -2053,6 +2080,7 @@ languages := [
 			+ "Hechicero,"
 			+ "Horror,"
 			+ "Huevo,"
+			+ "Juguete,"
 			+ "Leviatán,"
 			+ "Licántropo",
 
@@ -2066,15 +2094,16 @@ languages := [
 			+ "Ninja,"
 			+ "Noble,"
 			+ "Nómada,"
+			+ "Payaso,"
 			+ "Pícaro,"
 			+ "Piloto,"
 			+ "Pirata,"
 			+ "Plebeyo,"
-			+ "Portador,"
-			+ "Rebelde,"
-			+ "Reflejo",
+			+ "Portador",
 
-			  "Samurái,"
+			  "Rebelde,"
+			+ "Reflejo,"
+			+ "Samurái,"
 			+ "Sicario,"
 			+ "Siervo,"
 			+ "Soldado,"
@@ -2249,6 +2278,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Lande")
 
 		is_class		  : match@(match: "(?i)Classe")
+		is_case			  : match@(match: "(?i)Affaire")
 		is_nyx			  : match@(match: "(?i)-enchantement")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Véhicule")
@@ -2300,6 +2330,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Éphémère"
 		sorcery           : "Rituel"
+		spell             : "sort"
 
 		conspiracy        : "Conspiration"
 		dungeon           : "Donjon"
@@ -2392,6 +2423,7 @@ languages := [
 			+ "Éclat,"
 			+ "Malédiction,"
 			+ "Passé,"
+			+ "Pièce,"
 			+ "Reliquaire,"
 			+ "Rôle,"
 			+ "Rune,"
@@ -2498,6 +2530,7 @@ languages := [
 			  "Baleine,"
 			+ "Ballon,"
 			+ "Basilic,"
+			+ "Belette,"
 			+ "Bête,"
 			+ "Blaireau,"
 			+ "Bosquérisson,"
@@ -2507,6 +2540,7 @@ languages := [
 			+ "Calamar,"
 			+ "Camaride,"
 			+ "Caribou,"
+			+ "Castor,"
 			+ "Cauchemar,"
 			+ "Centaure,"
 			+ "Céphalide,"
@@ -2602,6 +2636,8 @@ languages := [
 			+ "Incarnation,"
 			+ "Insecte",
 
+			  "Jouet",
+
 			  "Kavru,"
 			+ "Kirin,"
 			+ "Kobold,"
@@ -2632,6 +2668,7 @@ languages := [
 			+ "Minotaure,"
 			+ "Monstruosité,"
 			+ "Morse,"
+			+ "Moufette,"
 			+ "Mouton,"
 			+ "Mur,"
 			+ "Mutant,"
@@ -2641,6 +2678,7 @@ languages := [
 			+ "Nautile,"
 			+ "Nephilim,"
 			+ "Neugle,"
+			+ "Nitescence,"
 			+ "Nymphe",
 
 			  "Œil,"
@@ -2750,6 +2788,7 @@ languages := [
 			  "Chevalier,"
 			+ "Citoyen,"
 			+ "Clerc,"
+			+ "Clown,"
 			+ "Conseiller,"
 			+ "Convertisseur,"
 			+ "Couard,"
@@ -2758,32 +2797,34 @@ languages := [
 			+ "Djaggernaut,"
 			+ "Docteur,"
 			+ "Drone,"
-			+ "Druide,"
-			+ "Éclaireur,"
-			+ "Engeance,"
-			+ "Esprit",
+			+ "Druide",
 
-			  "Gredin,"
+			  "Éclaireur,"
+			+ "Engeance,"
+			+ "Esprit,"
+			+ "Gredin,"
 			+ "Gréeur,"
 			+ "Guerrier,"
 			+ "Horreur,"
 			+ "Incarnation,"
+			+ "Jouet,"
 			+ "Léviathan,"
-			+ "Loup-garou,"
-			+ "Mécanoptère,"
+			+ "Loup-garou",
+
+			  "Mécanoptère,"
 			+ "Mercenaire,"
 			+ "Mignon,"
 			+ "Moine,"
 			+ "Monture,"
 			+ "Mutant,"
-			+ "Mystique",
-
-			  "Négociant,"
+			+ "Mystique,"
+			+ "Négociant,"
 			+ "Ninja,"
 			+ "Noble,"
 			+ "Nomade,"
-			+ "Œuf,"
-			+ "Paysan,"
+			+ "Œuf",
+
+			  "Paysan,"
 			+ "Pilote,"
 			+ "Pirate,"
 			+ "Praetor,"
@@ -2970,6 +3011,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Distesa")
 
 		is_class		  : match@(match: "(?i)Classe")
+		is_case			  : match@(match: "(?i)Caso")
 		is_nyx			  : match@(match: "(?i) Incantesimo")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veicolo")
@@ -3021,6 +3063,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Istantaneo"
 		sorcery           : "Stregoneria"
+		spell             : "magia"
 
 		conspiracy        : "Cospirazione"
 		dungeon           : "Dungeon"
@@ -3116,7 +3159,8 @@ languages := [
 			+ "Runa,"
 			+ "Ruolo,"
 			+ "Saga,"
-			+ "Santuario",
+			+ "Santuario,"
+			+ "Stanza",
 		word_list_spell:
 			  "Arcano,"
 			+ "Avventura,"
@@ -3218,6 +3262,7 @@ languages := [
 			+ "Azra",
 
 			  "Balena,"
+			+ "Barlume,"
 			+ "Basilisco,"
 			+ "Beholder,"
 			+ "Bestia,"
@@ -3233,6 +3278,7 @@ languages := [
 			+ "Capibara,"
 			+ "Capra,"
 			+ "Caribù,"
+			+ "Castoro,"
 			+ "Cavallo,"
 			+ "Cefalide,"
 			+ "Centauro,"
@@ -3254,6 +3300,7 @@ languages := [
 			+ "Diavolo,"
 			+ "Dinosauro,"
 			+ "Dio,"
+			+ "Donnola,"
 			+ "Draghetto,"
 			+ "Drago,"
 			+ "Driade",
@@ -3276,6 +3323,7 @@ languages := [
 			+ "Genio,"
 			+ "Ghiottone,"
 			+ "Gigante,"
+			+ "Giocattolo,"
 			+ "Gith,"
 			+ "Gnoll,"
 			+ "Gnomo,"
@@ -3373,7 +3421,8 @@ languages := [
 			+ "Progenie",
 
 			  "Pungiglione,"
-			+ "Pungitore",
+			+ "Pungitore,"
+			+ "Puzzola",
 
 			  "Ragno,"
 			+ "Rana,"
@@ -3466,41 +3515,43 @@ languages := [
 			+ "Barbaro,"
 			+ "Bardo,"
 			+ "Berserker,"
-			+ "Bestia,"
-			+ "Cavalcatura,"
+			+ "Bestia",
+
+			  "Cavalcatura,"
 			+ "Cavaliere,"
 			+ "Chierico,"
 			+ "Cittadino,"
+			+ "Clown,"
 			+ "Commerciante,"
-			+ "Consigliere",
-
-			  "Detective,"
+			+ "Consigliere,"
+			+ "Detective,"
 			+ "Discendente,"
 			+ "Dottore,"
 			+ "Druido,"
 			+ "Esercito,"
 			+ "Esploratore,"
-			+ "Farabutto,"
+			+ "Farabutto",
+
+			  "Giocattolo,"
 			+ "Guerriero,"
 			+ "Incarnazione,"
 			+ "Juggernaut,"
 			+ "Latore,"
-			+ "Leviatano",
-
-			  "Mago,"
+			+ "Leviatano,"
+			+ "Mago,"
 			+ "Mannaro,"
 			+ "Mercenario,"
 			+ "Metabolizzatore,"
 			+ "Mistico,"
 			+ "Monaco,"
 			+ "Mutamagia,"
-			+ "Mutante,"
-			+ "Ninja,"
+			+ "Mutante",
+
+			  "Ninja,"
 			+ "Nobile,"
 			+ "Nomade,"
-			+ "Orrore",
-
-			  "Parassita,"
+			+ "Orrore,"
+			+ "Parassita,"
 			+ "Pilota,"
 			+ "Pirata,"
 			+ "Popolano,"
@@ -3517,9 +3568,9 @@ languages := [
 			+ "Servitore,"
 			+ "Servo,"
 			+ "Soldato,"
+			+ "Sopravvissuto,"
 			+ "Spirito,"
 			+ "Sterminatore,"
-			+ "Superstite,"
 			+ "Tottero,"
 			+ "Uovo,"
 			+ "Vampiro,"
@@ -3690,6 +3741,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)荒地")
 
 		is_class		  : match@(match: "(?i)クラス")
+		is_case			  : match@(match: "(?i)事件")
 		is_nyx			  : match@(match: "(?i)・エンチャント")
 		is_saga			  : match@(match: "(?i)英雄譚")
 		is_vehicle        : match@(match: "(?i)機体")
@@ -3741,6 +3793,7 @@ languages := [
 		planeswalker      : "プレインズウォーカー"
 		instant           : "インスタント"
 		sorcery           : "ソーサリー"
+		spell             : "呪文"
 
 		conspiracy        : "策略"
 		dungeon           : "ダンジョン"
@@ -3835,6 +3888,7 @@ languages := [
 			+ "クラス,"
 			+ "ルーン,"
 			+ "英雄譚,"
+			+ "部屋,"
 			+ "オーラ,"
 			+ "呪い",
 		word_list_spell:
@@ -3943,6 +3997,7 @@ languages := [
 			+ "インプ,"
 			+ "インカーネーション,"
 			+ "イカ,"
+			+ "— イタチ,"
 			+ "イエティ",
 
 			  "馬,"
@@ -3969,6 +4024,7 @@ languages := [
 			+ "オーグ,"
 			+ "雄牛,"
 			+ "落とし子,"
+			+ "玩具,"
 			+ "狼男,"
 			+ "狼",
 
@@ -4053,6 +4109,7 @@ languages := [
 
 			  "墨獣,"
 			+ "スケルトン,"
+			+ "スカンク,"
 			+ "スリス,"
 			+ "スリヴァー,"
 			+ "スペクター,"
@@ -4135,8 +4192,10 @@ languages := [
 			+ "反射",
 
 			  "ビースト,"
+			+ "ビーバー,"
 			+ "ビーブル,"
 			+ "ビホルダー,"
+			+ "光霊,"
 			+ "ヒポグリフ,"
 			+ "ヒル,"
 			+ "ピンチャー,"
@@ -4221,6 +4280,7 @@ languages := [
 
 			  "臆病者,"
 			+ "落とし子,"
+			+ "玩具,"
 			+ "狼男",
 
 			  "海賊,"
@@ -4272,6 +4332,7 @@ languages := [
 			+ "卵",
 
 			  "同盟者,"
+			+ "道化師,"
 			+ "ドクター,"
 			+ "ドレッドノート,"
 			+ "ドローン,"
@@ -4291,7 +4352,6 @@ languages := [
 			+ "反射",
 
 			  "ビースト,"
-			+ "ピエロ,"
 			+ "飛行機械",
 
 			  "兵士",
@@ -4478,6 +4538,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)불모지")
 
 		is_class		  : match@(match: "(?i)직업")
+		is_case			  : match@(match: "(?i)Case")
 		is_nyx			  : match@(match: "(?i)부여마법 ")
 		is_saga			  : match@(match: "(?i)서사시")
 		is_vehicle        : match@(match: "(?i)탑승물")
@@ -4529,6 +4590,7 @@ languages := [
 		planeswalker      : "플레인즈워커"
 		instant           : "순간마법"
 		sorcery           : "집중마법"
+		spell             : "주문을"
 
 		conspiracy        : "음모"
 		dungeon           : "던전"
@@ -4617,6 +4679,7 @@ languages := [
 			  "Case,"
 			+ "룬,"
 			+ "마법진,"
+			+ "방,"
 			+ "배경,"
 			+ "서사시,"
 			+ "성지,"
@@ -4731,7 +4794,8 @@ languages := [
 			+ "공룡,"
 			+ "공성차",
 
-			  "굴,"
+			  "광령,"
+			+ "굴,"
 			+ "그렘린,"
 			+ "그리핀,"
 			+ "그림자,"
@@ -4794,6 +4858,7 @@ languages := [
 			+ "불가사리,"
 			+ "불사조,"
 			+ "브러시와그,"
+			+ "비버,"
 			+ "비아시노,"
 			+ "비홀더",
 
@@ -4814,6 +4879,7 @@ languages := [
 			+ "순록",
 
 			  "스럴,"
+			+ "스컹크,"
 			+ "스펀지,"
 			+ "스펙터,"
 			+ "스핑크스,"
@@ -4867,11 +4933,13 @@ languages := [
 			+ "잉클링",
 
 			  "자칼,"
+			+ "장난감,"
 			+ "전갈,"
 			+ "점액괴물,"
 			+ "정령,"
 			+ "조류,"
 			+ "조립공,"
+			+ "족제비,"
 			+ "좀비,"
 			+ "쥐,"
 			+ "지니,"
@@ -4962,6 +5030,7 @@ languages := [
 			+ "소작농,"
 			+ "수도승,"
 			+ "수하,"
+			+ "시골뜨기,"
 			+ "시민,"
 			+ "신령",
 
@@ -4972,6 +5041,7 @@ languages := [
 			+ "유목민,"
 			+ "음유시인,"
 			+ "자손,"
+			+ "장난감,"
 			+ "장로,"
 			+ "전사,"
 			+ "정찰병,"
@@ -4979,11 +5049,11 @@ languages := [
 			+ "조종사,"
 			+ "좀비,"
 			+ "주술사,"
-			+ "집정관,"
-			+ "처리자,"
-			+ "총독",
+			+ "집정관",
 
-			  "해골,"
+			  "처리자,"
+			+ "총독,"
+			+ "해골,"
 			+ "해적,"
 			+ "현신,"
 			+ "형상,"
@@ -5155,6 +5225,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Ermo")
 
 		is_class		  : match@(match: "(?i)Classe")
+		is_case			  : match@(match: "(?i)Caso")
 		is_nyx			  : match@(match: "(?i) Encantamento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veículo")
@@ -5206,6 +5277,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Mágica Instantânea"
 		sorcery           : "Feitiço"
+		spell             : "mágica"
 
 		conspiracy        : "Conspiração"
 		dungeon           : "Masmorra"
@@ -5301,7 +5373,8 @@ languages := [
 			+ "Papel,"
 			+ "Runa,"
 			+ "Sacrário,"
-			+ "Saga",
+			+ "Saga,"
+			+ "Sala",
 		word_list_spell:
 			  "Arcana,"
 			+ "Armadilha,"
@@ -5416,6 +5489,8 @@ languages := [
 			+ "Bizarro,"
 			+ "Bode,"
 			+ "Boi,"
+			+ "Brilho,"
+			+ "Brinquedo,"
 			+ "Bruxa",
 
 			  "Camárida,"
@@ -5425,6 +5500,7 @@ languages := [
 			+ "Caranguejo,"
 			+ "Carcaju,"
 			+ "Caribu,"
+			+ "Castor,"
 			+ "Cavalo,"
 			+ "Cefálida,"
 			+ "Centauro,"
@@ -5446,6 +5522,7 @@ languages := [
 			+ "Diabo,"
 			+ "Diabrete,"
 			+ "Dinossauro,"
+			+ "Doninha,"
 			+ "Dragão,"
 			+ "Dragonete,"
 			+ "Dríade",
@@ -5505,7 +5582,8 @@ languages := [
 			  "Ilusão,"
 			+ "Inseto",
 
-			  "Javali,"
+			  "Jaritataca,"
+			+ "Javali,"
 			+ "Juggernaut",
 
 			  "Kavu,"
@@ -5648,6 +5726,7 @@ languages := [
 			+ "Bardo,"
 			+ "Batedor,"
 			+ "Besta,"
+			+ "Brinquedo,"
 			+ "Bruxo",
 
 			  "Cavaleiro,"
@@ -5682,7 +5761,8 @@ languages := [
 			+ "Nômade,"
 			+ "Ovo",
 
-			  "Patrulheiro,"
+			  "Palhaço,"
+			+ "Patrulheiro,"
 			+ "Piloto,"
 			+ "Pirata,"
 			+ "Plebeu,"
@@ -5696,11 +5776,11 @@ languages := [
 			+ "Samurai,"
 			+ "Servo,"
 			+ "Sobrevivente,"
-			+ "Soldado,"
-			+ "Tóptero,"
-			+ "Traficante",
+			+ "Soldado",
 
-			  "Vampiro,"
+			  "Tóptero,"
+			+ "Traficante,"
+			+ "Vampiro,"
 			+ "Xamã,"
 			+ "Zangão,"
 			+ "Zumbi"
@@ -5873,6 +5953,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)Пустоши")
 
 		is_class		  : match@(match: "(?i)Класс")
+		is_case			  : match@(match: "(?i)Case")
 		is_nyx			  : match@(match: "(?i)Чары ")
 		is_saga			  : match@(match: "(?i)Сага")
 		is_vehicle        : match@(match: "(?i)Машина")
@@ -5924,6 +6005,7 @@ languages := [
 		planeswalker      : "Planeswalker"
 		instant           : "Мгновенное заклинание"
 		sorcery           : "Волшебство"
+		spell             : "заклинание"
 
 		conspiracy        : "Заговор"
 		dungeon           : "Подземелье"
@@ -6013,6 +6095,7 @@ languages := [
 			+ "Аура,"
 			+ "Картуш,"
 			+ "Класс,"
+			+ "Комната,"
 			+ "Осколка,"
 			+ "Предыстория,"
 			+ "Проклятие,"
@@ -6122,6 +6205,7 @@ languages := [
 			+ "Бегемот,"
 			+ "Белка,"
 			+ "Бес,"
+			+ "Бобр,"
 			+ "Бог,"
 			+ "Броненосец,"
 			+ "Брушвагг,"
@@ -6185,7 +6269,8 @@ languages := [
 			+ "Змея,"
 			+ "Зомби",
 
-			  "Иллюзия,"
+			  "Игрушка,"
+			+ "Иллюзия,"
 			+ "Имитатор,"
 			+ "Инкарнация,"
 			+ "Ифрит,"
@@ -6221,6 +6306,7 @@ languages := [
 			  "Лама,"
 			+ "Ламия,"
 			+ "Ламмасу,"
+			+ "Ласка,"
 			+ "Левиафан,"
 			+ "Ленивец,"
 			+ "Лесовик,"
@@ -6366,7 +6452,9 @@ languages := [
 			  "Заклинатель,"
 			+ "Зверь,"
 			+ "Зомби,"
+			+ "Игрушка,"
 			+ "Инкарнация,"
+			+ "Клоун,"
 			+ "Колдун,"
 			+ "Кочевник,"
 			+ "Левиафан,"
@@ -6377,11 +6465,11 @@ languages := [
 			+ "Монах,"
 			+ "Мутант,"
 			+ "Наемник,"
-			+ "Ниндзя,"
-			+ "Отпрыск,"
-			+ "Отражение",
+			+ "Ниндзя",
 
-			  "Пеон,"
+			  "Отпрыск,"
+			+ "Отражение,"
+			+ "Пеон,"
 			+ "Переносчик,"
 			+ "Переработчик,"
 			+ "Пилот,"
@@ -6573,6 +6661,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)荒野")
 
 		is_class		  : match@(match: "(?i)职业")
+		is_case			  : match@(match: "(?i)案件")
 		is_nyx			  : match@(match: "(?i)结界(生物|神器)")
 		is_saga			  : match@(match: "(?i)传纪")
 		is_vehicle        : match@(match: "(?i)载具")
@@ -6624,6 +6713,7 @@ languages := [
 		planeswalker      : "鵬洛客"
 		instant           : "瞬间"
 		sorcery           : "法术"
+		spell             : "咒语"
 
 		conspiracy        : "诡局"
 		dungeon           : "地城"
@@ -6710,6 +6800,7 @@ languages := [
 			+ "门",
 		word_list_enchantment:
 			  "传纪,"
+			+ "房间,"
 			+ "案件,"
 			+ "灵气,"
 			+ "碎片,"
@@ -6859,10 +6950,11 @@ languages := [
 			+ "奥札奇,"
 			+ "奴兽,"
 			+ "宁芙,"
-			+ "害虫,"
-			+ "家鼠",
+			+ "害獸,"
+			+ "害虫",
 
-			  "寇族,"
+			  "家鼠,"
+			+ "寇族,"
 			+ "小恶魔,"
 			+ "山羊,"
 			+ "巨人,"
@@ -6877,10 +6969,10 @@ languages := [
 			+ "怪奇,"
 			+ "怪灵,"
 			+ "恐龙,"
-			+ "恶魔,"
-			+ "惊惧兽",
+			+ "恶魔",
 
-			  "拉弥亚,"
+			  "惊惧兽,"
+			+ "拉弥亚,"
 			+ "拉玛苏,"
 			+ "拉高耶夫,"
 			+ "振翼机,"
@@ -6895,14 +6987,15 @@ languages := [
 			+ "树妖,"
 			+ "树懒,"
 			+ "树灵,"
-			+ "梦魇,"
-			+ "植物",
+			+ "梦魇",
 
-			  "欧格,"
+			  "植物,"
+			+ "欧格,"
 			+ "气球,"
 			+ "水母,"
 			+ "水獭,"
 			+ "水豚,"
+			+ "河狸,"
 			+ "河马,"
 			+ "洁英,"
 			+ "流浆,"
@@ -6912,10 +7005,10 @@ languages := [
 			+ "海绵,"
 			+ "海象,"
 			+ "火蜥蜴,"
-			+ "灵俑,"
-			+ "熊",
+			+ "灵俑",
 
-			  "牛,"
+			  "熊,"
+			+ "牛,"
 			+ "牛头怪,"
 			+ "牡蛎,"
 			+ "犀牛,"
@@ -6930,10 +7023,11 @@ languages := [
 			+ "猎犬,"
 			+ "猫,"
 			+ "猫鼬,"
-			+ "猴,"
-			+ "猿猴",
+			+ "猴",
 
-			  "獾,"
+			  "猿猴,"
+			+ "獾,"
+			+ "玩具,"
 			+ "病媒,"
 			+ "病菌,"
 			+ "盖美拉,"
@@ -6947,10 +7041,10 @@ languages := [
 			+ "神,"
 			+ "秘耳,"
 			+ "稻草人,"
-			+ "穿山甲,"
-			+ "突变体",
+			+ "穿山甲",
 
-			  "精怪,"
+			  "突变体,"
+			+ "精怪,"
 			+ "精灵,"
 			+ "索尔兽,"
 			+ "索泰利,"
@@ -6965,10 +7059,11 @@ languages := [
 			+ "翼狮,"
 			+ "老鼠,"
 			+ "腐生物,"
-			+ "自动机,"
-			+ "苏拉卡",
+			+ "自动机",
 
-			  "荷马利,"
+			  "臭鼬,"
+			+ "苏拉卡,"
+			+ "荷马利,"
 			+ "虚影,"
 			+ "虫械,"
 			+ "蛇,"
@@ -6982,11 +7077,11 @@ languages := [
 			+ "蜥怪,"
 			+ "蜥蜴,"
 			+ "蝎子,"
-			+ "蝙蝠,"
-			+ "蟹,"
-			+ "蠕虫",
+			+ "蝙蝠",
 
-			  "袋熊,"
+			  "蟹,"
+			+ "蠕虫,"
+			+ "袋熊,"
 			+ "裂片妖,"
 			+ "触手,"
 			+ "诺格,"
@@ -6995,16 +7090,17 @@ languages := [
 			+ "豺狼,"
 			+ "豺狼人,"
 			+ "负鼠,"
+			+ "轻灵,"
 			+ "造妖,"
 			+ "道西,"
 			+ "郊狼,"
 			+ "野兽,"
-			+ "野猪,"
-			+ "钳手,"
-			+ "阴魂,"
-			+ "阿托格",
+			+ "野猪",
 
-			  "雕像,"
+			  "钳手,"
+			+ "阴魂,"
+			+ "阿托格,"
+			+ "雕像,"
 			+ "雪怪,"
 			+ "雪貂,"
 			+ "非瑞人,"
@@ -7017,12 +7113,12 @@ languages := [
 			+ "骆驼,"
 			+ "骆驼,"
 			+ "骏鹰,"
-			+ "骷髅妖,"
-			+ "鬣狗,"
-			+ "鬼崽,"
-			+ "鬼魂",
+			+ "骷髅妖",
 
-			  "魔人,"
+			  "鬣狗,"
+			+ "鬼崽,"
+			+ "鬼魂,"
+			+ "魔人,"
 			+ "魔像,"
 			+ "魔神,"
 			+ "魔鬼,"
@@ -7034,8 +7130,10 @@ languages := [
 			+ "鹦鹉螺,"
 			+ "麋鹿,"
 			+ "麒麟,"
-			+ "墨灵,"
-			+ "鼹鼠,"
+			+ "黄鼠狼,"
+			+ "墨灵",
+
+			  "鼹鼠,"
 			+ "龙,"
 			+ "龙兽,"
 			+ "龟"
@@ -7062,6 +7160,7 @@ languages := [
 			  "奴仆,"
 			+ "奴兽,"
 			+ "孽裔,"
+			+ "小丑,"
 			+ "市民,"
 			+ "平民,"
 			+ "弓箭手,"
@@ -7074,10 +7173,10 @@ languages := [
 			+ "攻城巨车,"
 			+ "整备师,"
 			+ "斥候,"
-			+ "旗手,"
-			+ "无畏舰",
+			+ "旗手",
 
-			  "映影,"
+			  "无畏舰,"
+			+ "映影,"
 			+ "术士,"
 			+ "杀手,"
 			+ "武士,"
@@ -7090,12 +7189,13 @@ languages := [
 			+ "灵俑,"
 			+ "狂战士,"
 			+ "狼人,"
+			+ "玩具,"
 			+ "生存者,"
-			+ "病媒,"
-			+ "神器师,"
-			+ "祭师",
+			+ "病媒",
 
-			  "科学家,"
+			  "神器师,"
+			+ "祭师,"
+			+ "科学家,"
 			+ "秘教徒,"
 			+ "突变体,"
 			+ "精怪,"
@@ -7274,6 +7374,7 @@ languages := [
 		is_wastes         : match@(match: "(?i)荒野")
 
 		is_class		  : match@(match: "(?i)職業")
+		is_case			  : match@(match: "(?i)案件")
 		is_nyx			  : match@(match: "(?i)結界(生物|神器)")
 		is_saga			  : match@(match: "(?i)傳紀")
 		is_vehicle        : match@(match: "(?i)載具")
@@ -7325,6 +7426,7 @@ languages := [
 		planeswalker      : "鵬洛客"
 		instant           : "瞬間"
 		sorcery           : "巫術"
+		spell             : "咒語"
 					      
 		conspiracy        : "詭局"
 		dungeon           : "地城"
@@ -7411,6 +7513,7 @@ languages := [
 			+ "門",
 		word_list_enchantment:
 			  "傳紀,"
+			+ "房間,"
 			+ "案件,"
 			+ "碎片,"
 			+ "祭祠,"
@@ -7554,6 +7657,7 @@ languages := [
 			+ "奧札奇,"
 			+ "奴獸,"
 			+ "妖精,"
+			+ "害獸,"
 			+ "害蟲,"
 			+ "家鼠,"
 			+ "寇族,"
@@ -7598,6 +7702,7 @@ languages := [
 			  "水母,"
 			+ "水獺,"
 			+ "水豚,"
+			+ "河狸,"
 			+ "河馬,"
 			+ "流漿,"
 			+ "浣熊,"
@@ -7609,11 +7714,11 @@ languages := [
 			+ "火蜥蜴,"
 			+ "烏賊,"
 			+ "熊,"
-			+ "牆,"
-			+ "牛,"
-			+ "牛頭怪",
+			+ "牆",
 
-			  "牡蠣,"
+			  "牛,"
+			+ "牛頭怪,"
+			+ "牡蠣,"
 			+ "犀牛,"
 			+ "犰狳,"
 			+ "狐,"
@@ -7627,11 +7732,12 @@ languages := [
 			+ "獨角獸,"
 			+ "獵犬,"
 			+ "獾,"
-			+ "異獅,"
-			+ "病媒,"
-			+ "真菌",
+			+ "玩具",
 
-			  "眼,"
+			  "異獅,"
+			+ "病媒,"
+			+ "真菌,"
+			+ "眼,"
 			+ "眼魔,"
 			+ "矮人,"
 			+ "石像鬼,"
@@ -7644,11 +7750,11 @@ languages := [
 			+ "突變體,"
 			+ "精靈,"
 			+ "索泰利,"
-			+ "索爾獸,"
-			+ "紫貂,"
-			+ "細菌",
+			+ "索爾獸",
 
-			  "組構體,"
+			  "紫貂,"
+			+ "細菌,"
+			+ "組構體,"
 			+ "組裝工人,"
 			+ "統領,"
 			+ "維多肯,"
@@ -7660,13 +7766,14 @@ languages := [
 			+ "聖者,"
 			+ "腐生物,"
 			+ "自動機,"
+			+ "臭鼬,"
 			+ "苏拉卡,"
-			+ "荷馬利,"
-			+ "蓋美拉,"
-			+ "虛影,"
-			+ "虫械",
+			+ "荷馬利",
 
-			  "蛇,"
+			  "蓋美拉,"
+			+ "虛影,"
+			+ "虫械,"
+			+ "蛇,"
 			+ "蛇髮妖,"
 			+ "蛋,"
 			+ "蛙,"
@@ -7679,12 +7786,12 @@ languages := [
 			+ "蝙蝠,"
 			+ "蟹,"
 			+ "蠍子,"
-			+ "蠕蟲,"
-			+ "袋熊,"
-			+ "裂片妖,"
-			+ "觸手",
+			+ "蠕蟲",
 
-			  "變形獸,"
+			  "袋熊,"
+			+ "裂片妖,"
+			+ "觸手,"
+			+ "變形獸,"
 			+ "诺格,"
 			+ "象,"
 			+ "豪豬,"
@@ -7693,16 +7800,17 @@ languages := [
 			+ "貓,"
 			+ "貓鼬,"
 			+ "負鼠,"
+			+ "輕靈,"
 			+ "造妖,"
 			+ "道西,"
-			+ "郊狼,"
-			+ "野獸,"
+			+ "郊狼",
+
+			  "野獸,"
 			+ "野豬,"
 			+ "钳手,"
 			+ "阿托格,"
-			+ "陰魂",
-
-			  "雕像,"
+			+ "陰魂,"
+			+ "雕像,"
 			+ "雪怪,"
 			+ "雪貂,"
 			+ "非瑞人,"
@@ -7713,12 +7821,12 @@ languages := [
 			+ "馴鹿,"
 			+ "駱駝,"
 			+ "駿鷹,"
-			+ "驚懼獸,"
-			+ "骆驼,"
-			+ "骷髏妖,"
-			+ "鬣狗",
+			+ "驚懼獸",
 
-			  "鬼崽,"
+			  "骆驼,"
+			+ "骷髏妖,"
+			+ "鬣狗,"
+			+ "鬼崽,"
 			+ "鬼怪,"
 			+ "鬼魂,"
 			+ "魔人,"
@@ -7731,12 +7839,13 @@ languages := [
 			+ "鱆人,"
 			+ "鱷魚,"
 			+ "鳥,"
-			+ "鳳凰,"
-			+ "鸚鵡螺,"
-			+ "麋鹿,"
-			+ "麒麟",
+			+ "鳳凰",
 
-			  "墨靈,"
+			  "鸚鵡螺,"
+			+ "麋鹿,"
+			+ "麒麟,"
+			+ "黃鼠狼,"
+			+ "墨靈,"
 			+ "鼴鼠,"
 			+ "龍,"
 			+ "龍獸,"
@@ -7762,6 +7871,7 @@ languages := [
 			+ "奴獸",
 
 			  "孽裔,"
+			+ "小丑,"
 			+ "市民,"
 			+ "平民,"
 			+ "弓箭手,"
@@ -7776,10 +7886,10 @@ languages := [
 			+ "斥候,"
 			+ "旗手,"
 			+ "无畏舰,"
-			+ "映影,"
-			+ "武士",
+			+ "映影",
 
-			  "殭屍,"
+			  "武士,"
+			+ "殭屍,"
 			+ "殺手,"
 			+ "浪客,"
 			+ "海怪,"
@@ -7787,17 +7897,18 @@ languages := [
 			+ "游牧人,"
 			+ "狂戰士,"
 			+ "狼人,"
+			+ "玩具,"
 			+ "病媒,"
 			+ "神器師,"
 			+ "祭師,"
 			+ "科学家,"
 			+ "秘教徒,"
 			+ "突變體,"
-			+ "精靈,"
-			+ "統領,"
-			+ "蛋",
+			+ "精靈",
 
-			  "術士,"
+			  "統領,"
+			+ "蛋,"
+			+ "術士,"
 			+ "詩人,"
 			+ "貴族,"
 			+ "軍隊,"
