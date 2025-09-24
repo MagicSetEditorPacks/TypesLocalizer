@@ -52,6 +52,7 @@ languages := [
 
 		is_class		  : match@(match: "(?i)Klasse")
 		is_case			  : match@(match: "(?i)Fall")
+		is_room			  : match@(match: "(?i)Raum")
 		is_nyx			  : match@(match: "(?i)Verzauberungs")
 		is_saga			  : match@(match: "(?i)Sage")
 		is_vehicle        : match@(match: "(?i)Fahrzeug")
@@ -59,6 +60,7 @@ languages := [
 		is_miracle		  : match@(match: "(?i)Mirakulum")
 		is_mutate		  : match@(match: "(?i)Mutation")
 		is_devoid		  : match@(match: "(?i)Fahl")
+		is_stationed	  : filter_text@(match: "(?i)Raumschiff|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\b(Erzeuge|Erhöhe) [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\b(Erzeuge|Erhöhe) [^(\n|^).]*<match>", match:"einer beliebigen Farbe|unterschiedlichen Farben|beliebigen Kombination von Farben")
@@ -212,6 +214,7 @@ word_lists_de
 
 		is_class		  : match@(match: "(?i)Class")
 		is_case			  : match@(match: "(?i)Case")
+		is_room			  : match@(match: "(?i)Room")
 		is_nyx			  : match@(match: "(?i)Enchantment ")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehicle")
@@ -219,6 +222,7 @@ word_lists_de
 		is_miracle		  : match@(match: "(?i)Miracle")
 		is_mutate		  : match@(match: "(?i)Mutate")
 		is_devoid		  : match@(match: "(?i)Devoid")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAdd [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAdd [^(\n|^).]*<match>", match:"(any( one)?|different|combination of) color")
@@ -373,6 +377,7 @@ word_lists_en
 
 		is_class		  : match@(match: "(?i)Clase")
 		is_case			  : match@(match: "(?i)Caso")
+		is_room			  : match@(match: "(?i)Sala")
 		is_nyx			  : match@(match: "(?i) encantamiento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Vehículo")
@@ -380,6 +385,7 @@ word_lists_en
 		is_miracle		  : match@(match: "(?i)Milagro")
 		is_mutate		  : match@(match: "(?i)Mutación")
 		is_devoid		  : match@(match: "(?i)Vacío")
+		is_stationed	  : filter_text@(match: "(?i)Astronave|Planeta")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAgrega [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAgrega [^(\n|^).]*<match>", match:"cualquier (combinación de )?color|colores distintos")
@@ -533,6 +539,7 @@ word_lists_es
 
 		is_class		  : match@(match: "(?i)Classe")
 		is_case			  : match@(match: "(?i)Affaire")
+		is_room			  : match@(match: "(?i)Pièce")
 		is_nyx			  : match@(match: "(?i)-enchantement")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Véhicule")
@@ -540,6 +547,7 @@ word_lists_es
 		is_miracle		  : match@(match: "(?i)Miracle")
 		is_mutate		  : match@(match: "(?i)Mutation")
 		is_devoid		  : match@(match: "(?i)Carence")
+		is_stationed	  : filter_text@(match: "(?i)Vaisseau spatial|Planète")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAjoutez [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAjoutez [^(\n|^).]*<match>", match:"couleur de votre choix|couleurs différentes|combinaison de mana coloré de votre choix")
@@ -694,6 +702,7 @@ word_lists_fr
 
 		is_class		  : match@(match: "(?i)Classe")
 		is_case			  : match@(match: "(?i)Caso")
+		is_room			  : match@(match: "(?i)Stanza")
 		is_nyx			  : match@(match: "(?i) Incantesimo")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veicolo")
@@ -701,6 +710,7 @@ word_lists_fr
 		is_miracle		  : match@(match: "(?i)Miracolo")
 		is_mutate		  : match@(match: "(?i)Mutazione")
 		is_devoid		  : match@(match: "(?i)Vacuità")
+		is_stationed	  : filter_text@(match: "(?i)Astronave|Planeta")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAggiungi [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAggiungi [^(\n|^).]*<match>", match:"qualsiasi colore|colori diversi|qualsiasi combinazione di colori")
@@ -854,6 +864,7 @@ word_lists_it
 
 		is_class		  : match@(match: "(?i)クラス")
 		is_case			  : match@(match: "(?i)事件")
+		is_room			  : match@(match: "(?i)部屋")
 		is_nyx			  : match@(match: "(?i)・エンチャント")
 		is_saga			  : match@(match: "(?i)英雄譚")
 		is_vehicle        : match@(match: "(?i)機体")
@@ -861,6 +872,7 @@ word_lists_it
 		is_miracle		  : match@(match: "(?i)奇跡")
 		is_mutate		  : match@(match: "(?i)変容")
 		is_devoid		  : match@(match: "(?i)欠色")
+		is_stationed	  : filter_text@(match: "(?i)宇宙船|惑星")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)<match>[^(\n|^).。]*を加える", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)<match>[^(\n|^).。]*を加える", match:"好きな色１色のマナ|異なる色のマナ|望む色の組み合わせのマナ")
@@ -1014,7 +1026,8 @@ word_lists_ja
 		is_wastes         : match@(match: "(?i)불모지")
 
 		is_class		  : match@(match: "(?i)직업")
-		is_case			  : match@(match: "(?i)Case")
+		is_case			  : match@(match: "(?i)직업")
+		is_room			  : match@(match: "(?i)방")
 		is_nyx			  : match@(match: "(?i)부여마법 ")
 		is_saga			  : match@(match: "(?i)서사시")
 		is_vehicle        : match@(match: "(?i)탑승물")
@@ -1022,6 +1035,7 @@ word_lists_ja
 		is_miracle		  : match@(match: "(?i)기적")
 		is_mutate		  : match@(match: "(?i)돌연변이화")
 		is_devoid		  : match@(match: "(?i)결여")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)<match>[^(\n|^).]* 추가한다", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)<match>[^(\n|^).]* 추가한다", match:"원하는 (한 가지 )?색의 마나 [두한] 개|서로 다른 색인 마나|원하는 색의 조합으로 마나")
@@ -1176,6 +1190,7 @@ word_lists_ko
 
 		is_class		  : match@(match: "(?i)Classe")
 		is_case			  : match@(match: "(?i)Caso")
+		is_room			  : match@(match: "(?i)Sala")
 		is_nyx			  : match@(match: "(?i) Encantamento")
 		is_saga			  : match@(match: "(?i)Saga")
 		is_vehicle        : match@(match: "(?i)Veículo")
@@ -1183,6 +1198,7 @@ word_lists_ko
 		is_miracle		  : match@(match: "(?i)Milagre")
 		is_mutate		  : match@(match: "(?i)Mutação")
 		is_devoid		  : match@(match: "(?i)Desprovido")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAdicione [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bAdicione [^(\n|^).]*<match>", match:"qualquer cor|cores diferentes")
@@ -1340,7 +1356,8 @@ word_lists_pt-br
 		is_wastes         : match@(match: "(?i)Пустоши")
 
 		is_class		  : match@(match: "(?i)Класс")
-		is_case			  : match@(match: "(?i)Case")
+		is_case			  : match@(match: "(?i)Класс")
+		is_room			  : match@(match: "(?i)Комната")
 		is_nyx			  : match@(match: "(?i)Чары ")
 		is_saga			  : match@(match: "(?i)Сага")
 		is_vehicle        : match@(match: "(?i)Машина")
@@ -1348,6 +1365,7 @@ word_lists_pt-br
 		is_miracle		  : match@(match: "(?i)Чудо")
 		is_mutate		  : match@(match: "(?i)Мутация")
 		is_devoid		  : match@(match: "(?i)Лишение")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bдобавьте [^(\n|^).]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)\\bдобавьте [^(\n|^).]*<match>", match:"любого цвета?|различных цветов")
@@ -1501,6 +1519,7 @@ word_lists_ru
 
 		is_class		  : match@(match: "(?i)职业")
 		is_case			  : match@(match: "(?i)案件")
+		is_room			  : match@(match: "(?i)房间")
 		is_nyx			  : match@(match: "(?i)结界(生物|神器)")
 		is_saga			  : match@(match: "(?i)传纪")
 		is_vehicle        : match@(match: "(?i)载具")
@@ -1508,6 +1527,7 @@ word_lists_ru
 		is_miracle		  : match@(match: "(?i)奇迹")
 		is_mutate		  : match@(match: "(?i)合变")
 		is_devoid		  : match@(match: "(?i)虚色")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)(?<!增)加[^(\n|^).。]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)(?<!增)加[^(\n|^).。]*<match>", match:"意颜色的法术力|不同颜色的法术力|其颜色组合由你选择")
@@ -1661,6 +1681,7 @@ word_lists_zhs
 
 		is_class		  : match@(match: "(?i)職業")
 		is_case			  : match@(match: "(?i)案件")
+		is_room			  : match@(match: "(?i)房間")
 		is_nyx			  : match@(match: "(?i)結界(生物|神器)")
 		is_saga			  : match@(match: "(?i)傳紀")
 		is_vehicle        : match@(match: "(?i)載具")
@@ -1668,6 +1689,7 @@ word_lists_zhs
 		is_miracle		  : match@(match: "(?i)奇蹟")
 		is_mutate		  : match@(match: "(?i)合變")
 		is_devoid		  : match@(match: "(?i)虛色")
+		is_stationed	  : filter_text@(match: "(?i)Spacecraft|Planet")
 
 		mana_symbol_production	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)(?<!增)加[^(\n|^).。]*<match>", match:"<sym[^>]*>[^<]+<\\/sym[^>]*>")
 		gold_mana_production 	: remove_tag@(tag:"<error-spelling") + filter_text@(in_context:"(?i)(?<!增)加[^(\n|^).。]*<match>", match:"任意顏色的魔法力|不同顏色的魔法力|其顏色組合由你選擇")

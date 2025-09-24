@@ -5,18 +5,10 @@ Script for updating the MSE types file for each supported language.
 
 ### Missing from most non-English languages
 * **Upcoming Types**: Awaiting official release
-    * Card types
-        * Kindred
-    * Artifact types
-		* Bobblehead
-        * Junk
-	* Creature types
-		* Sloth
-		* Synth
-    * Planes
-        * Bloomburrow
-        * Duskmourn
-        * Thunder Junction
+    * Creature types
+		* Lemur
+		* Bison
+		* Kangaroo
  
 * **Silver Border Types**: Only officially in English
     * Artifact types
@@ -27,7 +19,6 @@ Script for updating the MSE types file for each supported language.
         * Employee
         * Gamer
         * Guest
-        * Performer
     * Planeswalker types
         * Comet
 
@@ -53,6 +44,7 @@ Script for updating the MSE types file for each supported language.
     * Modern Planes
         * Alkabah
         * Aranzhur
+		* Bloomburrow
         * Diraden
         * Faerûn
         * Kodisha
@@ -119,12 +111,15 @@ Script for updating the MSE types file for each supported language.
 Russian was officially supported between 9th Edition and Commander: Baldur's Gate, meaning a lot of very old and more recent types are missing official translations.
 * Card types
     * Battle
+	* Kindred
 * Artifact types
     * Incubator
 	* Junk
+	* Spacecraft
 * Battle types
     * Siege
 * Creature types
+	* Drix
     * Bringer
     * Dreadnought
     * Graveborn
@@ -138,6 +133,8 @@ Russian was officially supported between 9th Edition and Commander: Baldur's Gat
 * Enchantment
 	* Case
     * Role
+* Land
+	* Planet
 * Planechase Planes
     * Antausia
     * Arkhos
@@ -175,11 +172,13 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
 
 * Card types
     * Battle
+	* Kindred
 * Artifact types
     * Contraption
     * Fortification
     * Incubator
 	* Junk
+	* Spacecraft
 * Battle types
     * Siege
 * Creature types
@@ -213,6 +212,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
 * Land types
     * Locus
     * Mine
+	* Planet
     * Power-Plant
     * Tower
 * Planechase Planes
@@ -285,7 +285,10 @@ Types below are missing in most non-English languages, but have been filled in v
     * Aurochs
     * Balloon
     * Caribou
+	* Echidna
     * Ferret
+	* Hedgehog
+	* Lobster
     * Wombat
 * Land types
     * Lair

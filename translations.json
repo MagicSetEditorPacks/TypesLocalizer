@@ -416,15 +416,15 @@
   "kindred": {
    "de": "Stammes-",
    "en": "Kindred",
-   "es": "Tribal",
-   "fr": "tribal",
-   "it": "Tribale",
-   "ja": "部族",
+   "es": "Estirpe",
+   "fr": "Clan",
+   "it": "Affine",
+   "ja": "同族",
    "ko": "종족",
-   "pt-br": "Tribal",
+   "pt-br": "Estirpe",
    "ru": "Племенной",
-   "zhs": "部族",
-   "zht": "部族"
+   "zhs": "亲缘",
+   "zht": "亲缘"
   },
   "land": {
    "de": "Land",
@@ -740,6 +740,14 @@
     "ru": "инкубатор",
     "zhs": "的抚育器"
    },
+   "Infinity": {
+	   "de": "Infinity",
+	   "en": "Infinity",
+	   "es": "del-Infinito",
+	   "fr": "Infinité",
+	   "it": "Infinito",
+	   "ja": "インフィニティ"
+   },
    "Junk": {
     "en": "Junk",
     "de": "Altmetall",
@@ -748,6 +756,14 @@
     "it": "Ferraglia",
     "ja": "ジャンク"
    },
+	"Lander": {
+		"de": "Lander",
+		"en": "Lander",
+		"es": "Aterrizador",
+		"fr": "Module de descente",
+		"it": "Lander",
+		"ja": "着陸船"
+	},
    "Map": {
     "de": "Lageplan",
     "en": "Map",
@@ -771,6 +787,25 @@
     "pt-br": "Pedra de Energia",
     "ru": "Камня Силы",
     "zhs": "置的魔力石"
+   },
+	"Spacecraft": {
+		"de": "Raumschiff",
+		"en": "Spacecraft",
+		"es": "Astronave",
+		"fr": "Vaisseau spatial",
+		"it": "Astronave",
+		"ja": "宇宙船"
+	},
+   "Stone": {
+	   "de": "Stein",
+	   "en": "Stone",
+	   "es": "Piedra",
+	   "fr": "Pierre",
+	   "it": "Pietra",
+	   "ja": "ストーン"
+   },
+   "Terminus": {
+    "en": "Terminus"
    },
    "Treasure": {
     "de": "Schatz",
@@ -1095,6 +1130,14 @@
     "zhs": "平原",
     "zht": "平原"
    },
+	"Planet": {
+		"de": "Planet",
+		"en": "Planet",
+		"es": "Planeta",
+		"fr": "Planète",
+		"it": "Pianeta",
+		"ja": "惑星"
+	},
    "Power-Plant": {
     "de": "Kraftwerk",
     "en": "Power-Plant",
@@ -2166,6 +2209,19 @@
     "zhs": "课程",
     "zht": "課程"
    },
+   "Omen": {
+    "de": "Omen",
+    "en": "Omen",
+    "es": "Presagio",
+    "fr": "Présage",
+    "it": "Presagio",
+    "ja": "前兆",
+    "ko": "전조",
+    "pt-br": "Presságio",
+    "ru": "Предзнаменование",
+    "zhs": "预兆",
+    "zht": "預兆"
+   },
    "Trap": {
     "de": "Falle",
     "en": "Trap",
@@ -2416,16 +2472,16 @@
     "ru": "Иксалан",
     "zhs": "依夏兰"
    },
-   "Kaladesh": {
-    "de": "Kaladesh",
-    "en": "Kaladesh",
-    "es": "Kaladesh",
-    "fr": "Kaladesh",
-    "it": "Kaladesh",
-    "ja": "カラデシュ",
-    "ko": "칼라데시",
-    "pt-br": "Kaladesh",
-    "ru": "Каладеш",
+   "Avishkar": {
+    "de": "Avishkar",
+    "en": "Avishkar",
+    "es": "Avishkar",
+    "fr": "Avishkar",
+    "it": "Avishkar",
+    "ja": "アヴィシュカル",
+    "ko": "아비슈카르",
+    "pt-br": "Avishkar",
+    "ru": "Авишкар",
     "zhs": "卡拉德许"
    },
    "Kaldheim": {
@@ -2815,11 +2871,20 @@
     "ja": "ブルームバロウ"
    },
    "Duskmourn": {
+	"de": "Duskmourn",
     "en": "Duskmourn",
+	"es": "Duskmourn",
+	"fr": "Mornebrune",
+	"it": "Duskmourn",
     "ja": "ダスクモーン"
    },
    "Thunder Junction": {
+	"de": "Thunder Junction",
     "en": "Thunder Junction",
+	"es": "Cruce de Truenos",
+	"fr": "Croisetonnerre",
+	"it": "Crocevia Tonante",
+	"pt": "Encruzilhada do Trovão",
     "ja": "サンダージャンクション"
    },
    "Alkabah": {
@@ -3489,6 +3554,9 @@
     "zhs": "鸟",
     "zht": "鳥"
    },
+   "Bison": {
+	   "en": "Bison"
+   },
    "Blinkmoth": {
     "de": "Blinkmotte",
     "en": "Blinkmoth",
@@ -3955,6 +4023,14 @@
     "pt-br": "Couraçado",
     "zhs": "无畏舰"
    },
+   "Drix": {
+    "de": "Drix",
+    "en": "Drix",
+    "es": "Drix",
+    "fr": "Drix",
+    "it": "Drix",
+    "ja": "ドリックス"
+   },
    "Drone": {
     "de": "Drohne",
     "en": "Drone",
@@ -4007,6 +4083,19 @@
     "zhs": "矮人",
     "zht": "矮人"
    },
+	"Echidna": {
+		"de": "Ameisenigel",
+		"en": "Echidna",
+		"es": "Echidna",
+		"fr": "Échidné",
+		"it": "Echidna",
+		"ko": "바늘두더지",
+		"ja": "ハリモグラ",
+		"pt": "Equidna",
+		"ru": "Ёжик",
+		"zhs": "刺猬",
+		"zht": "刺蝟"
+	},
    "Efreet": {
     "de": "Ifrit",
     "en": "Efreet",
@@ -4473,6 +4562,19 @@
     "zhs": "哈痞",
     "zht": "哈痞"
    },
+	"Hedgehog": {
+		"de": "Igel",
+		"en": "Hedgehog",
+		"es": "Erizo",
+		"fr": "Hérisson",
+		"it": "Riccio",
+		"ko": "고슴도치",
+		"ja": "ハリネズミ",
+		"pt": "Ouriço",
+		"ru": "Ёжик",
+		"zhs": "刺猬",
+		"zht": "刺蝟"
+	},
    "Hellion": {
     "de": "Teufelsbraten",
     "en": "Hellion",
@@ -4485,6 +4587,14 @@
     "ru": "Геллион",
     "zhs": "地狱兽",
     "zht": "地獄獸"
+   },
+   "Hero": {
+	   "de": "Held",
+	   "en": "Hero",
+	   "es": "Héroe",
+	   "fr": "Héros",
+	   "it": "Eroe",
+	   "ja": "英雄"
    },
    "Hippo": {
     "de": "Flusspferd",
@@ -4710,6 +4820,9 @@
     "zhs": "攻城巨车",
     "zht": "攻城巨車"
    },
+   "Kangaroo": {
+	   "en": "Kangaroo"
+   },
    "Kavu": {
     "de": "Kavu",
     "en": "Kavu",
@@ -4839,6 +4952,9 @@
     "zhs": "蛭",
     "zht": "蛭"
    },
+   "Lemur": {
+	   "en": "Lemur"
+   },
    "Leviathan": {
     "de": "Leviathan",
     "en": "Leviathan",
@@ -4895,6 +5011,19 @@
     "ru": "Лама",
     "zhs": "骆驼"
    },
+	"Lobster": {
+		"de": "Hummer",
+		"en": "Lobster",
+		"es": "Langosta",
+		"fr": "Homard",
+		"it": "Aragosta",
+		"ja": "ロブスター",
+		"ko": "새우",
+		"pt": "Lagosta",
+		"ru": "Омар",
+		"zht": "龍蝦",
+		"zhs": "龙虾"
+	},
    "Manticore": {
     "de": "Mantikor",
     "en": "Manticore",
@@ -5053,6 +5182,18 @@
     "ru": "Мартышка",
     "zhs": "猴",
     "zht": "猴"
+   },
+   "Moogle": {
+	   "de": "Mogry",
+	   "en": "Moogle",
+	   "es": "Moguri",
+	   "fr": "Mog",
+	   "it": "Moguri",
+	   "ja": "モーグリ",
+	   "ko": "Moogle",
+	   "pt-br": "Moguri",
+	   "zht": "Moogle",
+	   "zhs": "Moogle"
    },
    "Moonfolk": {
     "de": "Mondvolk",
@@ -5406,7 +5547,11 @@
     "zht": "分節"
    },
    "Performer": {
+    "de": "Darstellar",
     "en": "Performer",
+	"es": "Artista",
+	"fr": "Artiste",
+	"it": "Artista",
     "ja": "出演者"
    },
    "Pest": {
@@ -5826,6 +5971,19 @@
     "zhs": "雕像",
     "zht": "雕像"
    },
+   "Seal": {
+    "de": "Robbe",
+    "en": "Seal",
+    "es": "Foca",
+    "fr": "Phoque",
+    "it": "Foca",
+    "ja": "アザラシ",
+    "ko": "물개",
+    "pt-br": "Servo",
+    "ru": "Тюлень",
+    "zhs": "密封件",
+    "zht": "密封件"
+   },
    "Serf": {
     "de": "Leibeigene",
     "en": "Serf",
@@ -6230,6 +6388,14 @@
     "zhs": "生存者",
     "zht": "倖存者"
    },
+   "Symbiote": {
+	   "de": "Symbiont",
+	   "en": "Symbiote",
+	   "es": "Simbionte",
+	   "fr": "Symbiote",
+	   "it": "Simbionte",
+	   "ja": "シンビオート"
+   },
    "Synth": {
     "en": "Synth",
     "de": "Synth",
@@ -6465,6 +6631,14 @@
     "ru": "Виашино",
     "zhs": "凡尔西诺",
     "zht": "凡爾西諾"
+   },
+   "Villain": {
+	   "de": "Schurke",
+	   "en": "Villain",
+	   "es": "Villano",
+	   "fr": "Méchant",
+	   "it": "Nemico",
+	   "ja": "悪人"
    },
    "Volver": {
     "de": "Modulon",

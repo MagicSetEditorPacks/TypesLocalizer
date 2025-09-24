@@ -627,6 +627,7 @@ function isBuilder(lang) {					// builds localization closures for a language
 
 		is_class		  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Class", lang)}")
 		is_case			  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Case", lang)}")
+		is_room			  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Room", lang)}")
 		is_nyx			  : match@(match: "(?i)${getWord(ow.Nyx, lang)}")
 		is_saga			  : match@(match: "(?i)${getAltRegex(sb.enchantment, "Saga", lang)}")
 		is_vehicle        : match@(match: "(?i)${getAltRegex(sb.artifact, "Vehicle", lang)}")
@@ -642,19 +643,22 @@ function isBuilder(lang) {					// builds localization closures for a language
 
 function buildMSEFiles() {
 	fs.readFile('./language_map_base.txt', 'utf8', (err, data) => {
-		let wl = "";
+		let wl = "", wl2 = "";
 		for(let l in langObj.languages) {
 			let transl = buildLangStrings(l);
 			data = data.replace("word_lists_" + l, transl.lang);
 			wl += transl.race + "\n\n" + transl.classes + "\n\n" + transl.plane + "\n\n\n\n\n";
+			wl2 += transl.race_linux + "\n\n" + transl.classes_linux + "\n\n" + transl.plane_linux + "\n\n\n\n\n";
 		}
 		fs.writeFile('./language_map', data, () => {
 			console.log("language_map done");
 		})
 		fs.readFile('./word_lists_base.txt', 'utf8', (err, data) => {
-			data += wl;
-			fs.writeFile('./word_lists', data, () => {
+			fs.writeFile('./word_lists', data+wl, () => {
 				console.log("word_lists done");
+			})
+			fs.writeFile('./word_lists_linux', data+wl2, () => {
+				console.log("word_lists_linux done");
 			})
 		})
 	})
@@ -757,7 +761,10 @@ function buildLangStrings(lang) {
 		race: collection_to_word_list(race_collection, lang, "race", "All Races"),
 		"classes": collection_to_word_list(class_collection, lang, "class", "All Classes"),
 		plane: collection_to_word_list(plane_collection, lang, "plane"),
-		lang: lang_lists
+		lang: lang_lists,
+		race_linux: collection_to_string_list(race_collection, lang, "race", "All Races"),
+		"classes_linux": collection_to_string_list(class_collection, lang, "class", "All Classes"),
+		plane_linux: collection_to_string_list(plane_collection, lang, "plane")
 	}
 	return word_lists;
 }
@@ -845,6 +852,47 @@ function collection_to_lang_list(collection) {
 		}
 	}
 	return "[\n" + res.replace(/,\n+$/, "\n\t\t]");
+}
+function collection_to_string_list(collection, lang, name, superheader) {
+	let res =  `word list:
+	name: ${name}-${lang}
+	word:
+		script: ${wl_scripts[name].script}
+		line below: true
+`
+	let line_lead = "\t";
+	if(superheader) {
+		if(langObj.otherWords[superheader] && langObj.otherWords[superheader][lang]) {
+			superheader = langObj.otherWords[superheader][lang];
+		}
+		res += `	word:
+		name: ${superheader}
+`
+		line_lead += `\t`;
+	}
+	for(let header in collection) {
+		let words = collection[header];
+		if(words.length) {
+			// single menu
+			res += line_lead + "word:\n" + line_lead + "\tname: " + header;
+			for(let w in words) {
+				res += "\n" + line_lead + "\tword: " + words[w]
+			}
+			res += "\n";
+		}
+		else{
+			// submenus
+			for(let s in words) {
+				let subwords = words[s];
+				res += line_lead + "word:\n" + line_lead + "\tname: " + s;
+				for(let w in subwords) {
+					res += "\n" + line_lead + "\tword: " + subwords[w];
+				}
+				res += "\n";
+			}
+		}
+	}
+	return res;
 }
 var wl_scripts = {
 	race: {
