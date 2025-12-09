@@ -6,9 +6,17 @@ Script for updating the MSE types file for each supported language.
 ### Missing from most non-English languages
 * **Upcoming Types**: Awaiting official release
     * Creature types
+		* Qu
 		* Lemur
 		* Bison
 		* Kangaroo
+		* Gamma
+		* Skrull
+		* Utrom
+	* Artifact types
+		* Mutagen
+	* Enchantment types
+		* Plan
  
 * **Silver Border Types**: Only officially in English
     * Artifact types

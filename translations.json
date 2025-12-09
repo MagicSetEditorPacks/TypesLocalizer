@@ -776,6 +776,9 @@
     "ru": "Карта",
     "zhs": "地图"
    },
+   "Mutagen": {
+	   "en": "Mutagen"
+   },
    "Powerstone": {
     "de": "Kraftstein",
     "en": "Powerstone",
@@ -923,6 +926,9 @@
     "ru": "Проклятие",
     "zhs": "诅咒",
     "zht": "詛咒"
+   },
+   "Plan": {
+	   "en": "Plan"
    },
    "Room": {
     "de": "Raum",
@@ -4316,6 +4322,9 @@
     "en": "Gamer",
     "ja": "ゲーマー"
    },
+   "Gamma": {
+	   "en": "Gamma"
+   },
    "Gargoyle": {
     "de": "Gargoyle",
     "en": "Gargoyle",
@@ -5701,6 +5710,9 @@
     "zhs": "噬体",
     "zht": "噬體"
    },
+   "Qu": {
+	   "en": "Qu"
+   },
    "Rabbit": {
     "de": "Kaninchen",
     "en": "Rabbit",
@@ -6114,6 +6126,9 @@
     "zhs": "骷髅妖",
     "zht": "骷髏妖"
    },
+   "Skrull": {
+	   "en": "Skrull"
+   },
    "Skunk": {
     "de": "Stinktier",
     "en": "Skunk",
@@ -6225,6 +6240,9 @@
     "pt-br": "Soltariano",
     "ru": "Солтари",
     "zhs": "索泰利"
+   },
+   "Sorcerer": {
+	   "en": "Sorcerer"
    },
    "Spawn": {
     "de": "Ausgeburt",
@@ -6582,6 +6600,9 @@
     "ru": "Единорог",
     "zhs": "独角兽",
     "zht": "獨角獸"
+   },
+   "Utrom": {
+	   "en": "Utrom"
    },
    "Vampire": {
     "de": "Vampir",
