@@ -640,6 +640,10 @@ word list:
 	word: 
 		script: lang_setting("word_list_planeswalker")
 	word:
+		name: Last Seen on Lorwyn
+		word: Ajani
+		word: Oko
+	word:
 		name: Last Seen in the Edge
 		word: Tezzeret
 	word:
@@ -665,7 +669,6 @@ word list:
 	word:
 		name: Last Seen on Thunder Junction
 		word: Jace
-		word: Oko
 		word: Vraska
 	word:
 		name: Last Seen on Ravnica
@@ -707,7 +710,6 @@ word list:
 		word: Comet
 	word: 
 		name: Last Seen on Dominaria
-		word: Ajani
 		word: Dihada
 		word: Jared
 		word: Jaya

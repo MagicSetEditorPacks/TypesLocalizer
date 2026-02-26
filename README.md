@@ -6,15 +6,8 @@ Script for updating the MSE types file for each supported language.
 ### Missing from most non-English languages
 * **Upcoming Types**: Awaiting official release
     * Creature types
-		* Qu
-		* Lemur
-		* Bison
-		* Kangaroo
 		* Gamma
 		* Skrull
-		* Utrom
-	* Artifact types
-		* Mutagen
 	* Enchantment types
 		* Plan
  
@@ -134,6 +127,7 @@ Russian was officially supported between 9th Edition and Commander: Baldur's Gat
     * Monger
     * Nephilim
     * Pincher
+	* Qu
     * Slith
     * Survivor
     * Volver
@@ -203,6 +197,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
     * Nephilim
     * Pest
     * Pincher
+	* Qu
     * Rebel
     * Rigger
     * Slith
@@ -267,6 +262,7 @@ Korean was officially supported between Magic 2012 and Commander: Baldur's Gate,
 
 * Creature types
     * Monger
+	* Qu
     * Spike
 * Planeswalker types
     * Estrid

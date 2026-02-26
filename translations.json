@@ -777,7 +777,12 @@
     "zhs": "地图"
    },
    "Mutagen": {
-	   "en": "Mutagen"
+	   "de": "Mutagen",
+	   "en": "Mutagen",
+	   "es": "Mutágeno",
+	   "fr": "Mutagène",
+	   "it": "Mutagene",
+	   "ja": "ミュータンジェン"
    },
    "Powerstone": {
     "de": "Kraftstein",
@@ -3561,7 +3566,17 @@
     "zht": "鳥"
    },
    "Bison": {
-	   "en": "Bison"
+	   "de": "Bison",
+	   "en": "Bison",
+	   "es": "Bisonte",
+	   "fr": "Bison",
+	   "it": "Bisonte",
+	   "ja": "バイソン",
+	   "ko": "바이슨",
+	   "pt-br": "Bisão",
+	   "ru": "Бизон",
+	   "zhs": "野牛",
+	   "zht": "野牛"
    },
    "Blinkmoth": {
     "de": "Blinkmotte",
@@ -4830,7 +4845,17 @@
     "zht": "攻城巨車"
    },
    "Kangaroo": {
-	   "en": "Kangaroo"
+	   "de": "Känguru",
+	   "en": "Kangaroo",
+	   "es": "Canguro",
+	   "fr": "Kangourou",
+	   "it": "Canguro",
+	   "ja": "カンガルー",
+	   "ko": "캥거루",
+	   "pt-br": "Canguru",
+	   "ru": "Кенгуру",
+	   "zhs": "袋鼠",
+	   "zht": "袋鼠"
    },
    "Kavu": {
     "de": "Kavu",
@@ -4962,7 +4987,17 @@
     "zht": "蛭"
    },
    "Lemur": {
-	   "en": "Lemur"
+	   "de": "Lemur",
+	   "en": "Lemur",
+	   "es": "Lémur",
+	   "fr": "Lémure",
+	   "it": "Lemure",
+	   "ja": "キツネザル",
+	   "ko": "여우원숭이",
+	   "pt-br": "Lêmure",
+	   "ru": "Лемур",
+	   "zhs": "狐猴",
+	   "zht": "狐猴"
    },
    "Leviathan": {
     "de": "Leviathan",
@@ -5711,7 +5746,12 @@
     "zht": "噬體"
    },
    "Qu": {
-	   "en": "Qu"
+	   "de": "Q",
+	   "en": "Qu",
+	   "es": "Qu",
+	   "fr": "Kwe",
+	   "it": "Qu",
+	   "ja": "ク族"
    },
    "Rabbit": {
     "de": "Kaninchen",
@@ -6602,7 +6642,12 @@
     "zht": "獨角獸"
    },
    "Utrom": {
-	   "en": "Utrom"
+	   "de": "Utrom",
+	   "en": "Utrom",
+	   "es": "Utrom",
+	   "fr": "Utrom",
+	   "it": "Utrom",
+	   "ja": "ユートロム"
    },
    "Vampire": {
     "de": "Vampir",
