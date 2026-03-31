@@ -5,11 +5,15 @@ Script for updating the MSE types file for each supported language.
 
 ### Missing from most non-English languages
 * **Upcoming Types**: Awaiting official release
+	* Artifact types
+		* Book
     * Creature types
 		* Gamma
 		* Skrull
 	* Enchantment types
 		* Plan
+	* Planeswalker types
+		* Dellian
  
 * **Silver Border Types**: Only officially in English
     * Artifact types

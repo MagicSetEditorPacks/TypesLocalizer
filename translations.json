@@ -652,6 +652,9 @@
     "ja": "ボブルヘッド",
     "pt-br": "Bonequinho"
    },
+   "Book": {
+	   "en": "Book"
+   },
    "Clue": {
     "de": "Hinweis",
     "en": "Clue",
@@ -1387,6 +1390,9 @@
     "zhs": "达夫黎",
     "zht": "達夫黎"
    },
+	"Dellian": {
+		"en": "Dellian"
+	},
    "Dihada": {
     "de": "Dihada",
     "en": "Dihada",
